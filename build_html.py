@@ -129,6 +129,7 @@ def section_recipe(data: dict) -> str:
     <div class="action-row">
       <button class="action-btn" onclick="copyText('recipe-text')">📋 コピー</button>
       <button class="action-btn tts-btn" onclick="speakText('recipe-tts', this)">🔊 読み上げ</button>
+      <a class="action-btn" href="https://www.naturalreaders.com/online/" target="_blank">🔊 Natural Reader</a>
     </div>
     <div id="recipe-text" style="display:none">{h(recipe_text)}</div>
     <div id="recipe-tts" style="display:none">{h(recipe_tts)}</div>
@@ -178,6 +179,7 @@ def section_review(data: dict) -> str:
     <div class="action-row">
       <button class="action-btn" onclick="copyText('review-text')">📋 コピー</button>
       <button class="action-btn tts-btn" onclick="speakText('review-tts', this)">🔊 読み上げ</button>
+      <a class="action-btn" href="https://www.naturalreaders.com/online/" target="_blank">🔊 Natural Reader</a>
     </div>
     <div id="review-text" style="display:none">{h(review_plain)}</div>
     <div id="review-tts" style="display:none">{h(review_plain)}</div>
@@ -255,6 +257,7 @@ def section_conversation(data: dict) -> str:
 {lines_html}    <div class="action-row">
       <button class="action-btn" onclick="copyText('convo-text')">📋 コピー</button>
       <button class="action-btn tts-btn" onclick="speakText('convo-tts', this)">🔊 読み上げ</button>
+      <a class="action-btn" href="https://www.naturalreaders.com/online/" target="_blank">🔊 Natural Reader</a>
     </div>
     <div id="convo-text" style="display:none">{h(convo_plain)}</div>
     <div id="convo-tts" style="display:none">{h(convo_tts)}</div>
