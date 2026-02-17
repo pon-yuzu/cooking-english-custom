@@ -1,0 +1,169 @@
+{
+  "day": 7,
+  "sweet": "Fairy Bread",
+  "emoji": "🌈",
+  "recipe": {
+    "title": "How to Make Fairy Bread",
+    "intro": "Fairy bread is a classic Australian kids' party food. It is white bread with butter and colourful sprinkles. So simple, but everyone loves it!",
+    "ingredients": "white bread, butter, rainbow sprinkles (hundreds and thousands)",
+    "steps": [
+      "**Take** slices of fresh white bread.",
+      "**Spread** a thick layer of butter on each slice.",
+      "**Pour** the rainbow sprinkles onto a plate.",
+      "**Press** the buttered side of the bread into the sprinkles.",
+      "**Cut** each slice into triangles.",
+      "**Arrange** the fairy bread on a big plate and **serve** at the party!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "sprinkles", "ja": "スプリンクル（カラフルな砂糖粒）"},
+    {"en": "hundreds and thousands", "ja": "ハンドレッズ・アンド・サウザンズ（AU式スプリンクルの呼び方）"},
+    {"en": "spread", "ja": "塗る"},
+    {"en": "layer", "ja": "層"},
+    {"en": "press", "ja": "押しつける"},
+    {"en": "slice", "ja": "一切れ"},
+    {"en": "arrange", "ja": "並べる"},
+    {"en": "triangle", "ja": "三角形"},
+    {"en": "buttered", "ja": "バターを塗った"}
+  ],
+  "quiz1": {
+    "question_ja": "フェアリーブレッドはどんな形に切りますか？",
+    "options": ["四角", "三角", "丸"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Cut each slice into triangles.\"",
+    "explanation_wrong": "最後のほうのステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Esplanade Bites",
+    "location": "Cairns Esplanade, Queensland, Australia",
+    "stars": 4,
+    "text": "I visited Esplanade Bites with my niece on Saturday. She wanted fairy bread, and they had it on the kids' menu! The bread was fresh and soft. The sprinkles were bright and colourful. My niece was so happy. I also ordered a flat white coffee. The café is right next to the Esplanade lagoon, so we could watch people swimming. A fun place for families!"
+  },
+  "review_vocab": [
+    {"en": "niece", "ja": "姪（めい）"},
+    {"en": "kids' menu", "ja": "キッズメニュー"},
+    {"en": "bright", "ja": "鮮やかな"},
+    {"en": "colourful", "ja": "カラフルな（AUスペル）"},
+    {"en": "lagoon", "ja": "ラグーン（人工の浅い池）"},
+    {"en": "flat white", "ja": "フラットホワイト（AU定番コーヒー）"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーは誰と一緒にカフェに行きましたか？",
+    "options": ["友達", "姪っ子", "お母さん"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I visited Esplanade Bites with my niece.\"",
+    "explanation_wrong": "最初の文をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "フェアリーブレッドは、オーストラリアの子どもの誕生日パーティーには欠かせない存在！大人のパーティーでも懐かしさから出てくることがあります。「**Do you want some fairy bread?**」と聞かれたら、ぜひ食べてみて！",
+    "スプリンクルはオーストラリアでは「**hundreds and thousands**」と呼ばれることが多いです。スーパーで探すときは「**Where are the hundreds and thousands?**」と聞いてみよう。お菓子作りコーナーにあります。",
+    "ケアンズのエスプラネード沿いには無料の**ラグーンプール**があって、地元の人にも観光客にも大人気。泳いだ後にカフェでフェアリーブレッドを食べるのもいいかも！「**Let's go for a swim and then grab some fairy bread!**」"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Sophie）が子どもの誕生日パーティー用のフェアリーブレッドを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Hello! Welcome to our café. What can I get for you?"},
+      {"speaker": "Sophie", "text": "Hi! I am having a birthday party for my daughter. Do you sell fairy bread?"},
+      {"speaker": "You", "text": "Yes, we do! How many pieces would you like?"},
+      {"speaker": "Sophie", "text": "Can I get twenty pieces, please? Cut into triangles?"},
+      {"speaker": "You", "text": "Of course! We cut them into triangles. Would you like anything else?"},
+      {"speaker": "Sophie", "text": "Do you also have a kids' juice box?"},
+      {"speaker": "You", "text": "Yes, we have apple and orange juice boxes."},
+      {"speaker": "Sophie", "text": "Great, ten apple juice boxes, please."},
+      {"speaker": "You", "text": "Sure! That will be forty-five dollars altogether."},
+      {"speaker": "Sophie", "text": "Can I pay by card?"},
+      {"speaker": "You", "text": "Yes, tap or insert is fine. Here is the machine. Thank you!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "birthday party", "ja": "誕生日パーティー"},
+    {"en": "pieces", "ja": "個・ピース"},
+    {"en": "juice box", "ja": "ジュースパック"},
+    {"en": "altogether", "ja": "全部で・合計で"},
+    {"en": "pay by card", "ja": "カードで払う"},
+    {"en": "tap or insert", "ja": "タッチまたは差し込み"}
+  ],
+  "quiz3": {
+    "question_ja": "Sophieはフェアリーブレッドを何個注文しましたか？",
+    "options": ["10個", "20個", "30個"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Can I get twenty pieces, please?\"",
+    "explanation_wrong": "Sophieが数字を言っているセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "パーティーの準備",
+      "full_text": "Are you ready for the party? Almost! I need to make the fairy bread. Do you have the sprinkles? Yes, they are in the cupboard. Great. I already spread butter on all the bread. Now I just need to press the bread into the sprinkles. How many slices did you make? I made twenty slices. That should be enough for ten kids. Perfect. Let me help you cut them into triangles.",
+      "gaps": [
+        {"before": "I need to make the", "answer": "fairy bread", "after": "."},
+        {"before": "Yes, they are in the", "answer": "cupboard", "after": "."},
+        {"before": "I already spread", "answer": "butter", "after": "on all the bread."},
+        {"before": "I made", "answer": "twenty", "after": "slices."},
+        {"before": "Let me help you cut them into", "answer": "triangles", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "スーパーでの買い物",
+      "full_text": "Excuse me, I am looking for rainbow sprinkles. Do you have them? Yes, we do. They are in aisle three, next to the baking supplies. We have two sizes: a small jar for four dollars and a big jar for seven dollars. The big jar is very popular for parties. We also have chocolate sprinkles if you like. They are on the same shelf. If you need white bread, it is in aisle one. Is there anything else I can help you with?",
+      "questions": [
+        {
+          "question_ja": "レインボースプリンクルはどの通路にありますか？",
+          "options": ["1番通路", "3番通路", "5番通路"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"They are in aisle three.\"",
+          "explanation_wrong": "\"aisle\" の後の数字に注目して聴いてみよう！"
+        },
+        {
+          "question_ja": "大きい瓶はいくらですか？",
+          "options": ["4ドル", "5ドル", "7ドル"],
+          "correct_index": 2,
+          "explanation_correct": "正解！\"a big jar for seven dollars\"",
+          "explanation_wrong": "\"big jar\" の後の金額を聴いてみよう！"
+        },
+        {
+          "question_ja": "白いパンはどこにありますか？",
+          "options": ["1番通路", "2番通路", "3番通路"],
+          "correct_index": 0,
+          "explanation_correct": "正解！\"white bread, it is in aisle one\"",
+          "explanation_wrong": "\"white bread\" が出てくる部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What can I get for you?",
+        "tip": "What can I が「ワッキャナイ」とつながります。get for が「ゲッフォー」と軽くつながります。"
+      },
+      {
+        "text": "How many pieces would you like?",
+        "tip": "pieces の s は「ピースィズ」。would you が「ウッジュー」とつながります。"
+      },
+      {
+        "text": "Cut them into triangles.",
+        "tip": "Cut them が「カッゼム」とつながります。triangles は「トライアングルズ」。"
+      },
+      {
+        "text": "Can I pay by card?",
+        "tip": "Can I が「キャナイ」。pay by が「ペイバイ」。card の d をしっかり出しましょう。"
+      },
+      {
+        "text": "That will be forty-five dollars altogether.",
+        "tip": "forty-five は「フォーティファイヴ」。altogether は「オールトゥゲザー」で th の音に注意。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "子どものころ好きだったお菓子やパーティーの思い出を英語で3行書いてみよう",
+    "example": "When I was a child, I loved rainbow candy. My mum always bought it for my birthday party. I was so happy when I saw the colourful sweets on the table!"
+  },
+  "yamada_comments": {
+    "recipe": "フェアリーブレッド、見た目がめちゃくちゃ可愛いよね！パンにバター塗ってスプリンクルかけるだけなのに、すごく特別な感じ。英語の「spread」と「press」、覚えておくと料理で使えるよ！",
+    "review": "レビューを読むと、そのカフェの雰囲気がわかるよね。ケアンズのエスプラネード沿いのカフェ、最高じゃない？Snow Manのツアーでオーストラリア行ったら絶対行きたい場所だな。",
+    "conversation": "パーティーの注文って、枚数とか支払い方法とか聞かれることが多いから、数の英語はしっかり覚えよう！フィギュアスケートの採点も数字が大事でしょ？数字は基本！",
+    "listening": "リスニングは「場面を想像する」のがコツ。パーティーの準備してる様子、スーパーで買い物してる様子を頭に浮かべながら聴いてみて。陸上の試合前のイメージトレーニングと同じだよ！",
+    "pronunciation": "「Can I」が「キャナイ」になるリンキング、会話でめちゃくちゃ使う！Snow Manの英語の歌詞でもリンキングたくさんあるから、聴きながら練習してみて。",
+    "try_it": "子どものころの思い出、英語で書くの楽しいよ！俺も昔のことを思い出しながら書くと、意外と英語が出てくるんだよね。短くてOK、まず書いてみよう！"
+  }
+}

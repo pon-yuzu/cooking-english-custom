@@ -1,0 +1,169 @@
+{
+  "day": 5,
+  "sweet": "Tim Tam Slam",
+  "emoji": "☕",
+  "recipe": {
+    "title": "How to Do a Tim Tam Slam",
+    "intro": "A Tim Tam Slam is a fun Australian tradition. You use a Tim Tam biscuit as a straw to drink hot chocolate or coffee!",
+    "ingredients": "Tim Tam biscuits, hot chocolate (or coffee or tea), a mug",
+    "steps": [
+      "**Make** a hot cup of chocolate, coffee, or tea.",
+      "**Bite** off one corner of the Tim Tam.",
+      "**Bite** off the opposite corner of the Tim Tam.",
+      "**Put** one bitten end into the hot drink, like a straw.",
+      "**Suck** the hot drink through the Tim Tam. The chocolate inside will start to **melt**.",
+      "**Eat** the whole Tim Tam quickly before it falls apart! **Enjoy** the melted chocolate goodness!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "straw", "ja": "ストロー"},
+    {"en": "bite off", "ja": "噛み切る"},
+    {"en": "corner", "ja": "角（かど）"},
+    {"en": "opposite", "ja": "反対側の"},
+    {"en": "suck", "ja": "吸う"},
+    {"en": "melt", "ja": "溶ける"},
+    {"en": "fall apart", "ja": "崩れる・バラバラになる"},
+    {"en": "goodness", "ja": "おいしさ"},
+    {"en": "mug", "ja": "マグカップ"}
+  ],
+  "quiz1": {
+    "question_ja": "ティムタムスラムでは、ティムタムの角を何か所噛み切りますか？",
+    "options": ["1か所", "2か所", "3か所"],
+    "correct_index": 1,
+    "explanation_correct": "正解！1つの角と反対側の角、合わせて2か所を噛み切ります。",
+    "explanation_wrong": "ステップ2と3をもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Muddy's Café",
+    "location": "Cairns Esplanade, Queensland, Australia",
+    "stars": 5,
+    "text": "Last night I went to Muddy's Café with my workmates. We all did a Tim Tam Slam together! It was so much fun. I used hot chocolate for my Tim Tam Slam. The chocolate melted inside the biscuit and it was incredibly delicious. My friend used coffee and she said it was great too. We laughed so much because one friend's Tim Tam fell apart too fast! The café has a nice view of the ocean. I will definitely do this again."
+  },
+  "review_vocab": [
+    {"en": "workmates", "ja": "職場の仲間"},
+    {"en": "incredibly", "ja": "信じられないほど"},
+    {"en": "laughed", "ja": "笑った"},
+    {"en": "fell apart", "ja": "崩れた"},
+    {"en": "view", "ja": "景色"},
+    {"en": "definitely", "ja": "絶対に"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーの友達のティムタムはどうなりましたか？",
+    "options": ["きれいに食べられた", "早く崩れてしまった", "溶けなかった"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"one friend's Tim Tam fell apart too fast!\"",
+    "explanation_wrong": "\"fell apart\" が出てくるところをもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "**Tim Tam**はオーストラリアで一番有名なチョコレートビスケット。スーパーで買えて、フレーバーもたくさん。「**Have you tried Tim Tams?**」はオーストラリア人との会話のきっかけにぴったり！",
+    "「**Tim Tam Slam**」はオーストラリア人なら誰でも知ってる楽しみ方。ホームパーティーでも盛り上がるよ。友達に「**Do you want to do a Tim Tam Slam?**」と誘ってみよう！",
+    "ケアンズの**Muddy's Playground**はエスプラネード沿いの無料の遊び場で、近くにカフェもたくさん。夕方は涼しくて気持ちいいので「**Let's go to the Esplanade after work!**」と同僚を誘うのもおすすめ！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Oliver）がティムタムスラムについて聞く場面",
+    "lines": [
+      {"speaker": "You", "text": "Hi! Welcome to Muddy's Café. What would you like today?"},
+      {"speaker": "Oliver", "text": "Hi! I saw a sign about the Tim Tam Slam. What is that?"},
+      {"speaker": "You", "text": "It is really fun! You use a Tim Tam as a straw for your hot drink."},
+      {"speaker": "Oliver", "text": "That sounds cool! How does it work?"},
+      {"speaker": "You", "text": "You bite off two corners of the Tim Tam and suck the drink through it."},
+      {"speaker": "Oliver", "text": "Ha, that is amazing! I want to try it."},
+      {"speaker": "You", "text": "Great! Which hot drink would you like? We have hot chocolate, coffee, and tea."},
+      {"speaker": "Oliver", "text": "Hot chocolate, please. That sounds the best with a Tim Tam."},
+      {"speaker": "You", "text": "Good choice! That will be nine dollars fifty."},
+      {"speaker": "Oliver", "text": "Here you go. Thanks!"},
+      {"speaker": "You", "text": "Enjoy! Just remember to eat the Tim Tam fast before it melts!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "sign", "ja": "看板・サイン"},
+    {"en": "How does it work?", "ja": "どうやるの？"},
+    {"en": "cool", "ja": "かっこいい・すごい"},
+    {"en": "amazing", "ja": "すごい"},
+    {"en": "good choice", "ja": "いい選択"},
+    {"en": "remember", "ja": "覚えておく・忘れないで"}
+  ],
+  "quiz3": {
+    "question_ja": "Oliverは何の飲み物を選びましたか？",
+    "options": ["コーヒー", "紅茶", "ホットチョコレート"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"Hot chocolate, please.\"",
+    "explanation_wrong": "Oliverが飲み物を選ぶセリフをもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "シェアハウスでの夜",
+      "full_text": "Hey, I bought Tim Tams at the supermarket today. Nice! What flavour did you get? I got the original chocolate flavour. Let's do a Tim Tam Slam tonight! Yes! I will make hot chocolate for us. Do we have milk? I think there is some in the fridge. Perfect. I cannot wait to try it! It is going to be so fun!",
+      "gaps": [
+        {"before": "I bought Tim Tams at the", "answer": "supermarket", "after": "today."},
+        {"before": "I got the original chocolate", "answer": "flavour", "after": "."},
+        {"before": "I will make hot chocolate for", "answer": "us", "after": "."},
+        {"before": "I think there is some in the", "answer": "fridge", "after": "."},
+        {"before": "It is going to be so", "answer": "fun", "after": "!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "チョコレート工場の見学",
+      "full_text": "Welcome to the Cairns Chocolate Factory tour! Our tour takes about forty-five minutes. First, we will show you how we make chocolate from cocoa beans. Then, you will see our special Tim Tam display. After the tour, you can try five different flavours of Tim Tam for free. We also have a gift shop where you can buy chocolate souvenirs. The tour costs fifteen dollars for adults and eight dollars for children. Tours start every hour from ten o'clock. Please do not eat or drink during the tour. Are you ready? Let's go!",
+      "questions": [
+        {
+          "question_ja": "ツアーは約何分ですか？",
+          "options": ["30分", "45分", "60分"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Our tour takes about forty-five minutes.\"",
+          "explanation_wrong": "\"minutes\" の前の数字をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "ツアーの後、何種類のティムタムが試食できますか？",
+          "options": ["3種類", "5種類", "7種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"you can try five different flavours of Tim Tam for free.\"",
+          "explanation_wrong": "\"try\" の後の数字に注目！"
+        },
+        {
+          "question_ja": "大人のツアー料金はいくらですか？",
+          "options": ["10ドル", "15ドル", "20ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The tour costs fifteen dollars for adults.\"",
+          "explanation_wrong": "\"adults\" の前の金額をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What would you like today?",
+        "tip": "What would が「ワッウッド」、would you が「ウッジュー」。today は「トゥデイ」で day にアクセント。"
+      },
+      {
+        "text": "You bite off two corners of the Tim Tam.",
+        "tip": "bite off が「バイトォフ」とつながります。corners は「コーナーズ」で r は軽く巻く。"
+      },
+      {
+        "text": "That sounds cool!",
+        "tip": "That sounds が「ザッサウンズ」。cool は「クール」で唇を丸めて oo の音を伸ばす。"
+      },
+      {
+        "text": "Just remember to eat it fast before it melts.",
+        "tip": "remember to が「リメンバートゥ」。before it が「ビフォーリット」とつながる。melts は「メルツ」で最後の ts をしっかり。"
+      },
+      {
+        "text": "Which hot drink would you like?",
+        "tip": "Which は「ウィッチ」で wh の音。hot drink が「ホッドリンク」で t と d がつながる。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "友達と一緒にやって楽しかったことを英語で書いてみよう（3行）",
+    "example": "Last weekend, I did a Tim Tam Slam with my housemates. We used hot chocolate. My Tim Tam fell apart and everyone laughed. It was really fun!"
+  },
+  "yamada_comments": {
+    "recipe": "ティムタムスラム、これぞオーストラリアの文化！Snow Manのメンバーとやったら絶対盛り上がるよね。手順の英語、動詞を一つずつ覚えよう！",
+    "review": "友達と一緒に楽しんだレビュー、いいよね。陸上部の仲間とワイワイ食べるの、最高でしょ？英語で感想が書けるようになろう！",
+    "conversation": "「How does it work?」って説明を求められる場面、カフェでよくあるよ。フィギュアスケートのルールを説明するみたいに、順番に教えてあげよう！",
+    "listening": "リスニングのコツは、キーワードをキャッチすること。Snow Manの歌も、サビの歌詞から聴き取れるようになるでしょ？大事な単語に集中！",
+    "pronunciation": "wh の音、日本語にないからちょっと難しいけど、口の形を意識して。陸上のフォーム矯正と同じで、意識すれば変わるよ！",
+    "try_it": "友達との楽しい思い出を英語で書こう。俺もSnow Manのメンバーとの思い出、英語で書いてみたいなって思うよ。チャレンジ！"
+  }
+}

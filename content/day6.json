@@ -1,0 +1,170 @@
+{
+  "day": 6,
+  "sweet": "Banana Bread",
+  "emoji": "🍌",
+  "recipe": {
+    "title": "How to Make Banana Bread",
+    "intro": "Banana bread is a classic treat in Australian cafés. It is a great way to use ripe bananas. It is moist, sweet, and easy to make.",
+    "ingredients": "ripe bananas, plain flour, sugar, butter, eggs, baking powder, vanilla extract, cinnamon, walnuts (optional)",
+    "steps": [
+      "**Preheat** the oven to 180 degrees Celsius.",
+      "**Mash** three ripe bananas in a bowl with a fork.",
+      "**Melt** the butter and **mix** it with the sugar, eggs, and vanilla.",
+      "**Add** the mashed bananas to the wet mixture and **stir** well.",
+      "**Sift** the flour, baking powder, and cinnamon into the bowl and **fold** gently.",
+      "**Pour** the batter into a loaf tin and **bake** for 50 to 60 minutes. **Cool** before slicing!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "ripe", "ja": "熟した"},
+    {"en": "mash", "ja": "つぶす"},
+    {"en": "moist", "ja": "しっとりした"},
+    {"en": "sift", "ja": "ふるいにかける"},
+    {"en": "batter", "ja": "生地（液体状の）"},
+    {"en": "loaf tin", "ja": "パウンド型"},
+    {"en": "cinnamon", "ja": "シナモン"},
+    {"en": "walnuts", "ja": "くるみ"},
+    {"en": "slicing", "ja": "スライスする"}
+  ],
+  "quiz1": {
+    "question_ja": "バナナブレッドを焼く温度は何度ですか？",
+    "options": ["160度", "180度", "200度"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Preheat the oven to 180 degrees Celsius.\"",
+    "explanation_wrong": "最初のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Harbour Lights Café",
+    "location": "Marlin Marina, Cairns, Queensland, Australia",
+    "stars": 5,
+    "text": "I had brunch at Harbour Lights Café near the marina. I ordered a slice of banana bread with butter and a cappuccino. The banana bread was warm and moist. It had a lovely cinnamon flavour and little pieces of walnut inside. The slice was thick and generous. I sat on the deck and watched the boats in the harbour. The staff were friendly and the service was fast. This café has the best banana bread in Cairns!"
+  },
+  "review_vocab": [
+    {"en": "brunch", "ja": "ブランチ（朝食兼昼食）"},
+    {"en": "slice", "ja": "一切れ"},
+    {"en": "generous", "ja": "たっぷりの"},
+    {"en": "deck", "ja": "デッキ・テラス"},
+    {"en": "harbour", "ja": "港（AUスペル）"},
+    {"en": "staff", "ja": "スタッフ・従業員"},
+    {"en": "service", "ja": "サービス・接客"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはバナナブレッドと一緒に何を飲みましたか？",
+    "options": ["フラットホワイト", "ラテ", "カプチーノ"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"I ordered a slice of banana bread with butter and a cappuccino.\"",
+    "explanation_wrong": "\"ordered\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのカフェでバナナブレッドは超定番メニュー。トーストして出てくることが多いよ。注文するとき「**Can I have a slice of banana bread, toasted please?**」と言うと、温かくておいしいバナナブレッドが出てくる！",
+    "ケアンズはバナナの産地として有名！**North Queensland**ではバナナ農園がたくさんあるよ。スーパーでもバナナは安くて、「**A bunch of bananas, please.**」と買ってみよう。bunch は「房」という意味！",
+    "ケアンズの**Marlin Marina**はグレートバリアリーフへのボートが出る港。周りにカフェやレストランがたくさん。朝のブランチに「**Shall we have brunch at the marina?**」と誘ってみよう！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Charlotte）がバナナブレッドを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Good morning! Welcome to Harbour Lights Café. Here is the menu."},
+      {"speaker": "Charlotte", "text": "Thank you! Do you have banana bread today?"},
+      {"speaker": "You", "text": "Yes, we do! It is freshly baked this morning."},
+      {"speaker": "Charlotte", "text": "Lovely! Can I have a slice, please? Is it possible to have it toasted?"},
+      {"speaker": "You", "text": "Of course! Would you like butter on top?"},
+      {"speaker": "Charlotte", "text": "Yes, please. And a cappuccino with oat milk, if you have it."},
+      {"speaker": "You", "text": "We do have oat milk! Regular or large cappuccino?"},
+      {"speaker": "Charlotte", "text": "Large, please. I need the energy today!"},
+      {"speaker": "You", "text": "No worries! That will be fourteen dollars fifty."},
+      {"speaker": "Charlotte", "text": "Here is my card. Thank you so much!"},
+      {"speaker": "You", "text": "Thank you! I will bring everything to your table. Enjoy your brunch!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "freshly baked", "ja": "焼きたての"},
+    {"en": "toasted", "ja": "トーストした"},
+    {"en": "on top", "ja": "上に"},
+    {"en": "oat milk", "ja": "オーツミルク"},
+    {"en": "no worries", "ja": "大丈夫です（AUの定番表現）"},
+    {"en": "energy", "ja": "エネルギー・元気"}
+  ],
+  "quiz3": {
+    "question_ja": "Charlotteはカプチーノに何のミルクを頼みましたか？",
+    "options": ["普通のミルク", "ソイミルク", "オーツミルク"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"And a cappuccino with oat milk, if you have it.\"",
+    "explanation_wrong": "Charlotteがミルクについて言うセリフをもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "バナナブレッドのプレゼント",
+      "full_text": "I made banana bread for you! Oh, thank you! It smells amazing. I used my mum's recipe. It has cinnamon and walnuts inside. Can I try a piece now? Of course! Let me cut a slice for you. Mm, this is so moist and delicious! I am glad you like it. I will write down the recipe for you.",
+      "gaps": [
+        {"before": "I made banana bread for", "answer": "you", "after": "!"},
+        {"before": "I used my mum's", "answer": "recipe", "after": "."},
+        {"before": "It has cinnamon and", "answer": "walnuts", "after": "inside."},
+        {"before": "This is so moist and", "answer": "delicious", "after": "!"},
+        {"before": "I will write down the recipe for", "answer": "you", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "カフェのモーニングメニュー",
+      "full_text": "Good morning! Here is our breakfast menu at Coconut Grove Café. We open at seven o'clock every day. Our most popular item is the banana bread with honey butter. It costs eight dollars. We also have avocado toast for twelve dollars and a big breakfast plate for eighteen dollars. All breakfast items come with a free cup of filter coffee. We use local bananas from North Queensland farms. Our kitchen stops serving breakfast at eleven thirty. Lunch service starts at twelve o'clock. Please ask your waiter if you have any questions!",
+      "questions": [
+        {
+          "question_ja": "カフェは毎朝何時に開きますか？",
+          "options": ["6時", "7時", "8時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"We open at seven o'clock every day.\"",
+          "explanation_wrong": "\"open at\" の後の時間をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "朝食メニューには何が無料で付いてきますか？",
+          "options": ["オレンジジュース", "フィルターコーヒー", "紅茶"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"All breakfast items come with a free cup of filter coffee.\"",
+          "explanation_wrong": "\"free\" の後に何が来るか聴いてみよう！"
+        },
+        {
+          "question_ja": "朝食の提供は何時に終わりますか？",
+          "options": ["11時", "11時半", "12時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Our kitchen stops serving breakfast at eleven thirty.\"",
+          "explanation_wrong": "\"stops serving\" の後の時間をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Do you have banana bread today?",
+        "tip": "Do you が「ドゥユー」または「ジュー」と短く。banana は「バナーナ」で真ん中の na にアクセント。"
+      },
+      {
+        "text": "Can I have a slice, please?",
+        "tip": "Can I が「キャナイ」。slice は「スライス」で s をしっかり発音。please は「プリーズ」で z の音。"
+      },
+      {
+        "text": "Would you like butter on top?",
+        "tip": "Would you が「ウッジュー」。butter は「バター」ではなく「バラー」のように t が柔らかくなる（AUの発音）。"
+      },
+      {
+        "text": "No worries!",
+        "tip": "オーストラリアの超定番フレーズ！「ノーウォリーズ」で worries は「ウォリーズ」。「大丈夫・どういたしまして」の意味。"
+      },
+      {
+        "text": "I will bring everything to your table.",
+        "tip": "bring everything が「ブリンゲヴリシン」とつながる。your は弱く「ヨー」。table は「テイボー」で最後の l は軽く。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "あなたのカフェでの朝の様子を英語で書いてみよう（3行）",
+    "example": "This morning, I came to the café at seven o'clock. I prepared banana bread and made coffee. A nice lady ordered banana bread with oat milk cappuccino. She said it was delicious!"
+  },
+  "yamada_comments": {
+    "recipe": "バナナブレッド、カフェの定番中の定番！俺もロケの差し入れでもらったことあるよ。レシピの動詞、mash とか sift とか、料理の動作を英語で覚えよう！",
+    "review": "「best banana bread in Cairns」って書けるくらい、英語の表現力つけていこう。Snow Manのコンサートレビューも英語で書いたらかっこいいよね！",
+    "conversation": "「No worries」はオーストラリアで一番使うフレーズ！フィギュアスケートの基本ステップみたいに、まずこれを完璧にマスターしよう！",
+    "listening": "朝のカフェメニューのリスニング、実際に使える内容だよね。陸上の朝練みたいに、毎朝英語を聴く習慣をつけよう！",
+    "pronunciation": "butter の発音、オーストラリアだと日本語の「バター」とはちょっと違うんだ。Snow Manの英語の歌詞みたいに、ネイティブの音をまねしてみよう！",
+    "try_it": "カフェでの朝を英語で書いてみよう。俺も撮影の朝を日記に書くことあるけど、英語で書くと新鮮だよ。がんばれ、もものちゃん！"
+  }
+}

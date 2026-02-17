@@ -1,0 +1,168 @@
+{
+  "day": 13,
+  "sweet": "Chocolate Brownie",
+  "emoji": "🍫",
+  "recipe": {
+    "title": "How to Make Chocolate Brownies",
+    "intro": "Chocolate brownies are rich and fudgy. They are one of the most popular sweets in Australian cafés.",
+    "ingredients": "dark chocolate, butter, sugar, eggs, plain flour, cocoa powder, vanilla extract, salt",
+    "steps": [
+      "**Preheat** the oven to 180 degrees Celsius. **Line** a square baking tin with baking paper.",
+      "**Melt** the dark chocolate and butter together in a pot over low heat. **Stir** until smooth.",
+      "**Add** the sugar to the chocolate mixture and **mix** well.",
+      "**Beat** the eggs one at a time into the mixture. **Add** the vanilla extract.",
+      "**Sift** the flour, cocoa powder, and salt into the bowl. **Fold** gently until just combined.",
+      "**Pour** the batter into the tin and **bake** for 25 to 30 minutes. The centre should be a little soft. **Let** it cool before cutting into squares."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "rich", "ja": "濃厚な"},
+    {"en": "fudgy", "ja": "しっとりねっとりした"},
+    {"en": "melt", "ja": "溶かす"},
+    {"en": "sift", "ja": "ふるいにかける"},
+    {"en": "fold", "ja": "さっくり混ぜる"},
+    {"en": "batter", "ja": "生地（液状の）"},
+    {"en": "baking tin", "ja": "焼き型"},
+    {"en": "combined", "ja": "混ざった"}
+  ],
+  "quiz1": {
+    "question_ja": "ブラウニーを焼く温度は何度ですか？",
+    "options": ["160度", "180度", "200度"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Preheat the oven to 180 degrees Celsius.\"",
+    "explanation_wrong": "最初のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Muddy's Café",
+    "location": "Cairns Esplanade, Queensland, Australia",
+    "stars": 5,
+    "text": "I visited Muddy's Café on Saturday afternoon. It is right next to the lagoon on the Esplanade. I ordered a chocolate brownie and a flat white. The brownie was so rich and fudgy. It was warm inside and had a crispy top. The coffee was strong and smooth. I sat outside and watched people swimming in the lagoon. This is a great place for a weekend treat!"
+  },
+  "review_vocab": [
+    {"en": "lagoon", "ja": "ラグーン（人工の海水プール）"},
+    {"en": "crispy", "ja": "サクサクの"},
+    {"en": "treat", "ja": "ご褒美・おやつ"},
+    {"en": "right next to", "ja": "〜のすぐ隣に"},
+    {"en": "strong", "ja": "（コーヒーが）濃い"},
+    {"en": "smooth", "ja": "なめらかな"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはどこに座りましたか？",
+    "options": ["店内のソファ", "外の席", "テラスの2階"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I sat outside and watched people swimming in the lagoon.\"",
+    "explanation_wrong": "\"sat\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのカフェでブラウニーは定番スイーツ。チョコ好きなら「**Can I have a chocolate brownie, please?**」と注文しよう。温めてほしいときは「**Could you warm it up, please?**」と言えばOK！",
+    "ケアンズのエスプラナード沿いには**Muddy's Playground**という大きな遊び場があり、その近くにカフェがたくさん。「**Let's grab a coffee by the lagoon.**」（ラグーンのそばでコーヒー飲もう）は地元の人もよく使うフレーズです。",
+    "ブラウニーをテイクアウェイしたいときは「**Can I get that to take away?**」と言います。オーストラリアでは**take out**より**take away**をよく使います。「**Is that for here or take away?**」と聞かれることも多いです。"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Tom）がブラウニーを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Hi there! What can I get for you today?"},
+      {"speaker": "Tom", "text": "G'day! Could I have a chocolate brownie, please?"},
+      {"speaker": "You", "text": "Sure! Would you like it warmed up?"},
+      {"speaker": "Tom", "text": "Yes, please. That sounds great."},
+      {"speaker": "You", "text": "Would you like any ice cream or cream on the side?"},
+      {"speaker": "Tom", "text": "Hmm, I will have a scoop of vanilla ice cream, please."},
+      {"speaker": "You", "text": "Good choice! And any drinks?"},
+      {"speaker": "Tom", "text": "A large flat white, please. No sugar."},
+      {"speaker": "You", "text": "No worries! That will be fifteen dollars eighty."},
+      {"speaker": "Tom", "text": "Here is my card. Thanks, mate!"},
+      {"speaker": "You", "text": "Thank you! I will bring it to your table soon."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "warmed up", "ja": "温めた"},
+    {"en": "on the side", "ja": "別添えで"},
+    {"en": "scoop", "ja": "（アイスの）スクープ・1玉"},
+    {"en": "no worries", "ja": "大丈夫だよ（AUでよく使う）"},
+    {"en": "mate", "ja": "友達・相手への呼びかけ（AU）"},
+    {"en": "bring", "ja": "持っていく"}
+  ],
+  "quiz3": {
+    "question_ja": "Tomはブラウニーに何を添えましたか？",
+    "options": ["ホイップクリーム", "バニラアイスクリーム", "チョコレートソース"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I will have a scoop of vanilla ice cream, please.\"",
+    "explanation_wrong": "Tomが \"side\" について答えた部分を探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "チョコレートの買い物",
+      "full_text": "Excuse me, where can I find dark chocolate? It is in aisle three, near the baking section. Thank you! Do you have any cocoa powder too? Yes, the cocoa powder is on the top shelf. How much is this block of chocolate? It is four dollars fifty. That is a good price. I will take two blocks, please.",
+      "gaps": [
+        {"before": "Where can I find dark", "answer": "chocolate", "after": "?"},
+        {"before": "It is in aisle three, near the", "answer": "baking", "after": "section."},
+        {"before": "The cocoa powder is on the top", "answer": "shelf", "after": "."},
+        {"before": "How much is this", "answer": "block", "after": "of chocolate?"},
+        {"before": "That is a good", "answer": "price", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "チョコレート祭りのお知らせ",
+      "full_text": "Attention chocolate lovers! The Cairns Chocolate Festival is coming next weekend. It will be held at the Convention Centre on Saturday and Sunday. Over twenty local bakeries will sell their best chocolate treats. You can try free samples of brownies, truffles, and chocolate cake. There will also be a chocolate-making class at eleven o'clock each day. Tickets are ten dollars for adults and free for children under twelve. Don't miss it!",
+      "questions": [
+        {
+          "question_ja": "チョコレート祭りはどこで行われますか？",
+          "options": ["ビーチ", "コンベンションセンター", "ショッピングモール"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"It will be held at the Convention Centre.\"",
+          "explanation_wrong": "\"held at\" の後をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "チョコレート作り教室は何時からですか？",
+          "options": ["10時", "11時", "12時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"a chocolate-making class at eleven o'clock each day.\"",
+          "explanation_wrong": "\"class\" の後の時間に注目！"
+        },
+        {
+          "question_ja": "大人のチケットはいくらですか？",
+          "options": ["5ドル", "10ドル", "15ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Tickets are ten dollars for adults.\"",
+          "explanation_wrong": "\"Tickets\" の後の金額をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Would you like it warmed up?",
+        "tip": "Would you が「ウッジュー」、warmed up が「ウォームダップ」とつながります。it は軽く「イッ」と発音。"
+      },
+      {
+        "text": "That sounds great.",
+        "tip": "That sounds が「ザッサウンズ」とつながります。great の r は舌を巻きすぎないように。"
+      },
+      {
+        "text": "I will bring it to your table.",
+        "tip": "bring it が「ブリンギット」とリンキング。to your が「トゥヨー」と短く。"
+      },
+      {
+        "text": "Can I get that to take away?",
+        "tip": "Can I get が「キャナイゲッ」、take away が「テイカウェイ」とつながります。"
+      },
+      {
+        "text": "No sugar, please.",
+        "tip": "sugar は「シュガー」。日本語の「シュガー」とほぼ同じですが、最初の sh の音をしっかり出しましょう。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "好きなチョコレートスイーツについて英語で3行書いてみよう",
+    "example": "I love chocolate brownies. My favourite brownie is warm and fudgy with vanilla ice cream. I want to try making brownies at home this weekend."
+  },
+  "yamada_comments": {
+    "recipe": "チョコブラウニー、最高だよね！Snow Manのメンバーも甘いもの好き多いんだよ。レシピの英語、一つずつ覚えていこう！",
+    "review": "カフェのレビューを英語で読むと、行ってみたいお店が増えるよね。ケアンズのラグーン沿いのカフェ、気持ちよさそう！",
+    "conversation": "接客の会話パターン、繰り返し練習するのが大事。フィギュアスケートのジャンプも反復練習で身につくでしょ？英語も同じだよ。",
+    "listening": "リスニングは集中力が大事。陸上の短距離スタートのときみたいに、最初の一言に集中して聴いてみよう！",
+    "pronunciation": "声に出してみよう！Snow Manの曲を歌うとき、歌詞を口に出して練習するでしょ？発音もそうやって体で覚えるのが一番！",
+    "try_it": "3行でOK！書くことで頭が整理されるんだよ。俺も日記を短く書くことがあるけど、後で読み返すと成長がわかるよ！"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "day": 9,
+  "sweet": "Pumpkin Scones",
+  "emoji": "🎃",
+  "recipe": {
+    "title": "How to Make Pumpkin Scones",
+    "intro": "Pumpkin scones are a Queensland specialty. They became famous because of Lady Flo Bjelke-Petersen, a former governor's wife. They are soft, sweet, and golden.",
+    "ingredients": "self-raising flour, butter, sugar, mashed pumpkin, egg, milk, salt",
+    "steps": [
+      "**Cook** the pumpkin until soft, then **mash** it and let it cool.",
+      "**Preheat** the oven to 220 degrees Celsius.",
+      "**Mix** the flour, sugar, and salt in a large bowl.",
+      "**Rub** the butter into the flour with your fingertips.",
+      "**Add** the mashed pumpkin, egg, and a little milk. **Stir** until the dough is soft.",
+      "**Shape** the dough into rounds on a floured tray. **Bake** for 15 to 18 minutes until golden. **Serve** warm with butter!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "mash", "ja": "つぶす・マッシュする"},
+    {"en": "mashed pumpkin", "ja": "つぶしたかぼちゃ"},
+    {"en": "cool", "ja": "冷ます"},
+    {"en": "fingertips", "ja": "指先"},
+    {"en": "shape", "ja": "形を作る"},
+    {"en": "rounds", "ja": "丸い形"},
+    {"en": "floured tray", "ja": "粉をふったトレイ"},
+    {"en": "warm", "ja": "温かい"}
+  ],
+  "quiz1": {
+    "question_ja": "パンプキンスコーンの生地はどんな形にしますか？",
+    "options": ["三角", "四角", "丸"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"Shape the dough into rounds.\"",
+    "explanation_wrong": "最後のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Muddy's Café",
+    "location": "Cairns Esplanade, Queensland, Australia",
+    "stars": 4,
+    "text": "Muddy's Café is a great spot for breakfast near the lagoon. I went there last Tuesday and tried their pumpkin scones. They were soft and a little bit sweet. The butter melted on the warm scone. So good! My friend had a banana smoothie. The café has outdoor seating with shade, which is nice because it is always hot in Cairns. The staff were very kind and quick. I will come back again soon."
+  },
+  "review_vocab": [
+    {"en": "spot", "ja": "場所・スポット"},
+    {"en": "melted", "ja": "溶けた"},
+    {"en": "smoothie", "ja": "スムージー"},
+    {"en": "outdoor seating", "ja": "屋外席"},
+    {"en": "shade", "ja": "日陰"},
+    {"en": "quick", "ja": "速い・素早い"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーの友達は何を飲みましたか？",
+    "options": ["コーヒー", "バナナスムージー", "紅茶"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"My friend had a banana smoothie.\"",
+    "explanation_wrong": "\"friend\" が出てくる文をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "パンプキンスコーンはクイーンズランド州の名物！**Lady Flo**（フロー夫人）のレシピが有名で、今でもクイーンズランドのカフェでよく見かけます。「**Do you have pumpkin scones today?**」と聞いてみよう。",
+    "オーストラリアの「**pumpkin**」は日本のかぼちゃに近い**butternut pumpkin**や**Queensland blue pumpkin**のこと。スーパーで「**Where is the pumpkin?**」と聞くと、野菜コーナーに案内してもらえます。",
+    "ケアンズは一年中暑いので、カフェでは日陰のある屋外席が人気。「**Can we sit outside in the shade?**」と聞けば、涼しい席に案内してもらえることが多いです。"
+  ],
+  "conversation": {
+    "scene": "カフェで、常連のお客さん（Emma）がパンプキンスコーンを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Morning, Emma! The usual today?"},
+      {"speaker": "Emma", "text": "Actually, I want to try something different. Do you have pumpkin scones?"},
+      {"speaker": "You", "text": "Yes, we do! They just came out of the oven five minutes ago."},
+      {"speaker": "Emma", "text": "Oh, perfect! I love them warm. One pumpkin scone, please."},
+      {"speaker": "You", "text": "Would you like butter or jam with it?"},
+      {"speaker": "Emma", "text": "Just butter, please. And my usual flat white."},
+      {"speaker": "You", "text": "One flat white with one sugar, right?"},
+      {"speaker": "Emma", "text": "You remember! Yes, that is right."},
+      {"speaker": "You", "text": "Of course! That will be nine dollars fifty."},
+      {"speaker": "Emma", "text": "Here you go. Keep the change!"},
+      {"speaker": "You", "text": "Thank you, Emma! Enjoy your scone!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "the usual", "ja": "いつもの"},
+    {"en": "came out of the oven", "ja": "オーブンから出たばかり"},
+    {"en": "just", "ja": "ちょうど・たった今"},
+    {"en": "right?", "ja": "〜だよね？（確認）"},
+    {"en": "keep the change", "ja": "お釣りはいいよ"},
+    {"en": "remember", "ja": "覚えている"}
+  ],
+  "quiz3": {
+    "question_ja": "Emmaはスコーンに何をつけますか？",
+    "options": ["ジャムだけ", "バターだけ", "バターとジャム両方"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Just butter, please.\"",
+    "explanation_wrong": "Emmaが「butter」か「jam」を言っているセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "料理番組でのパンプキンスコーン",
+      "full_text": "Welcome to our cooking show! Today we are making pumpkin scones. First, you need to cook the pumpkin. I like to use the microwave because it is faster. Cook it for about eight minutes. Then mash it with a fork. Make sure the pumpkin is cool before you add it to the flour. If it is too hot, the butter will melt. Nobody wants melted butter in their scone dough! Now mix everything together gently. Do not mix too much.",
+      "gaps": [
+        {"before": "I like to use the", "answer": "microwave", "after": "because it is faster."},
+        {"before": "Cook it for about", "answer": "eight", "after": "minutes."},
+        {"before": "Then mash it with a", "answer": "fork", "after": "."},
+        {"before": "Make sure the pumpkin is", "answer": "cool", "after": "before you add it to the flour."},
+        {"before": "Do not mix too", "answer": "much", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "マーケットでのパンプキンスコーン販売",
+      "full_text": "Hello! Welcome to the Cairns Farmers Market. We are selling fresh pumpkin scones today. We bake them this morning at five o'clock. Each scone is two dollars fifty, or you can get a bag of four for eight dollars. We also have pumpkin soup and pumpkin bread. Everything is made with local Queensland pumpkin. The pumpkin comes from a farm in Atherton Tablelands, about one hour from Cairns. Would you like to try a free sample?",
+      "questions": [
+        {
+          "question_ja": "スコーンは何時に焼きましたか？",
+          "options": ["朝4時", "朝5時", "朝6時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"We bake them this morning at five o'clock.\"",
+          "explanation_wrong": "時間を言っている部分をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "4個入りの袋はいくらですか？",
+          "options": ["6ドル", "8ドル", "10ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"a bag of four for eight dollars\"",
+          "explanation_wrong": "\"bag of four\" の後の金額に注目！"
+        },
+        {
+          "question_ja": "かぼちゃはどこの農場から来ていますか？",
+          "options": ["ケアンズ市内", "アサートン高原", "タウンズビル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"a farm in Atherton Tablelands\"",
+          "explanation_wrong": "「farm」が出てくる部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "The usual today?",
+        "tip": "usual は「ユージュアル」で zh の音。today は「トゥデイ」。カジュアルに「ザユージュアルトゥデイ？」と軽く言いましょう。"
+      },
+      {
+        "text": "They just came out of the oven.",
+        "tip": "just came が「ジャスケイム」、out of が「アウトゥヴ」とつながります。oven は「アヴン」。"
+      },
+      {
+        "text": "Would you like butter or jam?",
+        "tip": "Would you が「ウッジュー」。butter or が「バターオア」。or は軽く「オ」程度に発音します。"
+      },
+      {
+        "text": "Keep the change!",
+        "tip": "Keep the が「キープザ」。change の ch は「チェインジ」でしっかり。"
+      },
+      {
+        "text": "That will be nine dollars fifty.",
+        "tip": "That will be が「ザッウィルビー」。nine の n をしっかり出して、dollars は「ダラーズ」。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "カフェの常連さんとのやりとりを想像して英語で3行書いてみよう",
+    "example": "A man comes to our café every morning. He always orders a flat white and a pumpkin scone. Today I said 'The usual?' and he smiled and said 'Yes, please!'"
+  },
+  "yamada_comments": {
+    "recipe": "パンプキンスコーン、クイーンズランドの名物なんだ！かぼちゃを使うからちょっとヘルシーな感じもするよね。レシピの英語は「mash」とか「shape」とか、動作の言葉が多いから、やりながら覚えよう！",
+    "review": "レビューで「shade」が出てきたね。ケアンズは暑いから日陰は大事！陸上のトレーニングでも暑いときは日陰で休憩するのが基本。英語で「shade」、覚えておこう。",
+    "conversation": "常連さんとの会話って、短いけど温かいよね。「The usual?」って聞けるくらいになったらカフェの仕事がもっと楽しくなるよ！Snow Manのファンイベントでも常連ファンとのやりとりは嬉しいものだからね。",
+    "listening": "料理番組とマーケット、2つの場面があったね。リスニングは色んな場面に慣れることが大事。フィギュアスケートの選手も色んな曲で踊るでしょ？対応力をつけよう！",
+    "pronunciation": "「oven」の v 音と「usual」の zh 音、日本語にない音だから集中して練習しよう。毎日5回ずつ声に出すだけで変わってくるよ！",
+    "try_it": "常連さんとの会話を想像して書くの、実践的でいいね！俺もドラマの役作りで「この人ならこう言うかな」って考えるんだよ。想像力を使って英語を書いてみよう！"
+  }
+}

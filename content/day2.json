@@ -1,0 +1,168 @@
+{
+  "day": 2,
+  "sweet": "Lamington",
+  "emoji": "🍫",
+  "recipe": {
+    "title": "How to Make Lamingtons",
+    "intro": "Lamingtons are a famous Australian cake. They are sponge cake squares covered in chocolate and coconut.",
+    "ingredients": "sponge cake, cocoa powder, icing sugar, butter, milk, desiccated coconut, hot water",
+    "steps": [
+      "**Bake** a simple sponge cake and let it **cool** completely.",
+      "**Cut** the sponge cake into small squares, about 5 centimetres each.",
+      "**Mix** the cocoa powder, icing sugar, butter, and hot water to make the chocolate sauce.",
+      "**Dip** each cake square into the chocolate sauce with a fork.",
+      "**Roll** the chocolate-covered squares in the desiccated coconut.",
+      "**Place** the lamingtons on a wire rack and let them **set** in the fridge for 30 minutes."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "sponge cake", "ja": "スポンジケーキ"},
+    {"en": "cocoa powder", "ja": "ココアパウダー"},
+    {"en": "icing sugar", "ja": "粉砂糖"},
+    {"en": "desiccated coconut", "ja": "乾燥ココナッツ"},
+    {"en": "dip", "ja": "浸す・つける"},
+    {"en": "wire rack", "ja": "網（冷却用ラック）"},
+    {"en": "set", "ja": "固まる"},
+    {"en": "square", "ja": "四角形"}
+  ],
+  "quiz1": {
+    "question_ja": "ラミントンのスポンジケーキを何センチに切りますか？",
+    "options": ["3センチ", "5センチ", "8センチ"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Cut the sponge cake into small squares, about 5 centimetres each.\"",
+    "explanation_wrong": "ステップ2をもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Esplanade Sweets Café",
+    "location": "Cairns Esplanade, Queensland, Australia",
+    "stars": 4,
+    "text": "I visited Esplanade Sweets Café last Saturday. It is right next to the lagoon on the Esplanade. I ordered a lamington and a flat white. The lamington was so soft inside and the chocolate coating was rich. There was a lot of coconut on the outside. It was a bit sweet for me, but still very tasty. I sat outside and watched people swimming in the lagoon. I will come back again!"
+  },
+  "review_vocab": [
+    {"en": "lagoon", "ja": "ラグーン（人工プール）"},
+    {"en": "flat white", "ja": "フラットホワイト（AUのコーヒー）"},
+    {"en": "coating", "ja": "コーティング・覆い"},
+    {"en": "rich", "ja": "濃厚な"},
+    {"en": "tasty", "ja": "おいしい"},
+    {"en": "outside", "ja": "外に・外側"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはラミントンと一緒に何を飲みましたか？",
+    "options": ["カプチーノ", "フラットホワイト", "ホットチョコレート"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I ordered a lamington and a flat white.\"",
+    "explanation_wrong": "\"ordered\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "ラミントンはオーストラリアの「**national cake**」とも呼ばれる大人気のスイーツ。1月21日は「**National Lamington Day**」！カフェで見かけたら「**Can I try a lamington, please?**」と言ってみよう。",
+    "オーストラリアのコーヒーで一番人気は「**flat white**」。日本のカフェラテに似てるけど、ミルクの泡が少なくてクリーミー。注文は「**A flat white, please.**」でOK。ケアンズのカフェでもよく出ます！",
+    "ケアンズの**Esplanade**（エスプラネード）は海沿いの遊歩道で、カフェやレストランがたくさん。無料の**lagoon**（人工プール）もあるよ。友達に「**Let's get lamingtons at the Esplanade!**」と誘ってみよう！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（James）がラミントンについて質問する場面",
+    "lines": [
+      {"speaker": "You", "text": "Hi there! Welcome to Esplanade Sweets. What can I get you?"},
+      {"speaker": "James", "text": "Hello! I'm looking at the lamingtons. What flavour are they?"},
+      {"speaker": "You", "text": "We have the classic chocolate and a raspberry one today."},
+      {"speaker": "James", "text": "Nice! What is inside the lamington?"},
+      {"speaker": "You", "text": "It is soft sponge cake with chocolate on the outside and coconut."},
+      {"speaker": "James", "text": "Sounds delicious. I will have the classic one, please."},
+      {"speaker": "You", "text": "Sure! Would you like a drink with that?"},
+      {"speaker": "James", "text": "Yes, can I get a flat white?"},
+      {"speaker": "You", "text": "Of course! That will be eleven dollars."},
+      {"speaker": "James", "text": "Here is my card. Thanks!"},
+      {"speaker": "You", "text": "Thank you! Your lamington and flat white will be ready soon. Enjoy!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "flavour", "ja": "味・フレーバー（AUスペル）"},
+    {"en": "classic", "ja": "クラシック・定番の"},
+    {"en": "raspberry", "ja": "ラズベリー"},
+    {"en": "sounds delicious", "ja": "おいしそう"},
+    {"en": "card", "ja": "カード（クレジットカード）"},
+    {"en": "soon", "ja": "すぐに"}
+  ],
+  "quiz3": {
+    "question_ja": "Jamesはどのラミントンを選びましたか？",
+    "options": ["ラズベリー味", "クラシック（チョコレート）味", "抹茶味"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I will have the classic one, please.\"",
+    "explanation_wrong": "Jamesが選ぶセリフをもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "スーパーでの買い物",
+      "full_text": "Excuse me, where can I find desiccated coconut? It is in aisle three, next to the baking supplies. Thank you! I also need cocoa powder. That is on the same shelf. Great. How much is the coconut? It is four dollars fifty. OK, I will take one bag. Do you need anything else? No, that is everything. Have a nice day!",
+      "gaps": [
+        {"before": "Where can I find desiccated", "answer": "coconut", "after": "?"},
+        {"before": "It is in aisle three, next to the", "answer": "baking", "after": "supplies."},
+        {"before": "I also need cocoa", "answer": "powder", "after": "."},
+        {"before": "It is four dollars", "answer": "fifty", "after": "."},
+        {"before": "No, that is", "answer": "everything", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "ラミントン作りのワークショップ",
+      "full_text": "Good morning, everyone! Welcome to our lamington workshop. Today we will learn to make lamingtons from scratch. The class is two hours long. First, we will bake the sponge cake together. Then, while the cake cools, we will make the chocolate sauce. After that, you will cut, dip, and roll your own lamingtons. You can take home a box of six lamingtons. The cost of the workshop is thirty dollars. This includes all ingredients and a recipe card to take home.",
+      "questions": [
+        {
+          "question_ja": "ワークショップは何時間ですか？",
+          "options": ["1時間", "2時間", "3時間"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The class is two hours long.\"",
+          "explanation_wrong": "\"hours\" の前の数字に注目！"
+        },
+        {
+          "question_ja": "ラミントンを何個持ち帰れますか？",
+          "options": ["4個", "6個", "8個"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"You can take home a box of six lamingtons.\"",
+          "explanation_wrong": "\"take home\" の後をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "ワークショップの料金はいくらですか？",
+          "options": ["20ドル", "30ドル", "40ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The cost of the workshop is thirty dollars.\"",
+          "explanation_wrong": "\"cost\" の後の金額をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What can I get you?",
+        "tip": "「ワッキャナイ ゲッチュー」のようにつながります。What can が「ワッキャン」、get you が「ゲッチュー」とリンキング。"
+      },
+      {
+        "text": "It is soft sponge cake with chocolate on the outside.",
+        "tip": "soft sponge は「ソフト スポンジ」で s の音が続きます。chocolate は「チョクレット」で o が弱い。"
+      },
+      {
+        "text": "Would you like a drink with that?",
+        "tip": "Would you が「ウッジュー」、drink with が「ドリンクウィズ」。that の th は舌を歯に軽く当てて。"
+      },
+      {
+        "text": "Sounds delicious!",
+        "tip": "Sounds は「サウンズ」で最後の z をしっかり。delicious は「デリシャス」で li にアクセント。"
+      },
+      {
+        "text": "Your lamington and flat white will be ready soon.",
+        "tip": "and は弱く「アン」。flat white は「フラッ ワイト」で t が軽くなります。ready は「レディ」で r の発音に注意。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "好きなスイーツを英語で紹介してみよう（3行）。どんな味？どこで食べた？",
+    "example": "I love lamingtons. They are soft sponge cake with chocolate and coconut. I ate one at a café near the Esplanade. It was very sweet and yummy!"
+  },
+  "yamada_comments": {
+    "recipe": "ラミントン、オーストラリアの国民的ケーキだね！チョコとココナッツの組み合わせ、最強でしょ。レシピの英語、動詞に注目して読んでみよう！",
+    "review": "カフェのレビューを英語で読めるようになると世界が広がるよ。Snow Manの海外公演のとき、現地のカフェレビュー読んでお店探したりするからね！",
+    "conversation": "接客のやりとり、パターンを覚えれば怖くない！フィギュアスケートの演技も決まったステップの組み合わせでしょ？接客もステップの積み重ね！",
+    "listening": "リスニング、最初は難しくても大丈夫。陸上のトレーニングと同じで、毎日やればタイムが縮まるように聴き取れるようになるよ！",
+    "pronunciation": "声に出して練習するのが一番！Snow Manのメンバーもダンスの振りを何回も体で覚えるでしょ？発音も体で覚えよう。",
+    "try_it": "3行チャレンジ！俺もドラマのセリフ覚えるとき、まず短いフレーズから始めるよ。書くことで頭に入るから、がんばって！"
+  }
+}

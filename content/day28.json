@@ -1,0 +1,170 @@
+{
+  "day": 28,
+  "sweet": "Tiramisu",
+  "emoji": "☕",
+  "recipe": {
+    "title": "How to Make Tiramisu",
+    "intro": "Tiramisu is a famous Italian dessert with coffee and mascarpone. Many Australian cafés serve it as a special treat.",
+    "ingredients": "mascarpone cheese, eggs, sugar, strong espresso coffee, ladyfinger biscuits, cocoa powder, vanilla extract",
+    "steps": [
+      "**Brew** a strong espresso and **let** it cool completely.",
+      "**Separate** the eggs. **Beat** the yolks with sugar until pale and creamy.",
+      "**Add** the mascarpone to the yolk mixture and **mix** until smooth.",
+      "**Whip** the egg whites until stiff and **fold** them gently into the mascarpone mixture.",
+      "**Dip** each ladyfinger biscuit quickly into the cool espresso and **layer** them in a dish.",
+      "**Spread** the mascarpone cream on top. **Repeat** the layers. **Dust** with cocoa powder and **chill** for four hours."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "mascarpone", "ja": "マスカルポーネチーズ"},
+    {"en": "espresso", "ja": "エスプレッソ"},
+    {"en": "ladyfinger biscuits", "ja": "フィンガービスケット（サヴォイアルディ）"},
+    {"en": "cocoa powder", "ja": "ココアパウダー"},
+    {"en": "brew", "ja": "（コーヒーを）淹れる"},
+    {"en": "pale", "ja": "白っぽい"},
+    {"en": "dip", "ja": "浸す"},
+    {"en": "layer", "ja": "層にする・重ねる"},
+    {"en": "dust", "ja": "（粉を）ふりかける"}
+  ],
+  "quiz1": {
+    "question_ja": "ティラミスは冷蔵庫で何時間冷やしますか？",
+    "options": ["2時間", "4時間", "6時間"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Chill for four hours.\"",
+    "explanation_wrong": "最後のステップの時間をもう一回確認してみよう！"
+  },
+  "review": {
+    "cafe_name": "Bella Italia Cairns",
+    "location": "Cairns CBD, Queensland, Australia",
+    "stars": 5,
+    "text": "The best tiramisu in Cairns! I came here with my boyfriend for dinner. We shared a tiramisu for dessert. It was creamy, light, and full of coffee flavour. The layers were perfect. You could taste the espresso and the mascarpone together. It was not too sweet, which I liked. The restaurant has a cosy Italian atmosphere. The waiter was very kind and spoke a little Italian too. A beautiful evening!"
+  },
+  "review_vocab": [
+    {"en": "shared", "ja": "シェアした・分け合った"},
+    {"en": "full of", "ja": "〜でいっぱいの"},
+    {"en": "taste", "ja": "味わう"},
+    {"en": "cosy", "ja": "居心地のいい（AUスペル）"},
+    {"en": "atmosphere", "ja": "雰囲気"},
+    {"en": "waiter", "ja": "ウェイター"},
+    {"en": "kind", "ja": "親切な"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはティラミスの甘さについてどう言っていましたか？",
+    "options": ["とても甘かった", "甘すぎなかった", "全く甘くなかった"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"It was not too sweet, which I liked.\"",
+    "explanation_wrong": "\"sweet\" が出てくる文をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアはコーヒー文化がとても発達しているので、ティラミスのようなコーヒーを使ったデザートも人気です。「**Can I have a tiramisu and a flat white, please?**」のようにコーヒーと一緒に注文するのが定番。",
+    "ケアンズには「**Italian restaurant**」や「**Italian-inspired café**」もたくさんあります。メニューに「**tiramisu**」「**panna cotta**」「**affogato**」などイタリア語のデザート名が並んでいることも。「**What does this mean?**」（これはどういう意味ですか？）と聞いてもOK！",
+    "オーストラリアのカフェでは「**affogato**」（アフォガート＝エスプレッソ＋アイスクリーム）も人気デザート。「**I'd like an affogato after my meal, please.**」と注文してみよう。食後の「**after my meal**」をつけるとスマート！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Oliver）がコーヒーデザートについて聞いている場面",
+    "lines": [
+      {"speaker": "You", "text": "Hi! Can I help you with anything?"},
+      {"speaker": "Oliver", "text": "Yes, I am looking for a dessert with coffee. Do you have anything?"},
+      {"speaker": "You", "text": "We have tiramisu and affogato. Both are made with espresso."},
+      {"speaker": "Oliver", "text": "What is the difference?"},
+      {"speaker": "You", "text": "Tiramisu is a layered cake with mascarpone and coffee. Affogato is ice cream with hot espresso."},
+      {"speaker": "Oliver", "text": "Oh, both sound amazing! I think I will try the tiramisu."},
+      {"speaker": "You", "text": "Good choice! It is our chef's special recipe."},
+      {"speaker": "Oliver", "text": "Does it have alcohol in it?"},
+      {"speaker": "You", "text": "No, our tiramisu is alcohol-free."},
+      {"speaker": "Oliver", "text": "Perfect. I will have one, please."},
+      {"speaker": "You", "text": "Coming right up! That is eight dollars fifty."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "looking for", "ja": "〜を探している"},
+    {"en": "difference", "ja": "違い"},
+    {"en": "layered", "ja": "層になった"},
+    {"en": "chef's special", "ja": "シェフのスペシャル"},
+    {"en": "alcohol-free", "ja": "ノンアルコールの"},
+    {"en": "coming right up", "ja": "すぐお持ちします"}
+  ],
+  "quiz3": {
+    "question_ja": "Oliverはなぜティラミスを選びましたか？",
+    "options": ["安いから", "ティラミスとアフォガート両方美味しそうだったから", "アルコールが入っているから"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Both sound amazing!\" と言った上でティラミスを選びました。",
+    "explanation_wrong": "Oliverが\"both\"と言ったセリフを読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "イタリアンレストランでの会話",
+      "full_text": "This Italian restaurant looks nice. Yes, let's sit by the window. Can I see the dessert menu? Here you go. Oh, they have tiramisu! I love tiramisu. Me too. The coffee flavour is the best part. Should we share one? Good idea. Let's also get two espressos. Great, I will call the waiter.",
+      "gaps": [
+        {"before": "Let's sit by the", "answer": "window", "after": "."},
+        {"before": "Can I see the", "answer": "dessert", "after": "menu?"},
+        {"before": "The coffee", "answer": "flavour", "after": "is the best part."},
+        {"before": "Should we", "answer": "share", "after": "one?"},
+        {"before": "I will call the", "answer": "waiter", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "料理教室の案内",
+      "full_text": "Join our Italian dessert class at The Olive Kitchen in Cairns! This Saturday from two to five in the afternoon, Chef Marco will teach you how to make real Italian tiramisu. You will learn to make the mascarpone cream, prepare the espresso, and build the layers. All ingredients are included in the price. The class costs sixty-five dollars per person. Maximum eight people per class. At the end, you will take home your own tiramisu. Please book online or call us at 4051-7890.",
+      "questions": [
+        {
+          "question_ja": "料理教室は何時から何時までですか？",
+          "options": ["午前10時〜午後1時", "午後2時〜午後5時", "午後4時〜午後7時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"from two to five in the afternoon\"",
+          "explanation_wrong": "時間が出てくる部分をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "1クラスの最大人数は？",
+          "options": ["6人", "8人", "10人"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Maximum eight people per class.\"",
+          "explanation_wrong": "\"Maximum\" の後の数字をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "クラスの最後に何ができますか？",
+          "options": ["レシピカードをもらう", "自分のティラミスを持って帰る", "シェフのサインをもらう"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"you will take home your own tiramisu\"",
+          "explanation_wrong": "\"At the end\" の後をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "I am looking for a dessert with coffee.",
+        "tip": "looking for a が「ルッキンフォーラ」とつながります。dessert は「ディザート」で2音節目にアクセント。"
+      },
+      {
+        "text": "What is the difference?",
+        "tip": "What is が「ワッツ」。difference は「ディフレンス」で3音節。the は軽く「ザ」。"
+      },
+      {
+        "text": "It is our chef's special recipe.",
+        "tip": "chef's は「シェフス」で f の後に s。special の sp は「スペ」。recipe は「レシピ」で最後は「ピー」。"
+      },
+      {
+        "text": "Does it have alcohol in it?",
+        "tip": "Does it が「ダズィット」。alcohol は「アルコホール」で最初にアクセント。"
+      },
+      {
+        "text": "Coming right up!",
+        "tip": "right up が「ライタップ」とつながります。短くてテンポよく言いましょう。接客でよく使うフレーズ！"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "好きなコーヒーの飲み方やコーヒーを使ったデザートについて英語で3行書いてみよう",
+    "example": "I made tiramisu for a customer today. She said it was delicious. I told her it was our chef's special recipe. She was very happy!"
+  },
+  "yamada_comments": {
+    "recipe": "ティラミス、イタリア語で「私を元気にして」っていう意味なんだって！コーヒー好きにはたまらないデザートだよね。",
+    "review": "レビューで \"cosy atmosphere\" って書いてあるお店はハズレないよね。Snow Manのライブ後に落ち着いたお店でデザート食べるの最高。",
+    "conversation": "メニューの説明ができると接客レベルが上がるよ！\"The difference is...\" って説明できるとカッコいい。フィギュアのジャンプの種類を説明するみたいにね。",
+    "listening": "料理教室の案内、聴き取れた？英語で料理を習うなんて一石二鳥だよね。もものちゃんならケアンズで参加できるかも！",
+    "pronunciation": "\"Coming right up!\" はカフェで毎日使えるフレーズ！陸上のスタートダッシュみたいに、テンポよく言ってみて。",
+    "try_it": "コーヒーデザートの話、書いてみて！カフェで働いてるもものちゃんならネタがたくさんあるはず。"
+  }
+}

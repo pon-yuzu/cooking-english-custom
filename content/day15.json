@@ -1,0 +1,168 @@
+{
+  "day": 15,
+  "sweet": "Blueberry Muffin",
+  "emoji": "🫐",
+  "recipe": {
+    "title": "How to Make Blueberry Muffins",
+    "intro": "Blueberry muffins are a classic café treat. They are soft, sweet, and full of juicy blueberries.",
+    "ingredients": "plain flour, sugar, baking powder, salt, egg, milk, butter, vanilla extract, fresh blueberries",
+    "steps": [
+      "**Preheat** the oven to 190 degrees Celsius. **Place** paper cases in a muffin tray.",
+      "**Mix** the flour, sugar, baking powder, and salt in a large bowl.",
+      "**Whisk** the egg, milk, melted butter, and vanilla in another bowl.",
+      "**Pour** the wet ingredients into the dry ingredients. **Stir** until just mixed. Do not over-mix!",
+      "**Fold** the blueberries into the batter gently.",
+      "**Spoon** the batter into the paper cases. **Bake** for 20 to 25 minutes until the tops are golden. **Cool** on a wire rack."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "muffin tray", "ja": "マフィン型"},
+    {"en": "paper cases", "ja": "紙のカップ"},
+    {"en": "whisk", "ja": "泡立て器で混ぜる"},
+    {"en": "melted", "ja": "溶かした"},
+    {"en": "over-mix", "ja": "混ぜすぎる"},
+    {"en": "spoon", "ja": "スプーンですくう（動詞）"},
+    {"en": "wire rack", "ja": "網の冷却台"},
+    {"en": "juicy", "ja": "ジューシーな"}
+  ],
+  "quiz1": {
+    "question_ja": "マフィンの生地を混ぜるとき、気をつけることは何ですか？",
+    "options": ["しっかり混ぜる", "混ぜすぎない", "10分間混ぜる"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Stir until just mixed. Do not over-mix!\"",
+    "explanation_wrong": "4番目のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Harbour Lights Café",
+    "location": "Marlin Marina, Cairns, Australia",
+    "stars": 4,
+    "text": "I stopped by Harbour Lights Café this morning before work. It is near the marina where the reef boats leave. I ordered a blueberry muffin and a long black. The muffin was soft and fluffy with lots of blueberries inside. It was still warm from the oven. The coffee was nice and strong. The view of the boats in the harbour was lovely. I always enjoy my breakfast here."
+  },
+  "review_vocab": [
+    {"en": "stopped by", "ja": "立ち寄った"},
+    {"en": "marina", "ja": "マリーナ（船着き場）"},
+    {"en": "reef boats", "ja": "リーフ（サンゴ礁）に行くボート"},
+    {"en": "long black", "ja": "ロングブラック（AUのブラックコーヒー）"},
+    {"en": "harbour", "ja": "港"},
+    {"en": "view", "ja": "景色"}
+  ],
+  "quiz2": {
+    "question_ja": "このカフェはどこの近くにありますか？",
+    "options": ["ビーチ", "マリーナ", "公園"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"It is near the marina where the reef boats leave.\"",
+    "explanation_wrong": "\"near\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "ケアンズの**Marlin Marina**からはグレートバリアリーフへのツアーボートが出発します。朝早くマリーナのカフェで「**A muffin and a long black, please.**」と注文して、ボートを眺めるのも素敵です。",
+    "オーストラリアのカフェではマフィンは朝食の定番。「**What muffins do you have today?**」と聞くと、日替わりの種類を教えてくれます。**blueberry**、**chocolate chip**、**banana**が人気です。",
+    "**Long black**はオーストラリア独特のコーヒー。エスプレッソにお湯を足したもので、アメリカーノに似ていますが少し違います。「**Can I have a long black?**」はオーストラリアのカフェで使える必須フレーズです！"
+  ],
+  "conversation": {
+    "scene": "カフェで、常連のお客さん（Sarah）が朝食を注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Morning, Sarah! The usual today?"},
+      {"speaker": "Sarah", "text": "Morning! Actually, I want to try something different."},
+      {"speaker": "You", "text": "Sure! We have blueberry muffins fresh out of the oven."},
+      {"speaker": "Sarah", "text": "Oh, that sounds perfect! I will have one of those."},
+      {"speaker": "You", "text": "Great choice! Would you like butter with it?"},
+      {"speaker": "Sarah", "text": "No thanks. But can I have it warmed up a little?"},
+      {"speaker": "You", "text": "No problem! And your coffee? A flat white as usual?"},
+      {"speaker": "Sarah", "text": "Actually, I will try a long black today."},
+      {"speaker": "You", "text": "Feeling adventurous! That is eleven dollars fifty, please."},
+      {"speaker": "Sarah", "text": "Here you go. Can I sit by the window?"},
+      {"speaker": "You", "text": "Of course! That table is free. Enjoy your breakfast!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "the usual", "ja": "いつもの"},
+    {"en": "something different", "ja": "いつもと違うもの"},
+    {"en": "fresh out of the oven", "ja": "焼きたての"},
+    {"en": "feeling adventurous", "ja": "冒険心がある・挑戦的な"},
+    {"en": "by the window", "ja": "窓際に"},
+    {"en": "free", "ja": "（席が）空いている"}
+  ],
+  "quiz3": {
+    "question_ja": "Sarahはいつもどんなコーヒーを飲んでいますか？",
+    "options": ["ロングブラック", "フラットホワイト", "カプチーノ"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"A flat white as usual?\" と聞かれています。",
+    "explanation_wrong": "\"as usual\" が出てくるセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "ルームメイトとの朝の会話",
+      "full_text": "Good morning! Did you sleep well? Yes, I did. I am a bit hungry though. Me too. Do you want a muffin? I bought some yesterday. Blueberry? Yes, your favourite! Let me put the kettle on. Great. I will have tea this morning. There is milk in the fridge. Thanks! These muffins are really good.",
+      "gaps": [
+        {"before": "I am a bit", "answer": "hungry", "after": "though."},
+        {"before": "Do you want a", "answer": "muffin", "after": "?"},
+        {"before": "Let me put the", "answer": "kettle", "after": "on."},
+        {"before": "There is milk in the", "answer": "fridge", "after": "."},
+        {"before": "These muffins are really", "answer": "good", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "カフェの新しいメニューの紹介",
+      "full_text": "Hello everyone, welcome to our café. I want to tell you about our new breakfast menu. Starting next Monday, we will have three new muffin flavours: blueberry, raspberry, and lemon poppy seed. All muffins are baked fresh every morning before six o'clock. We also have a new deal. If you buy a muffin and a coffee together, you save two dollars. The deal is available every day before nine in the morning. We hope you enjoy our new menu!",
+      "questions": [
+        {
+          "question_ja": "新しいマフィンのフレーバーは何種類ですか？",
+          "options": ["2種類", "3種類", "4種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！blueberry, raspberry, lemon poppy seed の3種類。",
+          "explanation_wrong": "\"three new muffin flavours\" を聴き逃していませんか？"
+        },
+        {
+          "question_ja": "マフィンは毎朝何時前に焼かれますか？",
+          "options": ["5時前", "6時前", "7時前"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"baked fresh every morning before six o'clock.\"",
+          "explanation_wrong": "\"before\" の後の時間に注目！"
+        },
+        {
+          "question_ja": "マフィンとコーヒーのセット割引はいくらですか？",
+          "options": ["1ドル引き", "2ドル引き", "3ドル引き"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"you save two dollars.\"",
+          "explanation_wrong": "\"save\" の後の金額をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "The usual today?",
+        "tip": "usual は「ユージュアル」。the usual が「ザユージュアル」とつながります。カジュアルに聞こえるフレーズ。"
+      },
+      {
+        "text": "Fresh out of the oven.",
+        "tip": "out of が「アウトォブ」とつながります。oven は「アヴン」で v の音をしっかり。"
+      },
+      {
+        "text": "Can I sit by the window?",
+        "tip": "Can I が「キャナイ」。sit by が「シッバイ」と軽くつながります。window は「ウィンドウ」。"
+      },
+      {
+        "text": "I want to try something different.",
+        "tip": "want to が「ウォナ」と短く。something の th は舌を軽く歯の間に。"
+      },
+      {
+        "text": "That table is free.",
+        "tip": "That table が「ザッテイブル」。free の f は下唇を軽く噛んで。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "朝ごはんに何を食べたか（または食べたいか）英語で3行書いてみよう",
+    "example": "This morning I had a blueberry muffin at the café. It was soft and warm. I also had a long black coffee. It was a great start to the day!"
+  },
+  "yamada_comments": {
+    "recipe": "ブルーベリーマフィン、朝に焼きたてを食べたら最高だよね。混ぜすぎないのがポイントって面白い。料理も英語も、力の入れすぎに注意ってことかな！",
+    "review": "港の景色を見ながらの朝食、憧れるなぁ。Snow Manのツアーで各地に行くけど、朝のカフェタイムは大事なリフレッシュ時間なんだ。",
+    "conversation": "常連さんとの会話って楽しいよね。 'The usual?' って言えるくらいお客さんと仲良くなれたら素敵。陸上部の仲間みたいな信頼関係だね。",
+    "listening": "ルームメイトとの朝の会話、日常の英語って一番使うから大事。フィギュアスケートも基本のエッジワークが大事なのと同じだよ。",
+    "pronunciation": "want to が「ウォナ」になるの、ネイティブっぽい！こういう省略形を覚えると自然に聞こえるよ。Snow Manの英語の歌詞でもこういう発音多いでしょ？",
+    "try_it": "朝ごはんのことなら書きやすいよね。毎日のことだから英語にしやすい。俺も朝食はしっかり食べる派！エネルギー大事！"
+  }
+}

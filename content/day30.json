@@ -1,0 +1,171 @@
+{
+  "day": 30,
+  "sweet": "Ice Cream Sundae",
+  "emoji": "🍨",
+  "recipe": {
+    "title": "How to Make an Ice Cream Sundae",
+    "intro": "An ice cream sundae is the ultimate treat! It is the perfect way to celebrate finishing 30 days of English learning. Let's make it extra special!",
+    "ingredients": "vanilla ice cream, chocolate sauce, strawberry sauce, whipped cream, sprinkles, chopped nuts, a cherry, wafer biscuit",
+    "steps": [
+      "**Scoop** two or three balls of vanilla ice cream into a tall glass or bowl.",
+      "**Drizzle** chocolate sauce and strawberry sauce over the ice cream.",
+      "**Add** a big spoonful of whipped cream on top.",
+      "**Sprinkle** chopped nuts and colourful sprinkles over the cream.",
+      "**Place** a wafer biscuit on the side and a cherry on the very top.",
+      "**Serve** immediately with a long spoon and a napkin. **Enjoy** your masterpiece!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "sundae", "ja": "サンデー（アイスクリームデザート）"},
+    {"en": "scoop", "ja": "すくう"},
+    {"en": "drizzle", "ja": "（ソースを）かける"},
+    {"en": "sprinkles", "ja": "スプリンクル（カラフルなトッピング）"},
+    {"en": "chopped", "ja": "刻んだ"},
+    {"en": "wafer", "ja": "ウエハース"},
+    {"en": "cherry", "ja": "さくらんぼ"},
+    {"en": "masterpiece", "ja": "傑作"},
+    {"en": "immediately", "ja": "すぐに"}
+  ],
+  "quiz1": {
+    "question_ja": "アイスクリームサンデーの一番上に何をのせますか？",
+    "options": ["ナッツ", "ウエハース", "さくらんぼ"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"Place ... a cherry on the very top.\"",
+    "explanation_wrong": "\"on the very top\" の前の単語を確認してみよう！"
+  },
+  "review": {
+    "cafe_name": "Sugar Rush Dessert Bar",
+    "location": "Cairns Night Markets area, Queensland, Australia",
+    "stars": 5,
+    "text": "What a spectacular dessert! I visited Sugar Rush Dessert Bar to celebrate my birthday. I ordered the Ultimate Sundae. It had three scoops of ice cream with chocolate sauce, caramel sauce, whipped cream, sprinkles, and a cherry on top. It was huge and absolutely delicious. The ice cream was smooth and creamy. My friends ordered sundaes too and we all shared. The staff even sang Happy Birthday to me! This is the happiest place in Cairns for dessert lovers. Five stars!"
+  },
+  "review_vocab": [
+    {"en": "spectacular", "ja": "壮観な・すごい"},
+    {"en": "celebrate", "ja": "お祝いする"},
+    {"en": "ultimate", "ja": "究極の"},
+    {"en": "caramel", "ja": "キャラメル"},
+    {"en": "delicious", "ja": "とても美味しい"},
+    {"en": "dessert lovers", "ja": "デザート好きな人たち"},
+    {"en": "sang", "ja": "歌った（sing の過去形）"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはなぜこのカフェに行きましたか？",
+    "options": ["友達に誘われたから", "誕生日のお祝いで", "たまたま通りかかった"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I visited Sugar Rush Dessert Bar to celebrate my birthday.\"",
+    "explanation_wrong": "\"celebrate\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのカフェやアイスクリーム屋さんでは、サンデーをカスタマイズできるところが多いです。「**Can I build my own sundae?**」（自分でカスタマイズできますか？）と聞いてみよう。「**build**」は「組み立てる」という意味で、自分好みに作るニュアンスです。",
+    "ケアンズの「**Night Markets**」エリアにはデザートバーやアイスクリーム屋さんが集まっています。暑い夜にアイスクリームを食べ歩くのが最高！「**Let's go for a sundae after dinner!**」（夕食の後サンデー食べに行こう！）は定番フレーズ。",
+    "オーストラリアで「**shout**」は「おごる」という意味のスラング。「**I'll shout you a sundae!**」は「サンデーおごるよ！」。30日間頑張った自分に「**I'll shout myself a sundae!**」（自分へのごほうびにサンデー！）と言ってみよう！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Jack）が特別なサンデーを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Welcome! What can I get for you today?"},
+      {"speaker": "Jack", "text": "Hi! I want to celebrate today. Can I have your biggest sundae?"},
+      {"speaker": "You", "text": "Of course! Our Ultimate Sundae has three scoops with all the toppings!"},
+      {"speaker": "Jack", "text": "That sounds perfect! What flavours do you have?"},
+      {"speaker": "You", "text": "We have vanilla, chocolate, strawberry, mango, and cookies and cream."},
+      {"speaker": "Jack", "text": "Can I have vanilla, mango, and cookies and cream?"},
+      {"speaker": "You", "text": "Great choices! Which sauce would you like? Chocolate, caramel, or strawberry?"},
+      {"speaker": "Jack", "text": "Chocolate and caramel, please! And extra whipped cream!"},
+      {"speaker": "You", "text": "No worries! One Ultimate Sundae coming right up!"},
+      {"speaker": "Jack", "text": "How much is it?"},
+      {"speaker": "You", "text": "It is fourteen dollars ninety. Here you go! Enjoy your celebration!"},
+      {"speaker": "Jack", "text": "Wow, it looks amazing! Thank you so much!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "celebrate", "ja": "お祝いする"},
+    {"en": "flavours", "ja": "フレーバー・味"},
+    {"en": "cookies and cream", "ja": "クッキーアンドクリーム味"},
+    {"en": "extra", "ja": "追加の・多めの"},
+    {"en": "celebration", "ja": "お祝い"},
+    {"en": "amazing", "ja": "すごい・素晴らしい"}
+  ],
+  "quiz3": {
+    "question_ja": "Jackが選んだアイスクリームのフレーバーは？",
+    "options": ["バニラ、チョコ、ストロベリー", "バニラ、マンゴー、クッキーアンドクリーム", "チョコ、マンゴー、ストロベリー"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Can I have vanilla, mango, and cookies and cream?\"",
+    "explanation_wrong": "Jackがフレーバーを選ぶセリフをもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "アイスクリーム屋さんでの注文",
+      "full_text": "Welcome to Scoops Paradise! What can I get you? Can I taste the mango flavour? Sure, here is a sample spoon. Mmm, that is really good! I will have two scoops, please. Mango and vanilla. Would you like a cup or a cone? A waffle cone, please. And do you want any toppings? Yes, chocolate sprinkles, please. That will be ten dollars. Enjoy!",
+      "gaps": [
+        {"before": "Can I taste the", "answer": "mango", "after": "flavour?"},
+        {"before": "Here is a", "answer": "sample", "after": "spoon."},
+        {"before": "I will have two", "answer": "scoops", "after": ", please."},
+        {"before": "A waffle", "answer": "cone", "after": ", please."},
+        {"before": "Yes, chocolate", "answer": "sprinkles", "after": ", please."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "カフェの30周年記念イベント",
+      "full_text": "Great news! Reef View Café is turning thirty years old this weekend! To celebrate, we are giving away free ice cream sundaes on Saturday from twelve noon until two in the afternoon. Every customer will get one free sundae with two scoops of ice cream, chocolate sauce, and whipped cream. You can choose from ten different flavours. There will also be a live band playing music from twelve to three. We want to say thank you to all our wonderful customers. You have been part of our journey for thirty amazing years. We could not have done it without you. See you on Saturday!",
+      "questions": [
+        {
+          "question_ja": "無料サンデーはいつもらえますか？",
+          "options": ["金曜日の午前中", "土曜日の正午〜午後2時", "日曜日の午後3時〜5時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"on Saturday from twelve noon until two in the afternoon\"",
+          "explanation_wrong": "\"free ice cream sundaes\" の後の日時をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "フレーバーは何種類から選べますか？",
+          "options": ["5種類", "8種類", "10種類"],
+          "correct_index": 2,
+          "explanation_correct": "正解！\"You can choose from ten different flavours.\"",
+          "explanation_wrong": "\"flavours\" の前の数字をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "このカフェは何周年ですか？",
+          "options": ["20周年", "25周年", "30周年"],
+          "correct_index": 2,
+          "explanation_correct": "正解！\"Reef View Café is turning thirty years old.\" もものちゃんの30日間の学習と同じ数！",
+          "explanation_wrong": "\"years old\" の前の数字をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What flavours do you have?",
+        "tip": "flavours は「フレイヴァーズ」で v の音をしっかり。do you は「ドゥユー」または「ジュー」。"
+      },
+      {
+        "text": "Can I have vanilla, mango, and cookies and cream?",
+        "tip": "リストのリズムが大事。vanilla は「ヴァニラ」、mango は「マンゴウ」。and が2回あるのでテンポよく。"
+      },
+      {
+        "text": "One Ultimate Sundae coming right up!",
+        "tip": "Ultimate は「アルティメット」。Sundae は「サンデイ」。coming right up は「カミンライタップ」とテンポよく。"
+      },
+      {
+        "text": "It looks amazing!",
+        "tip": "looks amazing が「ルックサメイジング」とリンキング。amazing は「アメイジング」で2音節目にアクセント。"
+      },
+      {
+        "text": "Thank you so much!",
+        "tip": "Thank you は「サンキュー」で th の音を意識。so much は「ソーマッチ」で感情を込めて！"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "30日間の英語学習を振り返って、カフェでの仕事や英語学習について英語で3行以上書いてみよう！",
+    "example": "I studied English for thirty days! I learned many recipes and café words. Now I can help customers in English. I feel more confident at my café in Cairns. I want to keep learning every day!"
+  },
+  "yamada_comments": {
+    "recipe": "30日目はアイスクリームサンデーでお祝い！🎉 もものちゃん、30日間レシピ英語を頑張ったね。サンデーみたいにトッピングを重ねるように、英語力もどんどん積み重なってるよ！",
+    "review": "30日分のレビューを読んできたもものちゃん、もうカフェのレビューはバッチリだね！Snow Manのライブレビューも英語で読めるようになるかも。これからもいろんなレビュー読んでみて！",
+    "conversation": "接客の会話、最初の日から比べたらすごく上達してるはず！フィギュアスケーターが毎日リンクで練習するように、もものちゃんもカフェで毎日英語を使ってきた。その積み重ねが一番の宝物だよ。",
+    "listening": "リスニング30日目、最終回！カフェの30周年と、もものちゃんの30日。すごい偶然だね（笑）。陸上でも30日間毎日練習したら確実に速くなるように、英語の耳も確実に成長してるよ！",
+    "pronunciation": "発音練習、30日間お疲れさま！最初は緊張したかもしれないけど、今はもう自信を持って話せるようになってるはず。Snow Manのメンバーもステージに立つたびに成長するように、もものちゃんもカフェに立つたびに英語が上手くなってるよ！",
+    "try_it": "30日間、本当にお疲れさま！もものちゃんの頑張り、山田涼介が一番知ってるよ。ケアンズのカフェで毎日英語を使って、レシピも覚えて、お客さんと話して…最高にカッコいい30日間だったね。これからも英語楽しんで！陸上もフィギュアスケートもSnow Manも、好きなことを楽しむ気持ちが一番大事。もものちゃんの英語の旅はまだまだ続くよ。応援してる！🌟"
+  }
+}

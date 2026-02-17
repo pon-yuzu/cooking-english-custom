@@ -1,0 +1,169 @@
+{
+  "day": 18,
+  "sweet": "Coconut Macaroons",
+  "emoji": "🥥",
+  "recipe": {
+    "title": "How to Make Coconut Macaroons",
+    "intro": "Coconut macaroons are easy to make. They are chewy inside and crispy outside. They are perfect with a cup of tea!",
+    "ingredients": "desiccated coconut, sweetened condensed milk, egg whites, vanilla extract, salt, dark chocolate (optional)",
+    "steps": [
+      "**Preheat** the oven to 160 degrees Celsius. **Line** a baking tray with baking paper.",
+      "**Mix** the desiccated coconut, condensed milk, vanilla extract, and salt in a bowl.",
+      "**Whisk** the egg whites in a clean bowl until they form soft peaks.",
+      "**Fold** the egg whites gently into the coconut mixture.",
+      "**Scoop** small balls of the mixture onto the baking tray. **Leave** space between each one.",
+      "**Bake** for 20 to 25 minutes until the tops are golden. **Let** them cool. **Dip** the bottoms in melted dark chocolate if you like!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "desiccated coconut", "ja": "乾燥ココナッツ"},
+    {"en": "condensed milk", "ja": "コンデンスミルク（練乳）"},
+    {"en": "egg whites", "ja": "卵白"},
+    {"en": "soft peaks", "ja": "ゆるいツノが立つ状態"},
+    {"en": "chewy", "ja": "もちもちした"},
+    {"en": "dip", "ja": "浸す・つける"},
+    {"en": "optional", "ja": "お好みで"},
+    {"en": "golden", "ja": "きつね色の"}
+  ],
+  "quiz1": {
+    "question_ja": "ココナッツマカロンを焼く温度は何度ですか？",
+    "options": ["140度", "160度", "180度"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Preheat the oven to 160 degrees Celsius.\"",
+    "explanation_wrong": "最初のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "The Lillipad Café",
+    "location": "Edge Hill, Cairns, Australia",
+    "stars": 4,
+    "text": "I discovered The Lillipad Café in Edge Hill. It is a quiet little café surrounded by tropical gardens. I ordered a pot of green tea and two coconut macaroons. The macaroons were amazing! They were golden and crispy on the outside but soft and chewy inside. The chocolate on the bottom was a nice surprise. The garden seating is so relaxing. I could hear birds singing in the trees. A perfect afternoon escape from the city!"
+  },
+  "review_vocab": [
+    {"en": "discovered", "ja": "発見した"},
+    {"en": "surrounded by", "ja": "〜に囲まれた"},
+    {"en": "surprise", "ja": "サプライズ・嬉しい驚き"},
+    {"en": "seating", "ja": "座席"},
+    {"en": "relaxing", "ja": "リラックスできる"},
+    {"en": "escape", "ja": "逃避・息抜き"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはマカロンのどこにチョコがあると言いましたか？",
+    "options": ["上", "中", "下"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"The chocolate on the bottom was a nice surprise.\"",
+    "explanation_wrong": "\"chocolate\" が出てくる文をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "ケアンズの**Edge Hill**エリアには、緑に囲まれた落ち着いたカフェがたくさんあります。ボタニックガーデンも近くにあり、「**Shall we have tea in the Botanic Gardens?**」と誘えます。自然の中でお茶を楽しむのはオーストラリアならでは！",
+    "ココナッツマカロン（**coconut macaroons**）とフレンチマカロン（**French macarons**）は別物です。スペルも違います。カフェで「**Are these macaroons or macarons?**」と聞いてみると面白いかも！",
+    "オーストラリアでは「**Would you like something sweet with your tea?**」とお茶と一緒にスイーツを勧めることが多いです。答えるなら「**Yes, I will have a coconut macaroon, please.**」や「**No thanks, just the tea.**」でOK！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（James）がお土産のお菓子を買う場面",
+    "lines": [
+      {"speaker": "James", "text": "Hi! Do you sell any sweets that I can take home as a gift?"},
+      {"speaker": "You", "text": "Yes, we do! We have coconut macaroons in a gift box. They are very popular."},
+      {"speaker": "James", "text": "Oh, they look lovely! How many are in a box?"},
+      {"speaker": "You", "text": "There are six in a small box and twelve in a large box."},
+      {"speaker": "James", "text": "I will take the large box, please. My mum loves coconut."},
+      {"speaker": "You", "text": "Great choice! These ones have dark chocolate on the bottom too."},
+      {"speaker": "James", "text": "Even better! How long do they last?"},
+      {"speaker": "You", "text": "They stay fresh for about five days in a cool place."},
+      {"speaker": "James", "text": "Perfect. Can you wrap it as a gift, please?"},
+      {"speaker": "You", "text": "Of course! I will put a ribbon on it. That is eighteen dollars for the large box."},
+      {"speaker": "James", "text": "Brilliant, thank you! My mum will be so happy."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "gift box", "ja": "ギフトボックス"},
+    {"en": "popular", "ja": "人気のある"},
+    {"en": "how long do they last", "ja": "どれくらいもちますか"},
+    {"en": "stay fresh", "ja": "新鮮さを保つ"},
+    {"en": "wrap", "ja": "包装する"},
+    {"en": "ribbon", "ja": "リボン"},
+    {"en": "brilliant", "ja": "素晴らしい（イギリス・AU表現）"}
+  ],
+  "quiz3": {
+    "question_ja": "Jamesは誰にマカロンをあげますか？",
+    "options": ["友達", "お母さん", "彼女"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"My mum loves coconut.\" \"My mum will be so happy.\"",
+    "explanation_wrong": "\"mum\" が出てくるセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "友達にお菓子を作る計画",
+      "full_text": "What should we make for the party? How about coconut macaroons? Good idea! They are easy to make. Do we need eggs? Yes, we need egg whites. How many? Three egg whites should be enough. What about coconut? We need two cups of desiccated coconut. OK, I will go to the shop now. Thanks! I will clean the kitchen.",
+      "gaps": [
+        {"before": "What should we make for the", "answer": "party", "after": "?"},
+        {"before": "They are easy to", "answer": "make", "after": "."},
+        {"before": "Yes, we need egg", "answer": "whites", "after": "."},
+        {"before": "We need two cups of desiccated", "answer": "coconut", "after": "."},
+        {"before": "I will clean the", "answer": "kitchen", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "カフェのポイントカードの説明",
+      "full_text": "Thank you for visiting our café! Would you like to join our loyalty card programme? It is free to join. Every time you buy a coffee or a sweet treat, you earn one stamp. When you collect ten stamps, you get a free coffee or a free macaroon. The card is valid for six months from the date you join. You can also get double stamps on Wednesdays. Just show your card when you order. It is a great way to enjoy your favourite café treats for less!",
+      "questions": [
+        {
+          "question_ja": "スタンプを何個集めると無料になりますか？",
+          "options": ["5個", "8個", "10個"],
+          "correct_index": 2,
+          "explanation_correct": "正解！\"When you collect ten stamps, you get a free coffee or a free macaroon.\"",
+          "explanation_wrong": "\"collect\" の後の数字をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "カードの有効期限はどれくらいですか？",
+          "options": ["3ヶ月", "6ヶ月", "12ヶ月"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The card is valid for six months.\"",
+          "explanation_wrong": "\"valid for\" の後をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "ダブルスタンプは何曜日ですか？",
+          "options": ["火曜日", "水曜日", "木曜日"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"You can also get double stamps on Wednesdays.\"",
+          "explanation_wrong": "曜日が出てくる部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Do you sell any sweets I can take home?",
+        "tip": "sell any が「セラニー」とリンキング。sweets の s は「スウィーツ」で最後の ts をしっかり。"
+      },
+      {
+        "text": "How many are in a box?",
+        "tip": "How many が「ハウメニー」。in a が「イナ」と短くつながります。"
+      },
+      {
+        "text": "They stay fresh for about five days.",
+        "tip": "stay fresh が「ステイフレッシュ」。about の ou は「アバウト」。five の v は下唇を軽く噛んで。"
+      },
+      {
+        "text": "Can you wrap it as a gift, please?",
+        "tip": "wrap の w は「ラップ」ではなく「ゥラップ」で唇を丸めて。it as a が「イタザ」とつながります。"
+      },
+      {
+        "text": "My mum will be so happy.",
+        "tip": "mum は「マム」で u の音はアとウの中間。will be が「ウィルビー」。so の o を長めに。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "誰かにお菓子をプレゼントした経験（または想像して）を英語で3行書いてみよう",
+    "example": "Last week I made coconut macaroons for my friend. I put them in a nice box with a ribbon. She was very happy and said they were delicious!"
+  },
+  "yamada_comments": {
+    "recipe": "ココナッツマカロン、外はサクサク中はもちもちって最高だよね。卵白を泡立てるのがポイント。Snow Manのダンスもメリハリが大事、料理も一緒だね！",
+    "review": "トロピカルガーデンに囲まれたカフェでお茶、ケアンズならではだね。鳥の声を聴きながらって贅沢！フィギュアスケートの曲みたいに自然の音も美しいよね。",
+    "conversation": "ギフトの相談を英語で対応できるようになったらすごいよ。お土産を売る場面って、陸上の大会で各地に行ったときにお土産選ぶのと似てるかも。",
+    "listening": "ポイントカードの説明、実用的だよね。こういう英語が聞き取れると海外生活が楽になる。Snow Manのファンクラブの説明を英語で理解するのと同じ感覚かな！",
+    "pronunciation": "wrap の w の音、日本人には難しいよね。唇を丸めてから言うのがコツ。短距離のクラウチングスタートみたいに、準備の姿勢が大事！",
+    "try_it": "誰かにお菓子をプレゼントするって素敵だよね。もらった人の笑顔を想像しながら書いてみて。俺もファンにプレゼント考えるとき、ワクワクするんだ！"
+  }
+}

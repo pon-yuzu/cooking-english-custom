@@ -1,0 +1,169 @@
+{
+  "day": 25,
+  "sweet": "Granola Bars",
+  "emoji": "🥜",
+  "recipe": {
+    "title": "How to Make Granola Bars",
+    "intro": "Granola bars are a healthy snack you can make at home. They are perfect for a busy day at the café or before a workout!",
+    "ingredients": "rolled oats, honey, peanut butter, mixed nuts, dried cranberries, chocolate chips, coconut oil, vanilla extract",
+    "steps": [
+      "**Preheat** the oven to 170 degrees Celsius and **line** a baking tray with baking paper.",
+      "**Mix** the rolled oats, chopped nuts, and dried cranberries in a large bowl.",
+      "**Heat** the honey, peanut butter, and coconut oil in a small pot until smooth.",
+      "**Pour** the warm mixture over the oats and **stir** well until everything is coated.",
+      "**Press** the mixture firmly into the baking tray with a spoon or your hands.",
+      "**Bake** for 20 to 25 minutes until golden. **Cool** completely, then **cut** into bars."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "rolled oats", "ja": "押しオーツ麦"},
+    {"en": "peanut butter", "ja": "ピーナッツバター"},
+    {"en": "dried cranberries", "ja": "ドライクランベリー"},
+    {"en": "coconut oil", "ja": "ココナッツオイル"},
+    {"en": "line", "ja": "（紙を）敷く"},
+    {"en": "coated", "ja": "まんべんなくからまった"},
+    {"en": "press", "ja": "押し固める"},
+    {"en": "firmly", "ja": "しっかりと"},
+    {"en": "cool", "ja": "冷ます"}
+  ],
+  "quiz1": {
+    "question_ja": "グラノーラバーを焼く温度は何度ですか？",
+    "options": ["150度", "170度", "200度"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Preheat the oven to 170 degrees Celsius.\"",
+    "explanation_wrong": "最初のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Rusty's Market Café",
+    "location": "Cairns City, Queensland, Australia",
+    "stars": 4,
+    "text": "I stopped by Rusty's Market Café after shopping at the markets. They have a great selection of homemade snacks. I tried their granola bar with a flat white. The bar was crunchy and not too sweet. It had lots of nuts and oats. I liked that it was a healthy option. The staff were really friendly. I will come back for the weekend markets!"
+  },
+  "review_vocab": [
+    {"en": "stopped by", "ja": "立ち寄った"},
+    {"en": "selection", "ja": "品揃え"},
+    {"en": "crunchy", "ja": "サクサクした"},
+    {"en": "option", "ja": "選択肢"},
+    {"en": "staff", "ja": "スタッフ"},
+    {"en": "come back", "ja": "また来る"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはグラノーラバーの味をどう言っていましたか？",
+    "options": ["甘すぎた", "甘すぎなかった", "味がなかった"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"The bar was crunchy and not too sweet.\"",
+    "explanation_wrong": "\"sweet\" が出てくる文を探してみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアではヘルシー志向の人が多く、カフェでも「**granola bar**」や「**bliss ball**」（ブリスボール）などのヘルシースナックが人気です。注文するときは「**Can I grab a granola bar, please?**」と言えばOK！「**grab**」はオーストラリアでよく使うカジュアルな表現です。",
+    "ケアンズの「**Rusty's Markets**」は毎週金・土・日に開催されるファーマーズマーケット。地元の新鮮なフルーツやナッツが手に入ります。「**Are these locally grown?**」（これは地元産ですか？）と聞いてみよう！",
+    "オーストラリア人はスナックのことを「**arvo snack**」と言うことがあります。**arvo** は afternoon のスラング。「**Want an arvo snack?**」（午後のおやつ食べる？）はオーストラリアらしい表現です。"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Daniel）がヘルシーなスナックを探している場面",
+    "lines": [
+      {"speaker": "You", "text": "Hi there! What can I get for you today?"},
+      {"speaker": "Daniel", "text": "Hi! Do you have any healthy snacks?"},
+      {"speaker": "You", "text": "Yes, we have homemade granola bars and bliss balls."},
+      {"speaker": "Daniel", "text": "What is in the granola bar?"},
+      {"speaker": "You", "text": "It has oats, nuts, honey, and dried cranberries."},
+      {"speaker": "Daniel", "text": "Does it have any dairy?"},
+      {"speaker": "You", "text": "No, it is dairy-free. It is made with coconut oil."},
+      {"speaker": "Daniel", "text": "Perfect! I will have one granola bar, please."},
+      {"speaker": "You", "text": "Sure! Would you like a coffee with that?"},
+      {"speaker": "Daniel", "text": "Yes, a long black, please."},
+      {"speaker": "You", "text": "Great! That is nine dollars fifty. Enjoy your snack!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "healthy", "ja": "ヘルシーな・健康的な"},
+    {"en": "bliss ball", "ja": "ブリスボール（ヘルシーなお菓子）"},
+    {"en": "dairy", "ja": "乳製品"},
+    {"en": "dairy-free", "ja": "乳製品不使用の"},
+    {"en": "long black", "ja": "ロングブラック（AU式ブラックコーヒー）"},
+    {"en": "snack", "ja": "おやつ・軽食"}
+  ],
+  "quiz3": {
+    "question_ja": "Danielはなぜグラノーラバーを選びましたか？",
+    "options": ["一番安いから", "乳製品が入っていないから", "チョコレート味だから"],
+    "correct_index": 1,
+    "explanation_correct": "正解！乳製品の有無を聞いて、dairy-freeだと分かって注文しました。",
+    "explanation_wrong": "Danielが\"dairy\"について聞いた部分をもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "ジムの後のスナック選び",
+      "full_text": "I am so hungry after the gym. Me too! Let's get a snack. Do you want a muffin or a granola bar? I will have the granola bar. It is healthier. Good choice. I need some energy before my run this afternoon. Same here. I have a long training session later. OK, let's also get some water. Yes, staying hydrated is important!",
+      "gaps": [
+        {"before": "I am so", "answer": "hungry", "after": "after the gym."},
+        {"before": "Do you want a muffin or a", "answer": "granola bar", "after": "?"},
+        {"before": "I need some", "answer": "energy", "after": "before my run this afternoon."},
+        {"before": "I have a long", "answer": "training", "after": "session later."},
+        {"before": "Yes, staying", "answer": "hydrated", "after": "is important!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "カフェの新メニュー紹介",
+      "full_text": "Good news, everyone! We have a new snack menu at Treetops Café. Starting this Monday, we will sell three kinds of homemade granola bars. The first one is classic oat and honey. The second one is chocolate and coconut. The third one is tropical mango and macadamia. Each bar costs four dollars fifty. If you buy two, you get a fifty cent discount. They are all gluten-free and vegan. Come and try them this week!",
+      "questions": [
+        {
+          "question_ja": "グラノーラバーは何種類ありますか？",
+          "options": ["2種類", "3種類", "4種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"three kinds of homemade granola bars\"",
+          "explanation_wrong": "\"three kinds\" をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "1本いくらですか？",
+          "options": ["3ドル50セント", "4ドル50セント", "5ドル50セント"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Each bar costs four dollars fifty.\"",
+          "explanation_wrong": "値段を言っている部分をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "グラノーラバーの特徴は？",
+          "options": ["オーガニックで低カロリー", "グルテンフリーでビーガン", "砂糖不使用で高たんぱく"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"They are all gluten-free and vegan.\"",
+          "explanation_wrong": "最後の方の説明をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Do you have any healthy snacks?",
+        "tip": "have any が「ハヴェニー」とリンキングします。healthy の th は舌を軽く噛んで。"
+      },
+      {
+        "text": "It has oats, nuts, honey, and dried cranberries.",
+        "tip": "リスト読みのリズムが大事。oats, nuts, honey とテンポよく。and の a は弱く「アンド」→「ンド」。"
+      },
+      {
+        "text": "Is it dairy-free?",
+        "tip": "dairy は「デアリー」。free の f は下唇を噛んで。文末は上がり調子で。"
+      },
+      {
+        "text": "Would you like a coffee with that?",
+        "tip": "Would you が「ウッジュー」。with that が「ウィズザッ」とつながります。"
+      },
+      {
+        "text": "That is nine dollars fifty.",
+        "tip": "nine の n をしっかり。dollars は「ダラーズ」。fifty の f は下唇を軽く噛んで。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "あなたのお気に入りのヘルシースナックについて英語で3行書いてみよう",
+    "example": "My favourite healthy snack is a granola bar. I like the ones with chocolate chips and nuts. I always eat one before my afternoon run."
+  },
+  "yamada_comments": {
+    "recipe": "グラノーラバー、自分で作れたらカッコいいよね！陸上やってると間食って大事だし、ヘルシーなおやつのレシピ英語で覚えておくと役立つよ。",
+    "review": "カフェのレビューで \"healthy option\" って書いてあると安心するよね。ツアー先でも体に良いもの探すとき、こういう単語知ってると便利！",
+    "conversation": "アレルギーの対応って接客で大事だよね。\"dairy-free\" とか \"gluten-free\" はよく聞かれるから覚えておこう！フィギュアの選手も食事管理しっかりしてるしね。",
+    "listening": "リスニング、25日目だよ！すごい！Snow Manのライブ映像も最初は英語の歌詞聴き取れなくても、毎日聴いてたら耳が慣れてくるでしょ？",
+    "pronunciation": "声に出す練習、続けてるかな？陸上の100m走も、フォームを毎日確認するから速くなるんだよ。発音も同じ！",
+    "try_it": "ヘルシースナック、もものちゃんは何が好き？トレーニング前のおやつとか英語で書いてみよう！"
+  }
+}

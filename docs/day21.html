@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🥖 Day 21: Churros — Cooking English Custom</title>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&family=Quicksand:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #E8792F;
+  --primary-light: #FDF0E6;
+  --primary-dark: #C45A1A;
+  --navy: #1B3A5C;
+  --blue: #2E75B6;
+  --blue-light: #D6E8F7;
+  --green: #4CAF50;
+  --green-light: #E8F5E9;
+  --purple: #7B1FA2;
+  --purple-light: #F3E5F5;
+  --listening-color: #00897B;
+  --listening-light: #E0F2F1;
+  --bg: #FAFAF7;
+  --card-bg: #FFFFFF;
+  --text: #333333;
+  --text-light: #666666;
+  --border: #E8E5DF;
+  --shadow: 0 2px 12px rgba(27,58,92,0.08);
+  --shadow-hover: 0 4px 20px rgba(27,58,92,0.14);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --yamada-bg: linear-gradient(135deg, #FFF5F5 0%, #FFF0F5 50%, #F5F0FF 100%);
+  --yamada-border: #E8B4B8;
+  --yamada-accent: #C2185B;
+  --pronun-color: #E65100;
+  --pronun-light: #FFF3E0;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Noto Sans JP', 'Zen Maru Gothic', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, var(--navy) 0%, #2A5080 100%);
+  color: white;
+  padding: 2rem 1.5rem 1.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(232,121,47,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.header-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.8rem;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.header h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.header p { font-size: 0.85rem; opacity: 0.8; }
+
+.progress-bar {
+  background: white;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.progress-dots { display: flex; gap: 4px; justify-content: center; align-items: center; }
+.progress-dot {
+  width: 28px; height: 6px; border-radius: 3px;
+  background: var(--border); transition: all 0.3s; cursor: pointer;
+}
+.progress-dot.active { background: var(--primary); }
+.progress-dot.complete { background: var(--green); }
+.progress-label {
+  text-align: center; font-size: 0.7rem; color: var(--text-light);
+  margin-top: 0.4rem; font-family: 'Quicksand', sans-serif; font-weight: 600;
+}
+
+.main { max-width: 640px; margin: 0 auto; padding: 1rem 1rem 4rem; }
+
+.section-card {
+  background: var(--card-bg); border-radius: var(--radius);
+  margin-bottom: 1.2rem; box-shadow: var(--shadow);
+  overflow: hidden; border: 1px solid var(--border);
+  transition: box-shadow 0.3s;
+  animation: fadeIn 0.4s ease both;
+}
+.section-card:hover { box-shadow: var(--shadow-hover); }
+.section-card:nth-child(1) { animation-delay: 0.05s; }
+.section-card:nth-child(2) { animation-delay: 0.1s; }
+.section-card:nth-child(3) { animation-delay: 0.15s; }
+.section-card:nth-child(4) { animation-delay: 0.2s; }
+.section-card:nth-child(5) { animation-delay: 0.25s; }
+.section-card:nth-child(6) { animation-delay: 0.3s; }
+.section-card:nth-child(7) { animation-delay: 0.35s; }
+.section-card:nth-child(8) { animation-delay: 0.4s; }
+.section-card:nth-child(9) { animation-delay: 0.45s; }
+.section-card:nth-child(10) { animation-delay: 0.5s; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.section-header {
+  display: flex; align-items: center; gap: 0.8rem;
+  padding: 1rem 1.2rem; cursor: pointer; user-select: none;
+  transition: background 0.2s;
+}
+.section-header:hover { background: rgba(0,0,0,0.02); }
+.section-number {
+  width: 32px; height: 32px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Quicksand', sans-serif; font-weight: 700;
+  font-size: 0.85rem; color: white; flex-shrink: 0;
+}
+.section-title { flex: 1; }
+.section-title .label {
+  font-size: 0.65rem; font-family: 'Quicksand', sans-serif;
+  font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; opacity: 0.7;
+}
+.section-title .name { font-size: 1rem; font-weight: 700; }
+.section-chevron { font-size: 1.2rem; transition: transform 0.3s; opacity: 0.4; }
+.section-card.open .section-chevron { transform: rotate(180deg); }
+.section-body { padding: 0 1.2rem 1.2rem; display: none; }
+.section-card.open .section-body { display: block; }
+
+.yamada-comment {
+  background: var(--yamada-bg); border: 1px solid var(--yamada-border);
+  border-radius: var(--radius-sm); padding: 0.8rem 1rem;
+  margin-bottom: 1rem; display: flex; gap: 0.6rem;
+  align-items: flex-start; font-size: 0.85rem; line-height: 1.6;
+}
+.yamada-text { flex: 1; }
+.yamada-name {
+  font-size: 0.7rem; font-weight: 700; color: var(--yamada-accent);
+  font-family: 'Quicksand', sans-serif; margin-bottom: 0.15rem;
+}
+
+.recipe-box {
+  background: #FFFDF9; border: 1px solid #F0E8D8;
+  border-radius: var(--radius-sm); padding: 1.2rem; margin-bottom: 1rem;
+}
+.recipe-box h3 { font-family: 'Quicksand', sans-serif; font-size: 1.1rem; color: var(--navy); margin-bottom: 0.8rem; }
+.recipe-box .ingredients {
+  font-size: 0.85rem; color: var(--text-light); margin-bottom: 1rem;
+  padding: 0.6rem; background: rgba(232,121,47,0.05); border-radius: 8px;
+}
+.recipe-box .ingredients strong { color: var(--primary-dark); }
+.recipe-steps { counter-reset: step; list-style: none; }
+.recipe-steps li {
+  counter-increment: step; padding: 0.5rem 0 0.5rem 2.2rem;
+  position: relative; font-size: 0.9rem; border-bottom: 1px solid #F5F0E8;
+}
+.recipe-steps li:last-child { border-bottom: none; }
+.recipe-steps li::before {
+  content: counter(step); position: absolute; left: 0; top: 0.5rem;
+  width: 24px; height: 24px; background: var(--primary); color: white;
+  border-radius: 50%; font-size: 0.75rem; font-family: 'Quicksand', sans-serif;
+  font-weight: 700; display: flex; align-items: center; justify-content: center;
+}
+.recipe-steps li strong { color: var(--navy); }
+
+.action-row { display: flex; gap: 0.5rem; margin: 0.8rem 0; flex-wrap: wrap; }
+.action-btn {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.8rem; border: 1px solid var(--border);
+  border-radius: 20px; font-size: 0.75rem; background: white;
+  cursor: pointer; transition: all 0.2s; font-family: 'Noto Sans JP', sans-serif;
+  color: var(--text-light); text-decoration: none;
+}
+.action-btn:hover { background: var(--blue-light); border-color: var(--blue); color: var(--navy); }
+
+.vocab-toggle {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.8rem; border: 1px solid var(--border);
+  border-radius: 20px; font-size: 0.75rem; background: white;
+  cursor: pointer; transition: all 0.2s; color: var(--text-light); margin-bottom: 0.5rem;
+}
+.vocab-toggle:hover { background: var(--green-light); border-color: var(--green); }
+.vocab-list { display: none; margin-top: 0.5rem; }
+.vocab-list.show { display: block; }
+.vocab-item {
+  display: flex; align-items: center; gap: 0.8rem;
+  padding: 0.5rem 0.8rem; border-radius: 8px; font-size: 0.85rem;
+  transition: background 0.2s; cursor: pointer;
+}
+.vocab-item:hover { background: rgba(0,0,0,0.03); }
+.vocab-check {
+  width: 18px; height: 18px; border: 2px solid var(--border);
+  border-radius: 4px; flex-shrink: 0; display: flex;
+  align-items: center; justify-content: center;
+  transition: all 0.2s; font-size: 0.7rem; color: transparent;
+}
+.vocab-item.checked .vocab-check { background: var(--primary); border-color: var(--primary); color: white; }
+.vocab-en { font-weight: 700; color: var(--navy); min-width: 100px; }
+.vocab-ja { color: var(--text-light); font-size: 0.8rem; }
+
+.quiz-question { font-weight: 700; font-size: 0.95rem; margin-bottom: 0.8rem; color: var(--navy); padding-left: 0.3rem; }
+.quiz-options { display: flex; flex-direction: column; gap: 0.5rem; }
+.quiz-option {
+  padding: 0.7rem 1rem; border: 2px solid var(--border);
+  border-radius: var(--radius-sm); cursor: pointer; font-size: 0.9rem;
+  transition: all 0.2s; background: white;
+}
+.quiz-option:hover { border-color: var(--blue); background: var(--blue-light); }
+.quiz-option.correct { border-color: var(--green); background: var(--green-light); }
+.quiz-option.wrong { border-color: #E53935; background: #FFEBEE; }
+.quiz-feedback { margin-top: 0.8rem; padding: 0.6rem 0.8rem; border-radius: 8px; font-size: 0.85rem; display: none; }
+.quiz-feedback.show { display: block; }
+.quiz-feedback.correct { background: var(--green-light); color: #2E7D32; }
+.quiz-feedback.wrong { background: #FFEBEE; color: #C62828; }
+
+.review-card {
+  background: linear-gradient(135deg, #FFFDF7 0%, #FFF8F0 100%);
+  border: 1px solid #F0E0C8; border-radius: var(--radius-sm);
+  padding: 1.2rem; margin-bottom: 1rem;
+}
+.review-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; }
+.review-header h4 { font-family: 'Quicksand', sans-serif; font-size: 0.95rem; color: var(--navy); }
+.review-stars { color: #F9A825; font-size: 0.9rem; }
+.review-text { font-size: 0.9rem; line-height: 1.9; color: var(--text); }
+
+.tips-box {
+  background: linear-gradient(135deg, #F0F8FF 0%, #E8F5E9 100%);
+  border: 1px solid #C8E6C9; border-radius: var(--radius-sm); padding: 1.2rem;
+}
+.tips-box p { font-size: 0.85rem; margin-bottom: 0.8rem; line-height: 1.8; }
+.tips-box p:last-child { margin-bottom: 0; }
+
+.conversation-scene {
+  background: var(--blue-light); border-radius: var(--radius-sm);
+  padding: 0.6rem 1rem; font-size: 0.8rem; color: var(--navy);
+  margin-bottom: 1rem; font-weight: 500;
+}
+.convo-line { display: flex; gap: 0.6rem; margin-bottom: 0.6rem; align-items: flex-start; }
+.convo-speaker { font-weight: 700; font-size: 0.8rem; min-width: 50px; padding-top: 0.1rem; flex-shrink: 0; }
+.convo-speaker.you { color: var(--primary); }
+.convo-speaker.emma { color: var(--blue); }
+.convo-text { font-size: 0.9rem; }
+
+/* ===== LISTENING ===== */
+.listening-box {
+  background: var(--listening-light); border: 1px solid #B2DFDB;
+  border-radius: var(--radius-sm); padding: 1.2rem; margin-bottom: 1rem;
+}
+.listening-box h4 { font-family: 'Quicksand', sans-serif; color: var(--listening-color); font-size: 0.95rem; margin-bottom: 0.8rem; }
+.listening-instruction { font-size: 0.85rem; color: var(--text-light); margin-bottom: 0.6rem; }
+
+.tts-btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.5rem 1.2rem; background: var(--listening-color);
+  color: white; border: none; border-radius: 20px;
+  font-size: 0.8rem; font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700; cursor: pointer; transition: all 0.2s;
+  margin-bottom: 0.8rem;
+}
+.tts-btn:hover { background: #00695C; transform: translateY(-1px); }
+.tts-btn.playing { background: #E53935; }
+.tts-btn.playing:hover { background: #C62828; }
+
+.tts-speed {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  margin-left: 0.5rem; font-size: 0.75rem; color: var(--text-light);
+}
+.tts-speed select {
+  border: 1px solid var(--border); border-radius: 12px;
+  padding: 0.2rem 0.4rem; font-size: 0.75rem;
+  background: white; cursor: pointer;
+}
+
+.gap-fill { margin: 0.5rem 0; font-size: 0.9rem; line-height: 2.4; }
+.gap-fill input {
+  border: none; border-bottom: 2px solid var(--listening-color);
+  background: rgba(0,137,123,0.05); border-radius: 4px 4px 0 0;
+  padding: 0.1rem 0.3rem; font-size: 0.9rem;
+  font-family: 'Quicksand', sans-serif; font-weight: 600;
+  width: 100px; text-align: center; outline: none;
+  color: var(--listening-color);
+}
+.gap-fill input:focus { border-bottom-color: var(--primary); background: rgba(232,121,47,0.08); }
+.gap-fill input.correct-input { border-bottom-color: #4CAF50; background: rgba(76,175,80,0.1); }
+.gap-fill input.wrong-input { border-bottom-color: #E53935; background: rgba(229,57,53,0.1); }
+
+.listening-check-btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.5rem 1.2rem; background: var(--listening-color);
+  color: white; border: none; border-radius: 20px;
+  font-size: 0.8rem; font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700; cursor: pointer; transition: all 0.2s; margin-top: 0.5rem;
+}
+.listening-check-btn:hover { background: #00695C; transform: translateY(-1px); }
+.listening-answer {
+  margin-top: 0.8rem; padding: 0.6rem 0.8rem; background: white;
+  border-radius: 8px; font-size: 0.85rem; display: none; border: 1px solid #B2DFDB;
+}
+.listening-answer.show { display: block; }
+
+.listening-script-toggle {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.8rem; border: 1px dashed var(--listening-color);
+  border-radius: 20px; font-size: 0.75rem; background: white;
+  cursor: pointer; color: var(--listening-color); margin-top: 0.5rem;
+}
+.listening-script { display: none; margin-top: 0.6rem; padding: 0.8rem; background: white; border-radius: 8px; font-size: 0.85rem; border: 1px solid #B2DFDB; line-height: 1.8; }
+.listening-script.show { display: block; }
+
+.try-it-box {
+  background: var(--purple-light); border: 1px solid #CE93D8;
+  border-radius: var(--radius-sm); padding: 1.2rem;
+}
+.try-it-box h4 { color: var(--purple); font-family: 'Quicksand', sans-serif; margin-bottom: 0.5rem; }
+.try-it-box p { font-size: 0.85rem; margin-bottom: 0.6rem; }
+.try-it-textarea {
+  width: 100%; min-height: 100px; border: 1px solid #CE93D8;
+  border-radius: 8px; padding: 0.8rem; font-size: 0.9rem;
+  font-family: 'Noto Sans JP', sans-serif; line-height: 1.8;
+  resize: vertical; outline: none; transition: border-color 0.2s;
+}
+.try-it-textarea:focus { border-color: var(--purple); }
+
+.summary-box {
+  background: white; border: 2px dashed var(--border);
+  border-radius: var(--radius-sm); padding: 1.2rem; text-align: center;
+}
+.summary-btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.6rem 1.5rem; background: var(--navy); color: white;
+  border: none; border-radius: 20px; font-size: 0.85rem;
+  font-family: 'Noto Sans JP', sans-serif; font-weight: 700;
+  cursor: pointer; transition: all 0.2s; margin-bottom: 0.5rem;
+}
+.summary-btn:hover { background: #2A5080; transform: translateY(-1px); }
+.summary-output {
+  margin-top: 0.8rem; text-align: left; font-size: 0.8rem;
+  color: var(--text-light); padding: 0.8rem; background: #F5F5F5;
+  border-radius: 8px; display: none; white-space: pre-wrap;
+}
+.summary-output.show { display: block; }
+
+.day-nav {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem 0; margin-top: 1rem; border-top: 1px solid var(--border);
+}
+.nav-btn {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.5rem 1rem; border: 1px solid var(--border);
+  border-radius: 20px; font-size: 0.85rem; background: white;
+  cursor: pointer; transition: all 0.2s; text-decoration: none;
+  color: var(--text); font-family: 'Noto Sans JP', sans-serif;
+}
+.nav-btn:hover { background: var(--blue-light); border-color: var(--blue); }
+.nav-btn.disabled { opacity: 0.4; pointer-events: none; }
+.home-btn {
+  padding: 0.5rem 1rem; background: var(--primary); color: white;
+  border: none; border-radius: 20px; font-size: 0.8rem; cursor: pointer;
+  text-decoration: none; font-family: 'Quicksand', sans-serif; font-weight: 700;
+}
+
+.sec-recipe .section-number { background: var(--primary); }
+.sec-quiz1 .section-number { background: var(--blue); }
+.sec-review .section-number { background: #F9A825; }
+.sec-quiz2 .section-number { background: var(--blue); }
+.sec-tips .section-number { background: var(--green); }
+.sec-convo .section-number { background: var(--navy); }
+.sec-quiz3 .section-number { background: var(--blue); }
+.sec-listening .section-number { background: var(--listening-color); }
+.sec-tryit .section-number { background: var(--purple); }
+.sec-summary .section-number { background: var(--text-light); }
+.sec-pronun .section-number { background: var(--pronun-color); }
+
+/* ===== PRONUNCIATION CHECK ===== */
+.pronun-box {
+  background: var(--pronun-light);
+  border: 1px solid #FFB74D;
+  border-radius: var(--radius-sm);
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+}
+.pronun-box h4 {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--pronun-color);
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+}
+.pronun-sentence {
+  background: white;
+  border: 2px solid #FFB74D;
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  margin: 0.8rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-align: center;
+  line-height: 1.8;
+}
+.pronun-sentence .word {
+  display: inline-block;
+  padding: 0.1rem 0.2rem;
+  border-radius: 4px;
+  transition: all 0.3s;
+  margin: 0 1px;
+}
+.pronun-sentence .word.correct { background: rgba(76,175,80,0.2); color: #2E7D32; }
+.pronun-sentence .word.wrong { background: rgba(229,57,53,0.2); color: #C62828; text-decoration: underline wavy #E53935; }
+.pronun-sentence .word.missed { background: rgba(255,152,0,0.2); color: #E65100; }
+
+.pronun-record-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background: var(--pronun-color);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.pronun-record-btn:hover { background: #BF360C; transform: translateY(-1px); }
+.pronun-record-btn.recording {
+  background: #E53935;
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(229,57,53,0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(229,57,53,0); }
+}
+
+.pronun-result {
+  margin-top: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius-sm);
+  display: none;
+  font-size: 0.85rem;
+}
+.pronun-result.show { display: block; }
+.pronun-result.good { background: var(--green-light); border: 1px solid #A5D6A7; }
+.pronun-result.needs-work { background: #FFF3E0; border: 1px solid #FFB74D; }
+.pronun-result.try-again { background: #FFEBEE; border: 1px solid #EF9A9A; }
+
+.pronun-score {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.pronun-score-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: white;
+  flex-shrink: 0;
+}
+.pronun-score-circle.high { background: var(--green); }
+.pronun-score-circle.mid { background: #FF9800; }
+.pronun-score-circle.low { background: #E53935; }
+
+.pronun-heard {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  background: rgba(0,0,0,0.03);
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+.pronun-heard strong { color: var(--navy); }
+
+.pronun-tips {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  padding-left: 0.5rem;
+}
+.pronun-tips li { margin-bottom: 0.3rem; }
+
+.pronun-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+.pronun-nav-btn {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.pronun-nav-btn:hover { background: var(--pronun-light); border-color: #FFB74D; }
+.pronun-nav-btn.disabled { opacity: 0.3; pointer-events: none; }
+.pronun-counter {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+.pronun-browser-note {
+  font-size: 0.7rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  background: rgba(0,0,0,0.03);
+  border-radius: 6px;
+}
+
+.repeat-count { font-size: 0.75rem; color: var(--text-light); margin-left: 0.5rem; }
+
+@media (max-width: 480px) {
+  .header h1 { font-size: 1.6rem; }
+  .main { padding: 0.8rem 0.6rem 4rem; }
+  .section-body { padding: 0 0.8rem 1rem; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-badge">COOKING ENGLISH — CUSTOM EDITION</div>
+  <h1>🥖 Day 21: Churros</h1>
+  <p>30日間クッキング英語 — 21日目</p>
+</div>
+
+<div class="progress-bar">
+  <div class="progress-dots">
+    <div class="progress-dot active" data-section="0"></div>
+    <div class="progress-dot" data-section="1"></div>
+    <div class="progress-dot" data-section="2"></div>
+    <div class="progress-dot" data-section="3"></div>
+    <div class="progress-dot" data-section="4"></div>
+    <div class="progress-dot" data-section="5"></div>
+    <div class="progress-dot" data-section="6"></div>
+    <div class="progress-dot" data-section="7"></div>
+    <div class="progress-dot" data-section="8"></div>
+    <div class="progress-dot" data-section="9"></div>
+    <div class="progress-dot" data-section="10"></div>
+  </div>
+  <div class="progress-label">1 / 11 セクション</div>
+</div>
+
+<div class="main">
+
+<div class="section-card sec-recipe open" data-index="0">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">1</div>
+    <div class="section-title"><div class="label">Recipe</div><div class="name">Churrosのレシピを読んでみよう</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        チュロス、揚げたてが最高だよね！絞り袋を使うのはちょっとコツがいるけど、フィギュアスケートのジャンプも最初は難しかったはず。練習あるのみ！
+      </div>
+    </div>
+    <div class="recipe-box">
+      <h3>How to Make Churros</h3>
+      <p>Churros are fried dough sticks coated in cinnamon sugar. They are crispy on the outside and soft inside. Serve them with chocolate sauce for dipping!</p>
+      <div class="ingredients">
+        <strong>Ingredients:</strong><br>
+        water, butter, sugar, salt, plain flour, eggs, cinnamon, caster sugar, oil for frying, dark chocolate, cream
+      </div>
+      <ol class="recipe-steps">
+        <li><strong>Boil</strong> the water, butter, sugar, and salt in a pot over medium heat.</li>
+        <li><strong>Remove</strong> the pot from the heat and <strong>add</strong> the flour all at once. <strong>Stir</strong> hard until the dough forms a ball.</li>
+        <li><strong>Add</strong> the eggs one at a time and <strong>mix</strong> well after each one.</li>
+        <li><strong>Put</strong> the dough into a piping bag with a star tip.</li>
+        <li><strong>Heat</strong> the oil to 180 degrees. <strong>Pipe</strong> the dough into the oil and <strong>fry</strong> for 3 to 4 minutes until golden.</li>
+        <li><strong>Roll</strong> the hot churros in cinnamon sugar. <strong>Melt</strong> the chocolate with cream to make a dipping sauce. <strong>Serve</strong> warm!</li>
+      </ol>
+    </div>
+    <div class="action-row">
+      <button class="action-btn" onclick="copyText('recipe-text')">📋 コピー</button>
+      <button class="action-btn tts-btn" onclick="speakText('recipe-tts', this)">🔊 読み上げ</button>
+    </div>
+    <div id="recipe-text" style="display:none">How to Make Churros. Churros are fried dough sticks coated in cinnamon sugar. They are crispy on the outside and soft inside. Serve them with chocolate sauce for dipping! Ingredients: water, butter, sugar, salt, plain flour, eggs, cinnamon, caster sugar, oil for frying, dark chocolate, cream. Steps: 1. **Boil** the water, butter, sugar, and salt in a pot over medium heat. 2. **Remove** the pot from the heat and **add** the flour all at once. **Stir** hard until the dough forms a ball. 3. **Add** the eggs one at a time and **mix** well after each one. 4. **Put** the dough into a piping bag with a star tip. 5. **Heat** the oil to 180 degrees. **Pipe** the dough into the oil and **fry** for 3 to 4 minutes until golden. 6. **Roll** the hot churros in cinnamon sugar. **Melt** the chocolate with cream to make a dipping sauce. **Serve** warm!</div>
+    <div id="recipe-tts" style="display:none">How to Make Churros. Churros are fried dough sticks coated in cinnamon sugar. They are crispy on the outside and soft inside. Serve them with chocolate sauce for dipping! Step 1. **Boil** the water, butter, sugar, and salt in a pot over medium heat. Step 2. **Remove** the pot from the heat and **add** the flour all at once. **Stir** hard until the dough forms a ball. Step 3. **Add** the eggs one at a time and **mix** well after each one. Step 4. **Put** the dough into a piping bag with a star tip. Step 5. **Heat** the oil to 180 degrees. **Pipe** the dough into the oil and **fry** for 3 to 4 minutes until golden. Step 6. **Roll** the hot churros in cinnamon sugar. **Melt** the chocolate with cream to make a dipping sauce. **Serve** warm!</div>
+    <button class="vocab-toggle" onclick="toggleVocab(this)">📚 単語リストを見る</button>
+    <div class="vocab-list">
+      <p style="font-size:0.75rem;color:var(--text-light);margin-bottom:0.5rem;">💡 わからなかった単語にチェック ✓</p>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">fried</span><span class="vocab-ja">揚げた</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">coated</span><span class="vocab-ja">まぶした</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">cinnamon</span><span class="vocab-ja">シナモン</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">dipping</span><span class="vocab-ja">ディップ用の</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">piping bag</span><span class="vocab-ja">絞り袋</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">star tip</span><span class="vocab-ja">星型の口金</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">fry</span><span class="vocab-ja">揚げる</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">pipe</span><span class="vocab-ja">絞り出す</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">crispy</span><span class="vocab-ja">サクサクの</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-quiz1" data-index="1">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">2</div>
+    <div class="section-title"><div class="label">Quiz 1</div><div class="name">レシピの内容チェック</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="quiz-question">Q: チュロスを揚げる時間はどのくらいですか？</div>
+    <div class="quiz-options">
+      <div class="quiz-option" onclick="checkQuiz(this, false)">1〜2分</div>
+      <div class="quiz-option" onclick="checkQuiz(this, true)">3〜4分</div>
+      <div class="quiz-option" onclick="checkQuiz(this, false)">5〜6分</div>
+    </div>
+    <div class="quiz-feedback correct">⭕ 正解！正解！&quot;Fry for 3 to 4 minutes until golden.&quot;</div>
+    <div class="quiz-feedback wrong">❌ 揚げるステップをもう一回読んでみよう！</div>
+  </div>
+</div>
+
+<div class="section-card sec-review" data-index="2">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">3</div>
+    <div class="section-title"><div class="label">Review</div><div class="name">カフェのお客さんレビュー</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        ケアンズのワーフエリア、めっちゃいい雰囲気だよね。俺もSnow Manのツアーで色んな街を回るけど、港の近くっていいお店が多いんだ。
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="review-header"><span>☕</span><h4>Prawn Star Dessert Bar — Cairns Wharf, Queensland, Australia</h4></div>
+      <div class="review-stars">⭐⭐⭐⭐</div>
+      <div class="review-text" style="margin-top:0.5rem;">
+        I found Prawn Star Dessert Bar near the wharf. They have a special churros menu. I ordered the churros with chocolate and caramel dipping sauces. The churros were very fresh and crispy. The cinnamon sugar was just right. My boyfriend had churros with ice cream. He loved it. The view of the marina was beautiful. A fun place for dessert after dinner!
+      </div>
+    </div>
+    <div class="action-row">
+      <button class="action-btn" onclick="copyText('review-text')">📋 コピー</button>
+      <button class="action-btn tts-btn" onclick="speakText('review-tts', this)">🔊 読み上げ</button>
+    </div>
+    <div id="review-text" style="display:none">I found Prawn Star Dessert Bar near the wharf. They have a special churros menu. I ordered the churros with chocolate and caramel dipping sauces. The churros were very fresh and crispy. The cinnamon sugar was just right. My boyfriend had churros with ice cream. He loved it. The view of the marina was beautiful. A fun place for dessert after dinner!</div>
+    <div id="review-tts" style="display:none">I found Prawn Star Dessert Bar near the wharf. They have a special churros menu. I ordered the churros with chocolate and caramel dipping sauces. The churros were very fresh and crispy. The cinnamon sugar was just right. My boyfriend had churros with ice cream. He loved it. The view of the marina was beautiful. A fun place for dessert after dinner!</div>
+    <button class="vocab-toggle" onclick="toggleVocab(this)">📚 単語リストを見る</button>
+    <div class="vocab-list">
+      <p style="font-size:0.75rem;color:var(--text-light);margin-bottom:0.5rem;">💡 わからなかった単語にチェック ✓</p>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">wharf</span><span class="vocab-ja">埠頭・波止場</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">dipping sauce</span><span class="vocab-ja">ディップソース</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">just right</span><span class="vocab-ja">ちょうどいい</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">marina</span><span class="vocab-ja">マリーナ・港</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">view</span><span class="vocab-ja">景色</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">fun place</span><span class="vocab-ja">楽しい場所</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-quiz2" data-index="3">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">4</div>
+    <div class="section-title"><div class="label">Quiz 2</div><div class="name">レビューの内容チェック</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="quiz-question">Q: レビュアーのボーイフレンドはチュロスと何を一緒に食べましたか？</div>
+    <div class="quiz-options">
+      <div class="quiz-option" onclick="checkQuiz(this, false)">チョコレートソース</div>
+      <div class="quiz-option" onclick="checkQuiz(this, true)">アイスクリーム</div>
+      <div class="quiz-option" onclick="checkQuiz(this, false)">キャラメルソース</div>
+    </div>
+    <div class="quiz-feedback correct">⭕ 正解！正解！&quot;My boyfriend had churros with ice cream.&quot;</div>
+    <div class="quiz-feedback wrong">❌ &quot;boyfriend had&quot; の後をもう一回読んでみよう！</div>
+  </div>
+</div>
+
+<div class="section-card sec-tips" data-index="4">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">5</div>
+    <div class="section-title"><div class="label">🦘 Australia Tips</div><div class="name">オーストラリアでChurrosを楽しむなら</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="tips-box">
+      <p>ケアンズの<strong>Cairns Wharf</strong>エリアは夜になるとライトアップされて、デザートバーやレストランが賑わいます。「<strong>Shall we go to the wharf for dessert?</strong>」と友達を誘ってみましょう！</p>
+      <p>オーストラリアのマーケットやフードトラックでもチュロスは大人気。注文するときは「<strong>Can I have churros with chocolate sauce?</strong>」と言います。ソースを選ぶときは「<strong>Which sauce would you like?</strong>」と聞かれることもあります。</p>
+      <p>オーストラリアでは食事の後のデザートを「<strong>dessert</strong>」と言いますが、カジュアルに「<strong>sweets</strong>」や「<strong>something sweet</strong>」ということも。「<strong>Do you want something sweet after dinner?</strong>」はよく使うフレーズです。</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-convo" data-index="5">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">6</div>
+    <div class="section-title"><div class="label">Conversation</div><div class="name">カフェでの接客場面</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        「Got it!」はカジュアルで便利な表現。カフェでも友達との会話でも使えるよ。陸上の練習で「了解！」って言う感じと同じ！
+      </div>
+    </div>
+    <div class="conversation-scene">☕ カフェで、お客さんカップル（Jack &amp; Mia）がチュロスを注文する場面</div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">Good evening! Welcome to our café. Here is the menu.</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Jack:</span><span class="convo-text">Thanks! Mia, do you want to share some churros?</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Mia:</span><span class="convo-text">Yes! Can we get the churros for two, please?</span></div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">Great choice! You can choose two dipping sauces. We have chocolate, caramel, and strawberry.</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Mia:</span><span class="convo-text">I want chocolate. Jack, what about you?</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Jack:</span><span class="convo-text">Caramel for me, please.</span></div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">Chocolate and caramel. Got it! Any drinks?</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Jack:</span><span class="convo-text">Two hot chocolates, please.</span></div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">Would you like marshmallows on top?</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Mia:</span><span class="convo-text">Oh yes, please! That sounds amazing.</span></div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">Perfect! That will be twenty-two dollars. Your churros will be ready in five minutes.</span></div>
+    <div class="action-row">
+      <button class="action-btn" onclick="copyText('convo-text')">📋 コピー</button>
+      <button class="action-btn tts-btn" onclick="speakText('convo-tts', this)">🔊 読み上げ</button>
+    </div>
+    <div id="convo-text" style="display:none">You: Good evening! Welcome to our café. Here is the menu. Jack: Thanks! Mia, do you want to share some churros? Mia: Yes! Can we get the churros for two, please? You: Great choice! You can choose two dipping sauces. We have chocolate, caramel, and strawberry. Mia: I want chocolate. Jack, what about you? Jack: Caramel for me, please. You: Chocolate and caramel. Got it! Any drinks? Jack: Two hot chocolates, please. You: Would you like marshmallows on top? Mia: Oh yes, please! That sounds amazing. You: Perfect! That will be twenty-two dollars. Your churros will be ready in five minutes.</div>
+    <div id="convo-tts" style="display:none">Good evening! Welcome to our café. Here is the menu. ... Thanks! Mia, do you want to share some churros? ... Yes! Can we get the churros for two, please? ... Great choice! You can choose two dipping sauces. We have chocolate, caramel, and strawberry. ... I want chocolate. Jack, what about you? ... Caramel for me, please. ... Chocolate and caramel. Got it! Any drinks? ... Two hot chocolates, please. ... Would you like marshmallows on top? ... Oh yes, please! That sounds amazing. ... Perfect! That will be twenty-two dollars. Your churros will be ready in five minutes.</div>
+    <button class="vocab-toggle" onclick="toggleVocab(this)">📚 単語リストを見る</button>
+    <div class="vocab-list">
+      <p style="font-size:0.75rem;color:var(--text-light);margin-bottom:0.5rem;">💡 わからなかった単語にチェック ✓</p>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">share</span><span class="vocab-ja">シェアする・分ける</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">for two</span><span class="vocab-ja">2人用の</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">great choice</span><span class="vocab-ja">いい選択ですね</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">got it</span><span class="vocab-ja">わかりました</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">on top</span><span class="vocab-ja">上に</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">sounds amazing</span><span class="vocab-ja">すごく良さそう</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-quiz3" data-index="6">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">7</div>
+    <div class="section-title"><div class="label">Quiz 3</div><div class="name">会話の内容チェック</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="quiz-question">Q: Jackが選んだディップソースは何ですか？</div>
+    <div class="quiz-options">
+      <div class="quiz-option" onclick="checkQuiz(this, false)">チョコレート</div>
+      <div class="quiz-option" onclick="checkQuiz(this, true)">キャラメル</div>
+      <div class="quiz-option" onclick="checkQuiz(this, false)">ストロベリー</div>
+    </div>
+    <div class="quiz-feedback correct">⭕ 正解！正解！&quot;Caramel for me, please.&quot;</div>
+    <div class="quiz-feedback wrong">❌ Jackのセリフをもう一回読んでみよう！</div>
+  </div>
+</div>
+
+<div class="section-card sec-listening" data-index="7">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">8</div>
+    <div class="section-title"><div class="label">🎧 Listening Challenge</div><div class="name">リスニングに挑戦しよう</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        リスニングで数字を聴き取るのって大事だよね。値段や時間をパッと理解できると、実際のカフェで困らないよ！
+      </div>
+    </div>
+
+    <!-- Part A -->
+    <div class="listening-box">
+      <h4>🔊 Part A: フードマーケットでチュロスを買う（穴埋め）</h4>
+      <p class="listening-instruction">音声を聴いて、空欄に入る単語を書いてみよう。最初はわからなくて当然！何回でも聴いてOK。</p>
+      <div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;margin-bottom:0.8rem;">
+        <button class="tts-btn" onclick="speakText('listening-a-tts', this)">🔊 再生</button>
+        <span class="tts-speed">速度: <select id="speed-a" onchange="currentSpeed=parseFloat(this.value)">
+          <option value="0.7">🐢 ゆっくり</option>
+          <option value="0.85" selected>普通</option>
+          <option value="1">速い</option>
+        </select></span>
+        <span class="repeat-count" id="repeat-a">再生回数: 0</span>
+      </div>
+      <div id="listening-a-tts" style="display:none">Excuse me, how much are the churros? They are five dollars for six pieces. Can I add chocolate sauce? Yes, the sauce is one dollar extra. OK, I will take six churros with chocolate sauce. Here you go. Be careful, they are very hot! Thank you! They smell so good. Enjoy your churros!</div>
+      <div class="gap-fill">1. They are five dollars for six <input type="text" data-answer="pieces" placeholder="____"> .</div>
+      <div class="gap-fill">2. the sauce is one dollar <input type="text" data-answer="extra" placeholder="____"> .</div>
+      <div class="gap-fill">3. Be careful, they are very <input type="text" data-answer="hot" placeholder="____"> !</div>
+      <div class="gap-fill">4. They smell so <input type="text" data-answer="good" placeholder="____"> .</div>
+      <div class="gap-fill">5. Enjoy your <input type="text" data-answer="churros" placeholder="____"> !</div>
+      <button class="listening-check-btn" onclick="checkAllGaps(this)">✅ 答えを確認</button>
+      <div class="listening-answer" id="gap-answer-a">
+        <strong>答え:</strong> 1. <strong>pieces</strong> 2. <strong>extra</strong> 3. <strong>hot</strong> 4. <strong>good</strong> 5. <strong>churros</strong>
+      </div>
+      <button class="listening-script-toggle" onclick="toggleScript(this)">📝 スクリプトを見る</button>
+      <div class="listening-script">
+        Excuse me, how much are the churros? They are five dollars for six pieces.<br>
+        Can I add chocolate sauce? Yes, the sauce is one dollar extra.<br>
+        OK, I will take six churros with chocolate sauce.<br>
+        Here you go.<br>
+        Be careful, they are very hot! Thank you! They smell so good.<br>
+        Enjoy your churros!
+      </div>
+    </div>
+
+    <!-- Part B -->
+    <div class="listening-box">
+      <h4>🔊 Part B: 料理教室のチュロスレッスン案内（内容理解）</h4>
+      <p class="listening-instruction">音声を聴いてから、質問に答えてみよう。先に質問を読んでから聴くのもOK！</p>
+      <div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;margin-bottom:0.8rem;">
+        <button class="tts-btn" onclick="speakText('listening-b-tts', this)">🔊 再生</button>
+        <span class="tts-speed">速度: <select id="speed-b" onchange="currentSpeed=parseFloat(this.value)">
+          <option value="0.7">🐢 ゆっくり</option>
+          <option value="0.85" selected>普通</option>
+          <option value="1">速い</option>
+        </select></span>
+        <span class="repeat-count" id="repeat-b">再生回数: 0</span>
+      </div>
+      <div id="listening-b-tts" style="display:none">Are you a fan of churros? Come and join our weekend cooking class at Tropical Kitchen Studio. This Saturday from ten in the morning to twelve thirty, you will learn how to make churros from scratch. Chef Maria will teach you step by step. You will also learn how to make three different sauces: chocolate, salted caramel, and berry. The class is forty-five dollars per person and includes all ingredients. You can take home the churros you make. Please book online before Thursday. Spaces are limited to twelve people.</div>
+
+      <div class="quiz-question" style="margin-top:0.5rem;">Q1: 料理教室は何時から何時まで？</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="checkQuiz(this, false)">9時〜11時半</div>
+        <div class="quiz-option" onclick="checkQuiz(this, true)">10時〜12時半</div>
+        <div class="quiz-option" onclick="checkQuiz(this, false)">11時〜1時半</div>
+      </div>
+      <div class="quiz-feedback correct">⭕ 正解！正解！&quot;from ten in the morning to twelve thirty&quot;</div>
+      <div class="quiz-feedback wrong">❌ 時間の部分をもう一回聴いてみよう！</div>
+
+      <div class="quiz-question" style="margin-top:1.2rem;">Q2: ソースは何種類習いますか？</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="checkQuiz(this, false)">2種類</div>
+        <div class="quiz-option" onclick="checkQuiz(this, true)">3種類</div>
+        <div class="quiz-option" onclick="checkQuiz(this, false)">4種類</div>
+      </div>
+      <div class="quiz-feedback correct">⭕ 正解！正解！chocolate, salted caramel, berry の3種類。</div>
+      <div class="quiz-feedback wrong">❌ &quot;three different sauces&quot; のところをもう一回聴いてみよう！</div>
+
+      <div class="quiz-question" style="margin-top:1.2rem;">Q3: 定員は何人ですか？</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="checkQuiz(this, false)">10人</div>
+        <div class="quiz-option" onclick="checkQuiz(this, true)">12人</div>
+        <div class="quiz-option" onclick="checkQuiz(this, false)">15人</div>
+      </div>
+      <div class="quiz-feedback correct">⭕ 正解！正解！&quot;limited to twelve people&quot;</div>
+      <div class="quiz-feedback wrong">❌ 最後の文をもう一回聴いてみよう！</div>
+
+      <button class="listening-script-toggle" onclick="toggleScript(this)" style="margin-top:0.8rem;">📝 スクリプトを見る</button>
+      <div class="listening-script">
+        Are you a fan of churros? Come and join our weekend cooking class at Tropical Kitchen Studio.<br>
+        This Saturday from ten in the morning to twelve thirty, you will learn how to make churros from scratch.<br>
+        Chef Maria will teach you step by step.<br>
+        You will also learn how to make three different sauces: chocolate, salted caramel, and berry.<br>
+        The class is forty-five dollars per person and includes all ingredients.<br>
+        You can take home the churros you make.<br>
+        Please book online before Thursday.<br>
+        Spaces are limited to twelve people.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-pronun" data-index="8">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">9</div>
+    <div class="section-title"><div class="label">🎤 Pronunciation Check</div><div class="name">発音チェックに挑戦しよう</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        「choose」の発音、chとshの違いを意識してみよう。Snow Manの歌を歌うときも発音大事にしてるんだ。一つ一つの音を丁寧に！
+      </div>
+    </div>
+
+    <div class="pronun-box">
+      <h4>🎤 文を声に出して読んでみよう</h4>
+      <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:0.5rem;">マイクボタンを押して、表示された文を読み上げてください。音声認識であなたの発音をチェックします。</p>
+
+      <div class="pronun-sentence" id="pronun-target"></div>
+
+      <div style="display:flex;align-items:center;gap:0.8rem;flex-wrap:wrap;">
+        <button class="pronun-record-btn" id="pronun-btn" onclick="togglePronunRecording()">
+          🎤 録音スタート
+        </button>
+        <button class="tts-btn" onclick="speakPronunSentence()" style="background:var(--navy);">🔊 お手本を聴く</button>
+      </div>
+
+      <div class="pronun-result" id="pronun-result">
+        <div class="pronun-score">
+          <div class="pronun-score-circle" id="pronun-score-circle">-</div>
+          <div>
+            <div style="font-weight:700;color:var(--navy);" id="pronun-score-label">判定中...</div>
+            <div style="font-size:0.75rem;color:var(--text-light);" id="pronun-score-detail"></div>
+          </div>
+        </div>
+        <div class="pronun-heard" id="pronun-heard"></div>
+        <ul class="pronun-tips" id="pronun-tips"></ul>
+      </div>
+
+      <div class="pronun-nav">
+        <button class="pronun-nav-btn" id="pronun-prev" onclick="changePronunSentence(-1)">← 前の文</button>
+        <span class="pronun-counter" id="pronun-counter">1 / 5</span>
+        <button class="pronun-nav-btn" id="pronun-next" onclick="changePronunSentence(1)">次の文 →</button>
+      </div>
+
+      <div class="pronun-browser-note">
+        💡 Chrome推奨。マイクの許可が必要です。静かな場所で、はっきり声に出して読んでください。
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+const pronunSentences = [{"text": "Can we get the churros for two, please?", "tip": "Can we が「キャンウィ」。churros は「チューロズ」で r を巻かないように注意。for two が「フォトゥー」。"}, {"text": "You can choose two dipping sauces.", "tip": "choose は「チューズ」で z の音をしっかり。two dipping が「トゥーディッピン」。sauces は「ソースィズ」。"}, {"text": "Would you like marshmallows on top?", "tip": "Would you が「ウッジュー」。marshmallows は「マーシュメロウズ」。on top が「オントップ」。"}, {"text": "Your churros will be ready in five minutes.", "tip": "will be が「ウィルビー」。ready in が「レディイン」とつながります。five の v をしっかり。"}, {"text": "Be careful, they are very hot!", "tip": "Be careful の l は軽く。they are が「ゼヤー」と短くなります。very の v をしっかり出しましょう。"}];
+</script>
+
+<div class="section-card sec-tryit" data-index="9">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">10</div>
+    <div class="section-title"><div class="label">✏️ Try It!</div><div class="name">今日のことを3行で書いてみよう</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        ストリートフードの思い出を書くの楽しいよね。俺もロケで食べた物の感想をメモすることあるよ。それが英語だとさらにいい練習になる！
+      </div>
+    </div>
+    <div class="try-it-box">
+      <h4>✏️ 最近食べた揚げ物やストリートフードについて英語で3行書いてみよう</h4>
+      <p>💡 今日の会話や文をマネしてOK！わからない英語は日本語のままで大丈夫。</p>
+      <p><strong>例:</strong> Yesterday I ate churros at a night market. They were crispy and sweet. I dipped them in chocolate sauce. It was the best dessert!</p>
+      <textarea class="try-it-textarea" id="tryit-text" placeholder="ここに英語で書いてみよう..."></textarea>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-summary" data-index="10">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">11</div>
+    <div class="section-title"><div class="label">📊 Summary</div><div class="name">学習サマリー</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="summary-box">
+      <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:0.8rem;">ChatGPTやClaudeにコピペして解説をもらおう</p>
+      <button class="summary-btn" onclick="generateSummary()">📋 サマリーを生成する</button>
+      <div class="summary-output" id="summary-output"></div>
+      <div class="action-row" style="justify-content:center;margin-top:0.5rem;">
+        <button class="action-btn" onclick="copySummary()">📋 コピー</button>
+        <a class="action-btn" href="https://chat.openai.com" target="_blank">🤖 ChatGPT</a>
+        <a class="action-btn" href="https://claude.ai" target="_blank">🤖 Claude</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="day-nav">
+  <a class="nav-btn" href="day20.html">← Day 20</a>
+  <a class="home-btn" href="index.html">🏠 ホーム</a>
+  <a class="nav-btn" href="day22.html">Day 22 →</a>
+</div>
+
+</div>
+
+<script>
+let currentSpeed = 0.85;
+let repeatCounts = {};
+
+function toggleSection(header) {
+  const card = header.parentElement;
+  card.classList.toggle('open');
+  const index = parseInt(card.dataset.index);
+  const dots = document.querySelectorAll('.progress-dot');
+  if (card.classList.contains('open')) {
+    dots[index].classList.add('active');
+    for (let i = 0; i < index; i++) { dots[i].classList.add('complete'); dots[i].classList.remove('active'); }
+  }
+  const openCards = document.querySelectorAll('.section-card.open');
+  document.querySelector('.progress-label').textContent = openCards.length + ' / 11 セクション';
+}
+
+function toggleVocab(btn) {
+  const list = btn.nextElementSibling;
+  list.classList.toggle('show');
+  btn.textContent = list.classList.contains('show') ? '📚 単語リストを隠す' : '📚 単語リストを見る';
+}
+
+function checkQuiz(option, isCorrect) {
+  const parent = option.parentElement;
+  if (parent.dataset.answered) return;
+  parent.dataset.answered = 'true';
+  const allOptions = parent.querySelectorAll('.quiz-option');
+  allOptions.forEach(opt => opt.style.pointerEvents = 'none');
+  if (isCorrect) {
+    option.classList.add('correct');
+    parent.nextElementSibling.classList.add('show');
+  } else {
+    option.classList.add('wrong');
+    parent.nextElementSibling.nextElementSibling.classList.add('show');
+  }
+}
+
+// Web Speech API TTS
+function speakText(elementId, btn) {
+  if (window.speechSynthesis.speaking) {
+    window.speechSynthesis.cancel();
+    btn.textContent = '🔊 再生';
+    btn.classList.remove('playing');
+    return;
+  }
+  const text = document.getElementById(elementId).textContent;
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'en-AU';
+  utterance.rate = currentSpeed;
+  utterance.pitch = 1;
+
+  const voices = window.speechSynthesis.getVoices();
+  const enVoice = voices.find(v => v.lang.startsWith('en-AU')) ||
+                  voices.find(v => v.lang.startsWith('en-GB')) ||
+                  voices.find(v => v.lang.startsWith('en'));
+  if (enVoice) utterance.voice = enVoice;
+
+  btn.textContent = '⏹ 停止';
+  btn.classList.add('playing');
+
+  if (!repeatCounts[elementId]) repeatCounts[elementId] = 0;
+  repeatCounts[elementId]++;
+  const repeatEl = btn.parentElement.querySelector('.repeat-count');
+  if (repeatEl) repeatEl.textContent = '再生回数: ' + repeatCounts[elementId];
+
+  utterance.onend = () => { btn.textContent = '🔊 再生'; btn.classList.remove('playing'); };
+  utterance.onerror = () => { btn.textContent = '🔊 再生'; btn.classList.remove('playing'); };
+  window.speechSynthesis.speak(utterance);
+}
+
+window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+
+function checkAllGaps(btn) {
+  const box = btn.closest('.listening-box');
+  const inputs = box.querySelectorAll('input[data-answer]');
+  inputs.forEach(input => {
+    const correct = input.dataset.answer.toLowerCase();
+    const val = input.value.trim().toLowerCase();
+    input.classList.remove('correct-input', 'wrong-input');
+    if (val === correct) { input.classList.add('correct-input'); }
+    else { input.classList.add('wrong-input'); }
+  });
+  const answer = box.querySelector('.listening-answer');
+  if (answer) answer.classList.add('show');
+}
+
+function toggleScript(btn) {
+  const script = btn.nextElementSibling;
+  script.classList.toggle('show');
+  btn.textContent = script.classList.contains('show') ? '📝 スクリプトを隠す' : '📝 スクリプトを見る';
+}
+
+function copyText(id) {
+  const text = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(text).then(() => alert('コピーしました！'));
+}
+
+function generateSummary() {
+  const checked = document.querySelectorAll('.vocab-item.checked');
+  const vocabList = Array.from(checked).map(i => i.querySelector('.vocab-en').textContent);
+  const tryIt = document.getElementById('tryit-text').value;
+  const listeningPlays = Object.entries(repeatCounts).map(([k,v]) => k + ': ' + v + '回').join(', ');
+
+  let s = `【Day 21: Churros 学習サマリー】\n\n`;
+  s += `■ チェックした単語 (${vocabList.length}個):\n${vocabList.length > 0 ? vocabList.join(', ') : 'なし'}\n\n`;
+  s += `■ リスニング再生回数:\n${listeningPlays || '未再生'}\n\n`;
+
+  const pronunSummary = pronunResults.filter(r => r).map((r, i) =>
+    `  ${i+1}. "${r.target}" → ${r.score}% (認識: "${r.heard}")`
+  ).join('\n');
+  s += `■ 発音チェック結果:\n${pronunSummary || '(未実施)'}\n\n`;
+
+  s += `■ Today's Writing:\n${tryIt || '(未記入)'}\n\n`;
+  s += `---\n上の内容をもとに、以下を教えてください：\n1. チェックした単語の使い方（例文付き）\n2. 発音チェックで間違えた部分のアドバイス\n3. Today's Writingの添削\n4. 今日学んだフレーズの発展表現`;
+
+  const output = document.getElementById('summary-output');
+  output.textContent = s;
+  output.classList.add('show');
+}
+
+function copySummary() {
+  const text = document.getElementById('summary-output').textContent;
+  navigator.clipboard.writeText(text).then(() => alert('コピーしました！'));
+}
+
+document.querySelectorAll('.progress-dot').forEach(dot => {
+  dot.addEventListener('click', () => {
+    const index = parseInt(dot.dataset.section);
+    const cards = document.querySelectorAll('.section-card');
+    if (cards[index]) {
+      cards[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (!cards[index].classList.contains('open')) toggleSection(cards[index].querySelector('.section-header'));
+    }
+  });
+});
+
+// ===== PRONUNCIATION CHECK =====
+// pronunSentences is defined in the HTML before this script
+
+let currentPronunIndex = 0;
+let pronunResults = [];
+let pronunRecognition = null;
+let isRecording = false;
+
+function initPronun() {
+  renderPronunSentence();
+  updatePronunNav();
+}
+
+function renderPronunSentence() {
+  const target = document.getElementById('pronun-target');
+  const sentence = pronunSentences[currentPronunIndex];
+  const words = sentence.text.split(' ');
+  target.innerHTML = words.map((w, i) => `<span class="word" data-index="${i}">${w}</span>`).join(' ');
+
+  const result = document.getElementById('pronun-result');
+  result.classList.remove('show', 'good', 'needs-work', 'try-again');
+}
+
+function updatePronunNav() {
+  document.getElementById('pronun-counter').textContent =
+    `${currentPronunIndex + 1} / ${pronunSentences.length}`;
+  document.getElementById('pronun-prev').classList.toggle('disabled', currentPronunIndex === 0);
+  document.getElementById('pronun-next').classList.toggle('disabled', currentPronunIndex === pronunSentences.length - 1);
+}
+
+function changePronunSentence(dir) {
+  const newIndex = currentPronunIndex + dir;
+  if (newIndex < 0 || newIndex >= pronunSentences.length) return;
+  currentPronunIndex = newIndex;
+  renderPronunSentence();
+  updatePronunNav();
+}
+
+function speakPronunSentence() {
+  if (window.speechSynthesis.speaking) {
+    window.speechSynthesis.cancel();
+    return;
+  }
+  const text = pronunSentences[currentPronunIndex].text;
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'en-AU';
+  utterance.rate = 0.85;
+  const voices = window.speechSynthesis.getVoices();
+  const enVoice = voices.find(v => v.lang.startsWith('en-AU')) ||
+                  voices.find(v => v.lang.startsWith('en-GB')) ||
+                  voices.find(v => v.lang.startsWith('en'));
+  if (enVoice) utterance.voice = enVoice;
+  window.speechSynthesis.speak(utterance);
+}
+
+function togglePronunRecording() {
+  if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+    alert('お使いのブラウザは音声認識に対応していません。Chrome をお使いください。');
+    return;
+  }
+
+  if (isRecording) {
+    stopPronunRecording();
+    return;
+  }
+
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  pronunRecognition = new SpeechRecognition();
+  pronunRecognition.lang = 'en-AU';
+  pronunRecognition.interimResults = false;
+  pronunRecognition.maxAlternatives = 3;
+  pronunRecognition.continuous = false;
+
+  const btn = document.getElementById('pronun-btn');
+  btn.textContent = '⏹ 録音中...';
+  btn.classList.add('recording');
+  isRecording = true;
+
+  pronunRecognition.onresult = (event) => {
+    const results = event.results[0];
+    const heard = results[0].transcript;
+    const confidence = results[0].confidence;
+    const alternatives = [];
+    for (let i = 0; i < results.length; i++) {
+      alternatives.push(results[i].transcript.toLowerCase());
+    }
+    evaluatePronunciation(heard, confidence, alternatives);
+    stopPronunRecording();
+  };
+
+  pronunRecognition.onerror = (event) => {
+    stopPronunRecording();
+    if (event.error === 'no-speech') {
+      alert('音声が検出されませんでした。もう少し大きな声ではっきり話してみてください。');
+    } else if (event.error === 'not-allowed') {
+      alert('マイクの使用が許可されていません。ブラウザの設定でマイクを許可してください。');
+    } else {
+      alert('音声認識エラー: ' + event.error);
+    }
+  };
+
+  pronunRecognition.onend = () => {
+    stopPronunRecording();
+  };
+
+  pronunRecognition.start();
+}
+
+function stopPronunRecording() {
+  const btn = document.getElementById('pronun-btn');
+  btn.textContent = '🎤 もう一回';
+  btn.classList.remove('recording');
+  isRecording = false;
+  if (pronunRecognition) {
+    try { pronunRecognition.stop(); } catch(e) {}
+  }
+}
+
+function normalizeText(text) {
+  return text.toLowerCase()
+    .replace(/[.,!?;:'"()\-]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function evaluatePronunciation(heard, confidence, alternatives) {
+  const target = pronunSentences[currentPronunIndex].text;
+  const tip = pronunSentences[currentPronunIndex].tip;
+
+  const targetWords = normalizeText(target).split(' ');
+  const heardWords = normalizeText(heard).split(' ');
+
+  const allHeardWords = new Set();
+  alternatives.forEach(alt => {
+    normalizeText(alt).split(' ').forEach(w => allHeardWords.add(w));
+  });
+
+  let correctCount = 0;
+  const wordElements = document.querySelectorAll('#pronun-target .word');
+
+  targetWords.forEach((targetWord, i) => {
+    const el = wordElements[i];
+    if (!el) return;
+
+    el.classList.remove('correct', 'wrong', 'missed');
+
+    const targetClean = targetWord.toLowerCase();
+
+    if (heardWords.includes(targetClean) || allHeardWords.has(targetClean)) {
+      el.classList.add('correct');
+      correctCount++;
+    } else {
+      const similar = heardWords.some(hw => levenshtein(hw, targetClean) <= 1) ||
+                      [...allHeardWords].some(hw => levenshtein(hw, targetClean) <= 1);
+      if (similar) {
+        el.classList.add('correct');
+        correctCount++;
+      } else {
+        el.classList.add('wrong');
+      }
+    }
+  });
+
+  const score = Math.round((correctCount / targetWords.length) * 100);
+
+  pronunResults[currentPronunIndex] = { score, heard, target };
+
+  const resultEl = document.getElementById('pronun-result');
+  const scoreCircle = document.getElementById('pronun-score-circle');
+  const scoreLabel = document.getElementById('pronun-score-label');
+  const scoreDetail = document.getElementById('pronun-score-detail');
+  const heardEl = document.getElementById('pronun-heard');
+  const tipsEl = document.getElementById('pronun-tips');
+
+  scoreCircle.textContent = score + '%';
+  scoreCircle.classList.remove('high', 'mid', 'low');
+  resultEl.classList.remove('good', 'needs-work', 'try-again');
+
+  if (score >= 80) {
+    scoreCircle.classList.add('high');
+    scoreLabel.textContent = '🎉 Great!';
+    scoreDetail.textContent = 'しっかり通じる発音です！';
+    resultEl.classList.add('good');
+  } else if (score >= 50) {
+    scoreCircle.classList.add('mid');
+    scoreLabel.textContent = '👍 Almost!';
+    scoreDetail.textContent = 'もう少し！赤い単語を意識してみよう。';
+    resultEl.classList.add('needs-work');
+  } else {
+    scoreCircle.classList.add('low');
+    scoreLabel.textContent = '💪 Keep trying!';
+    scoreDetail.textContent = 'お手本を聴いてからもう一回チャレンジ！';
+    resultEl.classList.add('try-again');
+  }
+
+  heardEl.innerHTML = `<strong>🎧 認識された音声:</strong> "${heard}"`;
+  tipsEl.innerHTML = `<li>💡 ${tip}</li>`;
+
+  const wrongWords = [];
+  wordElements.forEach((el, i) => {
+    if (el.classList.contains('wrong') && targetWords[i]) {
+      wrongWords.push(targetWords[i]);
+    }
+  });
+  if (wrongWords.length > 0) {
+    tipsEl.innerHTML += `<li>🔴 認識されなかった単語: <strong>${wrongWords.join(', ')}</strong> — ゆっくりはっきり発音してみよう</li>`;
+  }
+
+  resultEl.classList.add('show');
+}
+
+// Simple Levenshtein distance for fuzzy matching
+function levenshtein(a, b) {
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+  const matrix = [];
+  for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+  for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      if (b.charAt(i - 1) === a.charAt(j - 1)) {
+        matrix[i][j] = matrix[i - 1][j - 1];
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j] + 1
+        );
+      }
+    }
+  }
+  return matrix[b.length][a.length];
+}
+
+document.addEventListener('DOMContentLoaded', initPronun);
+</script>
+</body>
+</html>

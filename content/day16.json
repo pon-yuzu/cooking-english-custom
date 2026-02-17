@@ -1,0 +1,168 @@
+{
+  "day": 16,
+  "sweet": "Banana Split",
+  "emoji": "🍌",
+  "recipe": {
+    "title": "How to Make a Banana Split",
+    "intro": "A banana split is a fun dessert with banana, ice cream, and toppings. It is perfect for a hot day in Cairns!",
+    "ingredients": "bananas, vanilla ice cream, chocolate ice cream, strawberry ice cream, chocolate sauce, strawberry sauce, whipped cream, sprinkles, cherries",
+    "steps": [
+      "**Peel** one banana and **cut** it in half lengthwise.",
+      "**Place** the two banana halves in a long dish, one on each side.",
+      "**Scoop** three balls of ice cream between the banana halves: vanilla, chocolate, and strawberry.",
+      "**Drizzle** chocolate sauce over the chocolate ice cream and strawberry sauce over the strawberry ice cream.",
+      "**Top** everything with a big swirl of whipped cream.",
+      "**Sprinkle** colourful sprinkles on top and **finish** with a cherry on each scoop. **Serve** immediately!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "lengthwise", "ja": "縦に"},
+    {"en": "halves", "ja": "半分（halfの複数形）"},
+    {"en": "scoop", "ja": "すくう・1玉"},
+    {"en": "drizzle", "ja": "たらりとかける"},
+    {"en": "swirl", "ja": "渦巻き"},
+    {"en": "sprinkles", "ja": "カラフルなトッピング"},
+    {"en": "immediately", "ja": "すぐに"},
+    {"en": "toppings", "ja": "トッピング"}
+  ],
+  "quiz1": {
+    "question_ja": "バナナスプリットにはアイスクリームを何玉のせますか？",
+    "options": ["2玉", "3玉", "4玉"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Scoop three balls of ice cream.\"",
+    "explanation_wrong": "3番目のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Tropical Bliss Ice Cream Parlour",
+    "location": "Abbott Street, Cairns, Australia",
+    "stars": 5,
+    "text": "If you love ice cream, you must visit Tropical Bliss! I went there on a hot afternoon and ordered a banana split. It was huge! The banana was fresh and sweet. They had so many ice cream flavours to choose from. I picked mango, coconut, and chocolate. The chocolate sauce was rich and the whipped cream was perfect. My friend ordered a sundae and she loved it too. This place is a must-visit in Cairns!"
+  },
+  "review_vocab": [
+    {"en": "parlour", "ja": "パーラー（お店）"},
+    {"en": "huge", "ja": "とても大きい"},
+    {"en": "flavours", "ja": "フレーバー・味の種類"},
+    {"en": "picked", "ja": "選んだ"},
+    {"en": "sundae", "ja": "サンデー（アイスのデザート）"},
+    {"en": "must-visit", "ja": "必ず行くべき場所"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーが選んだアイスクリームのフレーバーはどれですか？",
+    "options": ["バニラ、チョコ、ストロベリー", "マンゴー、ココナッツ、チョコ", "マンゴー、バニラ、抹茶"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I picked mango, coconut, and chocolate.\"",
+    "explanation_wrong": "\"picked\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "ケアンズは一年中暑いので、アイスクリーム屋さんがたくさんあります。注文するときは「**Can I have a banana split, please?**」でOK。フレーバーを聞かれたら「**I will have mango, coconut, and chocolate, please.**」のように答えましょう。",
+    "オーストラリアのアイスクリーム屋さんでは「**Would you like a cone or a cup?**」（コーンかカップか）と聞かれます。「**In a cup, please.**」「**In a cone, please.**」と答えましょう。**waffle cone**（ワッフルコーン）も人気です。",
+    "ケアンズの**Abbott Street**はナイトマーケットがあることで有名。夜にアイスを食べながら「**Let's walk around the night markets.**」と友達を誘ってみよう。トロピカルフルーツのアイスが特におすすめです！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さんの家族（Mr. and Mrs. Baker）がデザートを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Hello! Can I get you any dessert today?"},
+      {"speaker": "Mr. Baker", "text": "Yes, please! What ice cream desserts do you have?"},
+      {"speaker": "You", "text": "We have banana splits, sundaes, and ice cream cones."},
+      {"speaker": "Mrs. Baker", "text": "Oh, I would love a banana split! What flavours are there?"},
+      {"speaker": "You", "text": "We have vanilla, chocolate, strawberry, mango, and coconut."},
+      {"speaker": "Mrs. Baker", "text": "I will have vanilla, mango, and coconut, please."},
+      {"speaker": "You", "text": "Lovely! And any extra toppings? We have chocolate sauce, caramel, and sprinkles."},
+      {"speaker": "Mrs. Baker", "text": "Chocolate sauce and sprinkles, please!"},
+      {"speaker": "Mr. Baker", "text": "I will just have a double scoop in a cone. Chocolate and mango."},
+      {"speaker": "You", "text": "Sure thing! That will be twenty-two dollars altogether."},
+      {"speaker": "Mr. Baker", "text": "Perfect. Can we sit outside? It is a beautiful evening."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "dessert", "ja": "デザート"},
+    {"en": "extra toppings", "ja": "追加トッピング"},
+    {"en": "caramel", "ja": "キャラメル"},
+    {"en": "double scoop", "ja": "ダブル（2玉）"},
+    {"en": "altogether", "ja": "全部で・合計で"},
+    {"en": "sure thing", "ja": "もちろん（カジュアル）"}
+  ],
+  "quiz3": {
+    "question_ja": "Mr. Bakerは何を注文しましたか？",
+    "options": ["バナナスプリット", "サンデー", "コーンのダブルスクープ"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"I will just have a double scoop in a cone.\"",
+    "explanation_wrong": "Mr. Bakerのセリフをもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "暑い日の休憩時間",
+      "full_text": "It is so hot today! I know, it is thirty-five degrees. Do you want to get some ice cream after work? Yes, that sounds amazing. There is a new ice cream shop on the corner. Really? What flavours do they have? They have tropical flavours like mango and passion fruit. Nice! I love passion fruit. Let us go at five o'clock. Perfect, I cannot wait!",
+      "gaps": [
+        {"before": "It is thirty-five", "answer": "degrees", "after": "."},
+        {"before": "Do you want to get some ice cream after", "answer": "work", "after": "?"},
+        {"before": "There is a new ice cream shop on the", "answer": "corner", "after": "."},
+        {"before": "They have tropical", "answer": "flavours", "after": "like mango and passion fruit."},
+        {"before": "I cannot", "answer": "wait", "after": "!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "アイスクリーム屋の看板",
+      "full_text": "Welcome to Sunny Scoops! We are open seven days a week from ten in the morning to nine at night. We have over fifteen flavours of ice cream, all made with fresh local ingredients. Our most popular flavour is tropical mango. Try our famous banana split for only twelve dollars. Kids can get a small cone for just three dollars fifty on Tuesdays. We also do birthday party packages for groups of ten or more. Ask our staff for details. Follow us on social media for special offers!",
+      "questions": [
+        {
+          "question_ja": "お店は週に何日営業していますか？",
+          "options": ["5日", "6日", "7日"],
+          "correct_index": 2,
+          "explanation_correct": "正解！\"We are open seven days a week.\"",
+          "explanation_wrong": "\"open\" の後の日数をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "一番人気のフレーバーは何ですか？",
+          "options": ["ココナッツ", "チョコレート", "トロピカルマンゴー"],
+          "correct_index": 2,
+          "explanation_correct": "正解！\"Our most popular flavour is tropical mango.\"",
+          "explanation_wrong": "\"most popular\" の後をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "子ども向けのキッズコーンは何曜日にお得ですか？",
+          "options": ["月曜日", "火曜日", "水曜日"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Kids can get a small cone for just three dollars fifty on Tuesdays.\"",
+          "explanation_wrong": "曜日が出てくる部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Can I get you any dessert?",
+        "tip": "Can I が「キャナイ」。dessert は「デザート」で、2番目の音節にアクセント。desert（砂漠）と区別しよう。"
+      },
+      {
+        "text": "I would love a banana split.",
+        "tip": "would love が「ウッドラヴ」。banana は「バナーナ」で真ん中にアクセント。split の sp は「スプ」としっかり。"
+      },
+      {
+        "text": "What flavours are there?",
+        "tip": "flavours は「フレイヴァーズ」。are there が「アーゼア」で th の音に注意。"
+      },
+      {
+        "text": "That will be twenty-two dollars altogether.",
+        "tip": "altogether は「オールトゥゲザー」で4音節。th の音を忘れずに。twenty-two の t は軽く。"
+      },
+      {
+        "text": "It is a beautiful evening.",
+        "tip": "beautiful は「ビューティフル」で最初にアクセント。evening は「イーヴニング」で v の音をしっかり。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "好きなアイスクリームのフレーバーと食べたい場所を英語で3行書いてみよう",
+    "example": "My favourite ice cream flavour is mango. I want to eat a banana split at the beach on a hot day. I will put chocolate sauce and sprinkles on top!"
+  },
+  "yamada_comments": {
+    "recipe": "バナナスプリット、見た目も楽しいデザートだよね！ケアンズの暑い日にピッタリ。陸上のトレーニング後に食べたら最高だろうな！",
+    "review": "アイスの味を英語で伝えるのって意外と難しいよね。rich, sweet, fresh... 味の表現を増やしていこう。Snow Manのメンバーもグルメレポ得意だよ笑",
+    "conversation": "家族連れのお客さんへの対応、笑顔が大事だよね。フィギュアスケートの演技も、技術だけじゃなくて表情が大切なのと同じ！",
+    "listening": "友達同士の会話、カジュアルで速いけど慣れれば大丈夫。Snow Manのバラエティ見てると、友達同士の自然な会話の練習になるよ？笑",
+    "pronunciation": "dessert と desert の違い、アクセントの位置で意味が変わるのが英語の面白いところ。短距離走もスタートの位置で結果が変わるでしょ？",
+    "try_it": "好きなアイスの話、楽しく書けるよね。俺はチョコ味が好きかな。好きなことを英語にするのが上達の近道！"
+  }
+}

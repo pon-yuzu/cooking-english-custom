@@ -1,0 +1,170 @@
+{
+  "day": 8,
+  "sweet": "Vanilla Slice",
+  "emoji": "🍰",
+  "recipe": {
+    "title": "How to Make Vanilla Slice",
+    "intro": "Vanilla slice is a popular Australian pastry. It has layers of puff pastry and thick vanilla custard. Australians sometimes call it a 'snot block' because the custard is slippery!",
+    "ingredients": "puff pastry sheets, milk, sugar, cornflour, eggs, vanilla extract, butter, icing sugar",
+    "steps": [
+      "**Preheat** the oven to 200 degrees Celsius.",
+      "**Place** two sheets of puff pastry on a baking tray and **prick** them with a fork.",
+      "**Bake** the pastry for 15 minutes until golden and flat.",
+      "**Heat** the milk in a saucepan. In a bowl, **mix** the cornflour, sugar, eggs, and vanilla.",
+      "**Pour** the hot milk into the bowl slowly, and **stir** well. **Return** the mixture to the saucepan and **cook** until thick.",
+      "**Spread** the custard on one pastry sheet. **Place** the other sheet on top. **Dust** with icing sugar and **chill** in the fridge for two hours."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "puff pastry", "ja": "パイ生地"},
+    {"en": "custard", "ja": "カスタード"},
+    {"en": "cornflour", "ja": "コーンスターチ"},
+    {"en": "vanilla extract", "ja": "バニラエッセンス"},
+    {"en": "prick", "ja": "フォークで穴を開ける"},
+    {"en": "saucepan", "ja": "小鍋"},
+    {"en": "dust", "ja": "粉をふりかける"},
+    {"en": "chill", "ja": "冷蔵庫で冷やす"},
+    {"en": "icing sugar", "ja": "粉砂糖"}
+  ],
+  "quiz1": {
+    "question_ja": "バニラスライスは冷蔵庫でどのくらい冷やしますか？",
+    "options": ["1時間", "2時間", "3時間"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Chill in the fridge for two hours.\"",
+    "explanation_wrong": "最後のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Grafton Street Bakehouse",
+    "location": "Cairns CBD, Queensland, Australia",
+    "stars": 5,
+    "text": "I always go to Grafton Street Bakehouse for their vanilla slice. It is the best in Cairns! The pastry is crispy and the custard is smooth and creamy. They make it fresh every day. My workmate calls it a 'snot block' which is funny but true because the custard slides everywhere when you bite it. I also tried their meat pie. It was delicious too. Great prices and friendly staff."
+  },
+  "review_vocab": [
+    {"en": "crispy", "ja": "サクサクの"},
+    {"en": "smooth", "ja": "なめらかな"},
+    {"en": "creamy", "ja": "クリーミーな"},
+    {"en": "workmate", "ja": "仕事仲間（AUでよく使う）"},
+    {"en": "slides", "ja": "滑る"},
+    {"en": "meat pie", "ja": "ミートパイ"},
+    {"en": "friendly staff", "ja": "フレンドリーなスタッフ"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーの同僚はバニラスライスを何と呼んでいますか？",
+    "options": ["スイートブロック", "スノットブロック", "バニラブロック"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"My workmate calls it a 'snot block'.\"",
+    "explanation_wrong": "\"calls it\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "「**Snot block**」はバニラスライスのオーストラリアのスラング。カスタードがドロっと飛び出す様子から名付けられました。友達との会話で「**I love a good snot block!**」と言うと、めちゃくちゃオージーっぽい！",
+    "オーストラリアのベーカリーでは、バニラスライスは必ずあるメニュー。ショーケースで見つけたら「**Can I have a vanilla slice, please?**」と注文しよう。ちなみに食べるときはフォークを使うのがおすすめ！",
+    "ケアンズのCBD（中心街）にはローカルに愛されるベーカリーがたくさん。ランチにミートパイとバニラスライスのセットを食べるのがオージー流！「**I'll grab a pie and a vanilla slice for lunch.**」"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Tom）がバニラスライスについて質問する場面",
+    "lines": [
+      {"speaker": "You", "text": "Good afternoon! What would you like today?"},
+      {"speaker": "Tom", "text": "Hi there! What is that yellow thing in the display case?"},
+      {"speaker": "You", "text": "That is our vanilla slice. It is puff pastry with vanilla custard inside."},
+      {"speaker": "Tom", "text": "Oh, is that what people call a snot block?"},
+      {"speaker": "You", "text": "Ha ha, yes! Be careful, the custard can be messy."},
+      {"speaker": "Tom", "text": "Sounds fun! I will take one, please. And a long black coffee."},
+      {"speaker": "You", "text": "Good choice! Would you like sugar with your coffee?"},
+      {"speaker": "Tom", "text": "No sugar, thanks. Just black."},
+      {"speaker": "You", "text": "No worries! That is eleven dollars, please."},
+      {"speaker": "Tom", "text": "Here is my card. Thanks, mate!"},
+      {"speaker": "You", "text": "Cheers! Enjoy your vanilla slice!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "display case", "ja": "ショーケース"},
+    {"en": "messy", "ja": "汚れやすい・散らかる"},
+    {"en": "long black", "ja": "ロングブラック（AUのブラックコーヒー）"},
+    {"en": "no worries", "ja": "大丈夫だよ・問題ないよ（AUの定番フレーズ）"},
+    {"en": "mate", "ja": "友達・相棒（AUの呼びかけ）"},
+    {"en": "cheers", "ja": "ありがとう・じゃあね（AUでよく使う）"}
+  ],
+  "quiz3": {
+    "question_ja": "Tomはコーヒーに砂糖を入れますか？",
+    "options": ["はい、1つ", "はい、2つ", "いいえ、入れない"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"No sugar, thanks. Just black.\"",
+    "explanation_wrong": "Tomのコーヒーについてのセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "バニラスライスの食べ方",
+      "full_text": "Have you ever tried a vanilla slice? No, I haven't. What is it like? It is really yummy. There are two layers of pastry with custard in the middle. Sounds good. Is it easy to eat? Not really. The custard squeezes out when you bite it. That is why people call it a snot block! Ha ha, that is a funny name. You should try one at the bakery near the station. They make the best ones in town.",
+      "gaps": [
+        {"before": "There are two layers of pastry with", "answer": "custard", "after": "in the middle."},
+        {"before": "The custard squeezes out when you", "answer": "bite", "after": "it."},
+        {"before": "That is why people call it a", "answer": "snot block", "after": "!"},
+        {"before": "You should try one at the", "answer": "bakery", "after": "near the station."},
+        {"before": "They make the best ones in", "answer": "town", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "ベーカリーの新メニュー紹介",
+      "full_text": "Good news, everyone! Starting this Monday, we have three new items on our menu. First, a chocolate vanilla slice with dark chocolate on top. It costs six dollars fifty. Second, a mini vanilla slice for kids. It is only three dollars. Third, a vanilla slice ice cream sandwich. We put vanilla ice cream between two pieces of pastry. It is eight dollars. All new items are available from nine in the morning until we sell out. Come early because they go fast!",
+      "questions": [
+        {
+          "question_ja": "新メニューは何種類ありますか？",
+          "options": ["2種類", "3種類", "4種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"we have three new items on our menu\"",
+          "explanation_wrong": "最初の文の数字に注目して聴いてみよう！"
+        },
+        {
+          "question_ja": "キッズ用のミニバニラスライスはいくらですか？",
+          "options": ["2ドル", "3ドル", "5ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"a mini vanilla slice for kids. It is only three dollars.\"",
+          "explanation_wrong": "\"kids\" の後の金額を聴いてみよう！"
+        },
+        {
+          "question_ja": "新メニューは何時から買えますか？",
+          "options": ["朝7時から", "朝8時から", "朝9時から"],
+          "correct_index": 2,
+          "explanation_correct": "正解！\"available from nine in the morning\"",
+          "explanation_wrong": "時間を言っている部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What would you like today?",
+        "tip": "What would が「ワッウッド」、would you が「ウッジュー」とつながります。today の t をしっかり出しましょう。"
+      },
+      {
+        "text": "That is our vanilla slice.",
+        "tip": "That is が「ザッツ」。vanilla は「ヴァニラ」で v の音を唇を噛んで出しましょう。"
+      },
+      {
+        "text": "Be careful, the custard can be messy.",
+        "tip": "Be careful の l は軽く。custard は「カスタッド」。can be が「キャンビー」とつながります。"
+      },
+      {
+        "text": "No worries! That is eleven dollars.",
+        "tip": "No worries は「ノーウォーリーズ」。eleven は「イレヴン」で v の音に注意。"
+      },
+      {
+        "text": "Enjoy your vanilla slice!",
+        "tip": "Enjoy your が「エンジョイヨー」とつながります。slice の s は強めに「スライス」。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "最近食べたスイーツやお菓子について英語で3行書いてみよう",
+    "example": "Yesterday I ate a cream puff at the café. The custard was smooth and sweet. It was a bit messy, but very delicious!"
+  },
+  "yamada_comments": {
+    "recipe": "バニラスライス、見た目はシンプルだけどカスタードが本格的だよね。レシピの「prick」っていう単語、フォークで穴を開けるっていう意味。料理英語は独特で面白い！",
+    "review": "レビューで「workmate」って出てきたね。オーストラリアでは同僚のことをこう呼ぶんだよ。ケアンズのカフェで使ってみよう！",
+    "conversation": "「No worries」と「Cheers」、オーストラリアでは毎日聞く言葉！Snow Manのメンバーもオーストラリアに行ったら絶対使うと思うよ。覚えておいて損はない！",
+    "listening": "今回のリスニング、友達同士の会話とお店の紹介の2パターン。実際のカフェでも両方聞くことがあるから、どっちも練習しよう！陸上の短距離も長距離も両方やるみたいにね。",
+    "pronunciation": "「vanilla」の v の音、日本語にはない音だから意識して練習しよう。フィギュアスケートのジャンプも最初は意識して練習するでしょ？慣れたら自然にできるようになるよ！",
+    "try_it": "食べたものを英語で書く練習、毎日やると本当に力がつく！俺もドラマの台本を読むとき、最初は短い文から覚えていくんだよ。コツコツが大事！"
+  }
+}

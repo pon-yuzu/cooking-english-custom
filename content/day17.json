@@ -1,0 +1,170 @@
+{
+  "day": 17,
+  "sweet": "Fruit Tart",
+  "emoji": "🍓",
+  "recipe": {
+    "title": "How to Make a Fruit Tart",
+    "intro": "A fruit tart has a crispy pastry shell, smooth custard, and beautiful fresh fruit on top. It looks amazing and tastes delicious!",
+    "ingredients": "plain flour, butter, icing sugar, egg yolks, milk, sugar, cornflour, vanilla extract, fresh fruit (strawberries, kiwi, blueberries, mango)",
+    "steps": [
+      "**Mix** the flour, cold butter, and icing sugar with your fingers until it looks like breadcrumbs. **Add** one egg yolk and **press** the dough together.",
+      "**Wrap** the dough in plastic wrap and **chill** in the fridge for 30 minutes.",
+      "**Roll** the dough out and **press** it into a tart tin. **Prick** the base with a fork. **Bake** at 180 degrees for 15 minutes.",
+      "**Heat** the milk in a pot. In a bowl, **whisk** the egg yolks, sugar, cornflour, and vanilla together.",
+      "**Pour** the hot milk into the egg mixture slowly. **Return** to the pot and **stir** over low heat until the custard is thick.",
+      "**Pour** the custard into the baked tart shell. **Let** it cool. **Arrange** the fresh fruit on top in a pretty pattern. **Serve** cold!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "pastry shell", "ja": "パイ生地の型"},
+    {"en": "custard", "ja": "カスタードクリーム"},
+    {"en": "breadcrumbs", "ja": "パン粉のような状態"},
+    {"en": "chill", "ja": "冷やす"},
+    {"en": "prick", "ja": "（フォークで）穴をあける"},
+    {"en": "cornflour", "ja": "コーンスターチ"},
+    {"en": "arrange", "ja": "きれいに並べる"},
+    {"en": "pattern", "ja": "模様・パターン"},
+    {"en": "mixture", "ja": "混ぜたもの"}
+  ],
+  "quiz1": {
+    "question_ja": "生地を冷蔵庫で何分冷やしますか？",
+    "options": ["15分", "30分", "45分"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Chill in the fridge for 30 minutes.\"",
+    "explanation_wrong": "2番目のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Café Martinelli",
+    "location": "Shields Street, Cairns, Australia",
+    "stars": 5,
+    "text": "Café Martinelli is a hidden gem in central Cairns. I went there for lunch and could not resist the fruit tart in the display case. It was beautiful! The pastry was buttery and crisp. The custard was creamy and not too sweet. On top there were strawberries, kiwi, and blueberries. Every bite was perfect. The café also has lovely Italian coffee. I will definitely come back for more!"
+  },
+  "review_vocab": [
+    {"en": "hidden gem", "ja": "隠れた名店"},
+    {"en": "resist", "ja": "我慢する"},
+    {"en": "display case", "ja": "ショーケース"},
+    {"en": "buttery", "ja": "バターの風味がある"},
+    {"en": "crisp", "ja": "パリッとした"},
+    {"en": "every bite", "ja": "一口ごとに"},
+    {"en": "definitely", "ja": "絶対に"}
+  ],
+  "quiz2": {
+    "question_ja": "フルーツタルトの上にのっていなかったフルーツはどれですか？",
+    "options": ["いちご", "マンゴー", "ブルーベリー"],
+    "correct_index": 1,
+    "explanation_correct": "正解！レビューにはstrawberries, kiwi, blueberriesと書いてあり、mangoは入っていません。",
+    "explanation_wrong": "フルーツの名前が出てくる部分をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのカフェでは、スイーツが**display case**（ショーケース）に並んでいることが多いです。「**What is that one?**」と指さして聞いたり、「**Can I have the fruit tart, please?**」と注文しましょう。",
+    "ケアンズは**tropical fruit**の宝庫。マンゴー、パパイヤ、パッションフルーツなど南国のフルーツがたくさん。「**What fruit is in season now?**」（今の旬のフルーツは？）と聞いてみるのもいいですね。",
+    "オーストラリアのカフェでは「**I cannot resist that!**」（それ我慢できない！）はよく聞くフレーズ。おいしそうなケーキを見て「**That looks amazing, I will have one!**」と言ってみよう。日常で使える表現です！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Olivia）がショーケースを見ながら注文する場面",
+    "lines": [
+      {"speaker": "Olivia", "text": "Excuse me, what is that beautiful tart in the display case?"},
+      {"speaker": "You", "text": "That is our fruit tart! It has custard and fresh tropical fruit on top."},
+      {"speaker": "Olivia", "text": "It looks amazing! What fruit is on it today?"},
+      {"speaker": "You", "text": "Today it has strawberries, mango, kiwi, and passionfruit."},
+      {"speaker": "Olivia", "text": "Oh, I love passionfruit! I will have a slice, please."},
+      {"speaker": "You", "text": "Great! Would you like it on a plate to eat here, or take away?"},
+      {"speaker": "Olivia", "text": "I will eat here. Can I also have an iced latte?"},
+      {"speaker": "You", "text": "Sure! Regular or large?"},
+      {"speaker": "Olivia", "text": "Large, please. With extra ice."},
+      {"speaker": "You", "text": "No worries! That is sixteen dollars ninety. Please take a seat and I will bring it over."},
+      {"speaker": "Olivia", "text": "Thank you so much! I love this café."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "display case", "ja": "ショーケース"},
+    {"en": "tropical", "ja": "トロピカルな・熱帯の"},
+    {"en": "passionfruit", "ja": "パッションフルーツ"},
+    {"en": "iced latte", "ja": "アイスラテ"},
+    {"en": "extra ice", "ja": "氷多め"},
+    {"en": "bring it over", "ja": "持っていく"}
+  ],
+  "quiz3": {
+    "question_ja": "Oliviaが一番好きなフルーツは何ですか？",
+    "options": ["いちご", "マンゴー", "パッションフルーツ"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"Oh, I love passionfruit!\"",
+    "explanation_wrong": "\"I love\" の後をもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "フルーツマーケットでの会話",
+      "full_text": "These strawberries look fresh! Yes, they were picked this morning. How much are they? Five dollars a punnet. That is a good deal. I will take two punnets. Do you also have kiwi fruit? Yes, the kiwis are over there on the left. They are three dollars a bag. Great, I need them for a fruit tart. That sounds delicious!",
+      "gaps": [
+        {"before": "These strawberries look", "answer": "fresh", "after": "!"},
+        {"before": "They were picked this", "answer": "morning", "after": "."},
+        {"before": "Five dollars a", "answer": "punnet", "after": "."},
+        {"before": "The kiwis are over there on the", "answer": "left", "after": "."},
+        {"before": "I need them for a fruit", "answer": "tart", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "ベーカリーの週末スペシャル",
+      "full_text": "Hello and thank you for calling Sweet Seasons Bakery. This weekend we have a special fruit tart made with mangoes and passionfruit from local farms. The tart serves six to eight people and costs twenty-eight dollars. We also have individual mini tarts for six dollars each. All orders must be placed by Thursday evening. You can pick up your order on Saturday morning between eight and eleven. Please call us back or order through our website. Thank you and have a lovely day!",
+      "questions": [
+        {
+          "question_ja": "フルーツタルトは何人分ですか？",
+          "options": ["4〜6人分", "6〜8人分", "8〜10人分"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The tart serves six to eight people.\"",
+          "explanation_wrong": "\"serves\" の後の数字をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "ミニタルトは1個いくらですか？",
+          "options": ["4ドル", "6ドル", "8ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"individual mini tarts for six dollars each.\"",
+          "explanation_wrong": "\"mini tarts\" の後の値段に注目！"
+        },
+        {
+          "question_ja": "注文はいつまでにする必要がありますか？",
+          "options": ["水曜の夜", "木曜の夜", "金曜の夜"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"All orders must be placed by Thursday evening.\"",
+          "explanation_wrong": "\"placed by\" の後をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What is that beautiful tart in the display case?",
+        "tip": "beautiful は「ビューティフル」で最初にアクセント。display は「ディスプレイ」で2番目にアクセント。"
+      },
+      {
+        "text": "It looks amazing.",
+        "tip": "It looks が「イッルックス」。amazing は「アメイジング」で2番目の音節にアクセント。"
+      },
+      {
+        "text": "Would you like it on a plate to eat here?",
+        "tip": "Would you が「ウッジュー」。on a が「オナ」。eat here が「イートヒア」。"
+      },
+      {
+        "text": "Large, please. With extra ice.",
+        "tip": "extra は「エクストラ」でx は「クス」の音。ice の最後は「ス」ではなく軽い「ス」。"
+      },
+      {
+        "text": "I will bring it over.",
+        "tip": "bring it が「ブリンギット」とリンキング。over は「オウヴァー」で v の音をしっかり。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "好きなフルーツを使ったデザートについて英語で3行書いてみよう",
+    "example": "I want to make a fruit tart with mango and strawberries. I will make custard and put it in a pastry shell. Then I will arrange the fruit on top to make it look pretty!"
+  },
+  "yamada_comments": {
+    "recipe": "フルーツタルト、見た目がきれいで作るの楽しそう！フルーツを並べるのは、フィギュアスケートの振付みたいにセンスが大事だよね。",
+    "review": "hidden gem って表現いいよね。隠れた名店。Snow Manも地方ツアーで各地の隠れた名店を見つけるの好きなんだよ。",
+    "conversation": "ショーケースのケーキについて英語で説明できるようになったらカッコいいよね。陸上の試合結果を英語で伝えるのと同じで、具体的に言うのがポイント！",
+    "listening": "マーケットでの買い物英語、実用的だよね。ケアンズのマーケットは楽しそう。俺も海外で市場行くの好きなんだ。",
+    "pronunciation": "amazing の発音、日本語の「アメージング」とちょっと違うよ。2番目にアクセント置いてね。Snow Manの曲でもよく出てくる単語だよ！",
+    "try_it": "好きなフルーツについて書くの楽しいよね。季節のフルーツを使ったタルト、想像しただけでお腹すいてきた笑"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "day": 27,
+  "sweet": "Waffles",
+  "emoji": "🧇",
+  "recipe": {
+    "title": "How to Make Waffles",
+    "intro": "Crispy waffles are a favourite breakfast in many Australian cafés. You can add many toppings like fruit, cream, and maple syrup!",
+    "ingredients": "plain flour, baking powder, sugar, eggs, milk, butter, vanilla extract, a pinch of salt",
+    "steps": [
+      "**Mix** the flour, baking powder, sugar, and salt in a large bowl.",
+      "**Whisk** the eggs, milk, melted butter, and vanilla in another bowl.",
+      "**Pour** the wet ingredients into the dry ingredients and **stir** until just combined.",
+      "**Heat** the waffle iron and **brush** it lightly with butter.",
+      "**Pour** some batter into the waffle iron and **close** the lid.",
+      "**Cook** for 3 to 4 minutes until golden and crispy. **Serve** with your favourite toppings!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "plain flour", "ja": "薄力粉"},
+    {"en": "baking powder", "ja": "ベーキングパウダー"},
+    {"en": "whisk", "ja": "泡立て器で混ぜる"},
+    {"en": "waffle iron", "ja": "ワッフルメーカー"},
+    {"en": "brush", "ja": "（バターを）塗る"},
+    {"en": "batter", "ja": "生地（液状の）"},
+    {"en": "lid", "ja": "ふた"},
+    {"en": "toppings", "ja": "トッピング"},
+    {"en": "crispy", "ja": "カリカリの・サクサクの"}
+  ],
+  "quiz1": {
+    "question_ja": "ワッフルは何分くらい焼きますか？",
+    "options": ["1〜2分", "3〜4分", "5〜6分"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Cook for 3 to 4 minutes until golden and crispy.\"",
+    "explanation_wrong": "最後のステップの時間を確認してみよう！"
+  },
+  "review": {
+    "cafe_name": "Waffle On Café",
+    "location": "Trinity Beach, Queensland, Australia",
+    "stars": 5,
+    "text": "Best waffles near Cairns! I went to Waffle On Café with my family on Saturday morning. We ordered the classic waffle with maple syrup and the banana waffle with Nutella. Both were amazing. The waffles were crispy on the outside and soft on the inside. The portions were huge. My kids loved them so much. The café has a nice garden area too. We will definitely visit again!"
+  },
+  "review_vocab": [
+    {"en": "classic", "ja": "定番の"},
+    {"en": "maple syrup", "ja": "メープルシロップ"},
+    {"en": "portions", "ja": "量・ポーション"},
+    {"en": "huge", "ja": "とても大きい"},
+    {"en": "definitely", "ja": "絶対に・間違いなく"},
+    {"en": "on the outside / on the inside", "ja": "外側は／内側は"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーが注文したワッフルの種類はどれですか？",
+    "options": ["ストロベリーとチョコレート", "クラシックとバナナヌテラ", "ブルーベリーとメープル"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"the classic waffle with maple syrup and the banana waffle with Nutella\"",
+    "explanation_wrong": "\"ordered\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのカフェでは朝食メニューに「**waffles**」が定番。トッピングを選べるスタイルが多いです。「**Can I have the waffles with fresh fruit and cream, please?**」のように注文しましょう。",
+    "ケアンズ近くの**Trinity Beach**は地元の人に人気のビーチタウン。朝サーフィンした後にカフェでワッフルを食べる人も多いです。「**Let's grab waffles after the beach!**」は週末の定番フレーズ。",
+    "オーストラリアでは「**brekkie**」は breakfast のスラング。「**What are you having for brekkie?**」（朝ごはん何食べる？）と聞かれたら「**I'm having waffles!**」と答えてみよう！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Emma）がワッフルのトッピングを選んでいる場面",
+    "lines": [
+      {"speaker": "You", "text": "Good morning! Welcome to our café."},
+      {"speaker": "Emma", "text": "Morning! Can I see the waffle menu, please?"},
+      {"speaker": "You", "text": "Of course! We have plain, chocolate, and banana waffles."},
+      {"speaker": "Emma", "text": "I will have the plain waffle. What toppings can I add?"},
+      {"speaker": "You", "text": "You can add fresh fruit, maple syrup, Nutella, or whipped cream."},
+      {"speaker": "Emma", "text": "Can I have fresh strawberries and maple syrup?"},
+      {"speaker": "You", "text": "Sure! Would you like whipped cream on top as well?"},
+      {"speaker": "Emma", "text": "Yes, please! And a flat white."},
+      {"speaker": "You", "text": "No worries! That will be sixteen dollars."},
+      {"speaker": "Emma", "text": "Here is my card. Thanks!"},
+      {"speaker": "You", "text": "Thank you! Your waffles will be ready in about five minutes."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "menu", "ja": "メニュー"},
+    {"en": "toppings", "ja": "トッピング"},
+    {"en": "fresh", "ja": "新鮮な"},
+    {"en": "as well", "ja": "〜も（also と同じ）"},
+    {"en": "flat white", "ja": "フラットホワイト（AU式カフェラテ）"},
+    {"en": "card", "ja": "（支払い用の）カード"}
+  ],
+  "quiz3": {
+    "question_ja": "Emmaが選んだトッピングは何ですか？",
+    "options": ["バナナとヌテラ", "いちごとメープルシロップとクリーム", "ブルーベリーとクリーム"],
+    "correct_index": 1,
+    "explanation_correct": "正解！いちご、メープルシロップ、そしてホイップクリームも追加しました。",
+    "explanation_wrong": "Emmaが注文した部分をもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "週末のブランチの約束",
+      "full_text": "Hey, are you free on Sunday? Yes, I am. Do you want to go out for brunch? Sure! Where do you want to go? There is a new café in Trinity Beach. They have amazing waffles. Oh, I love waffles! Great, let's meet at ten o'clock. Perfect. I will drive. See you on Sunday then!",
+      "gaps": [
+        {"before": "Are you free on", "answer": "Sunday", "after": "?"},
+        {"before": "Do you want to go out for", "answer": "brunch", "after": "?"},
+        {"before": "There is a new café in", "answer": "Trinity Beach", "after": "."},
+        {"before": "Let's meet at", "answer": "ten", "after": "o'clock."},
+        {"before": "I will", "answer": "drive", "after": ". See you on Sunday then!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "ワッフルイベントの案内",
+      "full_text": "Welcome to the Cairns Waffle Festival! This weekend, five local cafés are making special waffles. You can try waffles from all five cafés for just fifteen dollars. The festival is at Fogarty Park from nine in the morning until three in the afternoon. There will also be live music and face painting for children. Each café will make a different waffle flavour. You can vote for your favourite waffle. The café with the most votes will win a trophy. Bring your family and friends!",
+      "questions": [
+        {
+          "question_ja": "ワッフルフェスティバルには何軒のカフェが参加していますか？",
+          "options": ["3軒", "5軒", "7軒"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"five local cafés are making special waffles\"",
+          "explanation_wrong": "\"cafés\" の前の数字をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "入場料はいくらですか？",
+          "options": ["10ドル", "15ドル", "20ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"for just fifteen dollars\"",
+          "explanation_wrong": "\"dollars\" の前の数字に注目！"
+        },
+        {
+          "question_ja": "一番人気のカフェは何をもらえますか？",
+          "options": ["賞金", "トロフィー", "ギフトカード"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The café with the most votes will win a trophy.\"",
+          "explanation_wrong": "\"win\" の後の単語をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Can I see the waffle menu, please?",
+        "tip": "Can I が「キャナイ」。waffle は「ワッフォー」で最後の l は軽く。menu は「メニュー」。"
+      },
+      {
+        "text": "What toppings can I add?",
+        "tip": "toppings の p は破裂音でしっかり。can I add が「キャナイアッド」とつながります。"
+      },
+      {
+        "text": "Would you like whipped cream on top as well?",
+        "tip": "Would you が「ウッジュー」。whipped cream は「ウィプトゥクリーム」。as well は「アズウェル」。"
+      },
+      {
+        "text": "Your waffles will be ready in about five minutes.",
+        "tip": "waffles will が「ワッフォーズウィル」。in about は「イナバウト」とリンキング。"
+      },
+      {
+        "text": "Here is my card.",
+        "tip": "Here is が「ヒアリズ」とつながります。card は「カード」で最後の d を軽く。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "あなたの好きな朝食について英語で3行書いてみよう",
+    "example": "I love waffles for breakfast on weekends. I put strawberries and maple syrup on top. I eat them with a big cup of coffee at my favourite café."
+  },
+  "yamada_comments": {
+    "recipe": "ワッフル、外はカリカリ中はふわふわって最高だよね！ワッフルメーカーがあれば家でも作れるよ。週末のブランチにぴったり。",
+    "review": "家族でカフェに行くレビュー、楽しそうだね。Snow Manのメンバーとも休みの日にブランチ行ったりするよ。",
+    "conversation": "トッピングを説明する接客、お客さんが迷ってたらおすすめしてあげよう！フィギュアスケートの衣装選びみたいに、組み合わせが大事だよね（笑）。",
+    "listening": "ワッフルフェスティバル、楽しそう！数字の聴き取りは練習あるのみ。陸上の記録も数字で覚えるでしょ？英語の数字も慣れだよ。",
+    "pronunciation": "リンキング、だいぶ慣れてきたかな？自然に話せるようになると会話が楽しくなるよ。27日目、すごい頑張ってる！",
+    "try_it": "週末のブランチ、もものちゃんは何を食べる？好きな朝ごはんを英語で教えて！"
+  }
+}

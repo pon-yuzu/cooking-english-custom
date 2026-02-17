@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>☕ Day 5: Tim Tam Slam — Cooking English Custom</title>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&family=Quicksand:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #E8792F;
+  --primary-light: #FDF0E6;
+  --primary-dark: #C45A1A;
+  --navy: #1B3A5C;
+  --blue: #2E75B6;
+  --blue-light: #D6E8F7;
+  --green: #4CAF50;
+  --green-light: #E8F5E9;
+  --purple: #7B1FA2;
+  --purple-light: #F3E5F5;
+  --listening-color: #00897B;
+  --listening-light: #E0F2F1;
+  --bg: #FAFAF7;
+  --card-bg: #FFFFFF;
+  --text: #333333;
+  --text-light: #666666;
+  --border: #E8E5DF;
+  --shadow: 0 2px 12px rgba(27,58,92,0.08);
+  --shadow-hover: 0 4px 20px rgba(27,58,92,0.14);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --yamada-bg: linear-gradient(135deg, #FFF5F5 0%, #FFF0F5 50%, #F5F0FF 100%);
+  --yamada-border: #E8B4B8;
+  --yamada-accent: #C2185B;
+  --pronun-color: #E65100;
+  --pronun-light: #FFF3E0;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Noto Sans JP', 'Zen Maru Gothic', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, var(--navy) 0%, #2A5080 100%);
+  color: white;
+  padding: 2rem 1.5rem 1.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(232,121,47,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.header-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.8rem;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.header h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.header p { font-size: 0.85rem; opacity: 0.8; }
+
+.progress-bar {
+  background: white;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.progress-dots { display: flex; gap: 4px; justify-content: center; align-items: center; }
+.progress-dot {
+  width: 28px; height: 6px; border-radius: 3px;
+  background: var(--border); transition: all 0.3s; cursor: pointer;
+}
+.progress-dot.active { background: var(--primary); }
+.progress-dot.complete { background: var(--green); }
+.progress-label {
+  text-align: center; font-size: 0.7rem; color: var(--text-light);
+  margin-top: 0.4rem; font-family: 'Quicksand', sans-serif; font-weight: 600;
+}
+
+.main { max-width: 640px; margin: 0 auto; padding: 1rem 1rem 4rem; }
+
+.section-card {
+  background: var(--card-bg); border-radius: var(--radius);
+  margin-bottom: 1.2rem; box-shadow: var(--shadow);
+  overflow: hidden; border: 1px solid var(--border);
+  transition: box-shadow 0.3s;
+  animation: fadeIn 0.4s ease both;
+}
+.section-card:hover { box-shadow: var(--shadow-hover); }
+.section-card:nth-child(1) { animation-delay: 0.05s; }
+.section-card:nth-child(2) { animation-delay: 0.1s; }
+.section-card:nth-child(3) { animation-delay: 0.15s; }
+.section-card:nth-child(4) { animation-delay: 0.2s; }
+.section-card:nth-child(5) { animation-delay: 0.25s; }
+.section-card:nth-child(6) { animation-delay: 0.3s; }
+.section-card:nth-child(7) { animation-delay: 0.35s; }
+.section-card:nth-child(8) { animation-delay: 0.4s; }
+.section-card:nth-child(9) { animation-delay: 0.45s; }
+.section-card:nth-child(10) { animation-delay: 0.5s; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.section-header {
+  display: flex; align-items: center; gap: 0.8rem;
+  padding: 1rem 1.2rem; cursor: pointer; user-select: none;
+  transition: background 0.2s;
+}
+.section-header:hover { background: rgba(0,0,0,0.02); }
+.section-number {
+  width: 32px; height: 32px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Quicksand', sans-serif; font-weight: 700;
+  font-size: 0.85rem; color: white; flex-shrink: 0;
+}
+.section-title { flex: 1; }
+.section-title .label {
+  font-size: 0.65rem; font-family: 'Quicksand', sans-serif;
+  font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; opacity: 0.7;
+}
+.section-title .name { font-size: 1rem; font-weight: 700; }
+.section-chevron { font-size: 1.2rem; transition: transform 0.3s; opacity: 0.4; }
+.section-card.open .section-chevron { transform: rotate(180deg); }
+.section-body { padding: 0 1.2rem 1.2rem; display: none; }
+.section-card.open .section-body { display: block; }
+
+.yamada-comment {
+  background: var(--yamada-bg); border: 1px solid var(--yamada-border);
+  border-radius: var(--radius-sm); padding: 0.8rem 1rem;
+  margin-bottom: 1rem; display: flex; gap: 0.6rem;
+  align-items: flex-start; font-size: 0.85rem; line-height: 1.6;
+}
+.yamada-text { flex: 1; }
+.yamada-name {
+  font-size: 0.7rem; font-weight: 700; color: var(--yamada-accent);
+  font-family: 'Quicksand', sans-serif; margin-bottom: 0.15rem;
+}
+
+.recipe-box {
+  background: #FFFDF9; border: 1px solid #F0E8D8;
+  border-radius: var(--radius-sm); padding: 1.2rem; margin-bottom: 1rem;
+}
+.recipe-box h3 { font-family: 'Quicksand', sans-serif; font-size: 1.1rem; color: var(--navy); margin-bottom: 0.8rem; }
+.recipe-box .ingredients {
+  font-size: 0.85rem; color: var(--text-light); margin-bottom: 1rem;
+  padding: 0.6rem; background: rgba(232,121,47,0.05); border-radius: 8px;
+}
+.recipe-box .ingredients strong { color: var(--primary-dark); }
+.recipe-steps { counter-reset: step; list-style: none; }
+.recipe-steps li {
+  counter-increment: step; padding: 0.5rem 0 0.5rem 2.2rem;
+  position: relative; font-size: 0.9rem; border-bottom: 1px solid #F5F0E8;
+}
+.recipe-steps li:last-child { border-bottom: none; }
+.recipe-steps li::before {
+  content: counter(step); position: absolute; left: 0; top: 0.5rem;
+  width: 24px; height: 24px; background: var(--primary); color: white;
+  border-radius: 50%; font-size: 0.75rem; font-family: 'Quicksand', sans-serif;
+  font-weight: 700; display: flex; align-items: center; justify-content: center;
+}
+.recipe-steps li strong { color: var(--navy); }
+
+.action-row { display: flex; gap: 0.5rem; margin: 0.8rem 0; flex-wrap: wrap; }
+.action-btn {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.8rem; border: 1px solid var(--border);
+  border-radius: 20px; font-size: 0.75rem; background: white;
+  cursor: pointer; transition: all 0.2s; font-family: 'Noto Sans JP', sans-serif;
+  color: var(--text-light); text-decoration: none;
+}
+.action-btn:hover { background: var(--blue-light); border-color: var(--blue); color: var(--navy); }
+
+.vocab-toggle {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.8rem; border: 1px solid var(--border);
+  border-radius: 20px; font-size: 0.75rem; background: white;
+  cursor: pointer; transition: all 0.2s; color: var(--text-light); margin-bottom: 0.5rem;
+}
+.vocab-toggle:hover { background: var(--green-light); border-color: var(--green); }
+.vocab-list { display: none; margin-top: 0.5rem; }
+.vocab-list.show { display: block; }
+.vocab-item {
+  display: flex; align-items: center; gap: 0.8rem;
+  padding: 0.5rem 0.8rem; border-radius: 8px; font-size: 0.85rem;
+  transition: background 0.2s; cursor: pointer;
+}
+.vocab-item:hover { background: rgba(0,0,0,0.03); }
+.vocab-check {
+  width: 18px; height: 18px; border: 2px solid var(--border);
+  border-radius: 4px; flex-shrink: 0; display: flex;
+  align-items: center; justify-content: center;
+  transition: all 0.2s; font-size: 0.7rem; color: transparent;
+}
+.vocab-item.checked .vocab-check { background: var(--primary); border-color: var(--primary); color: white; }
+.vocab-en { font-weight: 700; color: var(--navy); min-width: 100px; }
+.vocab-ja { color: var(--text-light); font-size: 0.8rem; }
+
+.quiz-question { font-weight: 700; font-size: 0.95rem; margin-bottom: 0.8rem; color: var(--navy); padding-left: 0.3rem; }
+.quiz-options { display: flex; flex-direction: column; gap: 0.5rem; }
+.quiz-option {
+  padding: 0.7rem 1rem; border: 2px solid var(--border);
+  border-radius: var(--radius-sm); cursor: pointer; font-size: 0.9rem;
+  transition: all 0.2s; background: white;
+}
+.quiz-option:hover { border-color: var(--blue); background: var(--blue-light); }
+.quiz-option.correct { border-color: var(--green); background: var(--green-light); }
+.quiz-option.wrong { border-color: #E53935; background: #FFEBEE; }
+.quiz-feedback { margin-top: 0.8rem; padding: 0.6rem 0.8rem; border-radius: 8px; font-size: 0.85rem; display: none; }
+.quiz-feedback.show { display: block; }
+.quiz-feedback.correct { background: var(--green-light); color: #2E7D32; }
+.quiz-feedback.wrong { background: #FFEBEE; color: #C62828; }
+
+.review-card {
+  background: linear-gradient(135deg, #FFFDF7 0%, #FFF8F0 100%);
+  border: 1px solid #F0E0C8; border-radius: var(--radius-sm);
+  padding: 1.2rem; margin-bottom: 1rem;
+}
+.review-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; }
+.review-header h4 { font-family: 'Quicksand', sans-serif; font-size: 0.95rem; color: var(--navy); }
+.review-stars { color: #F9A825; font-size: 0.9rem; }
+.review-text { font-size: 0.9rem; line-height: 1.9; color: var(--text); }
+
+.tips-box {
+  background: linear-gradient(135deg, #F0F8FF 0%, #E8F5E9 100%);
+  border: 1px solid #C8E6C9; border-radius: var(--radius-sm); padding: 1.2rem;
+}
+.tips-box p { font-size: 0.85rem; margin-bottom: 0.8rem; line-height: 1.8; }
+.tips-box p:last-child { margin-bottom: 0; }
+
+.conversation-scene {
+  background: var(--blue-light); border-radius: var(--radius-sm);
+  padding: 0.6rem 1rem; font-size: 0.8rem; color: var(--navy);
+  margin-bottom: 1rem; font-weight: 500;
+}
+.convo-line { display: flex; gap: 0.6rem; margin-bottom: 0.6rem; align-items: flex-start; }
+.convo-speaker { font-weight: 700; font-size: 0.8rem; min-width: 50px; padding-top: 0.1rem; flex-shrink: 0; }
+.convo-speaker.you { color: var(--primary); }
+.convo-speaker.emma { color: var(--blue); }
+.convo-text { font-size: 0.9rem; }
+
+/* ===== LISTENING ===== */
+.listening-box {
+  background: var(--listening-light); border: 1px solid #B2DFDB;
+  border-radius: var(--radius-sm); padding: 1.2rem; margin-bottom: 1rem;
+}
+.listening-box h4 { font-family: 'Quicksand', sans-serif; color: var(--listening-color); font-size: 0.95rem; margin-bottom: 0.8rem; }
+.listening-instruction { font-size: 0.85rem; color: var(--text-light); margin-bottom: 0.6rem; }
+
+.tts-btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.5rem 1.2rem; background: var(--listening-color);
+  color: white; border: none; border-radius: 20px;
+  font-size: 0.8rem; font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700; cursor: pointer; transition: all 0.2s;
+  margin-bottom: 0.8rem;
+}
+.tts-btn:hover { background: #00695C; transform: translateY(-1px); }
+.tts-btn.playing { background: #E53935; }
+.tts-btn.playing:hover { background: #C62828; }
+
+.tts-speed {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  margin-left: 0.5rem; font-size: 0.75rem; color: var(--text-light);
+}
+.tts-speed select {
+  border: 1px solid var(--border); border-radius: 12px;
+  padding: 0.2rem 0.4rem; font-size: 0.75rem;
+  background: white; cursor: pointer;
+}
+
+.gap-fill { margin: 0.5rem 0; font-size: 0.9rem; line-height: 2.4; }
+.gap-fill input {
+  border: none; border-bottom: 2px solid var(--listening-color);
+  background: rgba(0,137,123,0.05); border-radius: 4px 4px 0 0;
+  padding: 0.1rem 0.3rem; font-size: 0.9rem;
+  font-family: 'Quicksand', sans-serif; font-weight: 600;
+  width: 100px; text-align: center; outline: none;
+  color: var(--listening-color);
+}
+.gap-fill input:focus { border-bottom-color: var(--primary); background: rgba(232,121,47,0.08); }
+.gap-fill input.correct-input { border-bottom-color: #4CAF50; background: rgba(76,175,80,0.1); }
+.gap-fill input.wrong-input { border-bottom-color: #E53935; background: rgba(229,57,53,0.1); }
+
+.listening-check-btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.5rem 1.2rem; background: var(--listening-color);
+  color: white; border: none; border-radius: 20px;
+  font-size: 0.8rem; font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700; cursor: pointer; transition: all 0.2s; margin-top: 0.5rem;
+}
+.listening-check-btn:hover { background: #00695C; transform: translateY(-1px); }
+.listening-answer {
+  margin-top: 0.8rem; padding: 0.6rem 0.8rem; background: white;
+  border-radius: 8px; font-size: 0.85rem; display: none; border: 1px solid #B2DFDB;
+}
+.listening-answer.show { display: block; }
+
+.listening-script-toggle {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.8rem; border: 1px dashed var(--listening-color);
+  border-radius: 20px; font-size: 0.75rem; background: white;
+  cursor: pointer; color: var(--listening-color); margin-top: 0.5rem;
+}
+.listening-script { display: none; margin-top: 0.6rem; padding: 0.8rem; background: white; border-radius: 8px; font-size: 0.85rem; border: 1px solid #B2DFDB; line-height: 1.8; }
+.listening-script.show { display: block; }
+
+.try-it-box {
+  background: var(--purple-light); border: 1px solid #CE93D8;
+  border-radius: var(--radius-sm); padding: 1.2rem;
+}
+.try-it-box h4 { color: var(--purple); font-family: 'Quicksand', sans-serif; margin-bottom: 0.5rem; }
+.try-it-box p { font-size: 0.85rem; margin-bottom: 0.6rem; }
+.try-it-textarea {
+  width: 100%; min-height: 100px; border: 1px solid #CE93D8;
+  border-radius: 8px; padding: 0.8rem; font-size: 0.9rem;
+  font-family: 'Noto Sans JP', sans-serif; line-height: 1.8;
+  resize: vertical; outline: none; transition: border-color 0.2s;
+}
+.try-it-textarea:focus { border-color: var(--purple); }
+
+.summary-box {
+  background: white; border: 2px dashed var(--border);
+  border-radius: var(--radius-sm); padding: 1.2rem; text-align: center;
+}
+.summary-btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.6rem 1.5rem; background: var(--navy); color: white;
+  border: none; border-radius: 20px; font-size: 0.85rem;
+  font-family: 'Noto Sans JP', sans-serif; font-weight: 700;
+  cursor: pointer; transition: all 0.2s; margin-bottom: 0.5rem;
+}
+.summary-btn:hover { background: #2A5080; transform: translateY(-1px); }
+.summary-output {
+  margin-top: 0.8rem; text-align: left; font-size: 0.8rem;
+  color: var(--text-light); padding: 0.8rem; background: #F5F5F5;
+  border-radius: 8px; display: none; white-space: pre-wrap;
+}
+.summary-output.show { display: block; }
+
+.day-nav {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem 0; margin-top: 1rem; border-top: 1px solid var(--border);
+}
+.nav-btn {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.5rem 1rem; border: 1px solid var(--border);
+  border-radius: 20px; font-size: 0.85rem; background: white;
+  cursor: pointer; transition: all 0.2s; text-decoration: none;
+  color: var(--text); font-family: 'Noto Sans JP', sans-serif;
+}
+.nav-btn:hover { background: var(--blue-light); border-color: var(--blue); }
+.nav-btn.disabled { opacity: 0.4; pointer-events: none; }
+.home-btn {
+  padding: 0.5rem 1rem; background: var(--primary); color: white;
+  border: none; border-radius: 20px; font-size: 0.8rem; cursor: pointer;
+  text-decoration: none; font-family: 'Quicksand', sans-serif; font-weight: 700;
+}
+
+.sec-recipe .section-number { background: var(--primary); }
+.sec-quiz1 .section-number { background: var(--blue); }
+.sec-review .section-number { background: #F9A825; }
+.sec-quiz2 .section-number { background: var(--blue); }
+.sec-tips .section-number { background: var(--green); }
+.sec-convo .section-number { background: var(--navy); }
+.sec-quiz3 .section-number { background: var(--blue); }
+.sec-listening .section-number { background: var(--listening-color); }
+.sec-tryit .section-number { background: var(--purple); }
+.sec-summary .section-number { background: var(--text-light); }
+.sec-pronun .section-number { background: var(--pronun-color); }
+
+/* ===== PRONUNCIATION CHECK ===== */
+.pronun-box {
+  background: var(--pronun-light);
+  border: 1px solid #FFB74D;
+  border-radius: var(--radius-sm);
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+}
+.pronun-box h4 {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--pronun-color);
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+}
+.pronun-sentence {
+  background: white;
+  border: 2px solid #FFB74D;
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  margin: 0.8rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-align: center;
+  line-height: 1.8;
+}
+.pronun-sentence .word {
+  display: inline-block;
+  padding: 0.1rem 0.2rem;
+  border-radius: 4px;
+  transition: all 0.3s;
+  margin: 0 1px;
+}
+.pronun-sentence .word.correct { background: rgba(76,175,80,0.2); color: #2E7D32; }
+.pronun-sentence .word.wrong { background: rgba(229,57,53,0.2); color: #C62828; text-decoration: underline wavy #E53935; }
+.pronun-sentence .word.missed { background: rgba(255,152,0,0.2); color: #E65100; }
+
+.pronun-record-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background: var(--pronun-color);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.pronun-record-btn:hover { background: #BF360C; transform: translateY(-1px); }
+.pronun-record-btn.recording {
+  background: #E53935;
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(229,57,53,0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(229,57,53,0); }
+}
+
+.pronun-result {
+  margin-top: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius-sm);
+  display: none;
+  font-size: 0.85rem;
+}
+.pronun-result.show { display: block; }
+.pronun-result.good { background: var(--green-light); border: 1px solid #A5D6A7; }
+.pronun-result.needs-work { background: #FFF3E0; border: 1px solid #FFB74D; }
+.pronun-result.try-again { background: #FFEBEE; border: 1px solid #EF9A9A; }
+
+.pronun-score {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.pronun-score-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: white;
+  flex-shrink: 0;
+}
+.pronun-score-circle.high { background: var(--green); }
+.pronun-score-circle.mid { background: #FF9800; }
+.pronun-score-circle.low { background: #E53935; }
+
+.pronun-heard {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  background: rgba(0,0,0,0.03);
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+.pronun-heard strong { color: var(--navy); }
+
+.pronun-tips {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  padding-left: 0.5rem;
+}
+.pronun-tips li { margin-bottom: 0.3rem; }
+
+.pronun-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+.pronun-nav-btn {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.pronun-nav-btn:hover { background: var(--pronun-light); border-color: #FFB74D; }
+.pronun-nav-btn.disabled { opacity: 0.3; pointer-events: none; }
+.pronun-counter {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+.pronun-browser-note {
+  font-size: 0.7rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  background: rgba(0,0,0,0.03);
+  border-radius: 6px;
+}
+
+.repeat-count { font-size: 0.75rem; color: var(--text-light); margin-left: 0.5rem; }
+
+@media (max-width: 480px) {
+  .header h1 { font-size: 1.6rem; }
+  .main { padding: 0.8rem 0.6rem 4rem; }
+  .section-body { padding: 0 0.8rem 1rem; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-badge">COOKING ENGLISH — CUSTOM EDITION</div>
+  <h1>☕ Day 5: Tim Tam Slam</h1>
+  <p>30日間クッキング英語 — 5日目</p>
+</div>
+
+<div class="progress-bar">
+  <div class="progress-dots">
+    <div class="progress-dot active" data-section="0"></div>
+    <div class="progress-dot" data-section="1"></div>
+    <div class="progress-dot" data-section="2"></div>
+    <div class="progress-dot" data-section="3"></div>
+    <div class="progress-dot" data-section="4"></div>
+    <div class="progress-dot" data-section="5"></div>
+    <div class="progress-dot" data-section="6"></div>
+    <div class="progress-dot" data-section="7"></div>
+    <div class="progress-dot" data-section="8"></div>
+    <div class="progress-dot" data-section="9"></div>
+    <div class="progress-dot" data-section="10"></div>
+  </div>
+  <div class="progress-label">1 / 11 セクション</div>
+</div>
+
+<div class="main">
+
+<div class="section-card sec-recipe open" data-index="0">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">1</div>
+    <div class="section-title"><div class="label">Recipe</div><div class="name">Tim Tam Slamのレシピを読んでみよう</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        ティムタムスラム、これぞオーストラリアの文化！Snow Manのメンバーとやったら絶対盛り上がるよね。手順の英語、動詞を一つずつ覚えよう！
+      </div>
+    </div>
+    <div class="recipe-box">
+      <h3>How to Do a Tim Tam Slam</h3>
+      <p>A Tim Tam Slam is a fun Australian tradition. You use a Tim Tam biscuit as a straw to drink hot chocolate or coffee!</p>
+      <div class="ingredients">
+        <strong>Ingredients:</strong><br>
+        Tim Tam biscuits, hot chocolate (or coffee or tea), a mug
+      </div>
+      <ol class="recipe-steps">
+        <li><strong>Make</strong> a hot cup of chocolate, coffee, or tea.</li>
+        <li><strong>Bite</strong> off one corner of the Tim Tam.</li>
+        <li><strong>Bite</strong> off the opposite corner of the Tim Tam.</li>
+        <li><strong>Put</strong> one bitten end into the hot drink, like a straw.</li>
+        <li><strong>Suck</strong> the hot drink through the Tim Tam. The chocolate inside will start to <strong>melt</strong>.</li>
+        <li><strong>Eat</strong> the whole Tim Tam quickly before it falls apart! <strong>Enjoy</strong> the melted chocolate goodness!</li>
+      </ol>
+    </div>
+    <div class="action-row">
+      <button class="action-btn" onclick="copyText('recipe-text')">📋 コピー</button>
+      <button class="action-btn tts-btn" onclick="speakText('recipe-tts', this)">🔊 読み上げ</button>
+    </div>
+    <div id="recipe-text" style="display:none">How to Do a Tim Tam Slam. A Tim Tam Slam is a fun Australian tradition. You use a Tim Tam biscuit as a straw to drink hot chocolate or coffee! Ingredients: Tim Tam biscuits, hot chocolate (or coffee or tea), a mug. Steps: 1. **Make** a hot cup of chocolate, coffee, or tea. 2. **Bite** off one corner of the Tim Tam. 3. **Bite** off the opposite corner of the Tim Tam. 4. **Put** one bitten end into the hot drink, like a straw. 5. **Suck** the hot drink through the Tim Tam. The chocolate inside will start to **melt**. 6. **Eat** the whole Tim Tam quickly before it falls apart! **Enjoy** the melted chocolate goodness!</div>
+    <div id="recipe-tts" style="display:none">How to Do a Tim Tam Slam. A Tim Tam Slam is a fun Australian tradition. You use a Tim Tam biscuit as a straw to drink hot chocolate or coffee! Step 1. **Make** a hot cup of chocolate, coffee, or tea. Step 2. **Bite** off one corner of the Tim Tam. Step 3. **Bite** off the opposite corner of the Tim Tam. Step 4. **Put** one bitten end into the hot drink, like a straw. Step 5. **Suck** the hot drink through the Tim Tam. The chocolate inside will start to **melt**. Step 6. **Eat** the whole Tim Tam quickly before it falls apart! **Enjoy** the melted chocolate goodness!</div>
+    <button class="vocab-toggle" onclick="toggleVocab(this)">📚 単語リストを見る</button>
+    <div class="vocab-list">
+      <p style="font-size:0.75rem;color:var(--text-light);margin-bottom:0.5rem;">💡 わからなかった単語にチェック ✓</p>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">straw</span><span class="vocab-ja">ストロー</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">bite off</span><span class="vocab-ja">噛み切る</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">corner</span><span class="vocab-ja">角（かど）</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">opposite</span><span class="vocab-ja">反対側の</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">suck</span><span class="vocab-ja">吸う</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">melt</span><span class="vocab-ja">溶ける</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">fall apart</span><span class="vocab-ja">崩れる・バラバラになる</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">goodness</span><span class="vocab-ja">おいしさ</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">mug</span><span class="vocab-ja">マグカップ</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-quiz1" data-index="1">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">2</div>
+    <div class="section-title"><div class="label">Quiz 1</div><div class="name">レシピの内容チェック</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="quiz-question">Q: ティムタムスラムでは、ティムタムの角を何か所噛み切りますか？</div>
+    <div class="quiz-options">
+      <div class="quiz-option" onclick="checkQuiz(this, false)">1か所</div>
+      <div class="quiz-option" onclick="checkQuiz(this, true)">2か所</div>
+      <div class="quiz-option" onclick="checkQuiz(this, false)">3か所</div>
+    </div>
+    <div class="quiz-feedback correct">⭕ 正解！正解！1つの角と反対側の角、合わせて2か所を噛み切ります。</div>
+    <div class="quiz-feedback wrong">❌ ステップ2と3をもう一回読んでみよう！</div>
+  </div>
+</div>
+
+<div class="section-card sec-review" data-index="2">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">3</div>
+    <div class="section-title"><div class="label">Review</div><div class="name">カフェのお客さんレビュー</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        友達と一緒に楽しんだレビュー、いいよね。陸上部の仲間とワイワイ食べるの、最高でしょ？英語で感想が書けるようになろう！
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="review-header"><span>☕</span><h4>Muddy&#x27;s Café — Cairns Esplanade, Queensland, Australia</h4></div>
+      <div class="review-stars">⭐⭐⭐⭐⭐</div>
+      <div class="review-text" style="margin-top:0.5rem;">
+        Last night I went to Muddy&#x27;s Café with my workmates. We all did a Tim Tam Slam together! It was so much fun. I used hot chocolate for my Tim Tam Slam. The chocolate melted inside the biscuit and it was incredibly delicious. My friend used coffee and she said it was great too. We laughed so much because one friend&#x27;s Tim Tam fell apart too fast! The café has a nice view of the ocean. I will definitely do this again.
+      </div>
+    </div>
+    <div class="action-row">
+      <button class="action-btn" onclick="copyText('review-text')">📋 コピー</button>
+      <button class="action-btn tts-btn" onclick="speakText('review-tts', this)">🔊 読み上げ</button>
+    </div>
+    <div id="review-text" style="display:none">Last night I went to Muddy&#x27;s Café with my workmates. We all did a Tim Tam Slam together! It was so much fun. I used hot chocolate for my Tim Tam Slam. The chocolate melted inside the biscuit and it was incredibly delicious. My friend used coffee and she said it was great too. We laughed so much because one friend&#x27;s Tim Tam fell apart too fast! The café has a nice view of the ocean. I will definitely do this again.</div>
+    <div id="review-tts" style="display:none">Last night I went to Muddy&#x27;s Café with my workmates. We all did a Tim Tam Slam together! It was so much fun. I used hot chocolate for my Tim Tam Slam. The chocolate melted inside the biscuit and it was incredibly delicious. My friend used coffee and she said it was great too. We laughed so much because one friend&#x27;s Tim Tam fell apart too fast! The café has a nice view of the ocean. I will definitely do this again.</div>
+    <button class="vocab-toggle" onclick="toggleVocab(this)">📚 単語リストを見る</button>
+    <div class="vocab-list">
+      <p style="font-size:0.75rem;color:var(--text-light);margin-bottom:0.5rem;">💡 わからなかった単語にチェック ✓</p>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">workmates</span><span class="vocab-ja">職場の仲間</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">incredibly</span><span class="vocab-ja">信じられないほど</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">laughed</span><span class="vocab-ja">笑った</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">fell apart</span><span class="vocab-ja">崩れた</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">view</span><span class="vocab-ja">景色</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">definitely</span><span class="vocab-ja">絶対に</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-quiz2" data-index="3">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">4</div>
+    <div class="section-title"><div class="label">Quiz 2</div><div class="name">レビューの内容チェック</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="quiz-question">Q: レビュアーの友達のティムタムはどうなりましたか？</div>
+    <div class="quiz-options">
+      <div class="quiz-option" onclick="checkQuiz(this, false)">きれいに食べられた</div>
+      <div class="quiz-option" onclick="checkQuiz(this, true)">早く崩れてしまった</div>
+      <div class="quiz-option" onclick="checkQuiz(this, false)">溶けなかった</div>
+    </div>
+    <div class="quiz-feedback correct">⭕ 正解！正解！&quot;one friend&#x27;s Tim Tam fell apart too fast!&quot;</div>
+    <div class="quiz-feedback wrong">❌ &quot;fell apart&quot; が出てくるところをもう一回読んでみよう！</div>
+  </div>
+</div>
+
+<div class="section-card sec-tips" data-index="4">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">5</div>
+    <div class="section-title"><div class="label">🦘 Australia Tips</div><div class="name">オーストラリアでTim Tam Slamを楽しむなら</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="tips-box">
+      <p><strong>Tim Tam</strong>はオーストラリアで一番有名なチョコレートビスケット。スーパーで買えて、フレーバーもたくさん。「<strong>Have you tried Tim Tams?</strong>」はオーストラリア人との会話のきっかけにぴったり！</p>
+      <p>「<strong>Tim Tam Slam</strong>」はオーストラリア人なら誰でも知ってる楽しみ方。ホームパーティーでも盛り上がるよ。友達に「<strong>Do you want to do a Tim Tam Slam?</strong>」と誘ってみよう！</p>
+      <p>ケアンズの<strong>Muddy's Playground</strong>はエスプラネード沿いの無料の遊び場で、近くにカフェもたくさん。夕方は涼しくて気持ちいいので「<strong>Let's go to the Esplanade after work!</strong>」と同僚を誘うのもおすすめ！</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-convo" data-index="5">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">6</div>
+    <div class="section-title"><div class="label">Conversation</div><div class="name">カフェでの接客場面</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        「How does it work?」って説明を求められる場面、カフェでよくあるよ。フィギュアスケートのルールを説明するみたいに、順番に教えてあげよう！
+      </div>
+    </div>
+    <div class="conversation-scene">☕ カフェで、お客さん（Oliver）がティムタムスラムについて聞く場面</div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">Hi! Welcome to Muddy&#x27;s Café. What would you like today?</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Oliver:</span><span class="convo-text">Hi! I saw a sign about the Tim Tam Slam. What is that?</span></div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">It is really fun! You use a Tim Tam as a straw for your hot drink.</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Oliver:</span><span class="convo-text">That sounds cool! How does it work?</span></div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">You bite off two corners of the Tim Tam and suck the drink through it.</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Oliver:</span><span class="convo-text">Ha, that is amazing! I want to try it.</span></div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">Great! Which hot drink would you like? We have hot chocolate, coffee, and tea.</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Oliver:</span><span class="convo-text">Hot chocolate, please. That sounds the best with a Tim Tam.</span></div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">Good choice! That will be nine dollars fifty.</span></div>
+    <div class="convo-line"><span class="convo-speaker emma">Oliver:</span><span class="convo-text">Here you go. Thanks!</span></div>
+    <div class="convo-line"><span class="convo-speaker you">You:</span><span class="convo-text">Enjoy! Just remember to eat the Tim Tam fast before it melts!</span></div>
+    <div class="action-row">
+      <button class="action-btn" onclick="copyText('convo-text')">📋 コピー</button>
+      <button class="action-btn tts-btn" onclick="speakText('convo-tts', this)">🔊 読み上げ</button>
+    </div>
+    <div id="convo-text" style="display:none">You: Hi! Welcome to Muddy&#x27;s Café. What would you like today? Oliver: Hi! I saw a sign about the Tim Tam Slam. What is that? You: It is really fun! You use a Tim Tam as a straw for your hot drink. Oliver: That sounds cool! How does it work? You: You bite off two corners of the Tim Tam and suck the drink through it. Oliver: Ha, that is amazing! I want to try it. You: Great! Which hot drink would you like? We have hot chocolate, coffee, and tea. Oliver: Hot chocolate, please. That sounds the best with a Tim Tam. You: Good choice! That will be nine dollars fifty. Oliver: Here you go. Thanks! You: Enjoy! Just remember to eat the Tim Tam fast before it melts!</div>
+    <div id="convo-tts" style="display:none">Hi! Welcome to Muddy&#x27;s Café. What would you like today? ... Hi! I saw a sign about the Tim Tam Slam. What is that? ... It is really fun! You use a Tim Tam as a straw for your hot drink. ... That sounds cool! How does it work? ... You bite off two corners of the Tim Tam and suck the drink through it. ... Ha, that is amazing! I want to try it. ... Great! Which hot drink would you like? We have hot chocolate, coffee, and tea. ... Hot chocolate, please. That sounds the best with a Tim Tam. ... Good choice! That will be nine dollars fifty. ... Here you go. Thanks! ... Enjoy! Just remember to eat the Tim Tam fast before it melts!</div>
+    <button class="vocab-toggle" onclick="toggleVocab(this)">📚 単語リストを見る</button>
+    <div class="vocab-list">
+      <p style="font-size:0.75rem;color:var(--text-light);margin-bottom:0.5rem;">💡 わからなかった単語にチェック ✓</p>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">sign</span><span class="vocab-ja">看板・サイン</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">How does it work?</span><span class="vocab-ja">どうやるの？</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">cool</span><span class="vocab-ja">かっこいい・すごい</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">amazing</span><span class="vocab-ja">すごい</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">good choice</span><span class="vocab-ja">いい選択</span></div>
+      <div class="vocab-item" onclick="this.classList.toggle('checked')"><div class="vocab-check">✓</div><span class="vocab-en">remember</span><span class="vocab-ja">覚えておく・忘れないで</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-quiz3" data-index="6">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">7</div>
+    <div class="section-title"><div class="label">Quiz 3</div><div class="name">会話の内容チェック</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="quiz-question">Q: Oliverは何の飲み物を選びましたか？</div>
+    <div class="quiz-options">
+      <div class="quiz-option" onclick="checkQuiz(this, false)">コーヒー</div>
+      <div class="quiz-option" onclick="checkQuiz(this, false)">紅茶</div>
+      <div class="quiz-option" onclick="checkQuiz(this, true)">ホットチョコレート</div>
+    </div>
+    <div class="quiz-feedback correct">⭕ 正解！正解！&quot;Hot chocolate, please.&quot;</div>
+    <div class="quiz-feedback wrong">❌ Oliverが飲み物を選ぶセリフをもう一回読んでみよう！</div>
+  </div>
+</div>
+
+<div class="section-card sec-listening" data-index="7">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">8</div>
+    <div class="section-title"><div class="label">🎧 Listening Challenge</div><div class="name">リスニングに挑戦しよう</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        リスニングのコツは、キーワードをキャッチすること。Snow Manの歌も、サビの歌詞から聴き取れるようになるでしょ？大事な単語に集中！
+      </div>
+    </div>
+
+    <!-- Part A -->
+    <div class="listening-box">
+      <h4>🔊 Part A: シェアハウスでの夜（穴埋め）</h4>
+      <p class="listening-instruction">音声を聴いて、空欄に入る単語を書いてみよう。最初はわからなくて当然！何回でも聴いてOK。</p>
+      <div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;margin-bottom:0.8rem;">
+        <button class="tts-btn" onclick="speakText('listening-a-tts', this)">🔊 再生</button>
+        <span class="tts-speed">速度: <select id="speed-a" onchange="currentSpeed=parseFloat(this.value)">
+          <option value="0.7">🐢 ゆっくり</option>
+          <option value="0.85" selected>普通</option>
+          <option value="1">速い</option>
+        </select></span>
+        <span class="repeat-count" id="repeat-a">再生回数: 0</span>
+      </div>
+      <div id="listening-a-tts" style="display:none">Hey, I bought Tim Tams at the supermarket today. Nice! What flavour did you get? I got the original chocolate flavour. Let&#x27;s do a Tim Tam Slam tonight! Yes! I will make hot chocolate for us. Do we have milk? I think there is some in the fridge. Perfect. I cannot wait to try it! It is going to be so fun!</div>
+      <div class="gap-fill">1. I bought Tim Tams at the <input type="text" data-answer="supermarket" placeholder="____"> today.</div>
+      <div class="gap-fill">2. I got the original chocolate <input type="text" data-answer="flavour" placeholder="____"> .</div>
+      <div class="gap-fill">3. I will make hot chocolate for <input type="text" data-answer="us" placeholder="____"> .</div>
+      <div class="gap-fill">4. I think there is some in the <input type="text" data-answer="fridge" placeholder="____"> .</div>
+      <div class="gap-fill">5. It is going to be so <input type="text" data-answer="fun" placeholder="____"> !</div>
+      <button class="listening-check-btn" onclick="checkAllGaps(this)">✅ 答えを確認</button>
+      <div class="listening-answer" id="gap-answer-a">
+        <strong>答え:</strong> 1. <strong>supermarket</strong> 2. <strong>flavour</strong> 3. <strong>us</strong> 4. <strong>fridge</strong> 5. <strong>fun</strong>
+      </div>
+      <button class="listening-script-toggle" onclick="toggleScript(this)">📝 スクリプトを見る</button>
+      <div class="listening-script">
+        Hey, I bought Tim Tams at the supermarket today.<br>
+        Nice! What flavour did you get? I got the original chocolate flavour.<br>
+        Let&#x27;s do a Tim Tam Slam tonight! Yes! I will make hot chocolate for us.<br>
+        Do we have milk? I think there is some in the fridge.<br>
+        Perfect.<br>
+        I cannot wait to try it! It is going to be so fun!
+      </div>
+    </div>
+
+    <!-- Part B -->
+    <div class="listening-box">
+      <h4>🔊 Part B: チョコレート工場の見学（内容理解）</h4>
+      <p class="listening-instruction">音声を聴いてから、質問に答えてみよう。先に質問を読んでから聴くのもOK！</p>
+      <div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;margin-bottom:0.8rem;">
+        <button class="tts-btn" onclick="speakText('listening-b-tts', this)">🔊 再生</button>
+        <span class="tts-speed">速度: <select id="speed-b" onchange="currentSpeed=parseFloat(this.value)">
+          <option value="0.7">🐢 ゆっくり</option>
+          <option value="0.85" selected>普通</option>
+          <option value="1">速い</option>
+        </select></span>
+        <span class="repeat-count" id="repeat-b">再生回数: 0</span>
+      </div>
+      <div id="listening-b-tts" style="display:none">Welcome to the Cairns Chocolate Factory tour! Our tour takes about forty-five minutes. First, we will show you how we make chocolate from cocoa beans. Then, you will see our special Tim Tam display. After the tour, you can try five different flavours of Tim Tam for free. We also have a gift shop where you can buy chocolate souvenirs. The tour costs fifteen dollars for adults and eight dollars for children. Tours start every hour from ten o&#x27;clock. Please do not eat or drink during the tour. Are you ready? Let&#x27;s go!</div>
+
+      <div class="quiz-question" style="margin-top:0.5rem;">Q1: ツアーは約何分ですか？</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="checkQuiz(this, false)">30分</div>
+        <div class="quiz-option" onclick="checkQuiz(this, true)">45分</div>
+        <div class="quiz-option" onclick="checkQuiz(this, false)">60分</div>
+      </div>
+      <div class="quiz-feedback correct">⭕ 正解！正解！&quot;Our tour takes about forty-five minutes.&quot;</div>
+      <div class="quiz-feedback wrong">❌ &quot;minutes&quot; の前の数字をもう一回聴いてみよう！</div>
+
+      <div class="quiz-question" style="margin-top:1.2rem;">Q2: ツアーの後、何種類のティムタムが試食できますか？</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="checkQuiz(this, false)">3種類</div>
+        <div class="quiz-option" onclick="checkQuiz(this, true)">5種類</div>
+        <div class="quiz-option" onclick="checkQuiz(this, false)">7種類</div>
+      </div>
+      <div class="quiz-feedback correct">⭕ 正解！正解！&quot;you can try five different flavours of Tim Tam for free.&quot;</div>
+      <div class="quiz-feedback wrong">❌ &quot;try&quot; の後の数字に注目！</div>
+
+      <div class="quiz-question" style="margin-top:1.2rem;">Q3: 大人のツアー料金はいくらですか？</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="checkQuiz(this, false)">10ドル</div>
+        <div class="quiz-option" onclick="checkQuiz(this, true)">15ドル</div>
+        <div class="quiz-option" onclick="checkQuiz(this, false)">20ドル</div>
+      </div>
+      <div class="quiz-feedback correct">⭕ 正解！正解！&quot;The tour costs fifteen dollars for adults.&quot;</div>
+      <div class="quiz-feedback wrong">❌ &quot;adults&quot; の前の金額をもう一回聴いてみよう！</div>
+
+      <button class="listening-script-toggle" onclick="toggleScript(this)" style="margin-top:0.8rem;">📝 スクリプトを見る</button>
+      <div class="listening-script">
+        Welcome to the Cairns Chocolate Factory tour! Our tour takes about forty-five minutes.<br>
+        First, we will show you how we make chocolate from cocoa beans.<br>
+        Then, you will see our special Tim Tam display.<br>
+        After the tour, you can try five different flavours of Tim Tam for free.<br>
+        We also have a gift shop where you can buy chocolate souvenirs.<br>
+        The tour costs fifteen dollars for adults and eight dollars for children.<br>
+        Tours start every hour from ten o&#x27;clock.<br>
+        Please do not eat or drink during the tour.<br>
+        Are you ready? Let&#x27;s go!
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-pronun" data-index="8">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">9</div>
+    <div class="section-title"><div class="label">🎤 Pronunciation Check</div><div class="name">発音チェックに挑戦しよう</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        wh の音、日本語にないからちょっと難しいけど、口の形を意識して。陸上のフォーム矯正と同じで、意識すれば変わるよ！
+      </div>
+    </div>
+
+    <div class="pronun-box">
+      <h4>🎤 文を声に出して読んでみよう</h4>
+      <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:0.5rem;">マイクボタンを押して、表示された文を読み上げてください。音声認識であなたの発音をチェックします。</p>
+
+      <div class="pronun-sentence" id="pronun-target"></div>
+
+      <div style="display:flex;align-items:center;gap:0.8rem;flex-wrap:wrap;">
+        <button class="pronun-record-btn" id="pronun-btn" onclick="togglePronunRecording()">
+          🎤 録音スタート
+        </button>
+        <button class="tts-btn" onclick="speakPronunSentence()" style="background:var(--navy);">🔊 お手本を聴く</button>
+      </div>
+
+      <div class="pronun-result" id="pronun-result">
+        <div class="pronun-score">
+          <div class="pronun-score-circle" id="pronun-score-circle">-</div>
+          <div>
+            <div style="font-weight:700;color:var(--navy);" id="pronun-score-label">判定中...</div>
+            <div style="font-size:0.75rem;color:var(--text-light);" id="pronun-score-detail"></div>
+          </div>
+        </div>
+        <div class="pronun-heard" id="pronun-heard"></div>
+        <ul class="pronun-tips" id="pronun-tips"></ul>
+      </div>
+
+      <div class="pronun-nav">
+        <button class="pronun-nav-btn" id="pronun-prev" onclick="changePronunSentence(-1)">← 前の文</button>
+        <span class="pronun-counter" id="pronun-counter">1 / 5</span>
+        <button class="pronun-nav-btn" id="pronun-next" onclick="changePronunSentence(1)">次の文 →</button>
+      </div>
+
+      <div class="pronun-browser-note">
+        💡 Chrome推奨。マイクの許可が必要です。静かな場所で、はっきり声に出して読んでください。
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+const pronunSentences = [{"text": "What would you like today?", "tip": "What would が「ワッウッド」、would you が「ウッジュー」。today は「トゥデイ」で day にアクセント。"}, {"text": "You bite off two corners of the Tim Tam.", "tip": "bite off が「バイトォフ」とつながります。corners は「コーナーズ」で r は軽く巻く。"}, {"text": "That sounds cool!", "tip": "That sounds が「ザッサウンズ」。cool は「クール」で唇を丸めて oo の音を伸ばす。"}, {"text": "Just remember to eat it fast before it melts.", "tip": "remember to が「リメンバートゥ」。before it が「ビフォーリット」とつながる。melts は「メルツ」で最後の ts をしっかり。"}, {"text": "Which hot drink would you like?", "tip": "Which は「ウィッチ」で wh の音。hot drink が「ホッドリンク」で t と d がつながる。"}];
+</script>
+
+<div class="section-card sec-tryit" data-index="9">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">10</div>
+    <div class="section-title"><div class="label">✏️ Try It!</div><div class="name">今日のことを3行で書いてみよう</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="yamada-comment">
+      <img src="assets/ryosuke.jpg" alt="Ryosuke" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(194,24,91,0.3);">
+      <div class="yamada-text">
+        <div class="yamada-name">Ryosuke</div>
+        友達との楽しい思い出を英語で書こう。俺もSnow Manのメンバーとの思い出、英語で書いてみたいなって思うよ。チャレンジ！
+      </div>
+    </div>
+    <div class="try-it-box">
+      <h4>✏️ 友達と一緒にやって楽しかったことを英語で書いてみよう（3行）</h4>
+      <p>💡 今日の会話や文をマネしてOK！わからない英語は日本語のままで大丈夫。</p>
+      <p><strong>例:</strong> Last weekend, I did a Tim Tam Slam with my housemates. We used hot chocolate. My Tim Tam fell apart and everyone laughed. It was really fun!</p>
+      <textarea class="try-it-textarea" id="tryit-text" placeholder="ここに英語で書いてみよう..."></textarea>
+    </div>
+  </div>
+</div>
+
+<div class="section-card sec-summary" data-index="10">
+  <div class="section-header" onclick="toggleSection(this)">
+    <div class="section-number">11</div>
+    <div class="section-title"><div class="label">📊 Summary</div><div class="name">学習サマリー</div></div>
+    <div class="section-chevron">▾</div>
+  </div>
+  <div class="section-body">
+    <div class="summary-box">
+      <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:0.8rem;">ChatGPTやClaudeにコピペして解説をもらおう</p>
+      <button class="summary-btn" onclick="generateSummary()">📋 サマリーを生成する</button>
+      <div class="summary-output" id="summary-output"></div>
+      <div class="action-row" style="justify-content:center;margin-top:0.5rem;">
+        <button class="action-btn" onclick="copySummary()">📋 コピー</button>
+        <a class="action-btn" href="https://chat.openai.com" target="_blank">🤖 ChatGPT</a>
+        <a class="action-btn" href="https://claude.ai" target="_blank">🤖 Claude</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="day-nav">
+  <a class="nav-btn" href="day4.html">← Day 4</a>
+  <a class="home-btn" href="index.html">🏠 ホーム</a>
+  <a class="nav-btn" href="day6.html">Day 6 →</a>
+</div>
+
+</div>
+
+<script>
+let currentSpeed = 0.85;
+let repeatCounts = {};
+
+function toggleSection(header) {
+  const card = header.parentElement;
+  card.classList.toggle('open');
+  const index = parseInt(card.dataset.index);
+  const dots = document.querySelectorAll('.progress-dot');
+  if (card.classList.contains('open')) {
+    dots[index].classList.add('active');
+    for (let i = 0; i < index; i++) { dots[i].classList.add('complete'); dots[i].classList.remove('active'); }
+  }
+  const openCards = document.querySelectorAll('.section-card.open');
+  document.querySelector('.progress-label').textContent = openCards.length + ' / 11 セクション';
+}
+
+function toggleVocab(btn) {
+  const list = btn.nextElementSibling;
+  list.classList.toggle('show');
+  btn.textContent = list.classList.contains('show') ? '📚 単語リストを隠す' : '📚 単語リストを見る';
+}
+
+function checkQuiz(option, isCorrect) {
+  const parent = option.parentElement;
+  if (parent.dataset.answered) return;
+  parent.dataset.answered = 'true';
+  const allOptions = parent.querySelectorAll('.quiz-option');
+  allOptions.forEach(opt => opt.style.pointerEvents = 'none');
+  if (isCorrect) {
+    option.classList.add('correct');
+    parent.nextElementSibling.classList.add('show');
+  } else {
+    option.classList.add('wrong');
+    parent.nextElementSibling.nextElementSibling.classList.add('show');
+  }
+}
+
+// Web Speech API TTS
+function speakText(elementId, btn) {
+  if (window.speechSynthesis.speaking) {
+    window.speechSynthesis.cancel();
+    btn.textContent = '🔊 再生';
+    btn.classList.remove('playing');
+    return;
+  }
+  const text = document.getElementById(elementId).textContent;
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'en-AU';
+  utterance.rate = currentSpeed;
+  utterance.pitch = 1;
+
+  const voices = window.speechSynthesis.getVoices();
+  const enVoice = voices.find(v => v.lang.startsWith('en-AU')) ||
+                  voices.find(v => v.lang.startsWith('en-GB')) ||
+                  voices.find(v => v.lang.startsWith('en'));
+  if (enVoice) utterance.voice = enVoice;
+
+  btn.textContent = '⏹ 停止';
+  btn.classList.add('playing');
+
+  if (!repeatCounts[elementId]) repeatCounts[elementId] = 0;
+  repeatCounts[elementId]++;
+  const repeatEl = btn.parentElement.querySelector('.repeat-count');
+  if (repeatEl) repeatEl.textContent = '再生回数: ' + repeatCounts[elementId];
+
+  utterance.onend = () => { btn.textContent = '🔊 再生'; btn.classList.remove('playing'); };
+  utterance.onerror = () => { btn.textContent = '🔊 再生'; btn.classList.remove('playing'); };
+  window.speechSynthesis.speak(utterance);
+}
+
+window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+
+function checkAllGaps(btn) {
+  const box = btn.closest('.listening-box');
+  const inputs = box.querySelectorAll('input[data-answer]');
+  inputs.forEach(input => {
+    const correct = input.dataset.answer.toLowerCase();
+    const val = input.value.trim().toLowerCase();
+    input.classList.remove('correct-input', 'wrong-input');
+    if (val === correct) { input.classList.add('correct-input'); }
+    else { input.classList.add('wrong-input'); }
+  });
+  const answer = box.querySelector('.listening-answer');
+  if (answer) answer.classList.add('show');
+}
+
+function toggleScript(btn) {
+  const script = btn.nextElementSibling;
+  script.classList.toggle('show');
+  btn.textContent = script.classList.contains('show') ? '📝 スクリプトを隠す' : '📝 スクリプトを見る';
+}
+
+function copyText(id) {
+  const text = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(text).then(() => alert('コピーしました！'));
+}
+
+function generateSummary() {
+  const checked = document.querySelectorAll('.vocab-item.checked');
+  const vocabList = Array.from(checked).map(i => i.querySelector('.vocab-en').textContent);
+  const tryIt = document.getElementById('tryit-text').value;
+  const listeningPlays = Object.entries(repeatCounts).map(([k,v]) => k + ': ' + v + '回').join(', ');
+
+  let s = `【Day 5: Tim Tam Slam 学習サマリー】\n\n`;
+  s += `■ チェックした単語 (${vocabList.length}個):\n${vocabList.length > 0 ? vocabList.join(', ') : 'なし'}\n\n`;
+  s += `■ リスニング再生回数:\n${listeningPlays || '未再生'}\n\n`;
+
+  const pronunSummary = pronunResults.filter(r => r).map((r, i) =>
+    `  ${i+1}. "${r.target}" → ${r.score}% (認識: "${r.heard}")`
+  ).join('\n');
+  s += `■ 発音チェック結果:\n${pronunSummary || '(未実施)'}\n\n`;
+
+  s += `■ Today's Writing:\n${tryIt || '(未記入)'}\n\n`;
+  s += `---\n上の内容をもとに、以下を教えてください：\n1. チェックした単語の使い方（例文付き）\n2. 発音チェックで間違えた部分のアドバイス\n3. Today's Writingの添削\n4. 今日学んだフレーズの発展表現`;
+
+  const output = document.getElementById('summary-output');
+  output.textContent = s;
+  output.classList.add('show');
+}
+
+function copySummary() {
+  const text = document.getElementById('summary-output').textContent;
+  navigator.clipboard.writeText(text).then(() => alert('コピーしました！'));
+}
+
+document.querySelectorAll('.progress-dot').forEach(dot => {
+  dot.addEventListener('click', () => {
+    const index = parseInt(dot.dataset.section);
+    const cards = document.querySelectorAll('.section-card');
+    if (cards[index]) {
+      cards[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (!cards[index].classList.contains('open')) toggleSection(cards[index].querySelector('.section-header'));
+    }
+  });
+});
+
+// ===== PRONUNCIATION CHECK =====
+// pronunSentences is defined in the HTML before this script
+
+let currentPronunIndex = 0;
+let pronunResults = [];
+let pronunRecognition = null;
+let isRecording = false;
+
+function initPronun() {
+  renderPronunSentence();
+  updatePronunNav();
+}
+
+function renderPronunSentence() {
+  const target = document.getElementById('pronun-target');
+  const sentence = pronunSentences[currentPronunIndex];
+  const words = sentence.text.split(' ');
+  target.innerHTML = words.map((w, i) => `<span class="word" data-index="${i}">${w}</span>`).join(' ');
+
+  const result = document.getElementById('pronun-result');
+  result.classList.remove('show', 'good', 'needs-work', 'try-again');
+}
+
+function updatePronunNav() {
+  document.getElementById('pronun-counter').textContent =
+    `${currentPronunIndex + 1} / ${pronunSentences.length}`;
+  document.getElementById('pronun-prev').classList.toggle('disabled', currentPronunIndex === 0);
+  document.getElementById('pronun-next').classList.toggle('disabled', currentPronunIndex === pronunSentences.length - 1);
+}
+
+function changePronunSentence(dir) {
+  const newIndex = currentPronunIndex + dir;
+  if (newIndex < 0 || newIndex >= pronunSentences.length) return;
+  currentPronunIndex = newIndex;
+  renderPronunSentence();
+  updatePronunNav();
+}
+
+function speakPronunSentence() {
+  if (window.speechSynthesis.speaking) {
+    window.speechSynthesis.cancel();
+    return;
+  }
+  const text = pronunSentences[currentPronunIndex].text;
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'en-AU';
+  utterance.rate = 0.85;
+  const voices = window.speechSynthesis.getVoices();
+  const enVoice = voices.find(v => v.lang.startsWith('en-AU')) ||
+                  voices.find(v => v.lang.startsWith('en-GB')) ||
+                  voices.find(v => v.lang.startsWith('en'));
+  if (enVoice) utterance.voice = enVoice;
+  window.speechSynthesis.speak(utterance);
+}
+
+function togglePronunRecording() {
+  if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+    alert('お使いのブラウザは音声認識に対応していません。Chrome をお使いください。');
+    return;
+  }
+
+  if (isRecording) {
+    stopPronunRecording();
+    return;
+  }
+
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  pronunRecognition = new SpeechRecognition();
+  pronunRecognition.lang = 'en-AU';
+  pronunRecognition.interimResults = false;
+  pronunRecognition.maxAlternatives = 3;
+  pronunRecognition.continuous = false;
+
+  const btn = document.getElementById('pronun-btn');
+  btn.textContent = '⏹ 録音中...';
+  btn.classList.add('recording');
+  isRecording = true;
+
+  pronunRecognition.onresult = (event) => {
+    const results = event.results[0];
+    const heard = results[0].transcript;
+    const confidence = results[0].confidence;
+    const alternatives = [];
+    for (let i = 0; i < results.length; i++) {
+      alternatives.push(results[i].transcript.toLowerCase());
+    }
+    evaluatePronunciation(heard, confidence, alternatives);
+    stopPronunRecording();
+  };
+
+  pronunRecognition.onerror = (event) => {
+    stopPronunRecording();
+    if (event.error === 'no-speech') {
+      alert('音声が検出されませんでした。もう少し大きな声ではっきり話してみてください。');
+    } else if (event.error === 'not-allowed') {
+      alert('マイクの使用が許可されていません。ブラウザの設定でマイクを許可してください。');
+    } else {
+      alert('音声認識エラー: ' + event.error);
+    }
+  };
+
+  pronunRecognition.onend = () => {
+    stopPronunRecording();
+  };
+
+  pronunRecognition.start();
+}
+
+function stopPronunRecording() {
+  const btn = document.getElementById('pronun-btn');
+  btn.textContent = '🎤 もう一回';
+  btn.classList.remove('recording');
+  isRecording = false;
+  if (pronunRecognition) {
+    try { pronunRecognition.stop(); } catch(e) {}
+  }
+}
+
+function normalizeText(text) {
+  return text.toLowerCase()
+    .replace(/[.,!?;:'"()\-]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function evaluatePronunciation(heard, confidence, alternatives) {
+  const target = pronunSentences[currentPronunIndex].text;
+  const tip = pronunSentences[currentPronunIndex].tip;
+
+  const targetWords = normalizeText(target).split(' ');
+  const heardWords = normalizeText(heard).split(' ');
+
+  const allHeardWords = new Set();
+  alternatives.forEach(alt => {
+    normalizeText(alt).split(' ').forEach(w => allHeardWords.add(w));
+  });
+
+  let correctCount = 0;
+  const wordElements = document.querySelectorAll('#pronun-target .word');
+
+  targetWords.forEach((targetWord, i) => {
+    const el = wordElements[i];
+    if (!el) return;
+
+    el.classList.remove('correct', 'wrong', 'missed');
+
+    const targetClean = targetWord.toLowerCase();
+
+    if (heardWords.includes(targetClean) || allHeardWords.has(targetClean)) {
+      el.classList.add('correct');
+      correctCount++;
+    } else {
+      const similar = heardWords.some(hw => levenshtein(hw, targetClean) <= 1) ||
+                      [...allHeardWords].some(hw => levenshtein(hw, targetClean) <= 1);
+      if (similar) {
+        el.classList.add('correct');
+        correctCount++;
+      } else {
+        el.classList.add('wrong');
+      }
+    }
+  });
+
+  const score = Math.round((correctCount / targetWords.length) * 100);
+
+  pronunResults[currentPronunIndex] = { score, heard, target };
+
+  const resultEl = document.getElementById('pronun-result');
+  const scoreCircle = document.getElementById('pronun-score-circle');
+  const scoreLabel = document.getElementById('pronun-score-label');
+  const scoreDetail = document.getElementById('pronun-score-detail');
+  const heardEl = document.getElementById('pronun-heard');
+  const tipsEl = document.getElementById('pronun-tips');
+
+  scoreCircle.textContent = score + '%';
+  scoreCircle.classList.remove('high', 'mid', 'low');
+  resultEl.classList.remove('good', 'needs-work', 'try-again');
+
+  if (score >= 80) {
+    scoreCircle.classList.add('high');
+    scoreLabel.textContent = '🎉 Great!';
+    scoreDetail.textContent = 'しっかり通じる発音です！';
+    resultEl.classList.add('good');
+  } else if (score >= 50) {
+    scoreCircle.classList.add('mid');
+    scoreLabel.textContent = '👍 Almost!';
+    scoreDetail.textContent = 'もう少し！赤い単語を意識してみよう。';
+    resultEl.classList.add('needs-work');
+  } else {
+    scoreCircle.classList.add('low');
+    scoreLabel.textContent = '💪 Keep trying!';
+    scoreDetail.textContent = 'お手本を聴いてからもう一回チャレンジ！';
+    resultEl.classList.add('try-again');
+  }
+
+  heardEl.innerHTML = `<strong>🎧 認識された音声:</strong> "${heard}"`;
+  tipsEl.innerHTML = `<li>💡 ${tip}</li>`;
+
+  const wrongWords = [];
+  wordElements.forEach((el, i) => {
+    if (el.classList.contains('wrong') && targetWords[i]) {
+      wrongWords.push(targetWords[i]);
+    }
+  });
+  if (wrongWords.length > 0) {
+    tipsEl.innerHTML += `<li>🔴 認識されなかった単語: <strong>${wrongWords.join(', ')}</strong> — ゆっくりはっきり発音してみよう</li>`;
+  }
+
+  resultEl.classList.add('show');
+}
+
+// Simple Levenshtein distance for fuzzy matching
+function levenshtein(a, b) {
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+  const matrix = [];
+  for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+  for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      if (b.charAt(i - 1) === a.charAt(j - 1)) {
+        matrix[i][j] = matrix[i - 1][j - 1];
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j] + 1
+        );
+      }
+    }
+  }
+  return matrix[b.length][a.length];
+}
+
+document.addEventListener('DOMContentLoaded', initPronun);
+</script>
+</body>
+</html>

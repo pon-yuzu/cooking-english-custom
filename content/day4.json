@@ -1,0 +1,168 @@
+{
+  "day": 4,
+  "sweet": "Anzac Biscuits",
+  "emoji": "🍪",
+  "recipe": {
+    "title": "How to Make Anzac Biscuits",
+    "intro": "Anzac Biscuits are traditional Australian cookies made with oats and golden syrup. They have a long history from World War I.",
+    "ingredients": "rolled oats, plain flour, desiccated coconut, brown sugar, butter, golden syrup, bicarbonate of soda, boiling water",
+    "steps": [
+      "**Preheat** the oven to 160 degrees Celsius.",
+      "**Mix** the oats, flour, coconut, and brown sugar in a large bowl.",
+      "**Melt** the butter and golden syrup together in a small pot.",
+      "**Dissolve** the bicarbonate of soda in boiling water and **add** it to the butter mixture.",
+      "**Pour** the wet mixture into the dry ingredients and **stir** well.",
+      "**Roll** small balls of dough and **place** them on a baking tray. **Bake** for 15 minutes until golden."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "rolled oats", "ja": "オートミール（押し麦）"},
+    {"en": "golden syrup", "ja": "ゴールデンシロップ（糖蜜）"},
+    {"en": "bicarbonate of soda", "ja": "重曹"},
+    {"en": "melt", "ja": "溶かす"},
+    {"en": "dissolve", "ja": "溶かす（液体に）"},
+    {"en": "mixture", "ja": "混ぜたもの"},
+    {"en": "baking tray", "ja": "天板"},
+    {"en": "traditional", "ja": "伝統的な"}
+  ],
+  "quiz1": {
+    "question_ja": "アンザックビスケットを焼く温度は何度ですか？",
+    "options": ["140度", "160度", "180度"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Preheat the oven to 160 degrees Celsius.\"",
+    "explanation_wrong": "最初のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Rusty's Market Café",
+    "location": "Rusty's Markets, Cairns, Queensland, Australia",
+    "stars": 4,
+    "text": "I stopped by Rusty's Market Café this morning. It is inside the famous Rusty's Markets. I bought two Anzac biscuits and a long black. The biscuits were chewy and had a lovely golden syrup flavour. They reminded me of my grandmother's recipe. The café also sells fresh tropical fruit and homemade treats. It is a great spot to visit on a Saturday morning. The biscuits were only three dollars each, which is good value!"
+  },
+  "review_vocab": [
+    {"en": "stopped by", "ja": "立ち寄った"},
+    {"en": "chewy", "ja": "しっとり噛みごたえのある"},
+    {"en": "reminded", "ja": "思い出させた"},
+    {"en": "tropical", "ja": "トロピカルな・熱帯の"},
+    {"en": "spot", "ja": "場所"},
+    {"en": "good value", "ja": "コスパが良い"}
+  ],
+  "quiz2": {
+    "question_ja": "アンザックビスケットは1つ何ドルでしたか？",
+    "options": ["2ドル", "3ドル", "4ドル"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"The biscuits were only three dollars each.\"",
+    "explanation_wrong": "値段が書いてある最後の方をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "**Anzac**はAustralian and New Zealand Army Corpsの略。第一次世界大戦の兵士に送ったビスケットが由来。4月25日の「**Anzac Day**」はオーストラリアの大切な祝日。「**What is Anzac Day?**」と聞くと、地元の人が詳しく教えてくれるよ！",
+    "オーストラリアのコーヒーメニューで「**long black**」はアメリカーノに似た濃いコーヒー。「**short black**」はエスプレッソのこと。注文するとき「**A long black, please.**」と言ってみよう！",
+    "ケアンズの**Rusty's Markets**は金・土・日に開くマーケット。新鮮なフルーツや食べ物がいっぱい。「**How much are these mangoes?**」など、英語で値段を聞く練習にぴったり！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Emma）がアンザックビスケットを買う場面",
+    "lines": [
+      {"speaker": "You", "text": "Good morning! Welcome to Rusty's Market Café."},
+      {"speaker": "Emma", "text": "Morning! Those biscuits look yummy. What are they?"},
+      {"speaker": "You", "text": "They are Anzac biscuits. They are made with oats, coconut, and golden syrup."},
+      {"speaker": "Emma", "text": "Oh, I love Anzac biscuits! Are they chewy or crunchy?"},
+      {"speaker": "You", "text": "These ones are chewy. We bake them fresh every morning."},
+      {"speaker": "Emma", "text": "Great! Can I have three, please? I want to share with my friends."},
+      {"speaker": "You", "text": "Of course! Three Anzac biscuits. Anything to drink?"},
+      {"speaker": "Emma", "text": "Yes, a long black, please. No sugar."},
+      {"speaker": "You", "text": "Sure! That is twelve dollars altogether."},
+      {"speaker": "Emma", "text": "Can I pay by card?"},
+      {"speaker": "You", "text": "Yes, just tap here. Thank you! Enjoy your biscuits and coffee!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "yummy", "ja": "おいしそう"},
+    {"en": "crunchy", "ja": "サクサクの"},
+    {"en": "chewy", "ja": "しっとり噛みごたえのある"},
+    {"en": "altogether", "ja": "合計で"},
+    {"en": "pay by card", "ja": "カードで払う"},
+    {"en": "tap", "ja": "タッチする（タップ決済）"}
+  ],
+  "quiz3": {
+    "question_ja": "Emmaはビスケットを何個買いましたか？",
+    "options": ["2個", "3個", "4個"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Can I have three, please?\"",
+    "explanation_wrong": "Emmaが注文する数をもう一回確認しよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "おばあちゃんのレシピ",
+      "full_text": "Grandma, can you teach me how to make Anzac biscuits? Of course, darling. First, you need rolled oats and coconut. Do we have golden syrup? Yes, it is in the cupboard. How long do I bake them? About fifteen minutes until they are golden. Can I eat one now? Wait until they cool down a little bit! They smell so good!",
+      "gaps": [
+        {"before": "First, you need rolled oats and", "answer": "coconut", "after": "."},
+        {"before": "Do we have golden", "answer": "syrup", "after": "?"},
+        {"before": "Yes, it is in the", "answer": "cupboard", "after": "."},
+        {"before": "About fifteen", "answer": "minutes", "after": "until they are golden."},
+        {"before": "They", "answer": "smell", "after": "so good!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "ベイクセールのお知らせ",
+      "full_text": "Attention, everyone! Our school is having a bake sale next Friday. We need volunteers to bake cookies, cakes, and biscuits. All money from the sale will go to the local animal shelter. We need at least fifty items to sell. Please bring your baked goods to the school hall by nine o'clock in the morning. The sale will run from ten o'clock to two o'clock. If you can help, please sign up at the front office. Thank you!",
+      "questions": [
+        {
+          "question_ja": "ベイクセールの売上はどこに寄付されますか？",
+          "options": ["学校の図書館", "地元の動物シェルター", "病院"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"All money from the sale will go to the local animal shelter.\"",
+          "explanation_wrong": "\"money\" の後のどこに行くか聴いてみよう！"
+        },
+        {
+          "question_ja": "焼き菓子は何時までに持っていく必要がありますか？",
+          "options": ["8時", "9時", "10時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Please bring your baked goods to the school hall by nine o'clock.\"",
+          "explanation_wrong": "\"bring\" の後の時間に注目！"
+        },
+        {
+          "question_ja": "セールは何時から何時までですか？",
+          "options": ["9時〜1時", "10時〜2時", "11時〜3時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"from ten o'clock to two o'clock\"",
+          "explanation_wrong": "\"run from\" の後の時間をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Those biscuits look yummy.",
+        "tip": "Those は「ゾウズ」で th を有声音で。biscuits は「ビスキッツ」で t は軽く。look は「ルック」で短い u。"
+      },
+      {
+        "text": "Are they chewy or crunchy?",
+        "tip": "chewy は「チューイー」、crunchy は「クランチー」。or は弱く「オー」。th は舌先を軽く歯に当てて。"
+      },
+      {
+        "text": "Can I pay by card?",
+        "tip": "Can I が「キャナイ」。pay by が「ペイバイ」とリズムよく。card は「カード」で最後の d をしっかり。"
+      },
+      {
+        "text": "We bake them fresh every morning.",
+        "tip": "bake them が「ベイクゼム」。fresh every が「フレッシュエヴリ」とつながる。morning は「モーニン」で g は軽く。"
+      },
+      {
+        "text": "That is twelve dollars altogether.",
+        "tip": "altogether は「オールトゥゲザー」で ge にアクセント。twelve は「トゥエルヴ」で v の音を忘れずに。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "あなたの国の伝統的なお菓子を英語で紹介してみよう（3行）",
+    "example": "In Japan, we have a sweet called mochi. It is made from rice. People eat mochi on New Year's Day. It is soft and chewy!"
+  },
+  "yamada_comments": {
+    "recipe": "アンザックビスケット、歴史があるお菓子なんだ。陸上競技にも長い歴史があるよね。伝統って大事にしたいよね。レシピの英語、しっかり読んでみよう！",
+    "review": "カフェレビューの中で値段の読み取りが出てきたね。Snow Manのグッズもそうだけど、値段の英語は実生活でめっちゃ使うよ！",
+    "conversation": "「chewy or crunchy?」って聞かれるの、カフェあるある！フィギュアスケートの演技で「ジャンプかスピンか」選ぶみたいに、サクッと答えよう！",
+    "listening": "リスニングの数字、特に時間とお金は聴き取れると一気に生活が楽になるよ。陸上のタイム計測みたいに、数字に敏感になろう！",
+    "pronunciation": "twelve の v の音、日本語にないから難しいよね。Snow Manの振付も最初は難しいけど、練習すればできるようになる！",
+    "try_it": "日本のお菓子を英語で紹介できたらかっこいいよね。俺もドラマで日本文化を海外に伝えるのが好きなんだ。書いてみよう！"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "day": 19,
+  "sweet": "Lemon Meringue Pie",
+  "emoji": "🍋",
+  "recipe": {
+    "title": "How to Make Lemon Meringue Pie",
+    "intro": "Lemon meringue pie has a buttery crust, tangy lemon filling, and fluffy meringue on top. It is a classic dessert loved in Australia.",
+    "ingredients": "butter, sugar, flour, eggs, lemons, cornflour, water, caster sugar, vanilla extract",
+    "steps": [
+      "**Mix** the flour and butter together until it looks like breadcrumbs. **Add** a little water and **press** into a pie tin.",
+      "**Bake** the crust at 180 degrees for 15 minutes until light golden.",
+      "**Squeeze** the lemons to get the juice. **Mix** lemon juice, sugar, cornflour, and water in a pot.",
+      "**Heat** the mixture on the stove and **stir** until it becomes thick. **Add** egg yolks and **stir** again.",
+      "**Pour** the lemon filling into the baked crust and let it cool.",
+      "**Whisk** the egg whites and caster sugar until stiff peaks form. **Spread** the meringue on top and **bake** at 180 degrees for 10 minutes until golden."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "crust", "ja": "パイ生地・土台"},
+    {"en": "tangy", "ja": "酸味のある"},
+    {"en": "meringue", "ja": "メレンゲ"},
+    {"en": "squeeze", "ja": "絞る"},
+    {"en": "cornflour", "ja": "コーンスターチ"},
+    {"en": "stiff peaks", "ja": "角が立つ状態"},
+    {"en": "egg yolks", "ja": "卵黄"},
+    {"en": "egg whites", "ja": "卵白"},
+    {"en": "spread", "ja": "塗り広げる"}
+  ],
+  "quiz1": {
+    "question_ja": "メレンゲを焼く温度と時間は？",
+    "options": ["160度で15分", "180度で10分", "200度で5分"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Bake at 180 degrees for 10 minutes until golden.\"",
+    "explanation_wrong": "最後のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Reef Gateway Café",
+    "location": "Cairns Esplanade, Queensland, Australia",
+    "stars": 5,
+    "text": "I visited Reef Gateway Café last weekend with my friend Emma. We sat outside near the esplanade. I ordered a slice of lemon meringue pie and a flat white. The pie was amazing. The lemon filling was sweet and sour, and the meringue was so light. Emma had a blueberry muffin. We both loved this café. The staff were very friendly. I will come back soon!"
+  },
+  "review_vocab": [
+    {"en": "esplanade", "ja": "海沿いの遊歩道"},
+    {"en": "slice", "ja": "一切れ"},
+    {"en": "sweet and sour", "ja": "甘酸っぱい"},
+    {"en": "light", "ja": "軽い・ふわっとした"},
+    {"en": "staff", "ja": "スタッフ・店員"},
+    {"en": "come back", "ja": "また来る"}
+  ],
+  "quiz2": {
+    "question_ja": "Emmaは何を注文しましたか？",
+    "options": ["レモンメレンゲパイ", "ブルーベリーマフィン", "チーズケーキ"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Emma had a blueberry muffin.\"",
+    "explanation_wrong": "\"Emma had\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのカフェでは、パイやタルトがショーケースに並んでいることが多いです。注文するときは「**Can I have a slice of lemon meringue pie, please?**」と言いましょう。「**slice**」はケーキやパイの「一切れ」という意味です。",
+    "ケアンズの**Esplanade**は海沿いの遊歩道で、カフェやレストランがたくさん並んでいます。地元の人は「**Let's go for a walk along the Esplanade.**」とよく言います。朝のランニングにもぴったり！",
+    "オーストラリアでは「**flat white**」が定番コーヒー。日本のカフェラテに近いですが、よりミルクが滑らかです。注文するときは「**A flat white, please.**」だけでOK！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Oliver）がデザートについて質問する場面",
+    "lines": [
+      {"speaker": "You", "text": "Hello! Welcome to our café. What can I get you?"},
+      {"speaker": "Oliver", "text": "Hi! What desserts do you have today?"},
+      {"speaker": "You", "text": "We have lemon meringue pie, carrot cake, and banana bread."},
+      {"speaker": "Oliver", "text": "The lemon meringue pie sounds nice. Is it made fresh?"},
+      {"speaker": "You", "text": "Yes, our chef makes it every morning."},
+      {"speaker": "Oliver", "text": "Great! I will have a slice, please."},
+      {"speaker": "You", "text": "Sure! Would you like a drink with that?"},
+      {"speaker": "Oliver", "text": "Yes, can I have a flat white?"},
+      {"speaker": "You", "text": "Of course. Would you like regular or large?"},
+      {"speaker": "Oliver", "text": "Regular is fine. How much is everything?"},
+      {"speaker": "You", "text": "That will be fifteen dollars. You can tap your card here."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "dessert", "ja": "デザート"},
+    {"en": "sounds nice", "ja": "良さそうですね"},
+    {"en": "made fresh", "ja": "作りたての"},
+    {"en": "regular", "ja": "レギュラーサイズ"},
+    {"en": "tap your card", "ja": "カードをタッチする"},
+    {"en": "How much is everything?", "ja": "全部でいくらですか？"}
+  ],
+  "quiz3": {
+    "question_ja": "Oliverのフラットホワイトのサイズは？",
+    "options": ["ラージ", "レギュラー", "スモール"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Regular is fine.\"",
+    "explanation_wrong": "サイズについて聞いているセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "お母さんとレモンメレンゲパイを作る",
+      "full_text": "Mum, can we make lemon meringue pie today? Of course! Do we have enough lemons? I think we have four lemons in the fridge. Perfect, we need three. Can you squeeze them for me? Sure! I will get a bowl for the juice. Great. I will start making the crust with butter and flour. What about the meringue? We need to whisk the egg whites until they are stiff. That is my favourite part!",
+      "gaps": [
+        {"before": "I think we have four lemons in the", "answer": "fridge", "after": "."},
+        {"before": "Can you squeeze them for", "answer": "me", "after": "?"},
+        {"before": "I will get a bowl for the", "answer": "juice", "after": "."},
+        {"before": "We need to whisk the egg whites until they are", "answer": "stiff", "after": "."},
+        {"before": "That is my favourite", "answer": "part", "after": "!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "カフェのデザートスペシャル案内",
+      "full_text": "Good afternoon, everyone. This is Sunshine Bakery Café. This week we have a special dessert menu. On Monday and Tuesday, we have lemon meringue pie. On Wednesday and Thursday, we have passionfruit tart. On Friday, Saturday, and Sunday, we have mango cheesecake. All desserts are eight dollars fifty per slice. If you buy a dessert with a coffee, you get one dollar off. The café is open from seven in the morning until four in the afternoon. We hope to see you soon!",
+      "questions": [
+        {
+          "question_ja": "水曜と木曜のスペシャルデザートは何ですか？",
+          "options": ["レモンメレンゲパイ", "パッションフルーツタルト", "マンゴーチーズケーキ"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"On Wednesday and Thursday, we have passionfruit tart.\"",
+          "explanation_wrong": "曜日とデザートの組み合わせをもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "デザートとコーヒーを一緒に買うと、いくら安くなりますか？",
+          "options": ["50セント", "1ドル", "2ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"you get one dollar off.\"",
+          "explanation_wrong": "\"dollar off\" の前の数字に注目！"
+        },
+        {
+          "question_ja": "カフェは何時に閉まりますか？",
+          "options": ["午後3時", "午後4時", "午後5時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"until four in the afternoon\"",
+          "explanation_wrong": "閉店時間の部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What can I get you?",
+        "tip": "What can I が「ワッキャナイ」のようにつながります。get you が「ゲッチュー」とリンキングします。"
+      },
+      {
+        "text": "The lemon meringue pie sounds nice.",
+        "tip": "meringue は「メラング」で g は軽く。sounds nice は「サウンズナイス」と s がつながります。"
+      },
+      {
+        "text": "Would you like regular or large?",
+        "tip": "Would you が「ウッジュー」。regular は「レギュラー」で r の発音に注意。or は弱く「オァ」。"
+      },
+      {
+        "text": "You can tap your card here.",
+        "tip": "tap your が「タッピョー」のようにつながります。card の d は軽く止める感じ。"
+      },
+      {
+        "text": "Our chef makes it every morning.",
+        "tip": "chef は「シェフ」。makes it が「メイクスィット」とつながります。every は「エヴリ」で v の音を意識。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "好きなデザートについて英語で3行書いてみよう（カフェで食べた or 作った経験）",
+    "example": "I love lemon meringue pie. The lemon filling is sweet and sour. I want to try making it at home this weekend."
+  },
+  "yamada_comments": {
+    "recipe": "レモンメレンゲパイ、見た目もきれいだよね！メレンゲを上手に焼くのは、フィギュアスケートのスピンみたいに繊細さが大事。英語のレシピで挑戦してみよう！",
+    "review": "カフェのレビュー、英語で読めると世界が広がるよ。俺もロケ先でレビュー見て美味しいお店探すんだ。\"staff were friendly\" って書いてあるお店はハズレないよね。",
+    "conversation": "「What can I get you?」は接客の超基本フレーズ！Snow Manのライブのリハーサルみたいに、何度も繰り返して体に覚えさせよう！",
+    "listening": "リスニングは集中力が大事。陸上の短距離でスタートに集中するのと一緒だよ。最初の数語をしっかり聴き取ろう！",
+    "pronunciation": "「tap your card」の発音、オーストラリアのカフェでよく使うよ。声に出して練習すれば、実際のカフェで自信を持って言えるようになる！",
+    "try_it": "3行でいいから書いてみよう！俺もSnow Manのブログ書くとき、最初はメモ程度から始めたよ。書くことで力がつく！"
+  }
+}

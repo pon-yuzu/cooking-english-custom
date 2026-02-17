@@ -1,0 +1,168 @@
+{
+  "day": 11,
+  "sweet": "Apple Crumble",
+  "emoji": "🍎",
+  "recipe": {
+    "title": "How to Make Apple Crumble",
+    "intro": "Apple crumble is a warm, comforting dessert. Soft baked apples with a crunchy, buttery topping. It is easy to make and everyone loves it!",
+    "ingredients": "apples, lemon juice, sugar, cinnamon, plain flour, butter, brown sugar, rolled oats",
+    "steps": [
+      "**Preheat** the oven to 180 degrees Celsius.",
+      "**Peel** and **slice** the apples. **Toss** them with lemon juice, sugar, and cinnamon.",
+      "**Place** the apples in a baking dish.",
+      "**Make** the crumble topping: **Mix** the flour, brown sugar, and oats in a bowl. **Rub** in the cold butter with your fingers until it looks like breadcrumbs.",
+      "**Sprinkle** the crumble topping over the apples.",
+      "**Bake** for 30 to 35 minutes until the top is golden and crunchy. **Serve** with vanilla ice cream or custard!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "crumble", "ja": "クランブル（ポロポロした生地）"},
+    {"en": "peel", "ja": "皮をむく"},
+    {"en": "toss", "ja": "軽く混ぜ合わせる"},
+    {"en": "cinnamon", "ja": "シナモン"},
+    {"en": "rolled oats", "ja": "オートミール"},
+    {"en": "breadcrumbs", "ja": "パン粉のような状態"},
+    {"en": "sprinkle", "ja": "ふりかける"},
+    {"en": "crunchy", "ja": "サクサクの"}
+  ],
+  "quiz1": {
+    "question_ja": "クランブルのトッピングは何に似た状態になるまで混ぜますか？",
+    "options": ["バター", "パン粉", "砂糖"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"until it looks like breadcrumbs\"",
+    "explanation_wrong": "トッピングを作るステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Lilies & Co",
+    "location": "Trinity Beach, Queensland, Australia",
+    "stars": 4,
+    "text": "Lilies & Co is a charming café at Trinity Beach. I visited on a rainy Sunday afternoon. I ordered the apple crumble with custard. The apples were soft and sweet with a hint of cinnamon. The crumble topping was crunchy and buttery. The portion was big, so I shared it with my sister. We also had two cups of chai tea. The café is cosy with wooden tables and fairy lights. A lovely place to visit when the weather is not great."
+  },
+  "review_vocab": [
+    {"en": "charming", "ja": "魅力的な・かわいらしい"},
+    {"en": "hint", "ja": "ほんの少し・ほのかな"},
+    {"en": "portion", "ja": "量・一人前"},
+    {"en": "shared", "ja": "シェアした・分けた"},
+    {"en": "cosy", "ja": "居心地の良い（AUスペル）"},
+    {"en": "fairy lights", "ja": "イルミネーションライト"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーは誰とアップルクランブルをシェアしましたか？",
+    "options": ["友達", "お姉さん/妹", "お母さん"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I shared it with my sister.\"",
+    "explanation_wrong": "\"shared\" が出てくる文をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "アップルクランブルは、オーストラリアの家庭料理の定番デザート。カフェやレストランのメニューにもよく登場します。「**I'll have the apple crumble with custard, please.**」で注文しよう！",
+    "オーストラリアのカフェでは、アップルクランブルに「**custard**」か「**ice cream**」を添えて出すことが多いです。「**Would you like custard or ice cream with that?**」と聞かれたら、好きな方を選ぼう！",
+    "ケアンズ近くの**Trinity Beach**はローカルに人気のビーチタウン。ケアンズ中心地から車で約20分。小さなカフェやレストランがあって、のんびりした雰囲気。「**Shall we drive to Trinity Beach for lunch?**」と友達を誘ってみよう！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（James）がアップルクランブルとコーヒーを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Hi there! Are you ready to order?"},
+      {"speaker": "James", "text": "Yes, can I see the dessert menu?"},
+      {"speaker": "You", "text": "Sure! We have apple crumble, chocolate cake, and cheesecake today."},
+      {"speaker": "James", "text": "The apple crumble sounds good. Does it come with anything?"},
+      {"speaker": "You", "text": "You can choose custard or vanilla ice cream."},
+      {"speaker": "James", "text": "I will have it with custard, please. Is the portion big?"},
+      {"speaker": "You", "text": "Yes, it is quite big! Good for sharing."},
+      {"speaker": "James", "text": "Perfect, my wife and I will share it. And two flat whites, please."},
+      {"speaker": "You", "text": "Two flat whites coming up! Anything else?"},
+      {"speaker": "James", "text": "That is all, thanks."},
+      {"speaker": "You", "text": "Great! That will be twenty-two dollars. I will bring everything to your table."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "dessert menu", "ja": "デザートメニュー"},
+    {"en": "sounds good", "ja": "良さそう"},
+    {"en": "choose", "ja": "選ぶ"},
+    {"en": "quite", "ja": "かなり"},
+    {"en": "sharing", "ja": "シェアすること"},
+    {"en": "coming up", "ja": "すぐ出しますよ"}
+  ],
+  "quiz3": {
+    "question_ja": "Jamesはアップルクランブルに何を添えましたか？",
+    "options": ["アイスクリーム", "カスタード", "ホイップクリーム"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I will have it with custard, please.\"",
+    "explanation_wrong": "Jamesが「custard」か「ice cream」を言っているセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "おばあちゃんのアップルクランブル",
+      "full_text": "My grandmother makes the best apple crumble. She uses apples from her garden. She always adds a little cinnamon and lemon juice. The secret is to use very cold butter for the topping. She rubs it with her fingers until it is like sand. Then she bakes it until the top is golden. The whole house smells wonderful. Every Sunday, she makes it for the family. It is my favourite dessert in the world.",
+      "gaps": [
+        {"before": "She uses apples from her", "answer": "garden", "after": "."},
+        {"before": "She always adds a little cinnamon and", "answer": "lemon juice", "after": "."},
+        {"before": "The secret is to use very cold", "answer": "butter", "after": "for the topping."},
+        {"before": "She rubs it with her fingers until it is like", "answer": "sand", "after": "."},
+        {"before": "The whole house smells", "answer": "wonderful", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "カフェのデザートスペシャル",
+      "full_text": "Attention, everyone! This week we have a special apple crumble deal. Buy one apple crumble and get a free coffee. You can choose a flat white, a latte, or a long black. The deal is available from Monday to Friday, between three and five in the afternoon. Our apple crumble is made with Granny Smith apples from Tasmania. Each serve comes with your choice of custard or ice cream. This deal is only for dine-in customers, not takeaway. Come and enjoy a warm dessert this week!",
+      "questions": [
+        {
+          "question_ja": "アップルクランブルを買うと何が無料でもらえますか？",
+          "options": ["ケーキ", "コーヒー", "アイスクリーム"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Buy one apple crumble and get a free coffee.\"",
+          "explanation_wrong": "\"free\" の後の単語に注目して聴いてみよう！"
+        },
+        {
+          "question_ja": "このスペシャルは何時から何時まで？",
+          "options": ["2時〜4時", "3時〜5時", "4時〜6時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"between three and five in the afternoon\"",
+          "explanation_wrong": "時間を言っている部分をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "テイクアウェイのお客さんもこのスペシャルを使えますか？",
+          "options": ["はい", "いいえ、店内のみ", "週末だけ"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"only for dine-in customers, not takeaway\"",
+          "explanation_wrong": "\"takeaway\" が出てくる部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Are you ready to order?",
+        "tip": "Are you が「アーユー」。ready to が「レディトゥ」と to を軽く発音します。"
+      },
+      {
+        "text": "Does it come with anything?",
+        "tip": "Does it が「ダズィッ」とつながります。with anything が「ウィゼニシング」。th の音に注意。"
+      },
+      {
+        "text": "Good for sharing.",
+        "tip": "Good for が「グッフォー」。sharing の sh は「シェアリング」で唇を丸めて。"
+      },
+      {
+        "text": "Two flat whites coming up!",
+        "tip": "flat whites が「フラッワイツ」。coming up は「カミンアップ」と元気よく言いましょう。"
+      },
+      {
+        "text": "I will bring everything to your table.",
+        "tip": "everything は「エヴリシング」。to your が「トゥヨー」とつながります。table の l は軽く。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "家族が作ってくれた料理やお菓子の思い出を英語で3行書いてみよう",
+    "example": "My mother makes delicious apple pie every winter. She uses fresh apples and a lot of cinnamon. The kitchen always smells so good when she bakes."
+  },
+  "yamada_comments": {
+    "recipe": "アップルクランブル、シンプルだけどバターのサクサク感が最高だよね。「peel」「toss」「sprinkle」、料理の動詞がたくさん出てきたから、動きと一緒に覚えよう！",
+    "review": "Trinity Beachのカフェ、素敵だね。「cosy」って居心地がいいって意味、いい言葉だよね。Snow Manのファンミーティングも「cosy」な雰囲気だと嬉しいなって思うよ。",
+    "conversation": "「Coming up!」ってカフェでよく使うフレーズ。「すぐ持っていきます！」って意味。元気よく言うとお客さんも嬉しいよね。陸上の応援みたいに、声は大事！",
+    "listening": "おばあちゃんのレシピの話、温かいね。リスニングで「secret」とか「favourite」みたいなキーワードが聞き取れると、話の大事な部分がわかるようになるよ。",
+    "pronunciation": "「sharing」の sh の音、フィギュアスケートの「shuffle」と同じ音の出し方。唇を丸めて息を出す。毎日練習すると綺麗な音になるよ！",
+    "try_it": "家族の料理の思い出って、英語で書くと改めて感謝の気持ちが出てくるよね。俺もお母さんの料理が一番好きだな。思い出しながら書いてみよう！"
+  }
+}

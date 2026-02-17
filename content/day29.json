@@ -1,0 +1,169 @@
+{
+  "day": 29,
+  "sweet": "Mango Sorbet",
+  "emoji": "🥭",
+  "recipe": {
+    "title": "How to Make Mango Sorbet",
+    "intro": "Mango sorbet is a refreshing frozen dessert, perfect for the tropical heat in Cairns. It is dairy-free and very easy to make!",
+    "ingredients": "ripe mangoes, sugar, water, lime juice, a pinch of salt",
+    "steps": [
+      "**Peel** the mangoes and **cut** the flesh into chunks.",
+      "**Make** a simple syrup by **heating** sugar and water in a pot until the sugar dissolves.",
+      "**Blend** the mango chunks, simple syrup, lime juice, and salt until very smooth.",
+      "**Pour** the mixture through a sieve to remove any lumps.",
+      "**Transfer** the mixture to a container and **freeze** for at least four hours.",
+      "**Stir** the sorbet with a fork every hour to keep it smooth. **Serve** in chilled bowls!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "sorbet", "ja": "ソルベ（シャーベット）"},
+    {"en": "refreshing", "ja": "さわやかな・リフレッシュできる"},
+    {"en": "ripe", "ja": "熟した"},
+    {"en": "flesh", "ja": "果肉"},
+    {"en": "chunks", "ja": "大きめのかたまり"},
+    {"en": "dissolves", "ja": "溶ける"},
+    {"en": "sieve", "ja": "こし器・ざる"},
+    {"en": "lumps", "ja": "かたまり・ダマ"}
+  ],
+  "quiz1": {
+    "question_ja": "マンゴーソルベは最低何時間冷凍しますか？",
+    "options": ["2時間", "4時間", "6時間"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Freeze for at least four hours.\"",
+    "explanation_wrong": "\"freeze\" の後の時間をもう一回確認してみよう！"
+  },
+  "review": {
+    "cafe_name": "Tropical Scoops",
+    "location": "Port Douglas, Queensland, Australia",
+    "stars": 5,
+    "text": "On a hot day in Port Douglas, this is the place to go! I tried the mango sorbet and it was absolutely divine. The mango flavour was so fresh and natural. You can tell they use real local mangoes. It was smooth and light. Not too sweet at all. My partner had the passionfruit sorbet and she loved it too. They also have a mango and coconut option which I want to try next time. Sitting under the palm trees with a cold sorbet was the perfect afternoon!"
+  },
+  "review_vocab": [
+    {"en": "absolutely", "ja": "本当に・完全に"},
+    {"en": "divine", "ja": "最高に美味しい"},
+    {"en": "natural", "ja": "自然な"},
+    {"en": "local", "ja": "地元の"},
+    {"en": "partner", "ja": "パートナー・恋人"},
+    {"en": "palm trees", "ja": "ヤシの木"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーのパートナーは何を食べましたか？",
+    "options": ["マンゴーソルベ", "パッションフルーツソルベ", "ココナッツソルベ"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"My partner had the passionfruit sorbet.\"",
+    "explanation_wrong": "\"partner\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "ケアンズやポートダグラスは「**mango country**」と呼ばれるほどマンゴーの産地！11月〜2月がマンゴーシーズンで、「**Bowen mango**」は特に有名。「**Are these mangoes local?**」（このマンゴーは地元産？）と聞いてみよう。",
+    "オーストラリアでは「**gelato**」（ジェラート）や「**sorbet**」（ソルベ）のお店がたくさんあります。アイスクリームとの違いを聞かれたら「**Sorbet is dairy-free. It is made with fruit and sugar.**」と説明できるとGOOD！",
+    "暑い日にぴったりの表現：「**I could really go for a sorbet right now!**」（今すごくソルベが食べたい！）。「**I could go for ~**」は「〜が食べたい／飲みたい」というカジュアルな表現です。"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Grace）が暑い日にさっぱりしたデザートを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Hi! It is such a hot day today, isn't it?"},
+      {"speaker": "Grace", "text": "Yes, it is! Do you have anything cold and refreshing?"},
+      {"speaker": "You", "text": "We have homemade mango sorbet. It is perfect for a day like this."},
+      {"speaker": "Grace", "text": "Is it made with real mangoes?"},
+      {"speaker": "You", "text": "Yes! We use fresh local mangoes from Bowen."},
+      {"speaker": "Grace", "text": "That sounds amazing. Is it dairy-free?"},
+      {"speaker": "You", "text": "Yes, it is completely dairy-free. Just mango, sugar, and lime."},
+      {"speaker": "Grace", "text": "Lovely! Can I have a double scoop, please?"},
+      {"speaker": "You", "text": "Of course! In a cup or a cone?"},
+      {"speaker": "Grace", "text": "A cup, please. Thank you!"},
+      {"speaker": "You", "text": "Here you go! That is seven dollars. Enjoy!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "refreshing", "ja": "さわやかな・さっぱりした"},
+    {"en": "local", "ja": "地元の"},
+    {"en": "completely", "ja": "完全に"},
+    {"en": "scoop", "ja": "スクープ（アイスの1すくい）"},
+    {"en": "double scoop", "ja": "ダブル（2すくい）"},
+    {"en": "cone", "ja": "コーン（ワッフルコーン）"},
+    {"en": "here you go", "ja": "はい、どうぞ"}
+  ],
+  "quiz3": {
+    "question_ja": "Graceはソルベをどうやって食べますか？",
+    "options": ["コーンで", "カップで", "持ち帰りで"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"A cup, please.\"",
+    "explanation_wrong": "\"cup or cone\" の質問に対するGraceの答えを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "マーケットでマンゴーを買う",
+      "full_text": "Excuse me, how much are the mangoes? They are three dollars a kilo. Are they from Bowen? Yes, they are Bowen mangoes. They are very sweet. Can I try one? Of course, here you go. Oh, this is delicious! I will take two kilos, please. No worries. Would you like a bag? Yes, please. Thank you!",
+      "gaps": [
+        {"before": "How much are the", "answer": "mangoes", "after": "?"},
+        {"before": "They are three dollars a", "answer": "kilo", "after": "."},
+        {"before": "They are very", "answer": "sweet", "after": "."},
+        {"before": "I will take two", "answer": "kilos", "after": ", please."},
+        {"before": "Would you like a", "answer": "bag", "after": "?"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "夏のスペシャルメニュー",
+      "full_text": "Hello and welcome to Lagoon Café! We are excited to share our new summer menu. This month, we have four special frozen desserts. First, our famous mango sorbet made with Bowen mangoes. Second, a tropical coconut ice cream. Third, a passionfruit and lime frozen yoghurt. And fourth, a watermelon granita. All frozen desserts are six dollars for a single scoop and nine dollars for a double. We are open every day from eight in the morning until nine at night. Come and cool down with us!",
+      "questions": [
+        {
+          "question_ja": "スペシャルフローズンデザートは何種類ありますか？",
+          "options": ["3種類", "4種類", "5種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"four special frozen desserts\"",
+          "explanation_wrong": "\"special\" の前の数字をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "シングルスクープはいくらですか？",
+          "options": ["5ドル", "6ドル", "7ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"six dollars for a single scoop\"",
+          "explanation_wrong": "\"single scoop\" の前の値段をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "カフェの営業時間は？",
+          "options": ["朝7時〜夜8時", "朝8時〜夜9時", "朝9時〜夜10時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"from eight in the morning until nine at night\"",
+          "explanation_wrong": "営業時間を言っている部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "It is such a hot day today, isn't it?",
+        "tip": "such a が「サッチャ」。isn't it は「イズンティッ」と軽く。付加疑問文は下がり調子で。"
+      },
+      {
+        "text": "We use fresh local mangoes from Bowen.",
+        "tip": "fresh local が「フレッシュローカル」。mangoes は「マンゴーズ」で z の音。Bowen は「ボウエン」。"
+      },
+      {
+        "text": "Can I have a double scoop, please?",
+        "tip": "Can I が「キャナイ」。double は「ダブル」。scoop は「スクープ」でoo を長めに。"
+      },
+      {
+        "text": "In a cup or a cone?",
+        "tip": "cup or a が「カッポーラ」とリンキング。cone は「コーン」で最後の n をしっかり。"
+      },
+      {
+        "text": "Here you go! Enjoy!",
+        "tip": "Here you は「ヒアユー」。Enjoy の oy は「オイ」。お客さんに渡すときの定番フレーズ！"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "ケアンズの暑い日にぴったりな冷たいデザートについて英語で3行書いてみよう",
+    "example": "Today was very hot in Cairns. A customer asked for something cold and refreshing. I recommended our mango sorbet and she loved it!"
+  },
+  "yamada_comments": {
+    "recipe": "マンゴーソルベ、ケアンズの暑い日にぴったりだね！地元のマンゴーを使うなんて贅沢。陸上の練習後に食べたら最高だろうなぁ。",
+    "review": "\"absolutely divine\" って表現、覚えたい！何か美味しいもの食べたときに使えるよね。Snow Manの打ち上げでも使えそう（笑）。",
+    "conversation": "「カップかコーンか」って聞けるようになると接客の幅が広がるよね。フィギュアスケートもショートとフリーで構成が違うように、質問のバリエーションを増やそう！",
+    "listening": "マーケットでの会話、実践的だね！ケアンズのマーケットでマンゴー買うとき使えるよ。29日目、もうすぐゴールだ！",
+    "pronunciation": "付加疑問文「isn't it?」は会話でよく出てくるよ。自然に言えるようになると英語っぽく聞こえる！",
+    "try_it": "ケアンズの暑さ、日本とは違うでしょ？冷たいデザートの話、英語で書いてみて！明日はいよいよ最終日だよ！"
+  }
+}

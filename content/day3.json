@@ -1,0 +1,169 @@
+{
+  "day": 3,
+  "sweet": "Pavlova",
+  "emoji": "🎂",
+  "recipe": {
+    "title": "How to Make Pavlova",
+    "intro": "Pavlova is a meringue dessert loved in Australia and New Zealand. It is crispy outside and soft inside, topped with cream and fruit.",
+    "ingredients": "egg whites, caster sugar, white vinegar, cornflour, vanilla extract, whipped cream, fresh fruit (strawberries, kiwi, passionfruit)",
+    "steps": [
+      "**Preheat** the oven to 120 degrees Celsius.",
+      "**Whisk** the egg whites in a clean bowl until stiff peaks form.",
+      "**Add** the caster sugar slowly, one spoon at a time, and keep **whisking**.",
+      "**Fold** in the vinegar, cornflour, and vanilla gently with a spatula.",
+      "**Shape** the meringue into a circle on baking paper and **bake** for 90 minutes.",
+      "**Top** the cooled pavlova with whipped cream and fresh fruit. **Serve** immediately!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "meringue", "ja": "メレンゲ"},
+    {"en": "egg whites", "ja": "卵白"},
+    {"en": "caster sugar", "ja": "グラニュー糖（細粒）"},
+    {"en": "whisk", "ja": "泡立てる"},
+    {"en": "stiff peaks", "ja": "角が立つ（泡立ての状態）"},
+    {"en": "fold", "ja": "さっくり混ぜる"},
+    {"en": "spatula", "ja": "ヘラ"},
+    {"en": "passionfruit", "ja": "パッションフルーツ"},
+    {"en": "immediately", "ja": "すぐに"}
+  ],
+  "quiz1": {
+    "question_ja": "パブロバを焼くオーブンの温度は何度ですか？",
+    "options": ["100度", "120度", "180度"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Preheat the oven to 120 degrees Celsius.\"",
+    "explanation_wrong": "最初のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Reef Gateway Café",
+    "location": "Cairns City, Queensland, Australia",
+    "stars": 5,
+    "text": "I tried the pavlova at Reef Gateway Café yesterday. It was amazing! The meringue was crispy on the outside and marshmallow-soft on the inside. They put lots of fresh strawberries, kiwi, and passionfruit on top. The whipped cream was light and not too sweet. The portion was big enough to share with a friend. The café is in the centre of Cairns, so it is easy to find. I really recommend this place for dessert lovers!"
+  },
+  "review_vocab": [
+    {"en": "amazing", "ja": "すばらしい"},
+    {"en": "crispy", "ja": "サクサクの"},
+    {"en": "marshmallow-soft", "ja": "マシュマロのように柔らかい"},
+    {"en": "portion", "ja": "一人前・量"},
+    {"en": "share", "ja": "分ける・シェアする"},
+    {"en": "recommend", "ja": "おすすめする"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーによると、パブロバの量はどうでしたか？",
+    "options": ["少なかった", "友達とシェアできるほど大きかった", "一人にちょうどよかった"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"The portion was big enough to share with a friend.\"",
+    "explanation_wrong": "\"portion\" が出てくるところをもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "パブロバはオーストラリアとニュージーランドが「うちの国のデザートだ！」と争う人気スイーツ。クリスマスや特別な日のデザートとしても定番。メニューで見かけたら「**I'd like to try the pavlova, please.**」と注文してみよう！",
+    "オーストラリアでは「**passionfruit**」がとても人気のフルーツ。パブロバの上にかけるのが定番。カフェで「**Does it come with passionfruit?**」と聞いてみるのもいいね！",
+    "ケアンズの街中（**Cairns City**）にはたくさんのカフェがあって、特に**Shields Street**周辺が賑やか。「**Where is a good café around here?**」と聞けば、地元の人が教えてくれるよ！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Sophie）がパブロバを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Hello! Welcome to Reef Gateway Café. How are you today?"},
+      {"speaker": "Sophie", "text": "I'm good, thanks! I heard your pavlova is really good."},
+      {"speaker": "You", "text": "Yes, it is our most popular dessert! It is made fresh every day."},
+      {"speaker": "Sophie", "text": "That sounds lovely. What fruit is on top today?"},
+      {"speaker": "You", "text": "Today we have strawberries, kiwi, and passionfruit."},
+      {"speaker": "Sophie", "text": "Perfect! I will have one, please. Can I also get a latte?"},
+      {"speaker": "You", "text": "Of course! Regular or large?"},
+      {"speaker": "Sophie", "text": "Regular, please."},
+      {"speaker": "You", "text": "Great! That comes to fifteen dollars."},
+      {"speaker": "Sophie", "text": "Here you go. Can I sit on the terrace?"},
+      {"speaker": "You", "text": "Sure! Take any seat you like outside. I will bring your order to you."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "popular", "ja": "人気のある"},
+    {"en": "fresh", "ja": "新鮮な・作りたての"},
+    {"en": "lovely", "ja": "素敵な"},
+    {"en": "regular", "ja": "レギュラー（普通サイズ）"},
+    {"en": "take a seat", "ja": "座る"},
+    {"en": "bring", "ja": "持っていく"}
+  ],
+  "quiz3": {
+    "question_ja": "Sophieはラテのサイズを何にしましたか？",
+    "options": ["スモール", "レギュラー", "ラージ"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Regular, please.\"",
+    "explanation_wrong": "サイズを聞かれた後のSophieの答えを確認しよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "パーティーの準備",
+      "full_text": "Are you coming to my birthday party on Saturday? Yes, of course! What are you making for dessert? I am going to make a pavlova. Wow, that is fancy! Can I bring anything? Can you bring some fresh fruit? Sure, I will get strawberries and kiwi. That would be great. The party starts at six o'clock. See you then!",
+      "gaps": [
+        {"before": "Are you coming to my birthday", "answer": "party", "after": "on Saturday?"},
+        {"before": "I am going to make a", "answer": "pavlova", "after": "."},
+        {"before": "Can you bring some fresh", "answer": "fruit", "after": "?"},
+        {"before": "I will get strawberries and", "answer": "kiwi", "after": "."},
+        {"before": "The party starts at", "answer": "six", "after": "o'clock."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "デザートメニューの紹介",
+      "full_text": "Good evening and welcome to Tropical Bites Restaurant. Let me tell you about our dessert menu tonight. We have three special desserts. First, our famous pavlova with mango and passionfruit. Second, a warm chocolate brownie with ice cream. Third, a coconut panna cotta. All desserts are twelve dollars each. If you order a dessert with a coffee, you get two dollars off. Our kitchen closes at nine thirty, so please order before then.",
+      "questions": [
+        {
+          "question_ja": "今夜のスペシャルデザートは何種類ですか？",
+          "options": ["2種類", "3種類", "4種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"We have three special desserts.\"",
+          "explanation_wrong": "\"special desserts\" の前の数字に注目！"
+        },
+        {
+          "question_ja": "デザートとコーヒーを一緒に頼むといくら安くなりますか？",
+          "options": ["1ドル", "2ドル", "3ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"you get two dollars off.\"",
+          "explanation_wrong": "\"dollars off\" の前の数字をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "キッチンは何時に閉まりますか？",
+          "options": ["9時", "9時半", "10時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Our kitchen closes at nine thirty.\"",
+          "explanation_wrong": "\"closes at\" の後の時間をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "It is our most popular dessert.",
+        "tip": "most popular が「モウストゥ ポピュラー」で most の t は軽く。dessert は「デザート」で zer にアクセント（desert 砂漠 と間違えないように）。"
+      },
+      {
+        "text": "What fruit is on top today?",
+        "tip": "fruit is が「フルーティズ」とつながります。on top が「オントップ」で n と t がつながる。"
+      },
+      {
+        "text": "I will bring your order to you.",
+        "tip": "bring your が「ブリンギョー」とリンキング。order は「オーダー」で r を軽く巻きます。"
+      },
+      {
+        "text": "That comes to fifteen dollars.",
+        "tip": "comes to が「カムズトゥ」。fifteen は「フィフティーン」で teen を強く。fifty（50）と間違えないように注意！"
+      },
+      {
+        "text": "Take any seat you like outside.",
+        "tip": "Take any が「テイケニー」とつながります。seat は「スィート」で s をしっかり。outside は「アウトサイド」。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "あなたの好きなフルーツを使ったデザートを英語で紹介してみよう（3行）",
+    "example": "My favourite dessert is pavlova with strawberries. The meringue is crispy and sweet. I want to make one for my friends at the share house!"
+  },
+  "yamada_comments": {
+    "recipe": "パブロバ、見た目も華やかだよね！フィギュアスケートの衣装みたいにきれいなデザート。レシピの英語、ステップごとに動詞をチェックしよう！",
+    "review": "レビューを読む力がつくと旅行がもっと楽しくなるよ。Snow Manで海外行ったとき、レビュー見ていいお店見つけたことあるんだ！",
+    "conversation": "お客さんに「今日のフルーツは何？」って聞かれるの、カフェあるあるだよね。陸上の試合前のルーティンみたいに、答え方を準備しておこう！",
+    "listening": "リスニングは耳のトレーニング。陸上選手が毎日走るように、毎日英語を聴く習慣をつけよう。少しずつ聴き取れるようになるよ！",
+    "pronunciation": "fifteen と fifty の違い、意外と大事！Snow Manのライブでもリズムの取り方で全然違う印象になるでしょ？発音もリズムが大切！",
+    "try_it": "自分の好きなものを英語で書くのが一番楽しいよ。俺もインスタの英語キャプション、好きなことから書き始めたよ。チャレンジしてみて！"
+  }
+}

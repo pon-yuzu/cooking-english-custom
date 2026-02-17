@@ -1,0 +1,169 @@
+{
+  "day": 10,
+  "sweet": "Sticky Date Pudding",
+  "emoji": "🍯",
+  "recipe": {
+    "title": "How to Make Sticky Date Pudding",
+    "intro": "Sticky date pudding is a warm, rich dessert loved in Australia. It is a soft date cake with a sweet caramel sauce on top. Perfect for cool evenings!",
+    "ingredients": "dates, boiling water, bicarbonate of soda, butter, brown sugar, eggs, self-raising flour, vanilla extract, cream, golden syrup",
+    "steps": [
+      "**Chop** the dates and **soak** them in boiling water with bicarbonate of soda for 10 minutes.",
+      "**Preheat** the oven to 180 degrees Celsius. **Grease** a baking dish with butter.",
+      "**Beat** the butter and brown sugar together until fluffy. **Add** the eggs one at a time.",
+      "**Fold** in the flour and the soaked dates. **Pour** the mixture into the baking dish.",
+      "**Bake** for 35 to 40 minutes until firm.",
+      "**Make** the sauce: **Heat** butter, brown sugar, cream, and golden syrup in a saucepan. **Stir** until smooth. **Pour** the warm sauce over the pudding and **serve**!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "dates", "ja": "デーツ（ナツメヤシの実）"},
+    {"en": "soak", "ja": "浸す"},
+    {"en": "bicarbonate of soda", "ja": "重曹"},
+    {"en": "grease", "ja": "油を塗る"},
+    {"en": "beat", "ja": "泡立てる・混ぜる"},
+    {"en": "fold", "ja": "さっくり混ぜる"},
+    {"en": "firm", "ja": "しっかりした・固まった"},
+    {"en": "golden syrup", "ja": "ゴールデンシロップ"},
+    {"en": "caramel sauce", "ja": "キャラメルソース"}
+  ],
+  "quiz1": {
+    "question_ja": "デーツはお湯に何分浸しますか？",
+    "options": ["5分", "10分", "15分"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Soak them in boiling water... for 10 minutes.\"",
+    "explanation_wrong": "最初のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Ochre Restaurant",
+    "location": "Cairns Waterfront, Queensland, Australia",
+    "stars": 5,
+    "text": "We had dinner at Ochre Restaurant on Friday night. For dessert, I ordered the sticky date pudding. It was the best I have ever had! The cake was moist and full of dates. The caramel sauce was warm and sweet. It came with a scoop of vanilla ice cream. My husband had the chocolate cake, but he was jealous of my pudding. The restaurant has a beautiful view of the waterfront. Highly recommend for a special dinner!"
+  },
+  "review_vocab": [
+    {"en": "dessert", "ja": "デザート"},
+    {"en": "moist", "ja": "しっとりした"},
+    {"en": "scoop", "ja": "ひとすくい"},
+    {"en": "jealous", "ja": "うらやましい"},
+    {"en": "waterfront", "ja": "ウォーターフロント・海沿い"},
+    {"en": "highly recommend", "ja": "強くおすすめする"}
+  ],
+  "quiz2": {
+    "question_ja": "スティッキーデートプディングにはアイスクリームがついていましたか？",
+    "options": ["いいえ", "はい、バニラ味", "はい、チョコ味"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"It came with a scoop of vanilla ice cream.\"",
+    "explanation_wrong": "\"came with\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "スティッキーデートプディングは、オーストラリアのレストランのデザートメニューの定番！特に冬（6月〜8月）に人気があります。注文するときは「**Can I have the sticky date pudding for dessert?**」と言おう。",
+    "オーストラリアでは「**pudding**」はケーキ風のデザート全般を指すことがあります。イギリス英語の影響で「デザート」のことを「**pud**」と呼ぶ人も。「**What's for pud?**」＝「デザートは何？」という意味。",
+    "ケアンズのウォーターフロントエリアは夜景がきれい。特別なディナーに最適！レストランで「**Can we have a table with a view?**」と言えば、景色の良い席をリクエストできます。"
+  ],
+  "conversation": {
+    "scene": "カフェのディナータイム、お客さん（Rachel）がデザートを選ぶ場面",
+    "lines": [
+      {"speaker": "You", "text": "Are you ready to order dessert?"},
+      {"speaker": "Rachel", "text": "Yes! What do you recommend?"},
+      {"speaker": "You", "text": "Our sticky date pudding is very popular. It comes with caramel sauce and ice cream."},
+      {"speaker": "Rachel", "text": "That sounds amazing! Is it very sweet?"},
+      {"speaker": "You", "text": "It is quite sweet, but the ice cream balances it nicely."},
+      {"speaker": "Rachel", "text": "OK, I will try it! Can I get it with extra sauce?"},
+      {"speaker": "You", "text": "Of course! Extra sauce is no problem."},
+      {"speaker": "Rachel", "text": "And can I also have a cappuccino?"},
+      {"speaker": "You", "text": "Sure! Regular or large?"},
+      {"speaker": "Rachel", "text": "Large, please."},
+      {"speaker": "You", "text": "Great choice! I will bring it out soon."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "recommend", "ja": "おすすめする"},
+    {"en": "amazing", "ja": "すごい・素晴らしい"},
+    {"en": "balances", "ja": "バランスをとる"},
+    {"en": "extra", "ja": "追加の"},
+    {"en": "regular", "ja": "レギュラーサイズ"},
+    {"en": "bring it out", "ja": "持ってくる・お出しする"}
+  ],
+  "quiz3": {
+    "question_ja": "Rachelはカプチーノのサイズを何にしましたか？",
+    "options": ["スモール", "レギュラー", "ラージ"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"Large, please.\"",
+    "explanation_wrong": "カプチーノのサイズを聞かれた後のRachelの返事を探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "友達とのデザートの相談",
+      "full_text": "What should we have for dessert? I cannot decide between the cheesecake and the sticky date pudding. The sticky date pudding is really good here. Is it warm or cold? It is warm. It comes with ice cream on the side. That sounds perfect for tonight. It is a bit cold outside. Yes, a warm dessert is the best choice. Let me call the waiter. Excuse me, can we order dessert please?",
+      "gaps": [
+        {"before": "I cannot decide between the cheesecake and the", "answer": "sticky date pudding", "after": "."},
+        {"before": "Is it warm or", "answer": "cold", "after": "?"},
+        {"before": "It comes with ice cream on the", "answer": "side", "after": "."},
+        {"before": "A warm dessert is the best", "answer": "choice", "after": "."},
+        {"before": "Let me call the", "answer": "waiter", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "レストランのデザートメニュー紹介",
+      "full_text": "Thank you for dining with us tonight. Let me tell you about our dessert menu. We have four desserts this evening. Our most popular is the sticky date pudding with butterscotch sauce. It is fourteen dollars. We also have a tropical fruit pavlova for twelve dollars, a dark chocolate brownie for thirteen dollars, and coconut panna cotta for eleven dollars. All desserts are made fresh by our chef. If you have any allergies, please let us know. We can make changes for you.",
+      "questions": [
+        {
+          "question_ja": "今夜のデザートは何種類ありますか？",
+          "options": ["3種類", "4種類", "5種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"We have four desserts this evening.\"",
+          "explanation_wrong": "デザートの数を言っている部分に注目！"
+        },
+        {
+          "question_ja": "スティッキーデートプディングはいくらですか？",
+          "options": ["12ドル", "13ドル", "14ドル"],
+          "correct_index": 2,
+          "explanation_correct": "正解！\"It is fourteen dollars.\"",
+          "explanation_wrong": "sticky date pudding の後の金額を聴いてみよう！"
+        },
+        {
+          "question_ja": "アレルギーがある場合はどうすればいいですか？",
+          "options": ["別のレストランに行く", "スタッフに伝える", "メニューに書いてある"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"If you have any allergies, please let us know.\"",
+          "explanation_wrong": "\"allergies\" が出てくる文をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Are you ready to order dessert?",
+        "tip": "Are you が「アーユー」。ready to が「レディトゥ」とつながります。dessert は「ディザート」で z の音に注意。"
+      },
+      {
+        "text": "It comes with caramel sauce and ice cream.",
+        "tip": "comes with が「カムズウィズ」。caramel は「キャラメル」。and ice が「アンダイス」とつながります。"
+      },
+      {
+        "text": "Can I get it with extra sauce?",
+        "tip": "Can I が「キャナイ」。get it が「ゲリッ」。with extra が「ウィゼクストラ」とつながります。"
+      },
+      {
+        "text": "I will bring it out soon.",
+        "tip": "bring it が「ブリンギッ」。out の t をしっかり出しましょう。soon は「スーン」で長めに。"
+      },
+      {
+        "text": "What do you recommend?",
+        "tip": "What do you が「ワッドゥユー」とつながります。recommend は「レコメンド」で d をしっかり出す。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "お気に入りのデザートを友達にすすめる文を英語で3行書いてみよう",
+    "example": "You should try the sticky date pudding at our café. It is warm and sweet with caramel sauce. I always eat it on cold nights and it makes me happy!"
+  },
+  "yamada_comments": {
+    "recipe": "スティッキーデートプディング、名前からして美味しそう！デーツを使うところがオーストラリアらしいよね。「soak」と「fold」、料理の英語として覚えておくと便利！",
+    "review": "レストランのレビューも読めるようになると、特別なディナーの計画が立てやすくなるよね。俺もSnow Manのツアー先で美味しいレストランを探すのが楽しみなんだ。",
+    "conversation": "「What do you recommend?」は万能フレーズ！レストランでもカフェでも使えるよ。陸上の大会の後にみんなでご飯行くとき、お店の人に聞いてみよう！",
+    "listening": "友達との会話とレストランの説明、両方聴けたね。実際のレストランではメニューの説明を聴くことが多いから、数字と料理名に集中して聴いてみて！",
+    "pronunciation": "「dessert」と「desert」（砂漠）、発音が違うの知ってた？「dessert」はディザートで2番目の音節にアクセント。フィギュアスケートも音楽のリズムが大事でしょ？英語もリズムとアクセントが大事！",
+    "try_it": "好きなデザートをおすすめする文、楽しく書けそうだね！俺がおすすめするなら…やっぱりキャラメル系！甘いもの食べると元気出るよね。書いたら声に出して読んでみよう！"
+  }
+}

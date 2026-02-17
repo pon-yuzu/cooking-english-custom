@@ -1,0 +1,168 @@
+{
+  "day": 23,
+  "sweet": "Chia Pudding",
+  "emoji": "🥄",
+  "recipe": {
+    "title": "How to Make Chia Pudding",
+    "intro": "Chia pudding is a healthy and easy dessert. You mix chia seeds with coconut milk and leave it in the fridge overnight. Top it with fresh fruit!",
+    "ingredients": "chia seeds, coconut milk, honey, vanilla extract, mango, blueberries, shredded coconut, granola",
+    "steps": [
+      "**Pour** the coconut milk into a jar or bowl.",
+      "**Add** the chia seeds, honey, and vanilla extract. **Stir** well.",
+      "**Cover** the jar and **put** it in the fridge for at least 4 hours or overnight.",
+      "**Stir** the pudding once after 30 minutes to stop the seeds from clumping.",
+      "**Cut** the mango into small cubes.",
+      "**Top** the pudding with mango, blueberries, shredded coconut, and granola. **Serve** cold and enjoy!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "chia seeds", "ja": "チアシード"},
+    {"en": "coconut milk", "ja": "ココナッツミルク"},
+    {"en": "overnight", "ja": "一晩"},
+    {"en": "jar", "ja": "瓶・ジャー"},
+    {"en": "cover", "ja": "蓋をする"},
+    {"en": "clumping", "ja": "固まること"},
+    {"en": "cubes", "ja": "角切り"},
+    {"en": "shredded coconut", "ja": "ココナッツフレーク"},
+    {"en": "granola", "ja": "グラノーラ"}
+  ],
+  "quiz1": {
+    "question_ja": "チアシードが固まらないようにするため、何分後にかき混ぜますか？",
+    "options": ["15分後", "30分後", "60分後"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Stir the pudding once after 30 minutes to stop the seeds from clumping.\"",
+    "explanation_wrong": "ステップ4をもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Green Ant Cantina",
+    "location": "Grafton Street, Cairns, Queensland, Australia",
+    "stars": 4,
+    "text": "Green Ant Cantina is a healthy café on Grafton Street. I went there for breakfast on Saturday. I ordered the tropical chia pudding with mango and passionfruit. It was thick and creamy. The mango was so fresh and sweet. They also had a smoothie bowl menu. My sister chose the açaí bowl. The portions were big and the prices were fair. It is a great place if you want something healthy and tasty."
+  },
+  "review_vocab": [
+    {"en": "healthy", "ja": "健康的な"},
+    {"en": "tropical", "ja": "トロピカルな"},
+    {"en": "portions", "ja": "量・ポーション"},
+    {"en": "fair", "ja": "適正な・まあまあの"},
+    {"en": "tasty", "ja": "美味しい"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーの姉（妹）は何を注文しましたか？",
+    "options": ["チアプディング", "アサイーボウル", "スムージー"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"My sister chose the açaí bowl.\"",
+    "explanation_wrong": "\"sister chose\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアでは健康志向の人が多く、カフェに**chia pudding**や**açaí bowl**があるのは普通です。注文するときは「**Can I have the chia pudding with mango?**」と言いましょう。トッピングを追加したいときは「**Can I add some granola?**」。",
+    "ケアンズはトロピカルフルーツの宝庫！**mango（マンゴー）**、**papaya（パパイヤ）**、**passionfruit（パッションフルーツ）**などが新鮮で安く手に入ります。マーケットで「**How much are the mangoes?**」と聞いてみよう！",
+    "オーストラリアの朝食文化は世界的に有名。カフェでの朝食を「**brekkie**」と呼びます。これはオージースラング！「**Let's go out for brekkie!**」（朝ごはん食べに行こう！）は友達との会話でよく使います。"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Hannah）が朝食メニューについて質問する場面",
+    "lines": [
+      {"speaker": "You", "text": "Good morning! Welcome in. Are you having breakfast today?"},
+      {"speaker": "Hannah", "text": "Yes! Do you have anything healthy?"},
+      {"speaker": "You", "text": "We have chia pudding, açaí bowls, and avocado toast."},
+      {"speaker": "Hannah", "text": "What comes on the chia pudding?"},
+      {"speaker": "You", "text": "It comes with mango, blueberries, and coconut flakes."},
+      {"speaker": "Hannah", "text": "Can I add granola to it?"},
+      {"speaker": "You", "text": "Of course! That is two dollars extra."},
+      {"speaker": "Hannah", "text": "That is fine. I will have the chia pudding with granola."},
+      {"speaker": "You", "text": "Great! And to drink?"},
+      {"speaker": "Hannah", "text": "An oat milk latte, please."},
+      {"speaker": "You", "text": "Perfect! Take a seat and I will bring it to your table."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "healthy", "ja": "健康的な"},
+    {"en": "avocado toast", "ja": "アボカドトースト"},
+    {"en": "comes on", "ja": "〜がのっている"},
+    {"en": "extra", "ja": "追加の"},
+    {"en": "oat milk", "ja": "オーツミルク"},
+    {"en": "take a seat", "ja": "お席にどうぞ"}
+  ],
+  "quiz3": {
+    "question_ja": "Hannahはどんなミルクのラテを注文しましたか？",
+    "options": ["アーモンドミルク", "オーツミルク", "ソイミルク"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"An oat milk latte, please.\"",
+    "explanation_wrong": "Hannahが飲み物を注文するセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "ルームメイトと朝ごはんの準備",
+      "full_text": "Did you make chia pudding last night? Yes, I put it in the fridge before bed. Is it ready to eat? Let me check. Yes, it looks thick and creamy now. Great! What fruit do we have? We have bananas and strawberries. Can you slice the bananas for me? Sure! I will also put some honey on top. This is such a healthy breakfast!",
+      "gaps": [
+        {"before": "I put it in the fridge before", "answer": "bed", "after": "."},
+        {"before": "it looks thick and creamy", "answer": "now", "after": "."},
+        {"before": "We have bananas and", "answer": "strawberries", "after": "."},
+        {"before": "Can you slice the bananas for", "answer": "me", "after": "?"},
+        {"before": "This is such a healthy", "answer": "breakfast", "after": "!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "ヘルシーカフェのメニュー紹介",
+      "full_text": "Welcome to Rainforest Bowl Café. We are Cairns' newest healthy café. Our menu has three kinds of chia pudding. The Tropical Paradise has mango, passionfruit, and coconut. The Berry Bliss has strawberries, blueberries, and granola. The Chocolate Dream has cacao, banana, and peanut butter. Each pudding is twelve dollars. We also sell chia pudding kits for twenty dollars. The kit has chia seeds, coconut milk, and a recipe card. You can make six puddings at home with one kit. We are open every day from six thirty in the morning.",
+      "questions": [
+        {
+          "question_ja": "「Tropical Paradise」に入っているフルーツはどれですか？",
+          "options": ["ストロベリーとブルーベリー", "マンゴーとパッションフルーツ", "バナナとピーナッツバター"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The Tropical Paradise has mango, passionfruit, and coconut.\"",
+          "explanation_wrong": "「Tropical Paradise」の説明をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "チアプディングキットでいくつ作れますか？",
+          "options": ["4つ", "6つ", "8つ"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"You can make six puddings at home with one kit.\"",
+          "explanation_wrong": "キットの説明をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "カフェの開店時間は何時ですか？",
+          "options": ["朝6時", "朝6時半", "朝7時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"from six thirty in the morning\"",
+          "explanation_wrong": "営業時間の部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Do you have anything healthy?",
+        "tip": "Do you が「ジュー」と短く。anything は「エニスィング」で th の音を意識。healthy は「ヘルシー」で th をしっかり。"
+      },
+      {
+        "text": "It comes with mango, blueberries, and coconut flakes.",
+        "tip": "comes with が「カムズウィズ」。blueberries は「ブルーベリーズ」。coconut は「ココナット」でアクセントは最初。"
+      },
+      {
+        "text": "Can I add granola to it?",
+        "tip": "Can I が「キャナイ」。granola は「グラノーラ」でアクセントは no。to it が「トゥイット」。"
+      },
+      {
+        "text": "Take a seat and I will bring it to your table.",
+        "tip": "Take a が「テイカ」。bring it が「ブリンギット」とつながります。table は「テイボゥ」で l は軽く。"
+      },
+      {
+        "text": "An oat milk latte, please.",
+        "tip": "oat の t は軽く止めます。milk は「ミルク」で l をしっかり。latte は「ラテ」でオーストラリアでは「ラーテイ」のように聞こえることも。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "今日の朝ごはんについて英語で3行書いてみよう",
+    "example": "This morning I had chia pudding for breakfast. I put banana and honey on top. It was healthy and delicious. I want to eat it every day!"
+  },
+  "yamada_comments": {
+    "recipe": "チアプディング、混ぜて冷蔵庫に入れるだけだから超簡単！陸上の選手もヘルシーな食事を大事にしてるよね。もものちゃんもケアンズの新鮮なフルーツで作ってみて！",
+    "review": "「brekkie」はオージースラング、覚えておくと地元の人との会話で使えるよ。Snow Manも海外ロケで現地の言葉を覚えるの楽しいんだ。",
+    "conversation": "「Take a seat」って言えると接客レベルアップ！フィギュアスケートの演技でジャッジに挨拶するみたいに、お客さんを気持ちよく迎えよう！",
+    "listening": "メニューの説明を聴き取る練習は実際のカフェで役立つよ。最初は全部聴き取れなくてもOK。キーワードを拾う練習をしよう！",
+    "pronunciation": "「healthy」のthの音、日本語にはない音だから練習が必要。舌の位置を意識して何度も繰り返そう！",
+    "try_it": "朝ごはんのことを英語で書くのは日記の第一歩。俺もSnow Manの撮影前に食べたもの、メモすることあるよ。毎日の小さな記録が力になる！"
+  }
+}

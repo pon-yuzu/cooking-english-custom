@@ -1,0 +1,170 @@
+{
+  "day": 20,
+  "sweet": "Rocky Road",
+  "emoji": "🍫",
+  "recipe": {
+    "title": "How to Make Rocky Road",
+    "intro": "Rocky road is a no-bake treat with chocolate, marshmallows, nuts, and biscuit pieces. It is easy to make and very popular in Australia.",
+    "ingredients": "dark chocolate, milk chocolate, butter, marshmallows, peanuts, biscuits, coconut, icing sugar",
+    "steps": [
+      "**Break** the dark chocolate and milk chocolate into small pieces. **Put** them in a bowl with the butter.",
+      "**Melt** the chocolate and butter in the microwave for 30 seconds at a time. **Stir** between each time.",
+      "**Crush** the biscuits into small pieces with your hands.",
+      "**Chop** the peanuts and **cut** the marshmallows in half.",
+      "**Mix** the biscuits, peanuts, marshmallows, and coconut into the melted chocolate.",
+      "**Pour** the mixture into a lined tray and **press** down flat. **Refrigerate** for 2 hours, then **cut** into squares."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "no-bake", "ja": "焼かない（オーブン不要の）"},
+    {"en": "marshmallows", "ja": "マシュマロ"},
+    {"en": "melt", "ja": "溶かす"},
+    {"en": "crush", "ja": "砕く"},
+    {"en": "chop", "ja": "刻む"},
+    {"en": "lined tray", "ja": "クッキングシートを敷いたトレイ"},
+    {"en": "refrigerate", "ja": "冷蔵庫で冷やす"},
+    {"en": "mixture", "ja": "混ぜたもの"}
+  ],
+  "quiz1": {
+    "question_ja": "冷蔵庫で何時間冷やしますか？",
+    "options": ["1時間", "2時間", "3時間"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Refrigerate for 2 hours.\"",
+    "explanation_wrong": "最後のステップの時間をもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Muddy's Café",
+    "location": "Cairns City, Queensland, Australia",
+    "stars": 4,
+    "text": "Muddy's Café is a nice little place in the city centre. I stopped by for a quick afternoon snack. I bought a piece of rocky road and a cold brew coffee. The rocky road was thick and full of chocolate. I could taste the marshmallows and peanuts in every bite. The cold brew was smooth and refreshing. The only problem was it was a bit crowded. But the food was delicious!",
+    "reviewer": "Tom"
+  },
+  "review_vocab": [
+    {"en": "stopped by", "ja": "立ち寄った"},
+    {"en": "piece", "ja": "一つ・一切れ"},
+    {"en": "thick", "ja": "分厚い"},
+    {"en": "bite", "ja": "一口"},
+    {"en": "refreshing", "ja": "さわやかな"},
+    {"en": "crowded", "ja": "混雑した"},
+    {"en": "delicious", "ja": "おいしい"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーが唯一の問題だと言ったことは何ですか？",
+    "options": ["値段が高い", "少し混んでいた", "量が少なかった"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"The only problem was it was a bit crowded.\"",
+    "explanation_wrong": "\"only problem\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "**Rocky road** はオーストラリアのカフェやベーカリーでよく見かけるスイーツです。チョコレートの中にいろんな具材が入っていて食べ応えがあります。「**Can I have a piece of rocky road?**」と注文してみましょう！",
+    "ケアンズの街中にはかわいいカフェがたくさん。**cold brew coffee** は暑いケアンズにぴったりのドリンクです。「**I'll have a cold brew, please.**」と言えばOK。オーストラリアでは「**iced coffee**」にはアイスクリームが入っていることが多いので注意！",
+    "オーストラリアのカフェでは「**takeaway**」がテイクアウトの意味です。「**Is that for here or takeaway?**」と聞かれたら、店内なら「**For here, please.**」、持ち帰りなら「**Takeaway, please.**」と答えましょう。"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Sophie）がテイクアウトで注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Hi there! What can I get for you today?"},
+      {"speaker": "Sophie", "text": "Hello! Can I have two pieces of rocky road, please?"},
+      {"speaker": "You", "text": "Sure! Is that for here or takeaway?"},
+      {"speaker": "Sophie", "text": "Takeaway, please. They are for my kids."},
+      {"speaker": "You", "text": "That is so nice! Anything else?"},
+      {"speaker": "Sophie", "text": "Yes, can I also get a large cappuccino?"},
+      {"speaker": "You", "text": "Of course! Do you want any sugar with your coffee?"},
+      {"speaker": "Sophie", "text": "No sugar, thanks. How much is that altogether?"},
+      {"speaker": "You", "text": "That is sixteen dollars. Would you like a bag for the rocky road?"},
+      {"speaker": "Sophie", "text": "Yes, please. Thank you so much!"},
+      {"speaker": "You", "text": "No worries! Have a great day!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "for here or takeaway", "ja": "店内ですかお持ち帰りですか"},
+    {"en": "takeaway", "ja": "テイクアウト（豪州英語）"},
+    {"en": "anything else", "ja": "他に何かありますか"},
+    {"en": "altogether", "ja": "全部で"},
+    {"en": "no worries", "ja": "大丈夫ですよ（豪州でよく使う表現）"},
+    {"en": "cappuccino", "ja": "カプチーノ"}
+  ],
+  "quiz3": {
+    "question_ja": "Sophieはロッキーロードを誰のために買いましたか？",
+    "options": ["自分のため", "子供たちのため", "友達のため"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"They are for my kids.\"",
+    "explanation_wrong": "\"for my\" の後をもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "友達とバレンタインのお菓子作り",
+      "full_text": "What shall we make for Valentine's Day? How about rocky road? Good idea! It is easy because we do not need an oven. What ingredients do we need? We need chocolate, marshmallows, and biscuits. Can we add some dried cranberries too? Yes, that will taste great! Let me melt the chocolate first. OK, I will crush the biscuits while you do that.",
+      "gaps": [
+        {"before": "It is easy because we do not need an", "answer": "oven", "after": "."},
+        {"before": "We need chocolate, marshmallows, and", "answer": "biscuits", "after": "."},
+        {"before": "Can we add some dried", "answer": "cranberries", "after": "too?"},
+        {"before": "Let me melt the", "answer": "chocolate", "after": "first."},
+        {"before": "I will crush the biscuits while you do", "answer": "that", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "ベーカリーの新商品紹介",
+      "full_text": "Hello and welcome to Treetops Bakery. We are excited to tell you about our new products this month. First, we have a white chocolate rocky road with macadamia nuts and dried mango. It costs six dollars per piece. Second, we have a new gluten-free brownie made with almond flour. It is five dollars fifty. Third, we have a tropical fruit tart with passionfruit and papaya. It is seven dollars. All three are available from this Monday. You can also order a box of six rocky road pieces for thirty dollars. That is a great gift idea!",
+      "questions": [
+        {
+          "question_ja": "ロッキーロードに入っているナッツの種類は何ですか？",
+          "options": ["ピーナッツ", "マカダミアナッツ", "アーモンド"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"white chocolate rocky road with macadamia nuts\"",
+          "explanation_wrong": "ロッキーロードの説明をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "グルテンフリーブラウニーの値段はいくらですか？",
+          "options": ["5ドル", "5ドル50セント", "6ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"It is five dollars fifty.\"",
+          "explanation_wrong": "ブラウニーの値段をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "ロッキーロードの6個入りボックスはいくらですか？",
+          "options": ["25ドル", "30ドル", "35ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"a box of six rocky road pieces for thirty dollars\"",
+          "explanation_wrong": "\"box\" の値段をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Is that for here or takeaway?",
+        "tip": "for here が「フォヒア」のようにつながります。or は弱く「オァ」。takeaway は「テイカウェイ」で3音節。"
+      },
+      {
+        "text": "They are for my kids.",
+        "tip": "They are が「ゼヤー」と短くなります。for my が「フォマイ」とつながります。kids の d をしっかり。"
+      },
+      {
+        "text": "Do you want any sugar with your coffee?",
+        "tip": "Do you が「ジュー」、want any が「ウォンテニー」とつながります。sugar は「シュガー」。"
+      },
+      {
+        "text": "No worries! Have a great day!",
+        "tip": "No worries は「ノーウォリーズ」。Have a が「ハヴァ」とつながります。great の t は軽く。"
+      },
+      {
+        "text": "Can I have two pieces of rocky road?",
+        "tip": "Can I が「キャナイ」。pieces of が「ピーセズォヴ」とつながります。road の d は軽く止めます。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "好きなチョコレートのお菓子について英語で3行書いてみよう",
+    "example": "I love rocky road because it has chocolate and marshmallows. I made rocky road with my friend last week. We put extra peanuts in it. It was so yummy!"
+  },
+  "yamada_comments": {
+    "recipe": "ロッキーロードはオーブンいらないから簡単だよ！Snow Manのメンバーと楽屋で作ったこともあるんだ。混ぜて冷やすだけだから、英語のレシピでも挑戦しやすいよ。",
+    "review": "レビューで「crowded」って書いてあっても、美味しいお店なら行く価値あるよね。俺もツアー先で人気店に並ぶことあるよ。",
+    "conversation": "「No worries」はオーストラリアの定番表現！フィギュアの選手が転んでも笑顔で立ち上がるみたいに、気軽に使ってみよう！",
+    "listening": "リスニング、最初は難しくても大丈夫。陸上のトレーニングだって、最初からゴールタイムは出ないでしょ？毎日少しずつやることが大事！",
+    "pronunciation": "「takeaway」の発音、オーストラリアでめっちゃ使うから覚えよう。声に出して10回言ってみて！",
+    "try_it": "チョコレートのお菓子、みんな好きだよね。好きなものについて書くと英語も楽しくなる！俺もSnow Manの活動を英語で紹介してみたことあるよ。"
+  }
+}

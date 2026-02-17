@@ -1,0 +1,169 @@
+{
+  "day": 22,
+  "sweet": "Crème Brûlée",
+  "emoji": "🍮",
+  "recipe": {
+    "title": "How to Make Crème Brûlée",
+    "intro": "Crème brûlée is a French custard with a crispy caramelized sugar top. You crack the sugar with a spoon before eating. It is rich and smooth.",
+    "ingredients": "cream, milk, egg yolks, caster sugar, vanilla bean, extra sugar for the top",
+    "steps": [
+      "**Preheat** the oven to 150 degrees Celsius.",
+      "**Heat** the cream, milk, and vanilla bean in a pot until small bubbles appear. Do not **boil** it.",
+      "**Whisk** the egg yolks and sugar in a bowl until pale and smooth.",
+      "**Pour** the warm cream slowly into the egg mixture and **stir** gently.",
+      "**Strain** the mixture through a sieve into small ramekins.",
+      "**Bake** in a water bath for 40 to 45 minutes. **Chill** in the fridge for 4 hours. **Sprinkle** sugar on top and **torch** it until golden brown."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "caramelized", "ja": "キャラメル状にした"},
+    {"en": "crack", "ja": "割る・叩く"},
+    {"en": "vanilla bean", "ja": "バニラビーンズ"},
+    {"en": "pale", "ja": "薄い色の"},
+    {"en": "strain", "ja": "漉す"},
+    {"en": "sieve", "ja": "ざる・裏ごし器"},
+    {"en": "ramekin", "ja": "ラメキン（小さな耐熱容器）"},
+    {"en": "water bath", "ja": "湯せん"},
+    {"en": "torch", "ja": "バーナーで炙る"}
+  ],
+  "quiz1": {
+    "question_ja": "クレームブリュレを冷蔵庫で何時間冷やしますか？",
+    "options": ["2時間", "3時間", "4時間"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"Chill in the fridge for 4 hours.\"",
+    "explanation_wrong": "最後のステップの冷やす時間をもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Ochre Restaurant & Café",
+    "location": "Shields Street, Cairns, Queensland, Australia",
+    "stars": 5,
+    "text": "Ochre is one of the best restaurants in Cairns. I went there for a special dinner. For dessert, I chose the crème brûlée. When I cracked the sugar on top, it made a perfect sound. The custard underneath was creamy and smooth. It tasted like vanilla. My friend had the mango sorbet. The service was excellent and the waiter was very kind. I recommend this place for a special occasion."
+  },
+  "review_vocab": [
+    {"en": "cracked", "ja": "割った"},
+    {"en": "underneath", "ja": "下の"},
+    {"en": "creamy", "ja": "クリーミーな"},
+    {"en": "sorbet", "ja": "シャーベット"},
+    {"en": "excellent", "ja": "素晴らしい"},
+    {"en": "occasion", "ja": "特別な機会"},
+    {"en": "recommend", "ja": "おすすめする"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーの友達は何を注文しましたか？",
+    "options": ["クレームブリュレ", "マンゴーシャーベット", "チョコレートケーキ"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"My friend had the mango sorbet.\"",
+    "explanation_wrong": "\"friend had\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのレストランでは、デザートメニューに「**crème brûlée**」がよくあります。注文するときはフランス語の発音で「クレムブリュレ」と言ってもOK。英語では「**cream broo-LAY**」のように発音します。",
+    "ケアンズの**Shields Street**はレストランやカフェが並ぶメインストリート。友達と食事に行くとき「**Let's eat out tonight. How about Shields Street?**」と提案してみましょう。「**eat out**」は外食するという意味です。",
+    "オーストラリアのレストランでは**tip（チップ）**は必須ではありませんが、サービスが良ければ「**Keep the change.**」（おつりはいいです）と言うことがあります。カフェではチップは普通不要です。"
+  ],
+  "conversation": {
+    "scene": "レストランカフェで、お客さん（Grace）がデザートを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Are you ready for dessert?"},
+      {"speaker": "Grace", "text": "Yes! What do you recommend?"},
+      {"speaker": "You", "text": "Our crème brûlée is very popular. It is made with real vanilla bean."},
+      {"speaker": "Grace", "text": "That sounds lovely. Is it very sweet?"},
+      {"speaker": "You", "text": "It is not too sweet. The custard is smooth and the sugar on top is crispy."},
+      {"speaker": "Grace", "text": "Perfect, I will have that. And a peppermint tea, please."},
+      {"speaker": "You", "text": "Great choice! Would you like anything else?"},
+      {"speaker": "Grace", "text": "No, that is all, thank you."},
+      {"speaker": "You", "text": "Your crème brûlée and tea will be right out."},
+      {"speaker": "Grace", "text": "Wonderful! Thank you so much."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "recommend", "ja": "おすすめする"},
+    {"en": "real", "ja": "本物の"},
+    {"en": "not too sweet", "ja": "甘すぎない"},
+    {"en": "peppermint tea", "ja": "ペパーミントティー"},
+    {"en": "that is all", "ja": "それで全部です"},
+    {"en": "will be right out", "ja": "すぐにお持ちします"}
+  ],
+  "quiz3": {
+    "question_ja": "Graceはクレームブリュレと一緒に何を注文しましたか？",
+    "options": ["コーヒー", "ペパーミントティー", "ホットチョコレート"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"And a peppermint tea, please.\"",
+    "explanation_wrong": "Graceが飲み物を注文するセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "料理番組でクレームブリュレの紹介",
+      "full_text": "Today on our cooking show, we are making crème brûlée. This is a classic French dessert. You need just five simple ingredients. The most important thing is good quality cream. You also need fresh eggs and real vanilla. The secret to a perfect crème brûlée is low temperature. Bake it slowly in the oven. When you hear that crack of the sugar, you know it is perfect!",
+      "gaps": [
+        {"before": "This is a classic French", "answer": "dessert", "after": "."},
+        {"before": "The most important thing is good quality", "answer": "cream", "after": "."},
+        {"before": "You also need fresh eggs and real", "answer": "vanilla", "after": "."},
+        {"before": "The secret to a perfect crème brûlée is low", "answer": "temperature", "after": "."},
+        {"before": "When you hear that crack of the", "answer": "sugar", "after": ", you know it is perfect!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "レストランのディナーコース案内",
+      "full_text": "Thank you for calling Harbour Lights Restaurant. Let me tell you about our dinner set menu. The set menu has three courses. For the starter, you can choose a prawn cocktail or a garden salad. For the main course, you can choose grilled barramundi or roast chicken. For dessert, you can choose crème brûlée, chocolate fondant, or tropical fruit salad. The set menu is fifty-five dollars per person. Drinks are not included. We are open for dinner from five thirty to nine o'clock, Tuesday to Sunday. We are closed on Mondays. Would you like to make a reservation?",
+      "questions": [
+        {
+          "question_ja": "デザートは何種類から選べますか？",
+          "options": ["2種類", "3種類", "4種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！crème brûlée, chocolate fondant, tropical fruit salad の3種類。",
+          "explanation_wrong": "デザートの選択肢をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "セットメニューの値段に飲み物は含まれますか？",
+          "options": ["はい", "いいえ", "コーヒーだけ含まれる"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Drinks are not included.\"",
+          "explanation_wrong": "\"included\" に関する部分をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "レストランの定休日は何曜日ですか？",
+          "options": ["日曜日", "月曜日", "火曜日"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"We are closed on Mondays.\"",
+          "explanation_wrong": "\"closed\" の後をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Are you ready for dessert?",
+        "tip": "Are you が「アーユー」。ready for が「レディフォー」とつながります。dessert は「ディザート」でアクセントは後ろ。"
+      },
+      {
+        "text": "It is made with real vanilla bean.",
+        "tip": "made with が「メイドウィズ」。vanilla は「ヴァニラ」でアクセントは ni。bean は「ビーン」で長めに。"
+      },
+      {
+        "text": "The custard is smooth and the sugar on top is crispy.",
+        "tip": "smooth の th をしっかり出しましょう。sugar on が「シュガロン」とつながります。crispy は「クリスピー」。"
+      },
+      {
+        "text": "Your crème brûlée and tea will be right out.",
+        "tip": "crème brûlée は「クレムブリュレイ」。will be が「ウィルビー」。right out が「ライタウト」。"
+      },
+      {
+        "text": "What do you recommend?",
+        "tip": "What do you が「ワッドゥユー」と短くなります。recommend は「レコメンド」でアクセントは mend。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "レストランやカフェで食べた特別なデザートの思い出を英語で3行書いてみよう",
+    "example": "Last month, I had crème brûlée at a French restaurant. I cracked the sugar with my spoon. The custard was so smooth and creamy. It was the best dessert I ever had!"
+  },
+  "yamada_comments": {
+    "recipe": "クレームブリュレ、見た目がきれいで上品だよね。フィギュアスケートの衣装みたいに美しい仕上がりを目指してみよう！「torch」って「バーナーで炙る」って意味、かっこいいよね。",
+    "review": "レストランのレビュー、英語で読めると海外で食事するとき超便利。「recommend」は接客でもよく使う単語だから覚えておこう！",
+    "conversation": "「Will be right out」は「すぐお持ちします」って意味。Snow Manのコンサートでもスタッフさんがテキパキ動くでしょ？カフェの接客も同じリズムで！",
+    "listening": "レストランの予約の英語、聴き取れると行動範囲が広がるよ。陸上の大会にエントリーするみたいに、自分で予約できたらかっこいいよね！",
+    "pronunciation": "「dessert」と「desert（砂漠）」は発音が違うから注意。アクセントの位置が大事。何度も声に出して覚えよう！",
+    "try_it": "特別な食事の思い出って書きやすいよね。俺もSnow Manのメンバーとご飯行った時のこと、英語で書いてみたことあるよ。楽しかった記憶は言葉にしやすい！"
+  }
+}

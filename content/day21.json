@@ -1,0 +1,169 @@
+{
+  "day": 21,
+  "sweet": "Churros",
+  "emoji": "🥖",
+  "recipe": {
+    "title": "How to Make Churros",
+    "intro": "Churros are fried dough sticks coated in cinnamon sugar. They are crispy on the outside and soft inside. Serve them with chocolate sauce for dipping!",
+    "ingredients": "water, butter, sugar, salt, plain flour, eggs, cinnamon, caster sugar, oil for frying, dark chocolate, cream",
+    "steps": [
+      "**Boil** the water, butter, sugar, and salt in a pot over medium heat.",
+      "**Remove** the pot from the heat and **add** the flour all at once. **Stir** hard until the dough forms a ball.",
+      "**Add** the eggs one at a time and **mix** well after each one.",
+      "**Put** the dough into a piping bag with a star tip.",
+      "**Heat** the oil to 180 degrees. **Pipe** the dough into the oil and **fry** for 3 to 4 minutes until golden.",
+      "**Roll** the hot churros in cinnamon sugar. **Melt** the chocolate with cream to make a dipping sauce. **Serve** warm!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "fried", "ja": "揚げた"},
+    {"en": "coated", "ja": "まぶした"},
+    {"en": "cinnamon", "ja": "シナモン"},
+    {"en": "dipping", "ja": "ディップ用の"},
+    {"en": "piping bag", "ja": "絞り袋"},
+    {"en": "star tip", "ja": "星型の口金"},
+    {"en": "fry", "ja": "揚げる"},
+    {"en": "pipe", "ja": "絞り出す"},
+    {"en": "crispy", "ja": "サクサクの"}
+  ],
+  "quiz1": {
+    "question_ja": "チュロスを揚げる時間はどのくらいですか？",
+    "options": ["1〜2分", "3〜4分", "5〜6分"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Fry for 3 to 4 minutes until golden.\"",
+    "explanation_wrong": "揚げるステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Prawn Star Dessert Bar",
+    "location": "Cairns Wharf, Queensland, Australia",
+    "stars": 4,
+    "text": "I found Prawn Star Dessert Bar near the wharf. They have a special churros menu. I ordered the churros with chocolate and caramel dipping sauces. The churros were very fresh and crispy. The cinnamon sugar was just right. My boyfriend had churros with ice cream. He loved it. The view of the marina was beautiful. A fun place for dessert after dinner!"
+  },
+  "review_vocab": [
+    {"en": "wharf", "ja": "埠頭・波止場"},
+    {"en": "dipping sauce", "ja": "ディップソース"},
+    {"en": "just right", "ja": "ちょうどいい"},
+    {"en": "marina", "ja": "マリーナ・港"},
+    {"en": "view", "ja": "景色"},
+    {"en": "fun place", "ja": "楽しい場所"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーのボーイフレンドはチュロスと何を一緒に食べましたか？",
+    "options": ["チョコレートソース", "アイスクリーム", "キャラメルソース"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"My boyfriend had churros with ice cream.\"",
+    "explanation_wrong": "\"boyfriend had\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "ケアンズの**Cairns Wharf**エリアは夜になるとライトアップされて、デザートバーやレストランが賑わいます。「**Shall we go to the wharf for dessert?**」と友達を誘ってみましょう！",
+    "オーストラリアのマーケットやフードトラックでもチュロスは大人気。注文するときは「**Can I have churros with chocolate sauce?**」と言います。ソースを選ぶときは「**Which sauce would you like?**」と聞かれることもあります。",
+    "オーストラリアでは食事の後のデザートを「**dessert**」と言いますが、カジュアルに「**sweets**」や「**something sweet**」ということも。「**Do you want something sweet after dinner?**」はよく使うフレーズです。"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さんカップル（Jack & Mia）がチュロスを注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Good evening! Welcome to our café. Here is the menu."},
+      {"speaker": "Jack", "text": "Thanks! Mia, do you want to share some churros?"},
+      {"speaker": "Mia", "text": "Yes! Can we get the churros for two, please?"},
+      {"speaker": "You", "text": "Great choice! You can choose two dipping sauces. We have chocolate, caramel, and strawberry."},
+      {"speaker": "Mia", "text": "I want chocolate. Jack, what about you?"},
+      {"speaker": "Jack", "text": "Caramel for me, please."},
+      {"speaker": "You", "text": "Chocolate and caramel. Got it! Any drinks?"},
+      {"speaker": "Jack", "text": "Two hot chocolates, please."},
+      {"speaker": "You", "text": "Would you like marshmallows on top?"},
+      {"speaker": "Mia", "text": "Oh yes, please! That sounds amazing."},
+      {"speaker": "You", "text": "Perfect! That will be twenty-two dollars. Your churros will be ready in five minutes."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "share", "ja": "シェアする・分ける"},
+    {"en": "for two", "ja": "2人用の"},
+    {"en": "great choice", "ja": "いい選択ですね"},
+    {"en": "got it", "ja": "わかりました"},
+    {"en": "on top", "ja": "上に"},
+    {"en": "sounds amazing", "ja": "すごく良さそう"}
+  ],
+  "quiz3": {
+    "question_ja": "Jackが選んだディップソースは何ですか？",
+    "options": ["チョコレート", "キャラメル", "ストロベリー"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Caramel for me, please.\"",
+    "explanation_wrong": "Jackのセリフをもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "フードマーケットでチュロスを買う",
+      "full_text": "Excuse me, how much are the churros? They are five dollars for six pieces. Can I add chocolate sauce? Yes, the sauce is one dollar extra. OK, I will take six churros with chocolate sauce. Here you go. Be careful, they are very hot! Thank you! They smell so good. Enjoy your churros!",
+      "gaps": [
+        {"before": "They are five dollars for six", "answer": "pieces", "after": "."},
+        {"before": "the sauce is one dollar", "answer": "extra", "after": "."},
+        {"before": "Be careful, they are very", "answer": "hot", "after": "!"},
+        {"before": "They smell so", "answer": "good", "after": "."},
+        {"before": "Enjoy your", "answer": "churros", "after": "!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "料理教室のチュロスレッスン案内",
+      "full_text": "Are you a fan of churros? Come and join our weekend cooking class at Tropical Kitchen Studio. This Saturday from ten in the morning to twelve thirty, you will learn how to make churros from scratch. Chef Maria will teach you step by step. You will also learn how to make three different sauces: chocolate, salted caramel, and berry. The class is forty-five dollars per person and includes all ingredients. You can take home the churros you make. Please book online before Thursday. Spaces are limited to twelve people.",
+      "questions": [
+        {
+          "question_ja": "料理教室は何時から何時まで？",
+          "options": ["9時〜11時半", "10時〜12時半", "11時〜1時半"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"from ten in the morning to twelve thirty\"",
+          "explanation_wrong": "時間の部分をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "ソースは何種類習いますか？",
+          "options": ["2種類", "3種類", "4種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！chocolate, salted caramel, berry の3種類。",
+          "explanation_wrong": "\"three different sauces\" のところをもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "定員は何人ですか？",
+          "options": ["10人", "12人", "15人"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"limited to twelve people\"",
+          "explanation_wrong": "最後の文をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Can we get the churros for two, please?",
+        "tip": "Can we が「キャンウィ」。churros は「チューロズ」で r を巻かないように注意。for two が「フォトゥー」。"
+      },
+      {
+        "text": "You can choose two dipping sauces.",
+        "tip": "choose は「チューズ」で z の音をしっかり。two dipping が「トゥーディッピン」。sauces は「ソースィズ」。"
+      },
+      {
+        "text": "Would you like marshmallows on top?",
+        "tip": "Would you が「ウッジュー」。marshmallows は「マーシュメロウズ」。on top が「オントップ」。"
+      },
+      {
+        "text": "Your churros will be ready in five minutes.",
+        "tip": "will be が「ウィルビー」。ready in が「レディイン」とつながります。five の v をしっかり。"
+      },
+      {
+        "text": "Be careful, they are very hot!",
+        "tip": "Be careful の l は軽く。they are が「ゼヤー」と短くなります。very の v をしっかり出しましょう。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "最近食べた揚げ物やストリートフードについて英語で3行書いてみよう",
+    "example": "Yesterday I ate churros at a night market. They were crispy and sweet. I dipped them in chocolate sauce. It was the best dessert!"
+  },
+  "yamada_comments": {
+    "recipe": "チュロス、揚げたてが最高だよね！絞り袋を使うのはちょっとコツがいるけど、フィギュアスケートのジャンプも最初は難しかったはず。練習あるのみ！",
+    "review": "ケアンズのワーフエリア、めっちゃいい雰囲気だよね。俺もSnow Manのツアーで色んな街を回るけど、港の近くっていいお店が多いんだ。",
+    "conversation": "「Got it!」はカジュアルで便利な表現。カフェでも友達との会話でも使えるよ。陸上の練習で「了解！」って言う感じと同じ！",
+    "listening": "リスニングで数字を聴き取るのって大事だよね。値段や時間をパッと理解できると、実際のカフェで困らないよ！",
+    "pronunciation": "「choose」の発音、chとshの違いを意識してみよう。Snow Manの歌を歌うときも発音大事にしてるんだ。一つ一つの音を丁寧に！",
+    "try_it": "ストリートフードの思い出を書くの楽しいよね。俺もロケで食べた物の感想をメモすることあるよ。それが英語だとさらにいい練習になる！"
+  }
+}

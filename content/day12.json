@@ -1,0 +1,169 @@
+{
+  "day": 12,
+  "sweet": "Lemon Tart",
+  "emoji": "🍋",
+  "recipe": {
+    "title": "How to Make Lemon Tart",
+    "intro": "Lemon tart is a classic dessert with a tangy lemon custard filling in a buttery pastry shell. It is fresh, zesty, and perfect after a big meal!",
+    "ingredients": "plain flour, butter, icing sugar, egg yolks, lemons, caster sugar, eggs, cream",
+    "steps": [
+      "**Make** the pastry: **Mix** flour, icing sugar, and cold butter until it looks like crumbs. **Add** one egg yolk and **press** the dough into a tart tin.",
+      "**Chill** the pastry in the fridge for 30 minutes.",
+      "**Preheat** the oven to 180 degrees Celsius. **Bake** the pastry shell for 15 minutes until light golden.",
+      "**Make** the filling: **Whisk** the eggs, caster sugar, lemon juice, and lemon zest together.",
+      "**Add** the cream and **whisk** again until smooth.",
+      "**Pour** the lemon filling into the pastry shell. **Bake** for 25 minutes until set. **Cool** completely and **dust** with icing sugar before serving!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "tangy", "ja": "酸味のある"},
+    {"en": "filling", "ja": "中身・フィリング"},
+    {"en": "pastry shell", "ja": "タルト生地"},
+    {"en": "egg yolk", "ja": "卵黄"},
+    {"en": "caster sugar", "ja": "グラニュー糖"},
+    {"en": "lemon zest", "ja": "レモンの皮のすりおろし"},
+    {"en": "whisk", "ja": "泡立て器で混ぜる"},
+    {"en": "tart tin", "ja": "タルト型"},
+    {"en": "set", "ja": "固まった"}
+  ],
+  "quiz1": {
+    "question_ja": "タルト生地は冷蔵庫で何分冷やしますか？",
+    "options": ["15分", "30分", "45分"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Chill the pastry in the fridge for 30 minutes.\"",
+    "explanation_wrong": "「fridge」が出てくるステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Botanic Gardens Café",
+    "location": "Cairns Botanic Gardens, Queensland, Australia",
+    "stars": 5,
+    "text": "Botanic Gardens Café is a hidden gem in Cairns. It is inside the beautiful botanic gardens. I went there on a Wednesday for lunch. After my sandwich, I ordered the lemon tart. It was fantastic! The lemon custard was smooth and tangy. The pastry was thin and crispy. It had a light dusting of icing sugar on top. The tart was not too sweet, which I like. I sat under a big tree and enjoyed the peaceful garden. A perfect lunch spot away from the busy city."
+  },
+  "review_vocab": [
+    {"en": "hidden gem", "ja": "隠れた名店"},
+    {"en": "botanic gardens", "ja": "植物園"},
+    {"en": "fantastic", "ja": "素晴らしい"},
+    {"en": "dusting", "ja": "薄くかけること"},
+    {"en": "peaceful", "ja": "穏やかな・静かな"},
+    {"en": "away from", "ja": "〜から離れて"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはカフェでデザートの前に何を食べましたか？",
+    "options": ["パスタ", "サンドイッチ", "サラダ"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"After my sandwich, I ordered the lemon tart.\"",
+    "explanation_wrong": "「After my」の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "ケアンズの**Botanic Gardens**（植物園）は入園無料！熱帯植物がたくさんあって、散歩にぴったり。園内のカフェでランチをするのもおすすめ。「**Let's go to the Botanic Gardens and have lunch at the café!**」",
+    "レモンタルトはオーストラリアのカフェやベーカリーの定番デザート。注文するときは「**Can I have a slice of lemon tart, please?**」。ホールケーキではなく一切れずつ売っていることが多いです。",
+    "オーストラリアのカフェでは、デザートに「**too sweet**（甘すぎ）」ではなく「**not too sweet**（甘すぎない）」が褒め言葉。レビューを書くとき「**It was not too sweet, which I liked.**」と使ってみよう！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Oliver）がレモンタルトとお茶を注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Good afternoon! Welcome in. What can I get for you?"},
+      {"speaker": "Oliver", "text": "Hi! I am looking for something light for dessert. What do you suggest?"},
+      {"speaker": "You", "text": "Our lemon tart is very popular. It is tangy and not too sweet."},
+      {"speaker": "Oliver", "text": "That sounds perfect. Is it made fresh today?"},
+      {"speaker": "You", "text": "Yes, our chef made it this morning."},
+      {"speaker": "Oliver", "text": "Great, one lemon tart, please. And a pot of green tea."},
+      {"speaker": "You", "text": "Good choice! Would you like to sit inside or on the terrace?"},
+      {"speaker": "Oliver", "text": "The terrace, please. It is a beautiful day."},
+      {"speaker": "You", "text": "It is! That will be fifteen dollars."},
+      {"speaker": "Oliver", "text": "Can I tap? Here you go."},
+      {"speaker": "You", "text": "Thank you! I will bring your order to the terrace. Enjoy!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "something light", "ja": "軽いもの"},
+    {"en": "suggest", "ja": "提案する・おすすめする"},
+    {"en": "tangy", "ja": "酸味のある"},
+    {"en": "made fresh", "ja": "出来たて"},
+    {"en": "pot of tea", "ja": "ポットのお茶"},
+    {"en": "tap", "ja": "タッチ決済する"}
+  ],
+  "quiz3": {
+    "question_ja": "Oliverはどこに座りますか？",
+    "options": ["店内", "テラス", "カウンター"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"The terrace, please.\"",
+    "explanation_wrong": "Oliverが座る場所を言っているセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "レモンタルトの感想",
+      "full_text": "How was the lemon tart? It was really good. I loved the tangy flavour. Was it too sour for you? No, it was just right. The sweetness and the sourness were balanced. What about the pastry? The pastry was perfect. Thin and crispy. I want to learn how to make it at home. You should ask the chef for the recipe. That is a great idea. I will ask next time I come here.",
+      "gaps": [
+        {"before": "I loved the tangy", "answer": "flavour", "after": "."},
+        {"before": "Was it too", "answer": "sour", "after": "for you?"},
+        {"before": "The sweetness and the sourness were", "answer": "balanced", "after": "."},
+        {"before": "The pastry was perfect. Thin and", "answer": "crispy", "after": "."},
+        {"before": "You should ask the chef for the", "answer": "recipe", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "ベーキングクラスの案内",
+      "full_text": "Hello! We are excited to announce our new weekend baking class. This Saturday, we will teach you how to make a lemon tart from scratch. The class starts at ten in the morning and finishes at one in the afternoon. It costs thirty-five dollars per person. The price includes all ingredients and a recipe booklet to take home. You will make your own tart and take it home with you. The class is for beginners, so no experience is needed. We only have twelve spots available, so please book early. Call us or book online at our website.",
+      "questions": [
+        {
+          "question_ja": "ベーキングクラスはいつですか？",
+          "options": ["金曜日", "土曜日", "日曜日"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"This Saturday, we will teach you...\"",
+          "explanation_wrong": "曜日を言っている部分に注目して聴いてみよう！"
+        },
+        {
+          "question_ja": "クラスの参加費はいくらですか？",
+          "options": ["25ドル", "35ドル", "45ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"It costs thirty-five dollars per person.\"",
+          "explanation_wrong": "\"costs\" の後の金額を聴いてみよう！"
+        },
+        {
+          "question_ja": "クラスの定員は何名ですか？",
+          "options": ["8名", "10名", "12名"],
+          "correct_index": 2,
+          "explanation_correct": "正解！\"We only have twelve spots available.\"",
+          "explanation_wrong": "\"spots\" の前の数字に注目して聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What can I get for you?",
+        "tip": "What can I が「ワッキャナイ」。get for が「ゲッフォー」。自然につなげて言いましょう。"
+      },
+      {
+        "text": "It is tangy and not too sweet.",
+        "tip": "tangy は「タンギー」。not too が「ノットゥー」とつながります。sweet の t をしっかり。"
+      },
+      {
+        "text": "Our chef made it this morning.",
+        "tip": "chef は「シェフ」。made it が「メイディッ」とつながります。this morning は「ディスモーニング」。"
+      },
+      {
+        "text": "Would you like to sit inside or on the terrace?",
+        "tip": "Would you が「ウッジュー」。sit inside が「シッインサイド」。or on が「オーロン」と軽くつながります。"
+      },
+      {
+        "text": "I will bring your order to the terrace.",
+        "tip": "bring your が「ブリンヨー」。order to が「オーダートゥ」。terrace は「テラス」で最後の s をしっかり。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "カフェで食べた（または食べたい）デザートについて英語で3行書いてみよう",
+    "example": "Today a customer ordered our lemon tart. She said 'This is the best lemon tart I have ever had!' Her words made my day. I love working at this café."
+  },
+  "yamada_comments": {
+    "recipe": "レモンタルト、爽やかで美味しいよね！「whisk」と「zest」、レモンの皮をすりおろすことを「zest」って言うんだ。料理の英語、どんどん増えてきたね。全部覚えなくて大丈夫、使うときに思い出せばOK！",
+    "review": "「hidden gem」って素敵な表現。「隠れた名店」って意味。ケアンズの植物園の中にカフェがあるなんて最高だね。Snow Manのロケで行ってみたい場所だな。",
+    "conversation": "「something light」って便利なフレーズ！「軽いものが食べたい」って伝えられるよ。陸上のトレーニングの後はさっぱりしたものが食べたいよね。そんなときにも使える！",
+    "listening": "ベーキングクラスの案内、実際にオーストラリアで参加してみたら楽しいかも！リスニングで時間と金額が聞き取れるようになると、生活が本当に楽になるよ。フィギュアスケートの試合情報も英語で聞けるようになるね！",
+    "pronunciation": "「Would you like to...?」はカフェで毎日使うフレーズ。スムーズに言えるまで何度も練習しよう。Snow Manのダンスも繰り返し練習して完璧にするでしょ？発音も同じ！",
+    "try_it": "12日目、ここまでよく頑張ったね！毎日少しずつ書く力がついてきてるはず。俺もドラマの台本を毎日読むことで成長したから、もものちゃんも絶対上達してるよ。この調子で続けよう！"
+  }
+}

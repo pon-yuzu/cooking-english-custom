@@ -1,0 +1,169 @@
+{
+  "day": 26,
+  "sweet": "Chocolate Mousse",
+  "emoji": "🍫",
+  "recipe": {
+    "title": "How to Make Chocolate Mousse",
+    "intro": "Chocolate mousse is a light and airy dessert. It is very popular in Australian cafés and restaurants.",
+    "ingredients": "dark chocolate, eggs, sugar, heavy cream, vanilla extract, a pinch of salt",
+    "steps": [
+      "**Melt** the dark chocolate in a bowl over hot water. **Stir** until smooth.",
+      "**Separate** the eggs into yolks and whites. **Put** them in two bowls.",
+      "**Mix** the egg yolks and sugar into the melted chocolate.",
+      "**Whip** the heavy cream until it is thick and fluffy.",
+      "**Beat** the egg whites with a pinch of salt until stiff peaks form.",
+      "**Fold** the cream and egg whites gently into the chocolate. **Chill** in the fridge for at least two hours."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "mousse", "ja": "ムース"},
+    {"en": "melt", "ja": "溶かす"},
+    {"en": "separate", "ja": "分ける"},
+    {"en": "yolk", "ja": "卵黄"},
+    {"en": "whip", "ja": "泡立てる"},
+    {"en": "stiff peaks", "ja": "角が立つ（泡立ての状態）"},
+    {"en": "fold", "ja": "さっくり混ぜる"},
+    {"en": "chill", "ja": "冷やす"},
+    {"en": "airy", "ja": "ふわっとした・軽い"}
+  ],
+  "quiz1": {
+    "question_ja": "チョコレートムースは冷蔵庫で何時間冷やしますか？",
+    "options": ["少なくとも1時間", "少なくとも2時間", "少なくとも3時間"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Chill in the fridge for at least two hours.\"",
+    "explanation_wrong": "最後のステップの時間をもう一回確認してみよう！"
+  },
+  "review": {
+    "cafe_name": "The Lilypads Café",
+    "location": "Cairns Esplanade, Queensland, Australia",
+    "stars": 5,
+    "text": "What a wonderful dessert! I visited The Lilypads Café on the Esplanade last Friday evening. I ordered the chocolate mousse after dinner. It was so rich and smooth. The chocolate flavour was incredible. It came in a pretty glass cup with fresh berries on top. My friend ordered the same one and loved it too. The view of the ocean made the evening even more special. Highly recommended!"
+  },
+  "review_vocab": [
+    {"en": "wonderful", "ja": "素晴らしい"},
+    {"en": "rich", "ja": "濃厚な"},
+    {"en": "smooth", "ja": "なめらかな"},
+    {"en": "incredible", "ja": "信じられないほど美味しい"},
+    {"en": "berries", "ja": "ベリー類"},
+    {"en": "highly recommended", "ja": "強くおすすめ"}
+  ],
+  "quiz2": {
+    "question_ja": "チョコレートムースの上に何がのっていましたか？",
+    "options": ["ホイップクリーム", "新鮮なベリー", "チョコレートソース"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"It came in a pretty glass cup with fresh berries on top.\"",
+    "explanation_wrong": "\"on top\" の前の単語をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのレストランやカフェでは、デザートメニューに「**chocolate mousse**」がよく登場します。注文するときは「**I'll have the chocolate mousse for dessert, please.**」と言いましょう。「**for dessert**」をつけるとスマートです。",
+    "ケアンズの「**Esplanade**」（エスプラネード）は海沿いの遊歩道で、たくさんのレストランやカフェがあります。夜景を見ながらデザートを楽しむのが人気。「**Shall we have dessert by the water?**」（水辺でデザート食べない？）と誘ってみよう！",
+    "オーストラリアでは「**sweets**」より「**dessert**」（デザート）や「**treat**」（ごほうび的なお菓子）をよく使います。「**Would you like a sweet treat?**」はカフェでも使える表現です。"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Sophie）がデザートを選んでいる場面",
+    "lines": [
+      {"speaker": "You", "text": "Are you ready to order dessert?"},
+      {"speaker": "Sophie", "text": "Yes! What do you recommend?"},
+      {"speaker": "You", "text": "Our chocolate mousse is very popular. It is light and creamy."},
+      {"speaker": "Sophie", "text": "That sounds lovely. Is it dark chocolate or milk chocolate?"},
+      {"speaker": "You", "text": "It is made with dark chocolate. It is quite rich."},
+      {"speaker": "Sophie", "text": "I love dark chocolate! I will try it."},
+      {"speaker": "You", "text": "Great choice! Would you like coffee with your dessert?"},
+      {"speaker": "Sophie", "text": "Yes, a cappuccino, please."},
+      {"speaker": "You", "text": "Perfect. The mousse takes a moment to prepare. Is that OK?"},
+      {"speaker": "Sophie", "text": "No worries! I am not in a hurry."},
+      {"speaker": "You", "text": "Wonderful. I will bring everything out soon!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "recommend", "ja": "おすすめする"},
+    {"en": "creamy", "ja": "クリーミーな"},
+    {"en": "quite", "ja": "かなり"},
+    {"en": "great choice", "ja": "いい選択ですね"},
+    {"en": "not in a hurry", "ja": "急いでいない"},
+    {"en": "bring out", "ja": "持ってくる・運ぶ"}
+  ],
+  "quiz3": {
+    "question_ja": "Sophieはコーヒーに何を選びましたか？",
+    "options": ["フラットホワイト", "カプチーノ", "ロングブラック"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Yes, a cappuccino, please.\"",
+    "explanation_wrong": "Sophieがコーヒーを注文するセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "バレンタインデーの準備",
+      "full_text": "Valentine's Day is next week. I want to make something special. How about chocolate mousse? That is a great idea! Do we have dark chocolate? Yes, I bought some yesterday. We also need cream and eggs. I already have eggs in the fridge. Perfect. Let's make it on Saturday so it is fresh for Sunday. Sounds like a plan!",
+      "gaps": [
+        {"before": "Valentine's Day is next", "answer": "week", "after": "."},
+        {"before": "How about chocolate", "answer": "mousse", "after": "?"},
+        {"before": "Do we have dark", "answer": "chocolate", "after": "?"},
+        {"before": "We also need cream and", "answer": "eggs", "after": "."},
+        {"before": "Let's make it on Saturday so it is", "answer": "fresh", "after": "for Sunday."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "デザートコンテストのお知らせ",
+      "full_text": "Attention all chocolate lovers! Harbour Café is holding a dessert contest next month. We are looking for the best homemade chocolate dessert. You can enter a cake, mousse, brownie, or any chocolate dessert. The winner will receive a one hundred dollar gift card for our café. You must bring your dessert to the café by ten o'clock on Saturday the fifteenth. Our judges will taste all the entries in the afternoon. The results will be posted on our website by Sunday evening. Good luck to everyone!",
+      "questions": [
+        {
+          "question_ja": "優勝者は何をもらえますか？",
+          "options": ["50ドルのギフトカード", "100ドルのギフトカード", "200ドルのギフトカード"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The winner will receive a one hundred dollar gift card.\"",
+          "explanation_wrong": "\"winner\" の後の金額をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "デザートはいつまでに持っていく必要がありますか？",
+          "options": ["金曜日の午前9時", "土曜日の午前10時", "日曜日の午前11時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"by ten o'clock on Saturday the fifteenth\"",
+          "explanation_wrong": "\"bring your dessert\" の後の日時を聴いてみよう！"
+        },
+        {
+          "question_ja": "結果はどこで発表されますか？",
+          "options": ["カフェの店内", "ウェブサイト", "新聞"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The results will be posted on our website.\"",
+          "explanation_wrong": "\"results\" と \"posted\" の後をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What do you recommend?",
+        "tip": "What do you が「ワッドゥユー」とつながります。recommend は「レコメンド」で3音節。"
+      },
+      {
+        "text": "It is made with dark chocolate.",
+        "tip": "made with が「メイドウィズ」。dark の r は舌を丸めて。chocolate は「チョクレット」で3音節。"
+      },
+      {
+        "text": "That sounds lovely.",
+        "tip": "sounds の s と lovely の l がはっきり。lovely は「ラヴリー」で v の音を忘れずに。"
+      },
+      {
+        "text": "I will bring everything out soon.",
+        "tip": "bring everything が「ブリンゲヴリシング」とリンキング。out の t は軽く。"
+      },
+      {
+        "text": "No worries, I am not in a hurry.",
+        "tip": "No worries は「ノーウォーリーズ」。not in a が「ノッティナ」とつながります。hurry は「ハリー」。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "あなたの好きなチョコレートのお菓子について英語で3行書いてみよう",
+    "example": "I love chocolate mousse because it is light and creamy. I made it for my friend's birthday last month. She said it was the best dessert she ever had!"
+  },
+  "yamada_comments": {
+    "recipe": "チョコレートムース、見た目もおしゃれだよね！卵白の泡立ては筋トレみたいだけど（笑）、ふわふわに仕上がると最高だよ。",
+    "review": "レビューで \"highly recommended\" って書いてあると行きたくなるよね。俺もSnow Manのメンバーと美味しいお店見つけるの好きなんだ。",
+    "conversation": "お客さんにおすすめを聞かれたとき、自信持って答えられるとカッコいいよね。フィギュアスケーターも自分の演技に自信持つことが大事だし！",
+    "listening": "リスニング力が上がってきてるはず！毎日少しずつ聴くのが大事。陸上のトレーニングも毎日の積み重ねでしょ？",
+    "pronunciation": "No worries はオーストラリアでめちゃくちゃ使う表現！自然に言えるようになると、もう立派なオージーだよ。",
+    "try_it": "チョコ好き？俺は撮影の差し入れでチョコもらうと嬉しいんだ。好きなチョコのこと英語で書いてみて！"
+  }
+}

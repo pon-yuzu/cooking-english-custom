@@ -1,0 +1,169 @@
+{
+  "day": 24,
+  "sweet": "Smoothie Bowl",
+  "emoji": "🥣",
+  "recipe": {
+    "title": "How to Make a Smoothie Bowl",
+    "intro": "A smoothie bowl is a thick smoothie served in a bowl with toppings. It is a colourful and healthy breakfast or snack. You can use any fruit you like!",
+    "ingredients": "frozen banana, frozen mango, açaí powder, coconut milk, honey, granola, fresh berries, coconut flakes, chia seeds",
+    "steps": [
+      "**Peel** and **freeze** two bananas the night before.",
+      "**Put** the frozen banana, frozen mango, açaí powder, and coconut milk into a blender.",
+      "**Blend** until thick and smooth. Do not add too much liquid. The mixture should be thicker than a normal smoothie.",
+      "**Pour** the mixture into a bowl.",
+      "**Arrange** the toppings in rows: granola, fresh berries, coconut flakes, and chia seeds.",
+      "**Drizzle** some honey on top and **serve** immediately. **Eat** with a spoon, not a straw!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "frozen", "ja": "冷凍した"},
+    {"en": "blender", "ja": "ミキサー"},
+    {"en": "blend", "ja": "ミキサーにかける"},
+    {"en": "liquid", "ja": "液体"},
+    {"en": "arrange", "ja": "並べる・盛り付ける"},
+    {"en": "drizzle", "ja": "かける（少量を回しかける）"},
+    {"en": "immediately", "ja": "すぐに"},
+    {"en": "straw", "ja": "ストロー"}
+  ],
+  "quiz1": {
+    "question_ja": "スムージーボウルはどうやって食べますか？",
+    "options": ["ストローで飲む", "スプーンで食べる", "フォークで食べる"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Eat with a spoon, not a straw!\"",
+    "explanation_wrong": "最後のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Mojo's Café",
+    "location": "Cairns Esplanade, Queensland, Australia",
+    "stars": 5,
+    "text": "Mojo's Café is right on the Esplanade. I came here for Sunday brunch with my housemates. I ordered the açaí smoothie bowl and it was beautiful. The purple colour was so bright. It had granola, banana, coconut, and dragon fruit on top. The taste was fresh and fruity. My housemate Ben had the green smoothie bowl with spinach and kiwi. We both agreed it was the best brunch spot in Cairns. The prices are reasonable and the atmosphere is relaxed."
+  },
+  "review_vocab": [
+    {"en": "brunch", "ja": "ブランチ（遅い朝食兼昼食）"},
+    {"en": "housemates", "ja": "シェアハウスの仲間"},
+    {"en": "bright", "ja": "鮮やかな"},
+    {"en": "dragon fruit", "ja": "ドラゴンフルーツ"},
+    {"en": "reasonable", "ja": "手頃な"},
+    {"en": "atmosphere", "ja": "雰囲気"},
+    {"en": "relaxed", "ja": "リラックスした"}
+  ],
+  "quiz2": {
+    "question_ja": "ハウスメイトのBenが注文したスムージーボウルには何が入っていましたか？",
+    "options": ["マンゴーとバナナ", "ほうれん草とキウイ", "アサイーとドラゴンフルーツ"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"the green smoothie bowl with spinach and kiwi\"",
+    "explanation_wrong": "Benの注文をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのカフェでは**smoothie bowl**が大人気。注文するときは「**Can I have the açaí smoothie bowl?**」と言いましょう。トッピングを変えたいときは「**Can I swap the granola for nuts?**」（グラノーラをナッツに変えてもらえますか？）と聞けます。",
+    "ケアンズでは多くの人が**シェアハウス**に住んでいます。一緒に住む人を「**housemate**」と呼びます。「**My housemate and I went to a café.**」のように使います。ワーキングホリデーの人もシェアハウスが多いです。",
+    "オーストラリアの日曜日は**brunch**を楽しむ人が多いです。朝食と昼食の間の時間帯に食べる食事のこと。「**Do you want to grab brunch on Sunday?**」と友達を誘ってみましょう。「**grab**」はカジュアルに「食べる」という意味で使います。"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Ethan）がスムージーボウルをカスタマイズする場面",
+    "lines": [
+      {"speaker": "You", "text": "Morning! What can I get for you?"},
+      {"speaker": "Ethan", "text": "Hey! Can I see the smoothie bowl menu?"},
+      {"speaker": "You", "text": "Sure! We have açaí, mango, and green smoothie bowls."},
+      {"speaker": "Ethan", "text": "I will go with the mango one. What toppings does it have?"},
+      {"speaker": "You", "text": "It comes with granola, coconut, passionfruit, and chia seeds."},
+      {"speaker": "Ethan", "text": "Can I swap the chia seeds for peanut butter?"},
+      {"speaker": "You", "text": "No problem! Anything else?"},
+      {"speaker": "Ethan", "text": "Can I add an extra scoop of protein powder?"},
+      {"speaker": "You", "text": "Sure, that is three dollars extra. So the mango bowl with peanut butter and protein. Anything to drink?"},
+      {"speaker": "Ethan", "text": "Just a glass of water, please."},
+      {"speaker": "You", "text": "Coming right up! That is eighteen dollars altogether."}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "go with", "ja": "〜にする・〜を選ぶ"},
+    {"en": "toppings", "ja": "トッピング"},
+    {"en": "swap", "ja": "交換する"},
+    {"en": "scoop", "ja": "スクープ・一杯分"},
+    {"en": "protein powder", "ja": "プロテインパウダー"},
+    {"en": "coming right up", "ja": "すぐにお作りします"}
+  ],
+  "quiz3": {
+    "question_ja": "Ethanはチアシードの代わりに何に変えましたか？",
+    "options": ["グラノーラ", "ピーナッツバター", "ココナッツ"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Can I swap the chia seeds for peanut butter?\"",
+    "explanation_wrong": "\"swap\" のセリフをもう一回読んでみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "友達と週末のブランチの計画",
+      "full_text": "Hey, are you free on Sunday morning? Yes, I am! Do you want to go for brunch? That sounds great! Where should we go? How about that new café near the lagoon? I heard they have amazing smoothie bowls. Perfect! What time shall we meet? How about ten o'clock? Sounds good. I will see you there!",
+      "gaps": [
+        {"before": "are you free on Sunday", "answer": "morning", "after": "?"},
+        {"before": "Do you want to go for", "answer": "brunch", "after": "?"},
+        {"before": "How about that new café near the", "answer": "lagoon", "after": "?"},
+        {"before": "I heard they have amazing smoothie", "answer": "bowls", "after": "."},
+        {"before": "I will see you", "answer": "there", "after": "!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "スムージーボウル専門店の紹介動画",
+      "full_text": "Hi everyone! Welcome to our new video. Today we are visiting Bowl of Sunshine, a smoothie bowl café in Cairns. The owner is Sarah, and she started this café two years ago. They use only local fruit from North Queensland farms. Their most popular bowl is the Tropical Sunrise. It has mango, pineapple, and coconut milk. It costs fourteen dollars. They also do a kids' size for eight dollars. The café is open seven days a week, from seven in the morning until two in the afternoon. You can also order online for pickup. Sarah says her favourite topping is macadamia nuts from a farm near Mareeba.",
+      "questions": [
+        {
+          "question_ja": "Sarahがこのカフェを始めたのは何年前ですか？",
+          "options": ["1年前", "2年前", "3年前"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"she started this café two years ago\"",
+          "explanation_wrong": "Sarahの紹介部分をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "キッズサイズの値段はいくらですか？",
+          "options": ["6ドル", "8ドル", "10ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"a kids' size for eight dollars\"",
+          "explanation_wrong": "キッズサイズの値段をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "Sarahのお気に入りのトッピングは何ですか？",
+          "options": ["グラノーラ", "マカダミアナッツ", "ココナッツフレーク"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"her favourite topping is macadamia nuts\"",
+          "explanation_wrong": "Sarahのお気に入りについてもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "What can I get for you?",
+        "tip": "What can I が「ワッキャナイ」。get for が「ゲッフォー」とつながります。カフェでの定番フレーズ！"
+      },
+      {
+        "text": "I will go with the mango one.",
+        "tip": "I will が「アイル」と短くなります。go with が「ゴーウィズ」。mango は「マンゴウ」で最後を軽く。"
+      },
+      {
+        "text": "Can I swap the chia seeds for peanut butter?",
+        "tip": "swap は「スワップ」でpをしっかり。chia は「チーア」。peanut butter は「ピーナッバター」で t が軽くなります。"
+      },
+      {
+        "text": "Coming right up!",
+        "tip": "Coming は「カミン」。right up が「ライタップ」とつながります。元気よく言いましょう！"
+      },
+      {
+        "text": "That is eighteen dollars altogether.",
+        "tip": "eighteen は「エイティーン」でアクセントは teen。altogether は「オールトゥゲザー」で th の音を意識。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "自分だけのオリジナルスムージーボウルのレシピを英語で3行書いてみよう",
+    "example": "My smoothie bowl has frozen strawberries and banana. I blend them with almond milk. I put granola, honey, and kiwi on top. It is pink and pretty!"
+  },
+  "yamada_comments": {
+    "recipe": "スムージーボウル、見た目がカラフルで写真映えするよね！陸上選手も体づくりのために栄養バランスを考えた食事をしてるんだよ。もものちゃんもケアンズの新鮮なフルーツで作ってみて！",
+    "review": "シェアハウスの仲間と brunch、楽しそう！Snow Manのメンバーとも休みの日にご飯行くことあるんだ。英語でレビュー読んで、いいお店見つけよう！",
+    "conversation": "「swap」は覚えておくと便利な単語！フィギュアスケートのプログラムでジャンプの構成を変えるときにも使える表現だね。カフェでも気軽に使ってみよう！",
+    "listening": "動画のリスニング、実際の英語に近いから練習になるよ。陸上でいうと実戦練習みたいなもの。数字をしっかり聴き取ろう！",
+    "pronunciation": "「Coming right up!」は接客で使うと気持ちいいフレーズ。元気よく言えたらお客さんも嬉しいよ！Snow Manのパフォーマンスみたいにエネルギー出して！",
+    "try_it": "自分だけのレシピを英語で書くの、クリエイティブでいいよね。俺もSnow Manの振付考えるみたいに、自分で考えて表現するのが大事だと思う！"
+  }
+}

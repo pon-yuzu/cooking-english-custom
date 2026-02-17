@@ -1,0 +1,169 @@
+{
+  "day": 14,
+  "sweet": "Carrot Cake",
+  "emoji": "🥕",
+  "recipe": {
+    "title": "How to Make Carrot Cake",
+    "intro": "Carrot cake is a moist and delicious cake. It is very popular in Australian cafés, especially with cream cheese frosting on top.",
+    "ingredients": "grated carrots, plain flour, sugar, eggs, vegetable oil, baking powder, cinnamon, cream cheese, icing sugar, butter, vanilla extract",
+    "steps": [
+      "**Preheat** the oven to 170 degrees Celsius. **Grease** a round cake tin with butter.",
+      "**Mix** the flour, baking powder, cinnamon, and sugar in a large bowl.",
+      "**Beat** the eggs and oil together in another bowl. **Pour** into the dry ingredients.",
+      "**Grate** the carrots and **fold** them into the batter. **Stir** gently.",
+      "**Pour** the batter into the cake tin and **bake** for 40 to 45 minutes.",
+      "**Let** the cake cool completely. **Mix** cream cheese, butter, icing sugar, and vanilla. **Spread** the frosting on top of the cake."
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "moist", "ja": "しっとりした"},
+    {"en": "grate", "ja": "すりおろす"},
+    {"en": "grease", "ja": "油を塗る"},
+    {"en": "cinnamon", "ja": "シナモン"},
+    {"en": "frosting", "ja": "フロスティング（ケーキの上のクリーム）"},
+    {"en": "icing sugar", "ja": "粉砂糖"},
+    {"en": "spread", "ja": "塗る・広げる"},
+    {"en": "dry ingredients", "ja": "粉類（粉系の材料）"},
+    {"en": "completely", "ja": "完全に"}
+  ],
+  "quiz1": {
+    "question_ja": "キャロットケーキを焼く時間はどれくらいですか？",
+    "options": ["25〜30分", "40〜45分", "50〜55分"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Bake for 40 to 45 minutes.\"",
+    "explanation_wrong": "5番目のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Rusty's Market Café",
+    "location": "Grafton Street, Cairns, Australia",
+    "stars": 4,
+    "text": "I tried the carrot cake at Rusty's Market Café last Friday. The café is inside the famous weekend markets. The carrot cake was moist and full of flavour. The cream cheese frosting was thick and creamy. It was not too sweet, which I liked. The café was busy but the staff were very friendly. I also bought some fresh carrots from the market. I will try to bake my own carrot cake at home!"
+  },
+  "review_vocab": [
+    {"en": "full of flavour", "ja": "風味豊かな"},
+    {"en": "thick", "ja": "厚い・濃い"},
+    {"en": "creamy", "ja": "クリーミーな"},
+    {"en": "not too sweet", "ja": "甘すぎない"},
+    {"en": "staff", "ja": "スタッフ・店員"},
+    {"en": "bake my own", "ja": "自分で焼く"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはキャロットケーキの甘さについて何と言いましたか？",
+    "options": ["甘すぎた", "甘すぎなくてよかった", "もっと甘いほうがいい"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"It was not too sweet, which I liked.\"",
+    "explanation_wrong": "\"sweet\" が出てくる文をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "ケアンズにある**Rusty's Markets**は毎週金曜〜日曜に開かれるマーケット。新鮮なフルーツや野菜がたくさん。お店で「**How much is this?**」「**Can I try one?**」と気軽に聞いてみよう！",
+    "オーストラリアのキャロットケーキには**walnuts**（くるみ）が入っていることも。アレルギーがある人は「**Does it have any nuts?**」と聞くのが大切。カフェでは「**Is it nut-free?**」もよく使います。",
+    "オーストラリアのカフェで「**What's your most popular cake?**」と聞くと、キャロットケーキが挙がることが多いです。注文時に「**A slice of carrot cake, please.**」と言いましょう。**a slice of** = 1切れ、覚えておくと便利！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Emma）がケーキを選ぶ場面",
+    "lines": [
+      {"speaker": "You", "text": "Hello! Welcome. Are you ready to order?"},
+      {"speaker": "Emma", "text": "Hi! What cakes do you have today?"},
+      {"speaker": "You", "text": "We have carrot cake, banana bread, and lemon tart."},
+      {"speaker": "Emma", "text": "The carrot cake sounds nice. Is it homemade?"},
+      {"speaker": "You", "text": "Yes, we make it fresh every morning."},
+      {"speaker": "Emma", "text": "Lovely! I will have a slice, please. Does it have nuts?"},
+      {"speaker": "You", "text": "Yes, it has walnuts. Is that OK?"},
+      {"speaker": "Emma", "text": "That is fine. I love walnuts. Can I also have a cappuccino?"},
+      {"speaker": "You", "text": "Of course! Regular or large?"},
+      {"speaker": "Emma", "text": "Regular, please. With oat milk if you have it."},
+      {"speaker": "You", "text": "We do! That will be fourteen dollars twenty. Enjoy your cake!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "slice", "ja": "一切れ"},
+    {"en": "homemade", "ja": "手作りの"},
+    {"en": "walnuts", "ja": "くるみ"},
+    {"en": "regular", "ja": "レギュラー・普通サイズ"},
+    {"en": "oat milk", "ja": "オーツミルク"},
+    {"en": "fresh", "ja": "新鮮な・できたての"}
+  ],
+  "quiz3": {
+    "question_ja": "Emmaはどんなミルクを注文しましたか？",
+    "options": ["普通の牛乳", "豆乳", "オーツミルク"],
+    "correct_index": 2,
+    "explanation_correct": "正解！\"With oat milk if you have it.\"",
+    "explanation_wrong": "\"milk\" が出てくるセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "お母さんとの電話",
+      "full_text": "Hi Mum, how are you? I am good, thanks. I baked a carrot cake today! Really? That sounds wonderful. Yes, I used the recipe from work. The frosting was the hardest part. Did you put cream cheese on top? Yes, I did. It was so delicious. I will send you a photo later. Please do! I am proud of you.",
+      "gaps": [
+        {"before": "I baked a carrot", "answer": "cake", "after": "today!"},
+        {"before": "I used the recipe from", "answer": "work", "after": "."},
+        {"before": "The frosting was the hardest", "answer": "part", "after": "."},
+        {"before": "I will send you a", "answer": "photo", "after": "later."},
+        {"before": "I am proud of", "answer": "you", "after": "."}
+      ]
+    },
+    "part_b": {
+      "title_ja": "ベーキングクラスのお知らせ",
+      "full_text": "Good news! Our café is starting a weekend baking class. The first class is on March fifteenth. We will learn how to make carrot cake with cream cheese frosting. The class is from nine in the morning to twelve noon. All ingredients are included in the price. The class costs thirty-five dollars per person. You will take home your own cake at the end. Space is limited to eight people, so please book early. Call us or visit our website to sign up.",
+      "questions": [
+        {
+          "question_ja": "ベーキングクラスは何時から何時までですか？",
+          "options": ["朝8時から11時", "朝9時から12時", "朝10時から1時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"from nine in the morning to twelve noon.\"",
+          "explanation_wrong": "時間に関する部分をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "クラスの定員は何人ですか？",
+          "options": ["6人", "8人", "10人"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"Space is limited to eight people.\"",
+          "explanation_wrong": "\"limited to\" の後の数字に注目！"
+        },
+        {
+          "question_ja": "クラスの料金はいくらですか？",
+          "options": ["25ドル", "35ドル", "45ドル"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The class costs thirty-five dollars per person.\"",
+          "explanation_wrong": "\"costs\" の後の金額をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "Are you ready to order?",
+        "tip": "Are you が「アーユー」、ready to が「レディトゥ」と短くつながります。order は「オーダー」。"
+      },
+      {
+        "text": "We make it fresh every morning.",
+        "tip": "make it が「メイキッ」とリンキング。every の最初は「エヴリ」と v の音をしっかり。"
+      },
+      {
+        "text": "Does it have nuts?",
+        "tip": "Does it が「ダズィッ」とつながります。nuts の ts は「ツ」としっかり破裂させて。"
+      },
+      {
+        "text": "A slice of carrot cake, please.",
+        "tip": "slice of が「スライソブ」とつながります。carrot は「キャロット」で最初の a は「ア」ではなく「キャ」。"
+      },
+      {
+        "text": "That will be fourteen dollars twenty.",
+        "tip": "That will が「ザッウィル」。fourteen は「フォーティーン」で teen を強く発音して forty と区別しましょう。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "好きなケーキの種類とその理由を英語で3行書いてみよう",
+    "example": "My favourite cake is carrot cake. I like it because it is moist and not too sweet. The cream cheese frosting on top is the best part!"
+  },
+  "yamada_comments": {
+    "recipe": "キャロットケーキ、ヘルシーな感じがいいよね。にんじんをすりおろすのがポイント。陸上選手も栄養バランス大事にしてるし、にんじんは体にいいよ！",
+    "review": "レビューでは感想の表現がたくさん出てくるね。moist, creamy, not too sweet... 味を表す英語、覚えておくとカフェで使えるよ！",
+    "conversation": "お客さんにアレルギーを聞くのは大事だよね。Does it have nuts? って聞かれたらしっかり答えられるようにしよう。Snow Manのコンサートでもスタッフの対応が大事でしょ？",
+    "listening": "お母さんとの電話の場面、あたたかいね。聴き取れなくても何度も聴けば大丈夫。フィギュアの曲も何回聴いても新しい発見があるでしょ？",
+    "pronunciation": "fourteen と forty の違い、日本人には難しいよね。でも練習すれば区別できるようになる。短距離走のタイム0.01秒の違いみたいに、小さな違いが大事！",
+    "try_it": "好きなケーキについて書いてみよう！短くていいから。俺も好きなものについて話すときが一番言葉が出てくるんだよね。"
+  }
+}

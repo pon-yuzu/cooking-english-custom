@@ -1,0 +1,169 @@
+{
+  "day": 1,
+  "sweet": "Scones",
+  "emoji": "🫖",
+  "recipe": {
+    "title": "How to Make Scones",
+    "intro": "Scones are a popular treat in Australia. You can eat them with jam and cream at a café.",
+    "ingredients": "self-raising flour, butter, sugar, milk, egg, salt, jam, whipped cream",
+    "steps": [
+      "**Preheat** the oven to 220 degrees Celsius.",
+      "**Mix** the flour, sugar, and salt in a big bowl.",
+      "**Cut** the cold butter into small pieces and **rub** it into the flour with your fingers.",
+      "**Add** the milk and egg, and **stir** until the dough comes together.",
+      "**Roll** the dough on a floured surface and **cut** circles with a cup.",
+      "**Bake** for 12 to 15 minutes until golden brown. **Serve** with jam and cream!"
+    ]
+  },
+  "recipe_vocab": [
+    {"en": "self-raising flour", "ja": "自己膨張粉（ベーキングパウダー入り小麦粉）"},
+    {"en": "preheat", "ja": "予熱する"},
+    {"en": "rub", "ja": "すり混ぜる"},
+    {"en": "dough", "ja": "生地"},
+    {"en": "stir", "ja": "かき混ぜる"},
+    {"en": "surface", "ja": "台・表面"},
+    {"en": "golden brown", "ja": "きつね色"},
+    {"en": "whipped cream", "ja": "ホイップクリーム"},
+    {"en": "bake", "ja": "オーブンで焼く"}
+  ],
+  "quiz1": {
+    "question_ja": "スコーンの生地を焼く温度は何度ですか？",
+    "options": ["180度", "220度", "250度"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Preheat the oven to 220 degrees Celsius.\"",
+    "explanation_wrong": "最初のステップをもう一回読んでみよう！"
+  },
+  "review": {
+    "cafe_name": "Palm Cove Bakery",
+    "location": "Palm Cove, Queensland, Australia",
+    "stars": 5,
+    "text": "I went to Palm Cove Bakery on Sunday morning. It is a lovely café near the beach. I ordered a pot of English Breakfast tea and a scone with jam and cream. The scone was warm and fluffy. The jam was homemade strawberry jam. I sat on the terrace and looked at the ocean. The weather was perfect. This is my favourite café in Cairns area!"
+  },
+  "review_vocab": [
+    {"en": "lovely", "ja": "素敵な"},
+    {"en": "pot of tea", "ja": "ポットの紅茶"},
+    {"en": "fluffy", "ja": "ふわふわの"},
+    {"en": "homemade", "ja": "手作りの"},
+    {"en": "terrace", "ja": "テラス"},
+    {"en": "favourite", "ja": "お気に入りの（AUスペル）"}
+  ],
+  "quiz2": {
+    "question_ja": "レビュアーはスコーンと一緒に何を飲みましたか？",
+    "options": ["フラットホワイト", "イングリッシュ・ブレックファスト・ティー", "アイスコーヒー"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"I ordered a pot of English Breakfast tea and a scone.\"",
+    "explanation_wrong": "\"ordered\" の後をもう一回読んでみよう！"
+  },
+  "australia_tips": [
+    "オーストラリアのカフェでは、スコーンは定番メニュー。特に「**Devonshire Tea**」（スコーン+紅茶+ジャム+クリームのセット）はとても人気です。注文するときは「**Can I have a Devonshire tea, please?**」と言えばOK！",
+    "オーストラリアでは、スコーンにのせるクリームは「**whipped cream**」か「**clotted cream**」。日本のホイップとは少し違って、濃厚でリッチな味わい。カフェのメニューでは「**with jam and cream**」と書いてあることが多いです。",
+    "ケアンズ近くの**Palm Cove**はビーチ沿いにおしゃれなカフェがたくさん。週末のブランチに「**Shall we go to Palm Cove for scones?**」と友達を誘ってみよう！"
+  ],
+  "conversation": {
+    "scene": "カフェで、お客さん（Lily）がスコーンとお茶を注文する場面",
+    "lines": [
+      {"speaker": "You", "text": "Good morning! Welcome to our café. How can I help you?"},
+      {"speaker": "Lily", "text": "Hi! What kind of scones do you have today?"},
+      {"speaker": "You", "text": "Today we have plain scones and pumpkin scones."},
+      {"speaker": "Lily", "text": "Oh, I will try the plain scone, please. Does it come with jam?"},
+      {"speaker": "You", "text": "Yes, it comes with strawberry jam and whipped cream."},
+      {"speaker": "Lily", "text": "Perfect! And can I also have a cup of Earl Grey tea?"},
+      {"speaker": "You", "text": "Of course! Would you like milk with your tea?"},
+      {"speaker": "Lily", "text": "Yes, please. With a little milk."},
+      {"speaker": "You", "text": "Great! That will be twelve dollars fifty."},
+      {"speaker": "Lily", "text": "Here you go. Thank you!"},
+      {"speaker": "You", "text": "Thanks! Your order will be ready in a few minutes. Enjoy!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"en": "plain", "ja": "プレーンの"},
+    {"en": "pumpkin", "ja": "かぼちゃ"},
+    {"en": "come with", "ja": "〜が付いてくる"},
+    {"en": "Earl Grey", "ja": "アールグレイ（紅茶の種類）"},
+    {"en": "a little", "ja": "少しの"},
+    {"en": "order", "ja": "注文"}
+  ],
+  "quiz3": {
+    "question_ja": "Lilyは紅茶にミルクを入れますか？",
+    "options": ["いいえ、ブラックで", "はい、少しだけ", "はい、たっぷり"],
+    "correct_index": 1,
+    "explanation_correct": "正解！\"Yes, please. With a little milk.\"",
+    "explanation_wrong": "\"milk\" が出てくるセリフを探してみよう！"
+  },
+  "listening": {
+    "part_a": {
+      "title_ja": "友達とのスコーン作り",
+      "full_text": "Hey, do you want to make scones together? Sure, that sounds fun! Do we have enough flour? Let me check. Yes, we have plenty of flour. Great. What about butter? We need cold butter from the fridge. OK, I will get it. Can you preheat the oven to 220 degrees? No problem. I love the smell of fresh scones!",
+      "gaps": [
+        {"before": "Do we have enough", "answer": "flour", "after": "?"},
+        {"before": "We need cold butter from the", "answer": "fridge", "after": "."},
+        {"before": "Can you preheat the", "answer": "oven", "after": "to 220 degrees?"},
+        {"before": "I love the", "answer": "smell", "after": "of fresh scones!"},
+        {"before": "Sure, that sounds", "answer": "fun", "after": "!"}
+      ]
+    },
+    "part_b": {
+      "title_ja": "カフェでのアフタヌーンティー",
+      "full_text": "Welcome to Coral Sea Café. Today we have a special afternoon tea set. The set includes two scones, a slice of cake, and a pot of tea. You can choose from three kinds of tea: English Breakfast, Earl Grey, or green tea. The scones are baked fresh every morning. We also have gluten-free scones if you need them. The afternoon tea set is twenty-five dollars per person. It is available from two o'clock to five o'clock. Would you like to book a table?",
+      "questions": [
+        {
+          "question_ja": "アフタヌーンティーセットにはスコーンが何個入っていますか？",
+          "options": ["1個", "2個", "3個"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"The set includes two scones.\"",
+          "explanation_wrong": "\"includes\" の後をもう一回聴いてみよう！"
+        },
+        {
+          "question_ja": "紅茶は何種類から選べますか？",
+          "options": ["2種類", "3種類", "4種類"],
+          "correct_index": 1,
+          "explanation_correct": "正解！English Breakfast, Earl Grey, green tea の3種類。",
+          "explanation_wrong": "\"choose from\" の後の数字に注目！"
+        },
+        {
+          "question_ja": "アフタヌーンティーは何時から何時まで？",
+          "options": ["1時〜4時", "2時〜5時", "3時〜6時"],
+          "correct_index": 1,
+          "explanation_correct": "正解！\"from two o'clock to five o'clock\"",
+          "explanation_wrong": "時間を言っている部分をもう一回聴いてみよう！"
+        }
+      ]
+    }
+  },
+  "pronunciation": {
+    "sentences": [
+      {
+        "text": "How can I help you?",
+        "tip": "「ハウキャナイ ヘルピュー」のようにつながります。can I が「キャナイ」、help you が「ヘルピュー」とリンキングします。"
+      },
+      {
+        "text": "It comes with jam and cream.",
+        "tip": "comes with が「カムズウィズ」とつながります。jam and は「ジャマンド」のように and の a が弱くなります。"
+      },
+      {
+        "text": "Would you like milk with your tea?",
+        "tip": "Would you が「ウッジュー」、with your が「ウィジョー」とつながります。milk の l は軽く。"
+      },
+      {
+        "text": "That will be twelve dollars fifty.",
+        "tip": "That will be が「ザッウィルビー」。twelve は「トゥエルヴ」で v の音をしっかり。dollars は「ダラーズ」。"
+      },
+      {
+        "text": "Your order will be ready in a few minutes.",
+        "tip": "order は「オーダー」で r の発音に注意。ready in a は「レディイナ」とつながります。"
+      }
+    ]
+  },
+  "try_it": {
+    "prompt_ja": "今日カフェで起きたこと（または想像して）を英語で3行書いてみよう",
+    "example": "Today, a lady came to the café and ordered a scone with Earl Grey tea. I said 'Would you like milk with your tea?' She said 'Yes, please!' I was happy because she smiled."
+  },
+  "yamada_comments": {
+    "recipe": "スコーン、オーストラリアのカフェでは定番だよね。俺も撮影の合間にスコーン食べるの好きなんだ。英語でレシピ読んでみよう！",
+    "review": "カフェのレビューが読めると、いいカフェ見つけやすくなるよね。俺もツアー先でレビュー見てお店探すことあるよ。",
+    "conversation": "接客英語、パターン覚えたら自信つくよ！フィギュアの選手も基本の型を何回も練習するでしょ？接客も同じ。繰り返しが大事！",
+    "listening": "リスニングは毎日コツコツ。Snow Manのライブも、最初は歌詞聴き取れなくても何回も聴いてるうちにわかってくるでしょ？それと同じだよ！",
+    "pronunciation": "声に出すことが一番大事！陸上の選手だってフォーム確認のために何度も走るんだよ。発音も同じ、繰り返し練習しよう。",
+    "try_it": "今日学んだこと、3行でいいから書いてみよう。俺もブログ書くとき最初は短くてもOKって思ってるよ。書くことで記憶に残る！"
+  }
+}
